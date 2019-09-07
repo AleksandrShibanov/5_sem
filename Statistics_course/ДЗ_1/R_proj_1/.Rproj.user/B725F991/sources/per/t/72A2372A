@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567706083153.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4201158516",
+    "id" : "72A2372A",
+    "lastKnownWriteTime" : 1567853049,
+    "last_content_update" : 1567853049665,
+    "path" : "~/5_сем/МатСтат/ДЗ_1/R_proj_1/source.R",
+    "project_path" : "source.R",
+    "properties" : {
+        "cursorPosition" : "39,0",
+        "scrollLine" : "25"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
