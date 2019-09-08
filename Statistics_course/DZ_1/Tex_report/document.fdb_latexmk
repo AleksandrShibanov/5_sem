@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1567939051 "document.tex" "document.pdf" "document" 1567939053
+["pdflatex"] 1567940521 "document.tex" "document.pdf" "document" 1567940524
   "../img/cullen_and_frey_graph.png" 1567882515 30602 8b06d4e947c24117cc06f4b6f077aa48 ""
   "../img/emp_and_theor_CDF.png" 1567937543 25429 3031cf07233228456af6a1217c5e41c5 ""
   "../img/fit_beta.png" 1567886638 34174 318f6716de9fff71917fd9031629cb61 ""
@@ -69,9 +69,9 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty" 1522794647 22417 1d9df1eb66848aa31b18a593099cf45c ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty" 1525888914 13555 1c149904152e53130811b31763000c97 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty" 1525888914 10212 357072c1d20578a30d6387d8a22e72ab ""
-  "document.aux" 1567939053 11024 da3eaa3d4ae24387b42b9cf1df6b821c "pdflatex"
-  "document.tex" 1567939047 23181 5682853a6c7c2e3f1ac1df1af4ffd6d1 ""
+  "document.aux" 1567940523 11024 da3eaa3d4ae24387b42b9cf1df6b821c "pdflatex"
+  "document.tex" 1567940517 23164 142579b4b566b14f8b3926f23c8baec0 ""
   (generated)
-  "document.log"
-  "document.aux"
   "document.pdf"
+  "document.aux"
+  "document.log"
