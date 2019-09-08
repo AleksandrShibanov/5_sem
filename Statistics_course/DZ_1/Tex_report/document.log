@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  7 SEP 2019 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  8 SEP 2019 13:37
 entering extended mode
 **./document.tex
 (document.tex
@@ -765,92 +765,7 @@ LaTeX Font Info:    Try loading font information for T2A+cmss on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Overfull \hbox (1.39197pt too wide) in paragraph at lines 85--86
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (1.39197pt too wide) in paragraph at lines 86--87
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 87--88
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 88--89
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 89--90
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 90--91
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 91--92
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 92--93
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 93--94
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 94--95
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 95--96
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 96--97
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 97--98
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 98--99
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 99--100
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (17.84055pt too wide) in paragraph at lines 100--101
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (17.84055pt too wide) in paragraph at lines 101--102
-[][][][][][][][][][][][][][][][][][] 
- []
-
-[2]
+) [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -858,54 +773,35 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
-
-Overfull \hbox (17.84055pt too wide) in paragraph at lines 145--146
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
 <../img/hist_without_dens.png, id=20, 1156.32pt x 650.43pt>
 File: ../img/hist_without_dens.png Graphic file (type png)
 <use ../img/hist_without_dens.png>
-Package pdftex.def Info: ../img/hist_without_dens.png  used on input line 158.
+Package pdftex.def Info: ../img/hist_without_dens.png  used on input line 156.
 (pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
 [3] [4 <../img/hist_without_dens.png>]
-Overfull \hbox (1.39197pt too wide) in paragraph at lines 206--207
-[][][][][][][][][][][][][][][][][][] 
- []
-
 <../img/cullen_and_frey_graph.png, id=30, 1156.32pt x 650.43pt>
 File: ../img/cullen_and_frey_graph.png Graphic file (type png)
 <use ../img/cullen_and_frey_graph.png>
 Package pdftex.def Info: ../img/cullen_and_frey_graph.png  used on input line 2
-26.
+23.
 (pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
 [5] [6 <../img/cullen_and_frey_graph.png>]
-Overfull \hbox (1.39197pt too wide) in paragraph at lines 273--274
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (26.06483pt too wide) in paragraph at lines 274--275
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 287--288
+Overfull \hbox (9.61626pt too wide) in paragraph at lines 284--285
 [][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 294--295
+Overfull \hbox (9.61626pt too wide) in paragraph at lines 291--292
 [][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 295--296
+Overfull \hbox (9.61626pt too wide) in paragraph at lines 292--293
 [][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.61159pt too wide) in paragraph at lines 298--299
+Overfull \hbox (0.61159pt too wide) in paragraph at lines 295--296
 []\T2A/cmr/m/n/14.4 Отчјтливо вид-но пре-об-ла-да-ние рав-но-мер-но-го и бета-р
 аспределений с неболь-
  []
@@ -914,44 +810,83 @@ Overfull \hbox (0.61159pt too wide) in paragraph at lines 298--299
 <../img/fit_norm.png, id=44, 1445.4pt x 813.0375pt>
 File: ../img/fit_norm.png Graphic file (type png)
 <use ../img/fit_norm.png>
-Package pdftex.def Info: ../img/fit_norm.png  used on input line 323.
+Package pdftex.def Info: ../img/fit_norm.png  used on input line 317.
 (pdftex.def)             Requested size: 492.06537pt x 276.78886pt.
 <../img/fit_unif.png, id=45, 1445.4pt x 813.0375pt>
 File: ../img/fit_unif.png Graphic file (type png)
 <use ../img/fit_unif.png>
-Package pdftex.def Info: ../img/fit_unif.png  used on input line 329.
+Package pdftex.def Info: ../img/fit_unif.png  used on input line 323.
 (pdftex.def)             Requested size: 492.06537pt x 276.78886pt.
 <../img/fit_beta.png, id=46, 1445.4pt x 813.0375pt>
 File: ../img/fit_beta.png Graphic file (type png)
 <use ../img/fit_beta.png>
-Package pdftex.def Info: ../img/fit_beta.png  used on input line 335.
+Package pdftex.def Info: ../img/fit_beta.png  used on input line 329.
 (pdftex.def)             Requested size: 492.06537pt x 276.78886pt.
-[8 <../img/fit_norm.png>] [9 <../img/fit_unif.png> <../img/fit_beta.png>] [10] 
-(document.aux<<t1.cmap>>) ) 
+[8 <../img/fit_norm.png>] [9 <../img/fit_unif.png> <../img/fit_beta.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 358--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+[10]
+<../img/hist_with_unif_dens.png, id=61, 1156.32pt x 650.43pt>
+File: ../img/hist_with_unif_dens.png Graphic file (type png)
+<use ../img/hist_with_unif_dens.png>
+Package pdftex.def Info: ../img/hist_with_unif_dens.png  used on input line 409
+.
+(pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
+[11 <../img/hist_with_unif_dens.png>]
+Overfull \hbox (1.39197pt too wide) in paragraph at lines 423--424
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[12]
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 451--452
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<../img/emp_and_theor_CDF.png, id=69, 1156.32pt x 650.43pt>
+File: ../img/emp_and_theor_CDF.png Graphic file (type png)
+<use ../img/emp_and_theor_CDF.png>
+Package pdftex.def Info: ../img/emp_and_theor_CDF.png  used on input line 465.
+(pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
+[13 <../img/emp_and_theor_CDF.png>]
+Overfull \hbox (40.22092pt too wide) in paragraph at lines 490--491
+\T2A/cmr/m/n/14.4 and Frey skewness-kutorsis, а так же с по-мо-щью ана-ли-за кр
+и-те-ри-ев Колмогорова-
+ []
+
+[14] (document.aux<<t1.cmap>>) ) 
 Here is how much of TeX's memory you used:
- 10095 strings out of 492973
- 157612 string characters out of 3135869
- 370406 words of memory out of 3000000
- 13761 multiletter control sequences out of 15000+200000
+ 10109 strings out of 492973
+ 158003 string characters out of 3135869
+ 370424 words of memory out of 3000000
+ 13773 multiletter control sequences out of 15000+200000
  14318 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,8n,51p,9106b,1576s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx1728.pk> <C:\Users\РџРµРЅРѕРїР»
-Р°СЃС‚РѕС‡РєР°\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx20
-74.pk> <C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2488.pk> <C:\Users\РџРµ
-РЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
-0\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on document.pdf (10 pages, 302378 bytes).
+ 51i,13n,51p,9106b,1574s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\L
+ocal\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx1728.pk> <C:\Users\РџРµРЅР
+ѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\l
+asx2074.pk> <C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2488.pk> <C:\Users
+\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\
+dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb>
+Output written on document.pdf (14 pages, 385417 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
+ 376 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 60 words of extra memory for PDF output out of 10000 (max. 10000000)
 

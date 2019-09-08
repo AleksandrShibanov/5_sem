@@ -1,4 +1,5 @@
 df <- read.csv("db.csv", header = F) #data import
+##############################################################################
 #1
 max_el <- max(df)
 max_el
@@ -8,7 +9,7 @@ range_el <- max_el - min_el
 range_el
 sort(df$V1)
 
-
+###############################################################################
 #2
 num_bins = round(1 + log2(length(df$V1)))
 num_bins
@@ -48,6 +49,7 @@ var_el
 sd_el <- sd(df$V1)
 sd_el
 
+##########################################################################
 #3
 library(fitdistrplus)
 library(logspline)
@@ -133,22 +135,56 @@ rownames(stat_table) <- c("Kolmogorov-Smirnov statistic",
 stat_table
 
 stat_beta$cvmtest
-stat_normal$
+stat_normal
 
 
 
-
-h <- range_el / num_bins
-h
-
+############################################################################
+#4
 
 
+png(filename = "../img/hist_with_unif_dens.png", 
+    width = 1920, height = 1080,
+    pointsize = 24, res = 96 * 1.25)
+par(mar = c(3, 3, 2, 1), xaxs = "i", yaxs = "i")
+pl1 <- hist(df$V1,
+            breaks = seq(min_el, max_el, by = bin_width), 
+            xlim = c(0, 20), ylim = c(0.00,0.10), axes = F, freq = F,
+            main = "Histogram of data")
+axis(1, seq(0, 20, 1))
+axis(2, seq(0.00, 0.10, 0.01), las = 1)
+grid(nx = 20, ny = 10, equilogs = F)
+curve(dunif(x, 2.5978, 17.9383), 2.5978, 17.9383, 
+      xlim = c(0,20), add = T, col = "red", lwd = 3)
+legend("topright", c("uniform density"), 
+       lty=c(1), 
+       fill=c("red"))
+dev.off()
 
+#############################################################################
+#5
+n <- length(df$V1)
+x <- sort(df$V1)
+vals <- unique(x)
+rval <- approxfun(vals, 
+                  cumsum(tabulate(match(x, vals)))/n, 
+                  method = "constant", yleft = 0, yright = 1, f = 0,
+                  ties = "ordered")
 
-pl1_data <- hist(df$V1, freq = F)
-axis(1,1:20)
-
-pl1_data$breaks
-pl1_data$counts
-
-sum(pl1$counts / length(df$V1))
+png(filename = "../img/emp_and_theor_CDF.png", 
+    width = 1920, height = 1080,
+    pointsize = 24, res = 96 * 1.25)
+plot(ecdf(x), 
+     main = "Empirical and theoritical distribution functions", 
+     lwd = 3, col = "lightgreen",
+     xlab = "", ylab = "")
+lines (x, (1:n)/n, type = 's', 
+       col="blue", lwd = 2)
+curve(punif(x, 2.5978, 17.9383), 2.5978, 17.9383, 
+      xlim = c(0,20), add = T, 
+      col = "red", lwd = 3)
+legend("bottomright", 
+       c("emperical CDF", "theoritical CDF"), 
+       lty = 1, col = c("blue", "red"))
+axis(1, seq(0, 20, 1))
+dev.off()
