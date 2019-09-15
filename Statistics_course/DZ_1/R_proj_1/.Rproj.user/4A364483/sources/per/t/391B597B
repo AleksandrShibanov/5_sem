@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3998275160",
+    "hash" : "3344897052",
     "id" : "391B597B",
-    "lastKnownWriteTime" : 1567939149,
-    "last_content_update" : 1567939149920,
+    "lastKnownWriteTime" : 1568304253,
+    "last_content_update" : 1568304253,
     "path" : "~/5_sem/Statistics_course/DZ_1/R_proj_1/source.R",
     "project_path" : "source.R",
     "properties" : {
-        "cursorPosition" : "180,31",
-        "scrollLine" : "158"
+        "cursorPosition" : "141,76",
+        "scrollLine" : "132"
     },
     "relative_order" : 2,
     "source_on_save" : false,

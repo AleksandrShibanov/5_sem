@@ -8,7 +8,7 @@ min_el
 range_el <- max_el - min_el
 range_el
 sort(df$V1)
-
+length(df)
 ###############################################################################
 #2
 num_bins = round(1 + log2(length(df$V1)))
