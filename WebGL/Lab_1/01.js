@@ -61,21 +61,33 @@ function main() { // та функция, которая загрузится по загрузке странциы
     // const w = ctx.measureText(s).width;
     // ctx.fillText(s, 100, 100, 2 * w / 3);
 
-    //Рисуем красный треугольник без заливки.
-    ctx.strokeStyle = "red";
-    ctx.beginPath(); // Будем рисовать контур
-    ctx.moveTo(20, 20); // Начальная точка, откуда начинается задание контура
-    ctx.lineTo(380, 20); // Прямая линия с координатами конца 
-    ctx.lineTo(200, 280); // Аналогично -- начальная точка из прошлого
-    ctx.closePath(); // Вызывает замыкание линии
-    ctx.stroke(); // Осуществляет отрисовку
+    // //Рисуем красный треугольник без заливки.
+    // ctx.strokeStyle = "red";
+    // ctx.beginPath(); // Будем рисовать контур
+    // ctx.moveTo(20, 20); // Начальная точка, откуда начинается задание контура
+    // ctx.lineTo(380, 20); // Прямая линия с координатами конца 
+    // ctx.lineTo(200, 280); // Аналогично -- начальная точка из прошлого
+    // ctx.closePath(); // Вызывает замыкание линии
+    // ctx.stroke(); // Осуществляет отрисовку
 
-    //Здесь мы рисуем круг с зеленым контуром.
-    ctx.strokeStyle = "green";
-    ctx.beginPath();
-    ctx.arc(200, 150, 100, 0, Math.PI, true); // Координаты центра окружности, радиус, начальный угол, конечный угол, дуга рисуется против часов стрелки при TRUE
-    ctx.stroke();
-    ctx.closePath();
+	let x = 10;
+	let y = 10;
+	let width = 40;
+	let height = 40;
+	ctx.fillStyle = "Blue";
+	for( let i = 0; i <= 8; i += 1)
+	{
+		ctx.fillRect(x, y, width, height);
+		x += width;
+		y += height;
+	}
+	
+    // //Здесь мы рисуем круг с зеленым контуром.
+    // ctx.strokeStyle = "green";
+    // ctx.beginPath();
+    // ctx.arc(200, 150, 100, 0, Math.PI, true); // Координаты центра окружности, радиус, начальный угол, конечный угол, дуга рисуется против часов стрелки при TRUE
+    // ctx.stroke();
+    // ctx.closePath();
 
     //дуга окружности синего цвета, построенная по трем точкам
     // ctx.strokeStyle = 'blue';
@@ -89,89 +101,89 @@ function main() { // та функция, которая загрузится по загрузке странциы
     // }    
 
     //Кривая Безье
-    ctx.beginPath();
-    ctx.moveTo(100, 100); // Кубическая кривая Безье
-    ctx.bezierCurveTo(120, 80, 160, 20, 100, 200); // Кривая Безье не проходит через точки, указанные в параметрах. а скорее огибает их (сглаживает)
-    ctx.stroke();
-    ctx.closePath();
+    // ctx.beginPath();
+    // ctx.moveTo(100, 100); // Кубическая кривая Безье
+    // ctx.bezierCurveTo(120, 80, 160, 20, 100, 200); // Кривая Безье не проходит через точки, указанные в параметрах. а скорее огибает их (сглаживает)
+    // ctx.stroke();
+    // ctx.closePath();
 
     //дуга окружности красного цвета, построенная с помощью кривой Безье
-    ctx.beginPath();
-    ctx.strokeStyle = "red";
-    ctx.moveTo(100, 100); // Квадратичная кривая Безье (3 точки)
-    ctx.quadraticCurveTo(200, 100, 200, 200); // Строится кривая Безье, но по трем точкам
-    ctx.stroke();
-    ctx.closePath();
+    // ctx.beginPath();
+    // ctx.strokeStyle = "red";
+    // ctx.moveTo(100, 100); // Квадратичная кривая Безье (3 точки)
+    // ctx.quadraticCurveTo(200, 100, 200, 200); // Строится кривая Безье, но по трем точкам
+    // ctx.stroke();
+    // ctx.closePath();
 
     //сектор окружности красного цвета
-    ctx.beginPath();
-    ctx.fillStyle = "red";
-    ctx.moveTo(100, 100);
-    ctx.quadraticCurveTo(200, 100, 200, 200);
-    ctx.lineTo(100, 200);
-    ctx.fill();
-    ctx.closePath();
+    // ctx.beginPath();
+    // ctx.fillStyle = "red";
+    // ctx.moveTo(100, 100);
+    // ctx.quadraticCurveTo(200, 100, 200, 200);
+    // ctx.lineTo(100, 200);
+    // ctx.fill();
+    // ctx.closePath();
 
     //Пример создания прямоугольника со скругленными углами
-    ctx.beginPath();
-    ctx.moveTo(20, 0);
-    ctx.lineTo(180, 0);
-    ctx.quadraticCurveTo(200, 0, 200, 20);
-    ctx.lineTo(200, 80);
-    ctx.quadraticCurveTo(200, 100, 180, 100);
-    ctx.lineTo(20, 100);
-    ctx.quadraticCurveTo(0, 100, 0, 80);
-    ctx.lineTo(0, 20);
-    ctx.quadraticCurveTo(0, 0, 20, 0);
-    ctx.stroke();
-    ctx.closePath();
+    // ctx.beginPath();
+    // ctx.moveTo(20, 0);
+    // ctx.lineTo(180, 0);
+    // ctx.quadraticCurveTo(200, 0, 200, 20);
+    // ctx.lineTo(200, 80);
+    // ctx.quadraticCurveTo(200, 100, 180, 100);
+    // ctx.lineTo(20, 100);
+    // ctx.quadraticCurveTo(0, 100, 0, 80);
+    // ctx.lineTo(0, 20);
+    // ctx.quadraticCurveTo(0, 0, 20, 0);
+    // ctx.stroke();
+    // ctx.closePath();
 
     //Рисуем фигуру, состоящую их трех накладывающихся друг на друга разноцветных
     //квадратов.
-    ctx.beginPath();
-    ctx.moveTo(0, 0);
-    ctx.fillStyle = "red";
-    ctx.rect(50, 50, 50, 50);
-    ctx.fillStyle = "green";
-    ctx.rect(75, 75, 50, 50);
-    ctx.fillStyle = "blue";
-    ctx.rect(100, 100, 50, 50);
-    ctx.fill();
-    ctx.closePath();
+    // ctx.beginPath();
+    // ctx.moveTo(0, 0);
+    // ctx.fillStyle = "red";
+    // ctx.rect(50, 50, 50, 50);
+    // ctx.fillStyle = "green";
+    // ctx.rect(75, 75, 50, 50);
+    // ctx.fillStyle = "blue";
+    // ctx.rect(100, 100, 50, 50);
+    // ctx.fill();
+    // ctx.closePath();
 
-    ////Атрибуты линии
-    //ctx.fillStyle = 'red';
-    //ctx.font = 'bold 13pt Courier';
-    //ctx.strokeStyle = 'blue';
-    //ctx.textBaseline = 'top';
-    //ctx.lineWidth = 20;
-    //const caps = ['butt', 'round', 'square'];
-    //const joins = ['round', 'bevel', 'miter'];
+    // ////Атрибуты линии
+    // ctx.fillStyle = 'red';
+    // ctx.font = 'bold 13pt Courier';
+    // ctx.strokeStyle = 'blue';
+    // ctx.textBaseline = 'top'; 	
+    // ctx.lineWidth = 20; # толщина линии
+    // const caps = ['butt', 'round', 'square']; # способ оконтовок линии
+    // const joins = ['round', 'bevel', 'miter']; # способ стыковки элементов ломаной между собой
 
-    //for (let j = 0; j < 3; ++j) {
-    //   for (let k = 0; k < 3; ++k) {
-    //       ctx.lineCap = caps[j];
-    //       ctx.lineJoin = joins[k];
+    // for (let j = 0; j < 3; ++j) {
+      // for (let k = 0; k < 3; ++k) {
+          // ctx.lineCap = caps[j]; 
+          // ctx.lineJoin = joins[k];
 
-    //       ctx.fillText(' cap:' + caps[j], 33 + j * 180, 45 + k * 120);
-    //       ctx.fillText('join:' + joins[k], 33 + j * 180, 65 + k * 120);
+          // ctx.fillText(' cap:' + caps[j], 33 + j * 180, 45 + k * 120);
+          // ctx.fillText('join:' + joins[k], 33 + j * 180, 65 + k * 120);
 
-    //       ctx.beginPath();
-    //       ctx.moveTo(20 + j * 180, 100 + k * 120);
-    //       ctx.lineTo(20 + j * 180, 20 + k * 120);
-    //       ctx.lineTo(155 + j * 180, 20 + k * 120);
-    //       ctx.lineTo(155 + j * 180, 100 + k * 120);
-    //       ctx.stroke();
-    //       ctx.closePath();
-    //   }
-    //}
+          // ctx.beginPath();
+          // ctx.moveTo(20 + j * 180, 100 + k * 120);
+          // ctx.lineTo(20 + j * 180, 20 + k * 120);
+          // ctx.lineTo(155 + j * 180, 20 + k * 120);
+          // ctx.lineTo(155 + j * 180, 100 + k * 120);
+          // ctx.stroke();
+          // ctx.closePath();
+      // }
+    // }
 
-    ////Определение вхождения точки в состав контура
-    //ctx.beginPath();
-    //ctx.rect(50, 50, 50, 50);
-    //ctx.stroke();
-    //ctx.closePath();
-    //if (ctx.isPointInPath(60, 40)) {
-    //   window.alert("Stroke contains point");
-    //}
+    // //Определение вхождения точки в состав контура
+    // ctx.beginPath();
+    // ctx.rect(50, 50, 50, 50);
+    // ctx.stroke();
+    // ctx.closePath();
+    // if (ctx.isPointInPath(20, 20)) {
+      // window.alert("Stroke contains point");
+    // }
 }
