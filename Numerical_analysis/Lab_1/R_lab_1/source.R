@@ -88,7 +88,7 @@ for (i in 1:10)
   }
 }
 
-qu_ij <- diag(10) + lambda * a_ij
+qu_ij <- diag(10) + lambda * a_ij # E + lambda*A
 qu_ij
 
 qu_ij_inv <- solve(qu_ij)
@@ -97,7 +97,7 @@ qu_ij_inv
 qu_ij_norm <- norm(qu_ij, "i")
 qu_ij_norm
 
-qu_ij_inv_norm <- norm(qu_ij_inv)
+qu_ij_inv_norm <- norm(qu_ij_inv, "i")
 qu_ij_inv_norm
 
 cond_q <- qu_ij_norm * qu_ij_inv_norm
@@ -105,5 +105,38 @@ cond_q
 
 X <- matrix(rep(1,10), ncol = 1)
 B <- qu_ij %*% X
+B_norm <- norm(B, "i")
 
-delta_B <- 0.01 * B[ifelse()]
+#B_temp <- ifelse(seq(1,10,1) %% 2, B, -B)
+
+delta_B <- 0.01 * as.matrix(ifelse(seq(1,10,1) %% 2, B, -B))
+delta_B
+delta_B_norm <- norm(delta_B, "i")
+delta_B_norm
+
+X_plus_delta_X <- solve(qu_ij, B + delta_B)
+X_plus_delta_X 
+delta_X <- X_plus_delta_X - 1
+delta_X
+X_approx <- X_plus_delta_X - delta_X
+X_approx
+
+delta_X_norm <- norm(delta_X, "i")
+delta_X_norm
+X_approx_norm <- norm(X_approx, "i")
+X_approx_norm
+
+relative_error <- delta_X_norm / X_approx_norm
+cond_q * (delta_B_norm / B_norm)
+
+
+
+
+
+
+#library(matlib)
+#library(xtable)
+#howEqn(round(a_ij, 4), latex=TRUE)
+#x <-xtable(a_ij,align=rep("",ncol(a_ij)+1))
+#print(x, floating=FALSE, tabular.environment="bmatrix", 
+#      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
