@@ -107,7 +107,7 @@ X <- matrix(rep(1,10), ncol = 1)
 B <- qu_ij %*% X
 B_norm <- norm(B, "i")
 
-#B_temp <- ifelse(seq(1,10,1) %% 2, B, -B)
+
 
 delta_B <- 0.01 * as.matrix(ifelse(seq(1,10,1) %% 2, B, -B))
 delta_B
@@ -129,14 +129,11 @@ X_approx_norm
 relative_error <- delta_X_norm / X_approx_norm
 cond_q * (delta_B_norm / B_norm)
 
+A_divided <- sweep(qu_ij, 2, B + delta_B, `/`)
+A_divided_inv <- solve(A_divided)
+
+X_sec <- A_divided_inv %*% matrix(rep(1,10), ncol = 1)
+delta_X_sec <- 1 - X_sec
+delta_X_sec_norm <- norm(delta_X_sec, "i")
 
 
-
-
-
-#library(matlib)
-#library(xtable)
-#howEqn(round(a_ij, 4), latex=TRUE)
-#x <-xtable(a_ij,align=rep("",ncol(a_ij)+1))
-#print(x, floating=FALSE, tabular.environment="bmatrix", 
-#      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
