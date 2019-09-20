@@ -2,15 +2,15 @@ N <- 9
 n <- 53
 alpha <- (n - 50) / 100
 A <- matrix(c(50 * (1 + 0.5 * N + alpha),
-               50 * (1 + 0.5 * N),
-               50 * (1 + 0.5 * N),
-               50.1 * (1 + 0.5 * N),
-               49.9 * (1 + 0.5 * N + alpha),
-               50 * (1 + 0.5 * N),
-               49.9 * (1 + 0.5 * N),
-               50 * (1 + 0.5 * N),
-               50.1 * (1 + 0.5 * N + alpha)),
-               nrow = 3, ncol = 3, byrow = T)
+              50 * (1 + 0.5 * N),
+              50 * (1 + 0.5 * N),
+              50.1 * (1 + 0.5 * N),
+              49.9 * (1 + 0.5 * N + alpha),
+              50 * (1 + 0.5 * N),
+              49.9 * (1 + 0.5 * N),
+              50 * (1 + 0.5 * N),
+              50.1 * (1 + 0.5 * N + alpha)),
+            nrow = 3, ncol = 3, byrow = T)
 A
 B <- matrix(c(50 * (3 + 1.5* N + alpha),
               50 * (3 + 1.5* N + alpha),
@@ -88,23 +88,23 @@ for (i in 1:10)
   }
 }
 
-qu_ij <- diag(10) + lambda * a_ij # E + lambda*A
-qu_ij
+e_plus_lambda_a <- diag(10) + lambda * a_ij # E + lambda*A
+e_plus_lambda_a
 
-qu_ij_inv <- solve(qu_ij)
-qu_ij_inv
+e_plus_lambda_a_inv <- solve(e_plus_lambda_a)
+e_plus_lambda_a_inv
 
-qu_ij_norm <- norm(qu_ij, "i")
-qu_ij_norm
+e_plus_lambda_a_norm <- norm(e_plus_lambda_a, "i")
+e_plus_lambda_a_norm
 
-qu_ij_inv_norm <- norm(qu_ij_inv, "i")
-qu_ij_inv_norm
+e_plus_lambda_a_inv_norm <- norm(e_plus_lambda_a_inv, "i")
+e_plus_lambda_a_inv_norm
 
-cond_q <- qu_ij_norm * qu_ij_inv_norm
-cond_q
+cond_e_pl_lm <- e_plus_lambda_a_norm * e_plus_lambda_a_inv_norm
+cond_e_pl_lm
 
 X <- matrix(rep(1,10), ncol = 1)
-B <- qu_ij %*% X
+B <- e_plus_lambda_a %*% X
 B_norm <- norm(B, "i")
 
 
@@ -114,7 +114,7 @@ delta_B
 delta_B_norm <- norm(delta_B, "i")
 delta_B_norm
 
-X_plus_delta_X <- solve(qu_ij, B + delta_B)
+X_plus_delta_X <- solve(e_plus_lambda_a, B + delta_B)
 X_plus_delta_X 
 delta_X <- X_plus_delta_X - 1
 delta_X
@@ -129,11 +129,26 @@ X_approx_norm
 relative_error <- delta_X_norm / X_approx_norm
 cond_q * (delta_B_norm / B_norm)
 
-A_divided <- sweep(qu_ij, 2, B + delta_B, `/`)
+A_divided <- sweep(e_plus_lambda_a, 2, B + delta_B, `/`)
 A_divided_inv <- solve(A_divided)
 
-X_sec <- A_divided_inv %*% matrix(rep(1,10), ncol = 1)
+temp <- B + delta_B
+
+A_divided2 <- matrix(rep(NA, 100), nrow = 10, ncol = 10)
+
+for (i in 1:10)
+{
+  for (j in 1:10)
+  {
+    A_divided2[i,j] <- e_plus_lambda_a[i,j] / temp[i]
+  }
+}
+A_divided2
+
+A_divided2_inv <- solve(A_divided2)
+#A_divided2 <- apply(e_plus_lambda_a, 2, function(x) e_plus_lambda_a[x] / (B + delta_B))
+
+X_sec <- A_divided2_inv %*% matrix(rep(1,10), ncol = 1)
 delta_X_sec <- 1 - X_sec
 delta_X_sec_norm <- norm(delta_X_sec, "i")
-
-
+delta_X_sec_norm
