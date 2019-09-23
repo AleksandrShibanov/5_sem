@@ -28,10 +28,35 @@ A_norm <- norm(A, "i")
 
 cond_A <- A_inv_norm * A_norm
 cond_A
+library(matlib)
+library(xtable)
+showEqn(round(A, 4), B, latex=TRUE)
+showEqn(round(A, 4), B_dB, latex=TRUE)
+
+x <-xtable(A,align=rep("",ncol(A)+1), digits = 3)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
+x <-xtable(B,align=rep("",ncol(B)+1), digits = 3)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
+x <-xtable(A_inv,align=rep("",ncol(A_inv)+1), digits = 3)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
+x <-xtable(B_dB,align=rep("",ncol(B_dB)+1), digits = 3)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
 ###################################################################################
 #
 X <- solve(A, B)
-X
+
+
+x <-xtable(X,align=rep("",ncol(X)+1), digits = 7)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
 A %*% X
 
 delta_B <- B_dB - B
@@ -46,8 +71,13 @@ B_norm
 delta_X <- solve(A, delta_B)
 delta_X
 
+x <-xtable(delta_X,align=rep("",ncol(delta_X)+1), digits = 7)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
 X_norm <- norm(X, "i")
 X_norm
+
 delta_X_norm <- norm(delta_X, "i")
 delta_X_norm
 
@@ -59,7 +89,7 @@ N <- 9
 n <- 53
 alpha <- (n - 50) / 100
 lambda <- 0.6 - alpha
-f <- function(x) cos(x)
+f <- function(x) atan(x)
 a <- 0
 b <- 1
 h <- (b - a) / 10
@@ -84,15 +114,27 @@ for (i in 1:10)
 {
   for (j in 1:10)
   {
-    a_ij[i,j] <- cos(s[i] * t[j]) * h
+    a_ij[i,j] <- f(s[i] * t[j]) * h
   }
 }
+
+x <-xtable(a_ij,align=rep("",ncol(a_ij)+1), digits = 7)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
 
 e_plus_lambda_a <- diag(10) + lambda * a_ij # E + lambda*A
 e_plus_lambda_a
 
+x <-xtable(e_plus_lambda_a,align=rep("",ncol(e_plus_lambda_a)+1), digits = 7)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
 e_plus_lambda_a_inv <- solve(e_plus_lambda_a)
 e_plus_lambda_a_inv
+
+x <-xtable(e_plus_lambda_a_inv,align=rep("",ncol(e_plus_lambda_a_inv)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
 
 e_plus_lambda_a_norm <- norm(e_plus_lambda_a, "i")
 e_plus_lambda_a_norm
