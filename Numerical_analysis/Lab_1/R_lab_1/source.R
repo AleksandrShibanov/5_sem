@@ -200,8 +200,6 @@ relative_error <- delta_X_norm / X_approx_norm
 relative_error
 cond_e_pl_lm * (delta_B_norm / B_norm)
 
-#A_divided <- sweep(e_plus_lambda_a, 2, B + delta_B, `/`)
-#A_divided_inv <- solve(A_divided)
 
 temp <- B + delta_B
 
@@ -227,7 +225,6 @@ x <-xtable(A_divided2_inv,align=rep("",ncol(A_divided2_inv)+1), digits = 6)
 print(x, floating=FALSE, tabular.environment="bmatrix", 
       hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
 
-#A_divided2 <- apply(e_plus_lambda_a, 2, function(x) e_plus_lambda_a[x] / (B + delta_B))
 
 X_sec <- A_divided2_inv %*% matrix(rep(1,10), ncol = 1)
 X_sec
