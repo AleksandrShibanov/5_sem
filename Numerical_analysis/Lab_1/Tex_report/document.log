@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  23 SEP 2019 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  24 SEP 2019 20:18
 entering extended mode
 **./document.tex
 (document.tex
@@ -1406,7 +1406,22 @@ Overfull \hbox (43.18045pt too wide) detected at line 274
 []
  []
 
-[5] (document.aux<<t1.cmap>>) ) 
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 344--346
+
+ []
+
+[6]
+Overfull \hbox (12.13307pt too wide) detected at line 413
+[]
+ []
+
+
+Overfull \hbox (26.3325pt too wide) detected at line 434
+[]
+ []
+
+[7] [8] (document.aux<<t1.cmap>>) ) 
 Here is how much of TeX's memory you used:
  30958 strings out of 492973
  592045 string characters out of 3135869
@@ -1415,24 +1430,24 @@ Here is how much of TeX's memory you used:
  543018 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,11n,77p,9106b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Пенопласточка\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\Пено
-пласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
-sx2074.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Пенопласточка\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2488.pk> <C:\Users\
-Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
-pi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb>
-Output written on document.pdf (5 pages, 150024 bytes).
+ <C:\Users\Пенопласточка\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\Пе
+нопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
+0\lasx2074.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fo
+nts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Пенопласточк�
+�\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2488.pk> <C:\Us
+ers\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t
+2a\dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb>
+Output written on document.pdf (8 pages, 159771 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
+ 246 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

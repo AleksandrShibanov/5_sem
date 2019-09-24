@@ -149,17 +149,45 @@ X <- matrix(rep(1,10), ncol = 1)
 B <- e_plus_lambda_a %*% X
 B_norm <- norm(B, "i")
 
+x <-xtable(B,align=rep("",ncol(B)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
 
 
 delta_B <- 0.01 * as.matrix(ifelse(seq(1,10,1) %% 2, B, -B))
 delta_B
+
+x <-xtable(delta_B,align=rep("",ncol(delta_B)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
 delta_B_norm <- norm(delta_B, "i")
 delta_B_norm
 
+B_pl_delta_B <- B + delta_B
+B_pl_delta_B
+
+x <-xtable(B_pl_delta_B,align=rep("",ncol(B_pl_delta_B)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
+B_pl_delta_B_norm <- norm(B_pl_delta_B, "i")
+B_pl_delta_B_norm
+
 X_plus_delta_X <- solve(e_plus_lambda_a, B + delta_B)
-X_plus_delta_X 
+X_plus_delta_X
+
+x <-xtable(X_plus_delta_X,align=rep("",ncol(X_plus_delta_X)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
 delta_X <- X_plus_delta_X - 1
 delta_X
+
+x <-xtable(delta_X,align=rep("",ncol(delta_X)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
 X_approx <- X_plus_delta_X - delta_X
 X_approx
 
@@ -169,10 +197,11 @@ X_approx_norm <- norm(X_approx, "i")
 X_approx_norm
 
 relative_error <- delta_X_norm / X_approx_norm
-cond_q * (delta_B_norm / B_norm)
+relative_error
+cond_e_pl_lm * (delta_B_norm / B_norm)
 
-A_divided <- sweep(e_plus_lambda_a, 2, B + delta_B, `/`)
-A_divided_inv <- solve(A_divided)
+#A_divided <- sweep(e_plus_lambda_a, 2, B + delta_B, `/`)
+#A_divided_inv <- solve(A_divided)
 
 temp <- B + delta_B
 
@@ -187,10 +216,36 @@ for (i in 1:10)
 }
 A_divided2
 
+x <-xtable(A_divided2,align=rep("",ncol(A_divided2)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
+
 A_divided2_inv <- solve(A_divided2)
+
+x <-xtable(A_divided2_inv,align=rep("",ncol(A_divided2_inv)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
 #A_divided2 <- apply(e_plus_lambda_a, 2, function(x) e_plus_lambda_a[x] / (B + delta_B))
 
 X_sec <- A_divided2_inv %*% matrix(rep(1,10), ncol = 1)
+X_sec
+
+x <-xtable(matrix(rep(1,10), ncol = 1),align=rep("",ncol(matrix(rep(1,10), ncol = 1))+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
+x <-xtable(X_sec,align=rep("",ncol(X_sec)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
 delta_X_sec <- 1 - X_sec
+delta_X_sec
+
+x <-xtable(delta_X_sec,align=rep("",ncol(delta_X_sec)+1), digits = 6)
+print(x, floating=FALSE, tabular.environment="bmatrix", 
+      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
+
 delta_X_sec_norm <- norm(delta_X_sec, "i")
 delta_X_sec_norm
