@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  24 SEP 2019 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  24 SEP 2019 20:28
 entering extended mode
 **./document.tex
 (document.tex
@@ -1254,20 +1254,20 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ) (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 (C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\context\bas
 e\supp-pdf.mkii
@@ -1357,97 +1357,269 @@ Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 \ML=\skip106
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/pdftex/config/pdf
 tex.map}]
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 69.
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 70.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Overfull \hbox (8.17554pt too wide) in paragraph at lines 70--72
+Overfull \hbox (8.17554pt too wide) in paragraph at lines 71--73
 \T2A/cmr/bx/n/14.4 �������. \T2A/cmr/m/n/14.4 ����-��-���� ���-�� ���-����-���-
 ��-��� ���-��-�� ���-����-��-��-�-��� ����
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 181.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 182.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 181.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 182.
 [3]
-Overfull \hbox (42.20393pt too wide) detected at line 235
+Overfull \hbox (42.20393pt too wide) detected at line 236
 []
  []
 
 
-Overfull \hbox (42.20393pt too wide) detected at line 255
+Overfull \hbox (42.20393pt too wide) detected at line 256
 []
  []
 
 [4]
-Overfull \hbox (43.18045pt too wide) detected at line 274
+Overfull \hbox (43.18045pt too wide) detected at line 275
 []
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
+Underfull \hbox (badness 10000) in paragraph at lines 345--347
 
  []
 
 [6]
-Overfull \hbox (12.13307pt too wide) detected at line 413
+Overfull \hbox (12.13307pt too wide) detected at line 414
 []
  []
 
 
-Overfull \hbox (26.3325pt too wide) detected at line 434
+Overfull \hbox (26.3325pt too wide) detected at line 435
 []
  []
 
-[7] [8] (document.aux<<t1.cmap>>) ) 
+[7] [8]
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 532--534
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 536--538
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 540--542
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 544--545
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (190.55061pt too wide) in paragraph at lines 545--546
+[][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 552--554
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[9]
+Overfull \hbox (9.61626pt too wide) in paragraph at lines 568--569
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 570--572
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (215.22348pt too wide) in paragraph at lines 580--581
+[][][] 
+ []
+
+[10]
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 617--619
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (141.20488pt too wide) in paragraph at lines 622--623
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 624--626
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (206.99919pt too wide) in paragraph at lines 629--630
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 631--633
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[11]
+Overfull \hbox (26.06483pt too wide) in paragraph at lines 639--640
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 648--651
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (1.39197pt too wide) in paragraph at lines 651--652
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.61626pt too wide) in paragraph at lines 654--655
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 656--658
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.85915pt too wide) in paragraph at lines 664--665
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 666--668
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (124.7563pt too wide) in paragraph at lines 674--675
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 676--678
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[12]
+Overfull \hbox (9.61626pt too wide) in paragraph at lines 681--682
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 683--685
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (58.96199pt too wide) in paragraph at lines 711--712
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 713--716
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (124.7563pt too wide) in paragraph at lines 718--719
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 720--723
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[13]
+Overfull \hbox (338.58781pt too wide) in paragraph at lines 726--727
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 728--730
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 732--734
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (75.41057pt too wide) in paragraph at lines 737--738
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (42.51341pt too wide) in paragraph at lines 739--741
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[14] (document.aux<<t1.cmap>>) ) 
 Here is how much of TeX's memory you used:
- 30958 strings out of 492973
- 592045 string characters out of 3135869
- 737098 words of memory out of 3000000
- 34346 multiletter control sequences out of 15000+200000
+ 31225 strings out of 492973
+ 594117 string characters out of 3135869
+ 742098 words of memory out of 3000000
+ 34613 multiletter control sequences out of 15000+200000
  543018 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,11n,77p,9106b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Пенопласточка\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\Пе
-нопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
-0\lasx2074.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fo
-nts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Пенопласточк�
-�\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2488.pk> <C:\Us
-ers\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t
-2a\dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on document.pdf (8 pages, 159771 bytes).
+ 73i,11n,77p,9106b,1573s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Пенопласточка\AppData\L
+ocal\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk> <C:\Users\Пен�
+�пласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\l
+abx1440.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\lh\lh-t2a\dpi600\lasx2074.pk> <C:\Users\Пенопласточка\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users
+\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\
+dpi600\larm2488.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on document.pdf (14 pages, 194210 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
+ 327 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 
