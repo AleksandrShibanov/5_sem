@@ -12,7 +12,6 @@ set.seed(161)
 y <- runif(n, 0, 1)
 p_p <- rep(0,k+2)
 
-qbinom(p = p, 8, 0.7)
 
 p_p[1] <- sum(y < q[1])
 
@@ -79,7 +78,7 @@ sd(q)
 sqrt(n) * kolm_stat
 pbinom(100, 140, 0.7)
 
-quantile(, .15)
+#quantile(, .15)
 
 
 length(q_q / k)
