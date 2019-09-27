@@ -1,4 +1,3 @@
-library(xtable)
 k <- 8
 p1 <- 0.7
 n <- 140
