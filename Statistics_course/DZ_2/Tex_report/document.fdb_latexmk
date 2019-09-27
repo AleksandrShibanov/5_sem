@@ -1,5 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1569529413 "document.tex" "document.pdf" "document" 1569529415
+["pdflatex"] 1569612066 "document.tex" "document.pdf" "document" 1569612068
+  "../img/emp_and_theor_ecdf.png" 1569611014 24791 579eda8d34fdc26dae86d0cff0774de6 ""
+  "../img/emp_ecdf.png" 1569611014 19995 760815c3139e545d553e03a9ad8ddef0 ""
+  "../img/theor_ecdf.png" 1569611014 20108 13b69baf2f68af55353462e535188c87 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -48,6 +51,7 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty" 1527456816 4573 ae83473dfe6aea3508ab88d22c4457b2 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty" 1527456814 5161 c004ea5a189d4bdcf42e86754ad75a58 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty" 1527456814 5052 f2525dfd6e503dc383e90b568c6c9f02 ""
+  "C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd" 1527456808 2472 aa08940f0a4dc6c24ae9f943b04ae0b9 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/base/t1enc.def" 1527456802 10008 3208fbcdd7b3f5dd0dda02e6507bf38c ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/base/t2aenc.dfu" 1527456806 9438 7822a3a266d2a7807a1c4e1fe1584b64 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/cyrillic/t2acmr.fd" 1523116589 2629 d9552c7bbba7c739be0e3edc79b79dbb ""
@@ -66,9 +70,9 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty" 1522794647 22417 1d9df1eb66848aa31b18a593099cf45c ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty" 1525888914 13555 1c149904152e53130811b31763000c97 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty" 1525888914 10212 357072c1d20578a30d6387d8a22e72ab ""
-  "document.aux" 1569529414 1102 7fb827cb3f375a8951b6427e8a31cb20 "pdflatex"
-  "document.tex" 1569529412 7724 e9fa13c08ccc8dc140e87248e9e54f41 ""
+  "document.aux" 1569612068 2137 9252d6c160ce188e47d19f47edfc4e64 "pdflatex"
+  "document.tex" 1569612063 13982 8695a500e06a6635c39cba6742cda3d2 ""
   (generated)
-  "document.pdf"
   "document.log"
   "document.aux"
+  "document.pdf"
