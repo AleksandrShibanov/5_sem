@@ -17,6 +17,7 @@ plotdist(emp_sample, distr = "lnorm", list(2,sqrt(0.2)),
          histo = T, demp = T)
 dev.off()
 ##
+theor_distr <- rlnorm(n,2,sqrt(0.2))
 
 emp_mean <- mean(emp_sample)
 emp_mean
