@@ -1,0 +1,57 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{library}\PYG{p}{(}\PYG{n}{fitdistrplus}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}} \PYG{n}{theor\PYGZus{}distr} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{rbinom}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{k}\PYG{p}{,} \PYG{n}{p1}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{png}\PYG{p}{(}\PYG{n}{filename} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}../img/theor\PYGZus{}ecdf.png\PYGZdq{}}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{width} \PYG{o}{=} \PYG{l+m}{1920}\PYG{p}{,} \PYG{n}{height} \PYG{o}{=} \PYG{l+m}{1080}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{pointsize} \PYG{o}{=} \PYG{l+m}{24}\PYG{p}{,} \PYG{n}{res} \PYG{o}{=} \PYG{l+m}{96} \PYG{o}{*} \PYG{l+m}{1.25}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{par}\PYG{p}{(}\PYG{n}{mar} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{4}\PYG{p}{,} \PYG{l+m}{4}\PYG{p}{,} \PYG{l+m}{2}\PYG{p}{,} \PYG{l+m}{1}\PYG{p}{),} \PYG{n}{xaxs} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}i\PYGZdq{}}\PYG{p}{,} \PYG{n}{yaxs} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}i\PYGZdq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{plot}\PYG{p}{(}\PYG{n+nf}{ecdf}\PYG{p}{(}\PYG{n}{x} \PYG{o}{=} \PYG{n}{theor\PYGZus{}distr}\PYG{p}{),}
+\PYG{o}{+}      \PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}black\PYGZdq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{3}\PYG{p}{,} \PYG{n}{verticals} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{,} \PYG{n}{axes} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{,}
+\PYG{o}{+}      \PYG{n}{xlim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{n}{k}\PYG{l+m}{+1}\PYG{p}{),} \PYG{n}{ylim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{l+m}{1.2}\PYG{p}{),}
+\PYG{o}{+}      \PYG{n}{xlab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Value\PYGZdq{}}\PYG{p}{,} \PYG{n}{ylab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}CDF\PYGZdq{}}\PYG{p}{,} \PYG{n}{main} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Theoretical CDF\PYGZdq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{:}\PYG{n}{k}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{2}\PYG{p}{,} \PYG{n+nf}{seq}\PYG{p}{(}\PYG{l+m}{0.0}\PYG{p}{,} \PYG{l+m}{1.2}\PYG{p}{,} \PYG{l+m}{0.2}\PYG{p}{),} \PYG{n}{las} \PYG{o}{=} \PYG{l+m}{1}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{grid}\PYG{p}{(}\PYG{n}{nx} \PYG{o}{=} \PYG{n}{k}\PYG{l+m}{+1}\PYG{p}{,} \PYG{n}{ny} \PYG{o}{=} \PYG{l+m}{1.2} \PYG{o}{/} \PYG{l+m}{0.2}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{dev.off}\PYG{p}{()}
+\PYG{n}{RStudioGD}
+\PYG{l+m}{2}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{png}\PYG{p}{(}\PYG{n}{filename} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}../img/emp\PYGZus{}ecdf.png\PYGZdq{}}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{width} \PYG{o}{=} \PYG{l+m}{1920}\PYG{p}{,} \PYG{n}{height} \PYG{o}{=} \PYG{l+m}{1080}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{pointsize} \PYG{o}{=} \PYG{l+m}{24}\PYG{p}{,} \PYG{n}{res} \PYG{o}{=} \PYG{l+m}{96} \PYG{o}{*} \PYG{l+m}{1.25}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{par}\PYG{p}{(}\PYG{n}{mar} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{4}\PYG{p}{,} \PYG{l+m}{4}\PYG{p}{,} \PYG{l+m}{2}\PYG{p}{,} \PYG{l+m}{1}\PYG{p}{),} \PYG{n}{xaxs} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}i\PYGZdq{}}\PYG{p}{,} \PYG{n}{yaxs} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}i\PYGZdq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{plot}\PYG{p}{(}\PYG{n+nf}{ecdf}\PYG{p}{(}\PYG{n}{emp\PYGZus{}sample}\PYG{p}{),}
+\PYG{o}{+}      \PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{3}\PYG{p}{,} \PYG{n}{verticals} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{,} \PYG{n}{axes} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{,}
+\PYG{o}{+}      \PYG{n}{xlim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{n}{k}\PYG{l+m}{+1}\PYG{p}{),} \PYG{n}{ylim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{l+m}{1.2}\PYG{p}{),}
+\PYG{o}{+}      \PYG{n}{xlab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Value\PYGZdq{}}\PYG{p}{,} \PYG{n}{ylab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}CDF\PYGZdq{}}\PYG{p}{,} \PYG{n}{main} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Emperical CDF\PYGZdq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{:}\PYG{n}{k}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{2}\PYG{p}{,} \PYG{n+nf}{seq}\PYG{p}{(}\PYG{l+m}{0.0}\PYG{p}{,} \PYG{l+m}{1.2}\PYG{p}{,} \PYG{l+m}{0.2}\PYG{p}{),} \PYG{n}{las} \PYG{o}{=} \PYG{l+m}{1}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{grid}\PYG{p}{(}\PYG{n}{nx} \PYG{o}{=} \PYG{n}{k}\PYG{l+m}{+1}\PYG{p}{,} \PYG{n}{ny} \PYG{o}{=} \PYG{l+m}{1.2} \PYG{o}{/} \PYG{l+m}{0.2}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{dev.off}\PYG{p}{()}
+\PYG{n}{RStudioGD}
+\PYG{l+m}{2}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{png}\PYG{p}{(}\PYG{n}{filename} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}../img/emp\PYGZus{}and\PYGZus{}theor\PYGZus{}ecdf.png\PYGZdq{}}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{width} \PYG{o}{=} \PYG{l+m}{1920}\PYG{p}{,} \PYG{n}{height} \PYG{o}{=} \PYG{l+m}{1080}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{pointsize} \PYG{o}{=} \PYG{l+m}{24}\PYG{p}{,} \PYG{n}{res} \PYG{o}{=} \PYG{l+m}{96} \PYG{o}{*} \PYG{l+m}{1.25}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{par}\PYG{p}{(}\PYG{n}{mar} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{4}\PYG{p}{,} \PYG{l+m}{4}\PYG{p}{,} \PYG{l+m}{2}\PYG{p}{,} \PYG{l+m}{1}\PYG{p}{),} \PYG{n}{xaxs} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}i\PYGZdq{}}\PYG{p}{,} \PYG{n}{yaxs} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}i\PYGZdq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{plot}\PYG{p}{(}\PYG{n+nf}{ecdf}\PYG{p}{(}\PYG{n}{emp\PYGZus{}sample}\PYG{p}{),}
+\PYG{o}{+}      \PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{3}\PYG{p}{,} \PYG{n}{verticals} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{,} \PYG{n}{axes} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{,}
+\PYG{o}{+}      \PYG{n}{xlim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{n}{k}\PYG{l+m}{+1}\PYG{p}{),} \PYG{n}{ylim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{l+m}{1.2}\PYG{p}{),}
+\PYG{o}{+}      \PYG{n}{xlab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Value\PYGZdq{}}\PYG{p}{,} \PYG{n}{ylab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}CDF\PYGZdq{}}\PYG{p}{,}
+\PYG{o}{+}      \PYG{n}{main} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Theoretical and Emperical CDF\PYGZdq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{plot}\PYG{p}{(}\PYG{n+nf}{ecdf}\PYG{p}{(}\PYG{n}{theor\PYGZus{}distr}\PYG{p}{),}
+\PYG{o}{+}      \PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}black\PYGZdq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{2}\PYG{p}{,} \PYG{n}{verticals} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{,} \PYG{n}{add} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{:}\PYG{n}{k}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{2}\PYG{p}{,} \PYG{n+nf}{seq}\PYG{p}{(}\PYG{l+m}{0.0}\PYG{p}{,} \PYG{l+m}{1.2}\PYG{p}{,} \PYG{l+m}{0.2}\PYG{p}{),} \PYG{n}{las} \PYG{o}{=} \PYG{l+m}{1}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{grid}\PYG{p}{(}\PYG{n}{nx} \PYG{o}{=} \PYG{n}{k}\PYG{l+m}{+1}\PYG{p}{,} \PYG{n}{ny} \PYG{o}{=} \PYG{l+m}{1.2} \PYG{o}{/} \PYG{l+m}{0.2}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{legend}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}bottomright\PYGZdq{}}\PYG{p}{,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Theoretical\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}Emperical\PYGZdq{}}\PYG{p}{),}
+\PYG{o}{+}        \PYG{n}{lty}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,}\PYG{l+m}{1}\PYG{p}{),}
+\PYG{o}{+}        \PYG{n}{fill}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}black\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{dev.off}\PYG{p}{()}
+\PYG{n}{RStudioGD}
+\PYG{l+m}{2}
+\end{Verbatim}

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{stat\PYGZus{}series} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{as.data.frame}\PYG{p}{(}\PYG{n+nf}{rbind}\PYG{p}{(}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{o}{:}\PYG{n}{k}\PYG{p}{),}
+\PYG{o}{+}        \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,} \PYG{n}{hist\PYGZus{}tmp}\PYG{o}{\PYGZdl{}}\PYG{n}{counts}\PYG{p}{),}
+\PYG{o}{+}       \PYG{p}{(}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,} \PYG{n}{hist\PYGZus{}tmp}\PYG{o}{\PYGZdl{}}\PYG{n}{counts}\PYG{p}{)} \PYG{o}{/} \PYG{n}{n}\PYG{p}{)} \PYG{p}{),}
+\PYG{o}{+}       \PYG{n}{row.names} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Simulated values\PYGZdq{}}\PYG{p}{,}
+\PYG{o}{+}                     \PYG{l+s}{\PYGZdq{}Frequencies\PYGZdq{}}\PYG{p}{,}
+\PYG{o}{+}                     \PYG{l+s}{\PYGZdq{}Relative frequencies\PYGZdq{}}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{colnames}\PYG{p}{(}\PYG{n}{stat\PYGZus{}series}\PYG{p}{)} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{o}{:}\PYG{n}{k}\PYG{p}{)}
+\end{Verbatim}
