@@ -1,0 +1,56 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{c+c1}{\PYGZsh{} Функция, формирующая доверительные интервалы ECDF}
+\PYG{o}{\PYGZgt{}} \PYG{n}{get\PYGZus{}df.ecdf} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{function}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{level} \PYG{o}{=} \PYG{l+m}{0.05}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+\PYG{o}{+}   \PYG{n}{n} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{length}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+\PYG{o}{+}   \PYG{n}{x.sort} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{sort}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+\PYG{o}{+}   \PYG{n}{y} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{p}{(}\PYG{l+m}{1}\PYG{o}{:}\PYG{n}{n}\PYG{p}{)}\PYG{o}{/}\PYG{n}{n}
+\PYG{o}{+}   \PYG{c+c1}{\PYGZsh{} CI по теореме Дворецкого\PYGZhy{}Кифера\PYGZhy{}Вольфовица (ДКВ)}
+\PYG{o}{+}   \PYG{n}{epsilon} \PYG{o}{=} \PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n+nf}{log}\PYG{p}{(}\PYG{l+m}{2}\PYG{o}{/}\PYG{n}{level}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{l+m}{2}\PYG{o}{*}\PYG{n}{n}\PYG{p}{))}
+\PYG{o}{+}   \PYG{n}{L} \PYG{o}{=} \PYG{n+nf}{pmax}\PYG{p}{(}\PYG{n}{y} \PYG{o}{\PYGZhy{}} \PYG{n}{epsilon}\PYG{p}{,} \PYG{l+m}{0}\PYG{p}{)}
+\PYG{o}{+}   \PYG{n}{U} \PYG{o}{=} \PYG{n+nf}{pmin}\PYG{p}{(}\PYG{n}{y} \PYG{o}{+} \PYG{n}{epsilon}\PYG{p}{,} \PYG{l+m}{1}\PYG{p}{)}
+\PYG{o}{+}   \PYG{n}{D} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{approx.ksD}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)}
+\PYG{o}{+}   \PYG{n}{U3} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{pmin}\PYG{p}{(}\PYG{n}{y} \PYG{o}{+} \PYG{n}{D}\PYG{p}{,} \PYG{l+m}{1}\PYG{p}{)}
+\PYG{o}{+}   \PYG{n}{L3} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{pmax}\PYG{p}{(}\PYG{n}{y} \PYG{o}{\PYGZhy{}} \PYG{n}{D}\PYG{p}{,} \PYG{l+m}{0}\PYG{p}{)}
+\PYG{o}{+}   \PYG{c+c1}{\PYGZsh{} CI на основе центральной предельной теоремы (ЦПТ)}
+\PYG{o}{+}   \PYG{n}{z} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{qnorm}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{level}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{)}
+\PYG{o}{+}   \PYG{n}{U2} \PYG{o}{=} \PYG{n+nf}{pmin}\PYG{p}{(}\PYG{n}{y} \PYG{o}{+} \PYG{n}{z}\PYG{o}{*}\PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{y}\PYG{o}{*}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{y}\PYG{p}{)}\PYG{o}{/}\PYG{n}{n} \PYG{p}{),}\PYG{l+m}{1}\PYG{p}{)}
+\PYG{o}{+}   \PYG{n}{L2} \PYG{o}{=} \PYG{n+nf}{pmax}\PYG{p}{(}\PYG{n}{y} \PYG{o}{\PYGZhy{}} \PYG{n}{z}\PYG{o}{*}\PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{y}\PYG{o}{*}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{y}\PYG{p}{)}\PYG{o}{/}\PYG{n}{n} \PYG{p}{),}\PYG{l+m}{0}\PYG{p}{)}
+\PYG{o}{+}   \PYG{n+nf}{data.frame}\PYG{p}{(}\PYG{n}{x}\PYG{o}{=}\PYG{n}{x.sort}\PYG{p}{,} \PYG{n}{y}\PYG{p}{,} \PYG{n}{L}\PYG{p}{,} \PYG{n}{U}\PYG{p}{,} \PYG{n}{L2}\PYG{p}{,} \PYG{n}{U2}\PYG{p}{,} \PYG{n}{L3}\PYG{p}{,} \PYG{n}{U3}\PYG{p}{)}
+\PYG{o}{+} \PYG{p}{\PYGZcb{}}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}} \PYG{c+c1}{\PYGZsh{} Формирование таблицы}
+\PYG{o}{\PYGZgt{}} \PYG{n}{df.emp} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{get\PYGZus{}df.ecdf}\PYG{p}{(}\PYG{n}{emp\PYGZus{}sample}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}} \PYG{c+c1}{\PYGZsh{} Создание графика}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{library}\PYG{p}{(}\PYG{n}{ggplot2}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{png}\PYG{p}{(}\PYG{n}{filename} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}../img/emp\PYGZus{}cdfs\PYGZus{}1.png\PYGZdq{}}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{width} \PYG{o}{=} \PYG{l+m}{1920}\PYG{p}{,} \PYG{n}{height} \PYG{o}{=} \PYG{l+m}{1080}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{pointsize} \PYG{o}{=} \PYG{l+m}{24}\PYG{p}{,} \PYG{n}{res} \PYG{o}{=} \PYG{l+m}{96} \PYG{o}{*} \PYG{l+m}{1.25}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{ggplot}\PYG{p}{(}\PYG{n}{df.emp}\PYG{p}{,} \PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{x}\PYG{o}{=}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{o}{=}\PYG{n}{y}\PYG{p}{))} \PYG{o}{+}
+\PYG{o}{+}   \PYG{c+c1}{\PYGZsh{} Эмпирические распределения}
+\PYG{o}{+}   \PYG{n+nf}{geom\PYGZus{}line}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{colour}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}Emperical CDF\PYGZdq{}}\PYG{p}{),}\PYG{n}{size}\PYG{o}{=}\PYG{l+m}{2}\PYG{p}{)} \PYG{o}{+}
+\PYG{o}{+}   \PYG{c+c1}{\PYGZsh{} Заливаются области доверительных интервалов ДКВ}
+\PYG{o}{+}   \PYG{n+nf}{geom\PYGZus{}ribbon}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{ymin} \PYG{o}{=} \PYG{n}{L}\PYG{p}{,} \PYG{n}{ymax} \PYG{o}{=} \PYG{n}{U}\PYG{p}{,}
+\PYG{o}{+}               \PYG{n}{fill} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Dvoretzky–Kiefer–Wolfowitz\PYGZdq{}}\PYG{p}{),}
+\PYG{o}{+}               \PYG{n}{alpha} \PYG{o}{=} \PYG{l+m}{0.5}\PYG{p}{)} \PYG{o}{+}
+\PYG{o}{+}   \PYG{n+nf}{geom\PYGZus{}line}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{x} \PYG{o}{=} \PYG{n}{x}\PYG{p}{,} \PYG{n}{y} \PYG{o}{=} \PYG{n}{L3}\PYG{p}{,}
+\PYG{o}{+}             \PYG{n}{colour} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}KS approximation\PYGZdq{}}\PYG{p}{),}
+\PYG{o}{+}             \PYG{n}{linetype} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}3313\PYGZdq{}}\PYG{p}{,} \PYG{n}{size} \PYG{o}{=} \PYG{l+m}{1}\PYG{p}{)} \PYG{o}{+}
+\PYG{o}{+}   \PYG{n+nf}{geom\PYGZus{}line}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{x} \PYG{o}{=} \PYG{n}{x}\PYG{p}{,} \PYG{n}{y} \PYG{o}{=} \PYG{n}{U3}\PYG{p}{,}
+\PYG{o}{+}             \PYG{n}{colour} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}KS approximation\PYGZdq{}}\PYG{p}{),}
+\PYG{o}{+}             \PYG{n}{linetype} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}3313\PYGZdq{}}\PYG{p}{,} \PYG{n}{size} \PYG{o}{=} \PYG{l+m}{1}\PYG{p}{)} \PYG{o}{+}
+\PYG{o}{+}   \PYG{c+c1}{\PYGZsh{} Рисуются кривые доверительных интервалов ЦПТ}
+\PYG{o}{+}   \PYG{n+nf}{geom\PYGZus{}line}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{x} \PYG{o}{=} \PYG{n}{x}\PYG{p}{,} \PYG{n}{y} \PYG{o}{=} \PYG{n}{L2}\PYG{p}{,}
+\PYG{o}{+}             \PYG{n}{colour} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Central limit theorem\PYGZdq{}}\PYG{p}{),}
+\PYG{o}{+}             \PYG{n}{linetype} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}dashed\PYGZdq{}}\PYG{p}{,} \PYG{n}{size} \PYG{o}{=} \PYG{l+m}{1}\PYG{p}{)} \PYG{o}{+}
+\PYG{o}{+}   \PYG{n+nf}{geom\PYGZus{}line}\PYG{p}{(}\PYG{n+nf}{aes}\PYG{p}{(}\PYG{n}{x} \PYG{o}{=} \PYG{n}{x}\PYG{p}{,} \PYG{n}{y} \PYG{o}{=} \PYG{n}{U2}\PYG{p}{,}
+\PYG{o}{+}             \PYG{n}{colour} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Central limit theorem\PYGZdq{}}\PYG{p}{),}
+\PYG{o}{+}             \PYG{n}{linetype} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}dashed\PYGZdq{}}\PYG{p}{,} \PYG{n}{size} \PYG{o}{=} \PYG{l+m}{1}\PYG{p}{)} \PYG{o}{+}
+\PYG{o}{+}   \PYG{n+nf}{labs}\PYG{p}{(}\PYG{n}{x} \PYG{o}{=} \PYG{l+s}{\PYGZsq{}Sample values\PYGZsq{}}\PYG{p}{,}
+\PYG{o}{+}        \PYG{n}{y} \PYG{o}{=} \PYG{l+s}{\PYGZsq{}CDF\PYGZsq{}}\PYG{p}{)} \PYG{o}{+}
+\PYG{o}{+}   \PYG{n+nf}{theme\PYGZus{}bw}\PYG{p}{()}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{dev.off}\PYG{p}{()}
+\end{Verbatim}

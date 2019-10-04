@@ -1,13 +1,13 @@
 tab2<- read.csv("../table_2_N_9.csv", header = F, dec = ',', sep = "\n")
 tab3 <- read.csv("../table_4.csv", header = T, dec = ',', sep = ";")
-x <- c(1:20)
 y <- tab2$V1
-plot(x, tab2$V1)
 
-fit <- lm(y ~ poly(x,6))
-points(x, predict(fit), type="l")
+
+fit <- lm(y ~ tab3$z1 + tab3$z2 +  tab3$z3 + tab3$z4 + tab3$z5 + tab3$z6 )
+fit$coefficients
+
 summary(fit)
-
+plot(fit)
 
 summary(tab2)
 plot(c(1:20),tab2$V1, ylim = c(10,20))
