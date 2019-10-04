@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}}\PYG{n+nf}{library}\PYG{p}{(}\PYG{n}{fitdistrplus}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{png}\PYG{p}{(}\PYG{n}{filename} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}../img/graphics\PYGZus{}1.png\PYGZdq{}}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{width} \PYG{o}{=} \PYG{l+m}{1920}\PYG{p}{,} \PYG{n}{height} \PYG{o}{=} \PYG{l+m}{1080}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{pointsize} \PYG{o}{=} \PYG{l+m}{24}\PYG{p}{,} \PYG{n}{res} \PYG{o}{=} \PYG{l+m}{96} \PYG{o}{*} \PYG{l+m}{1.25}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{plotdist}\PYG{p}{(}\PYG{n}{emp\PYGZus{}sample}\PYG{p}{,} \PYG{n}{distr} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}lnorm\PYGZdq{}}\PYG{p}{,} \PYG{n+nf}{list}\PYG{p}{(}\PYG{l+m}{2}\PYG{p}{,}\PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{l+m}{0.2}\PYG{p}{)),}
+\PYG{o}{+}          \PYG{n}{histo} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{,} \PYG{n}{demp} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{dev.off}\PYG{p}{()}
+\end{Verbatim}

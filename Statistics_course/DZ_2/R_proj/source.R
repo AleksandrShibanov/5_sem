@@ -1,8 +1,3 @@
-x <-xtable(B,align=rep("",ncol(B)+1), digits = 3)
-print(x, floating=FALSE, tabular.environment="bmatrix", 
-      hline.after=NULL, include.rownames=FALSE, include.colnames=FALSE)
-
-library(xtable)
 k <- 8
 p1 <- 0.7
 n <- 140
@@ -20,9 +15,6 @@ row.names(distr_series_table)[3] <- "Delta"
 distr_series_table
 
 
-x <-xtable(distr_series_table,align=rep("",ncol(distr_series_table)+1), digits = 3)
-print(x, floating=FALSE, tabular.environment="bmatrix", 
-      hline.after=NULL, include.rownames=T, include.colnames=F)
 
 sum(distr_series_table[2,])
 
@@ -45,104 +37,85 @@ emp_sample <- ifelse(rand_unif < distr_series_table[3,1], 0,
 emp_sample
 
 ##
-sum(emp_sample == 2)
+
 hist_tmp <- hist(emp_sample, breaks = c(0:k))
 hist_tmp$counts
 hist_tmp$breaks
 
-stat_series <- as.data.frame(rbind(c(0:k), c(0, hist_tmp$counts), (c(0, hist_tmp$counts) / n) ), row.names = c("Simulated values", "Frequencies", "Relative frequencies"))
-colnames(stat_series) <- c(0:8)
-
-
-######################################
-
-p <- dbinom(c(0:k), k, p1)
-cumsum(p)
-cumsum(as.list(distr_series_table[2,]))
-
-
-q <- pbinom(c(0:8), 8, 0.7)
-set.seed(161)
-rand_unif <- runif(n, 0, 1)
-p_p <- rep(0,k+2)
-
-
-p_p[1] <- sum(rand_unif < q[1])
-
-
-for (i in 2:(k+2))
-{
-  p_p[i] <- sum(ifelse(rand_unif < q[i] & rand_unif >= q[i-1], 1, 0))
-}
-p_p
-#sum(p_p)
-
-
-q_q <- rep(NA,k+1)
-
-q_q <- ifelse(rand_unif < q[2], 0, 
-       ifelse(rand_unif < q[3] & rand_unif >= q[3-1], 1, 
-       ifelse(rand_unif < q[4] & rand_unif >= q[4-1], 2, 
-       ifelse(rand_unif < q[5] & rand_unif >= q[5-1], 3, 
-       ifelse(rand_unif < q[6] & rand_unif >= q[6-1], 4,
-       ifelse(rand_unif < q[7] & rand_unif >= q[7-1], 5,
-       ifelse(rand_unif < q[8] & rand_unif >= q[8-1], 6,
-       ifelse(rand_unif < q[9] & rand_unif >= q[9-1], 7,
-       ifelse(rand_unif < q[10] & rand_unif >= q[10-1], 8,NA)))))))))
-length(q_q)
-mean(q_q)
-
-#hist(q_q, breaks = c(0:(k+1)),xlim = range(c(0:(k+1))))
-#axis(1, c(0:(k+1)), las = 1)
-
-stat_series <- rbind(c(0:8), p_p, cumsum(p_p), cumsum(p_p) / n)
-stat_series
-
-
-
-q_q_sort <- sort(q_q)
-q
+stat_series <- as.data.frame(rbind(c(0:k), 
+       c(0, hist_tmp$counts), 
+      (c(0, hist_tmp$counts) / n) ), 
+      row.names = c("Simulated values", 
+                    "Frequencies", 
+                    "Relative frequencies"))
+colnames(stat_series) <- c(0:k)
 
 
 library(fitdistrplus)
-library(ggplot2)
+
+theor_distr <- rbinom(n, k, p1)
+
+png(filename = "../img/theor_ecdf.png", 
+    width = 1920, height = 1080,
+    pointsize = 24, res = 96 * 1.25)
+par(mar = c(4, 4, 2, 1), xaxs = "i", yaxs = "i")
+plot(ecdf(x = theor_distr), 
+     col = "black", lwd = 3, verticals = F, axes = F,
+     xlim = c(0,k+1), ylim = c(0,1.2),
+     xlab = "Value", ylab = "CDF", main = "Theoretical CDF")
+axis(1, c(1:k))
+axis(2, seq(0.0, 1.2, 0.2), las = 1)
+grid(nx = k+1, ny = 1.2 / 0.2)
 dev.off()
 
 
+png(filename = "../img/emp_ecdf.png", 
+    width = 1920, height = 1080,
+    pointsize = 24, res = 96 * 1.25)
+par(mar = c(4, 4, 2, 1), xaxs = "i", yaxs = "i")
+plot(ecdf(emp_sample), 
+     col = "red", lwd = 3, verticals = F, axes = F,
+     xlim = c(0,k+1), ylim = c(0,1.2),
+     xlab = "Value", ylab = "CDF", main = "Emperical CDF")
+axis(1, c(1:k))
+axis(2, seq(0.0, 1.2, 0.2), las = 1)
+grid(nx = k+1, ny = 1.2 / 0.2)
+dev.off()
 
-    plot(ecdf(stat_series[4,] * k), col = "red", lwd = 1, verticals = F)
-
-    plot(ecdf(q * k), col = "black", lwd = 1, verticals = F, add = T)
-  
-length(stat_series[4,] * k)
-length(q * k)
-plot(ecdf(cumsum(q)))
-plot(ecdf(cumsum(stat_series[4,])), col = "red", add = T)
-#plot(stat_series[4,], type = "s")
-axis(1, c(0:(k)), las = 1)
-
-kolm_stat <- max(abs((stat_series[4,] - q)))
-
-mean(stat_series[4,])
-mean(q)
-
-sd(stat_series[4,])
-sd(q)
-
-sqrt(n) * kolm_stat
-pbinom(100, 140, 0.7)
-
-#quantile(, .15)
+png(filename = "../img/emp_and_theor_ecdf.png", 
+    width = 1920, height = 1080,
+    pointsize = 24, res = 96 * 1.25)
+par(mar = c(4, 4, 2, 1), xaxs = "i", yaxs = "i")
+plot(ecdf(emp_sample), 
+     col = "red", lwd = 3, verticals = T, axes = F,
+     xlim = c(0,k+1), ylim = c(0,1.2),
+     xlab = "Value", ylab = "CDF", main = "Theoretical and Emperical CDF")
+plot(ecdf(theor_distr), 
+     col = "black", lwd = 2, verticals = T, add = T)
+axis(1, c(1:k))
+axis(2, seq(0.0, 1.2, 0.2), las = 1)
+grid(nx = k+1, ny = 1.2 / 0.2)
+legend("bottomright", c("Theoretical", "Emperical"), 
+       lty=c(1,1), 
+       fill=c("black", "red"))
+dev.off()
 
 
-length(q_q / k)
-length(rand_unif)
+kolm_stat <- max(abs((cumsum(as.numeric(stat_series[3,])) - pbinom(c(0:k), k, p1))))
+kolm_stat
 
-rand_unif*k
-q_q
+theor_distr_mean <- mean(theor_distr)
+theor_distr_mean
 
-ks_test <- ks.test(unique(sort(q_q / k)), pbinom(0.1, 140, 0.7))
-ks_test
+emp_sample_mean <- mean(emp_sample)
+emp_sample_mean
 
-k_alpha <- sqrt(-(1/2) * log2( (1 - 0.0001)/2 )) 
-k_alpha
+
+theor_distr_sd <- sd(theor_distr)
+theor_distr_sd
+
+emp_sample_sd <- sd(emp_sample)
+emp_sample_sd
+
+
+

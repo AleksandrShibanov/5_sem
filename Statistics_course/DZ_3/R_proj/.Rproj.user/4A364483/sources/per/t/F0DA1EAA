@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569680319348.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3094499992",
+    "id" : "F0DA1EAA",
+    "lastKnownWriteTime" : 1569695436,
+    "last_content_update" : 1569695436777,
+    "path" : "~/5_sem/Statistics_course/DZ_3/R_proj/source.R",
+    "project_path" : "source.R",
+    "properties" : {
+        "cursorPosition" : "70,53",
+        "scrollLine" : "83",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

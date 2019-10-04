@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569660309056.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2642372047",
+    "id" : "D7A6771C",
+    "lastKnownWriteTime" : 1569666367,
+    "last_content_update" : 1569666367506,
+    "path" : "~/5_sem/Mathematical_Physics/HW_1/R_proj/source.R",
+    "project_path" : "source.R",
+    "properties" : {
+        "cursorPosition" : "45,0",
+        "scrollLine" : "24",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

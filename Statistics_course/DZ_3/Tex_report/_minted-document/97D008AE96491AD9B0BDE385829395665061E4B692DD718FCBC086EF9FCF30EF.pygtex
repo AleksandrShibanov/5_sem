@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{n} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{l+m}{120}
+\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{set.seed}\PYG{p}{(}\PYG{l+m}{1337}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{rand\PYGZus{}vect} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{runif}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{l+m}{0}\PYG{p}{,} \PYG{l+m}{1}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{head}\PYG{p}{(}\PYG{n}{rand\PYGZus{}vect}\PYG{p}{,} \PYG{l+m}{5}\PYG{p}{)}
+\PYG{n}{[1]} \PYG{l+m}{0.57632155} \PYG{l+m}{0.56474213} \PYG{l+m}{0.07399023} \PYG{l+m}{0.45386562} \PYG{l+m}{0.37327926}
+\end{Verbatim}

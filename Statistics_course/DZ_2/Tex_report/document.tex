@@ -14,6 +14,7 @@
 \usepackage{caption}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{listings}
+\usepackage{minted}
 \begin{document}
 	\begin{titlepage}
 	\begin{center}
@@ -71,7 +72,7 @@ $p = 0.7$ -- вероятность успеха в одном испытани�
 $n = 140$ -- объем выборки;\\
 $k = 8$ -- число испытаний.
 
-\begin{lstlisting}
+\begin{minted}{R}
 > k <- 8
 > p1 <- 0.7
 > n <- 140
@@ -82,11 +83,11 @@ $k = 8$ -- число испытаний.
 > colnames(distr_series_table) <- c(0:k)
 > sum(distr_series_table[2,])
 [1] 1
-\end{lstlisting}
+\end{minted}
 
 \begin{equation*}
 	\begin{bmatrix}{}
-	Random Value & 0.000 & 1.000 & 2.000 & 3.000 & 4.000 & 5.000 & 6.000 & 7.000 & 8.000 \\ 
+	Random \: Value & 0.000 & 1.000 & 2.000 & 3.000 & 4.000 & 5.000 & 6.000 & 7.000 & 8.000 \\ 
 	Probability & 0.000 & 0.001 & 0.010 & 0.047 & 0.136 & 0.254 & 0.296 & 0.198 & 0.058 \\ 
 	\end{bmatrix}
 \end{equation*}
@@ -107,25 +108,34 @@ $k = 8$ -- число испытаний.
 \textbf{Теорема.} Если каждому случайному числу $r_i(0\leq r_i < 1)$, которое попало в интервал $\Delta_i$, поставить в соответствие возможное значение $x_i$, то разыгрываемая случайная величина будет иметь заданный закон распределения.
 
 Добавим к нашей таблице распределения третью строчку, соответствующую координатам концов интервалов разбиения отрезка $[0;1]$:
-\begin{lstlisting}
+\begin{minted}{R}
 > distr_series_table <- rbind(distr_series_table,
 +                             cumsum(dbinom(c(0:k), k, p1)))
 > row.names(distr_series_table)[3] <- "Delta"
-\end{lstlisting}
+\end{minted}
+
+Имеем:
+\begin{equation*}
+	\begin{bmatrix}{}
+	Random Value & 0.000 & 1.000 & 2.000 & 3.000 & 4.000 & 5.000 & 6.000 & 7.000 & 8.000 \\ 
+	Probability & 0.000 & 0.001 & 0.010 & 0.047 & 0.136 & 0.254 & 0.296 & 0.198 & 0.058 \\ 
+	Delta & 0.000 & 0.001 & 0.011 & 0.058 & 0.194 & 0.448 & 0.745 & 0.942 & 1.000 \\ 
+	\end{bmatrix}
+\end{equation*}
 
 Сгенерируем программным путём $n = 140$ случайных чисел:
-\begin{lstlisting}
+\begin{minted}{R}
 > set.seed(1337)
 > rand_unif <- runif(n, 0, 1)
 > head(rand_unif)
-[1] 0.57632155 0.56474213 0.07399023 0.45386562 0.37327926 0.33131745
-\end{lstlisting}
+[1] 0.576321 0.564742 0.073990 0.453865 0.373279 0.331317
+\end{minted}
 При установке параметра, такого же, как в первой строчке вышеприведённого кода, случайные величины будут сгенерированы на любом компьютере в точности равными тем, что получены в данной работе.
 
-Случайное число $r_i = 0.57632155$ принадлежит шестому частичному интервалу, поэтому разыгрываемая случайная  величина приняла возможное значение $x_6 = 0.7447017$. Аналогично получим остальные возможные значения дискретной случайной величины $X$:
+Случайное число $r_i = 0.57632155$ принадлежит шестому частичному интервалу, поэтому разыгрываемая случайная  величина приняла возможное значение $x_6 = 6$. Аналогично получим остальные возможные значения дискретной случайной величины $X$:
 
-\begin{lstlisting}[basicstyle=\small]
->y <- rand_unif
+\begin{minted}{R}
+>y <- rand_unif #tmp var for decreasing code
 > emp_sample <- ifelse(y < distr_series_table[3,2], 0, 
 +  ifelse(y < distr_series_table[3,3] & y >= distr_series_table[3,3-1], 1, 
 +  ifelse(y < distr_series_table[3,4] & y >= distr_series_table[3,4-1], 2, 
@@ -136,10 +146,10 @@ $k = 8$ -- число испытаний.
 +  ifelse(y < distr_series_table[3,9] & y >= distr_series_table[3,9-1], 7,
 +  ifelse(y < distr_series_table[3,10] & y >= distr_series_table[3,10-1], 
 +                                                            8,NA)))))))))
-\end{lstlisting}
+\end{minted}
 
 Итого, последовательность смоделированных возможных значений дискретной случайной величины $X$ такова:
-\begin{lstlisting}
+\begin{minted}{R}
 > emp_sample
 [1] 6 6 4 6 5 5 8 5 5 4 8 8 7 4 8 3 8 7 5 5 7
 [22] 6 3 4 6 8 7 7 6 8 7 4 6 5 7 6 8 7 5 5 6 7
@@ -148,10 +158,165 @@ $k = 8$ -- число испытаний.
 [85] 6 7 6 6 5 8 7 6 6 6 6 5 6 5 5 8 6 6 7 7 5
 [106] 4 4 4 5 6 7 4 2 4 6 4 6 6 7 6 4 7 6 6 7 4
 [127] 6 7 7 6 7 6 7 5 8 6 5 5 4 5
-\end{lstlisting}
+\end{minted}
 
 
-\section{Статистический ряд}
+\section{Статистический ряд. Эмпирическая функция распределения}
+Запишем группированный статистический ряд:
+\begin{minted}{R}
+> stat_series <- as.data.frame(rbind(c(0:k), 
++        c(0, hist_tmp$counts), 
++       (c(0, hist_tmp$counts) / n) ), 
++       row.names = c("Simulated values", 
++                     "Frequencies", 
++                     "Relative frequencies"))
+> colnames(stat_series) <- c(0:k)
+\end{minted}
+Имеем:
+\begin{equation*}
+\resizebox{.98\hsize}{!}{$
+	\begin{bmatrix}{}
+	Simulated \: values & 0.000 & 1.000 & 2.000 & 3.000 & 4.000 & 5.000 & 6.000 & 7.000 & 8.000 \\ 
+	Frequencies & 0.000 & 0.000 & 1.000 & 4.000 & 21.000 & 31.000 & 42.000 & 27.000 & 14.000 \\ 
+	Relative \: frequencies & 0.000 & 0.000 & 0.007 & 0.029 & 0.150 & 0.221 & 0.300 & 0.193 & 0.100 \\ 
+	\end{bmatrix}
+$}
+\end{equation*}
+
+Здесь $Simulated \: values$ -- уникальные значения из выборки; $Frequencies$ -- частота значения, то есть количество исходов, в которых случайная величина приняла данное значение; $Relative \: frequencies$ -- относительная частота данного значения по отношению к общему объёму выборки. Очевидно, что:
+\begin{equation*}
+	\sum_{j = 0}^{k} Freq_j = n,
+\end{equation*}
+
+\begin{equation*}
+	\sum_{j = 0}^{k} Rel\_freq_j = 1
+\end{equation*}
+
+Совокупность пар $(Sim\_val_i, Rel\_freq_i), \: i=(\overline{0, k})$ называют иногда \textit{эмпирическим законом распределения}, а вышеприведённую таблицу -- \textit{таблицей частот}.
+
+\textit{Эмпирической функцией распределения}, соответствующей выборке $X = {x_1, \dots, x_n}$ называется функция:
+\begin{equation*}
+	F_n^* = \frac{1}{n} \sum_{i = 1}^{n} I(x_i < x) = \frac{1}{n} \nu_n(x),
+\end{equation*} 
+$I(A)$ -- индикатор множества $A$,\\
+$\nu_n(x)$ -- число выборочных значений, не превосходящих $x$.
+ 
+Эмпирическая функция распределения $F_n^{*}( x )$ служит статистическим аналогом (оценкой) неизвестной функции распределения $F(x)$, которую называют при этом \textit{теоретической}.
+
+Построим эмпирический и теоретические функции распределения:
+\begin{minted}{R}
+> library(fitdistrplus)
+> 
+> theor_distr <- rbinom(n, k, p1)
+> 
+> png(filename = "../img/theor_ecdf.png", 
++     width = 1920, height = 1080,
++     pointsize = 24, res = 96 * 1.25)
+> par(mar = c(4, 4, 2, 1), xaxs = "i", yaxs = "i")
+> plot(ecdf(x = theor_distr), 
++      col = "black", lwd = 3, verticals = F, axes = F,
++      xlim = c(0,k+1), ylim = c(0,1.2),
++      xlab = "Value", ylab = "CDF", main = "Theoretical CDF")
+> axis(1, c(1:k))
+> axis(2, seq(0.0, 1.2, 0.2), las = 1)
+> grid(nx = k+1, ny = 1.2 / 0.2)
+> dev.off()
+RStudioGD 
+2 
+> 
+> 
+> png(filename = "../img/emp_ecdf.png", 
++     width = 1920, height = 1080,
++     pointsize = 24, res = 96 * 1.25)
+> par(mar = c(4, 4, 2, 1), xaxs = "i", yaxs = "i")
+> plot(ecdf(emp_sample), 
++      col = "red", lwd = 3, verticals = F, axes = F,
++      xlim = c(0,k+1), ylim = c(0,1.2),
++      xlab = "Value", ylab = "CDF", main = "Emperical CDF")
+> axis(1, c(1:k))
+> axis(2, seq(0.0, 1.2, 0.2), las = 1)
+> grid(nx = k+1, ny = 1.2 / 0.2)
+> dev.off()
+RStudioGD 
+2 
+> 
+> png(filename = "../img/emp_and_theor_ecdf.png", 
++     width = 1920, height = 1080,
++     pointsize = 24, res = 96 * 1.25)
+> par(mar = c(4, 4, 2, 1), xaxs = "i", yaxs = "i")
+> plot(ecdf(emp_sample), 
++      col = "red", lwd = 3, verticals = T, axes = F,
++      xlim = c(0,k+1), ylim = c(0,1.2),
++      xlab = "Value", ylab = "CDF", 
++      main = "Theoretical and Emperical CDF")
+> plot(ecdf(theor_distr), 
++      col = "black", lwd = 2, verticals = T, add = T)
+> axis(1, c(1:k))
+> axis(2, seq(0.0, 1.2, 0.2), las = 1)
+> grid(nx = k+1, ny = 1.2 / 0.2)
+> legend("bottomright", c("Theoretical", "Emperical"), 
++        lty=c(1,1), 
++        fill=c("black", "red"))
+> dev.off()
+RStudioGD 
+2 
+\end{minted}
+\pagebreak
+
+\begin{figure}[h]
+	\begin{minipage}[h]{0.5\linewidth}
+		\center{\includegraphics[width=0.9\linewidth]{../img/emp_ecdf.png}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[h]{0.5\linewidth}
+		\center{\includegraphics[width=0.9\linewidth]{../img/theor_ecdf.png}}
+	\end{minipage}
+	\label{ris:image1}
+\end{figure}
+
+\begin{figure}[h]
+	\center{\includegraphics[width=1\linewidth]{../img/emp_and_theor_ecdf.png}}
+	\label{ris:image}
+\end{figure}
+
+\section{Статистика Колмогорова. Меры}
+Вычислим статистику Колмогорова для данного распределения по формуле:
+\begin{equation*}
+	D_{n}=\sup _{x}\left|F_{n}(x)-F(x)\right|
+\end{equation*}
+
+\begin{minted}{R}
+> kolm_stat <- 
++    max(abs((cumsum(as.numeric(stat_series[3,]))
++    - pbinom(c(0:k), k, p1))))
+> kolm_stat
+[1] 0.04235199
+\end{minted}
+
+Определим две меры для нашей выборки: стандартное отклонение и среднее:
+\begin{minted}{R}
+> theor_distr_mean <- mean(theor_distr)
+> theor_distr_mean
+[1] 5.464286
+> 
+> emp_sample_mean <- mean(emp_sample)
+> emp_sample_mean
+[1] 5.757143
+> 
+> 
+> theor_distr_sd <- sd(theor_distr)
+> theor_distr_sd
+[1] 1.32171
+> 
+> emp_sample_sd <- sd(emp_sample)
+> emp_sample_sd
+[1] 1.318771
+\end{minted}
+
+
+
+
+
 
 
 
