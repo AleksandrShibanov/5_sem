@@ -19,12 +19,13 @@ const VSHADER_SOURCE =
 const FSHADER_SOURCE =
   'precision mediump float;\n' +
   'varying vec4 v_FragColor;\n' +
-  'uniform float u_Width;\n' +
-  'uniform float u_Height;\n' +
+  // 'uniform float u_Width;\n' +
+  // 'uniform float u_Height;\n' +
   'void main() {\n' +
-  'gl_FragColor = vec4(gl_FragCoord.x/u_Width, 0.0, gl_FragCoord.y/u_Height, 1.0);\n' +
+  // 'gl_FragColor = vec4(gl_FragCoord.x/u_Width, 0.0, gl_FragCoord.y/u_Height, 0.6);\n' +
+  'gl_FragColor = v_FragColor;\n' +
   // 'if (distance(vec2(0.5,0.5), gl_PointCoord) > 0.5)' +
-  // 'discard;\n' +
+   // 'discard;\n' +
   '}\n';
 
 function main() {
@@ -44,20 +45,20 @@ function main() {
     return;
   }
 
-  const u_Width = gl.getUniformLocation(gl.program, 'u_Width');
-  if (!u_Width) {
-     console.log('Failed to get the storage location of u_Width');
-     return;
-  }
+  // const u_Width = gl.getUniformLocation(gl.program, 'u_Width');
+  // if (!u_Width) {
+     // console.log('Failed to get the storage location of u_Width');
+     // return;
+  // }
   
-  gl.uniform1f(u_Width, gl.drawingBufferWidth);
+  // gl.uniform1f(u_Width, 400.0);
   
-   const u_Height = gl.getUniformLocation(gl.program, 'u_Height');
-  if (!u_Height) {
-     console.log('Failed to get the storage location of u_Height');
-     return;
-  }
-  gl.uniform1f(u_Height, gl.drawingBufferHeight);
+   // const u_Height = gl.getUniformLocation(gl.program, 'u_Height');
+  // if (!u_Height) {
+     // console.log('Failed to get the storage location of u_Height');
+     // return;
+  // }
+  // gl.uniform1f(u_Height, 400.0);
 
   // Write the positions of vertices to a vertex shader
   const n = initVertexBuffers(gl);
@@ -72,29 +73,49 @@ function main() {
   // Clear <canvas>
   gl.clear(gl.COLOR_BUFFER_BIT);
 
+
+
   // Draw three points
-    gl.drawArrays(gl.TRIANGLES, 0, n);
+    gl.drawArrays(gl.TRIANGLES, 0, 3);
+    gl.enable(gl.BLEND);
+    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+    gl.drawArrays(gl.TRIANGLES, 3, 3);
 }
 
 function initVertexBuffers(gl) {
-    const n = 3; // The number of vertices
+    const n = 6; // The number of vertices
 
     // const vertices = new Float32Array([0.0, 0.5, -0.5, -0.5, 0.5, -0.5]);
 
     const vertices = new Float32Array(2 * n);
 
-    vertices[0] = -1.0;
-    vertices[1] = -1.0;
-    vertices[2] = -1.0;
-    vertices[3] = 1.0;
-    vertices[4] = 1.0;
-    vertices[5] = 1.0;
+    vertices[0] = -1.0/3;
+    vertices[1] = -1.0/3;
+    vertices[2] = -1.0/3;
+    vertices[3] = 1.0/3;
+    vertices[4] = 1.0/3;
+    vertices[5] = 0.0/3;
+	vertices[6] = 1.0/3;
+    vertices[7] = 1.0;
+    vertices[8] = -1.0;
+    vertices[9] = 0.0;
+    vertices[10] = 1.0;
+    vertices[11] = -1.0;
 
     const vertixSizes = new Float32Array(n);
 
     vertixSizes[0] = 10.0;
     vertixSizes[1] = 20.0;
     vertixSizes[2] = 30.0;
+	vertixSizes[3] = 10.0;
+    vertixSizes[4] = 20.0;
+    vertixSizes[5] = 30.0;
+    vertixSizes[6] = 10.0;
+    vertixSizes[7] = 20.0;
+    vertixSizes[8] = 30.0;
+  vertixSizes[9] = 10.0;
+    vertixSizes[10] = 20.0;
+    vertixSizes[11] = 30.0;
 
 
 	const vertixColors = new Float32Array(4*n);
@@ -104,15 +125,30 @@ function initVertexBuffers(gl) {
     vertixColors[2] = 0.0;
 	vertixColors[3] = 1.0;
 	
-	vertixColors[4] = 0.0;
-    vertixColors[5] = 1.0;
+	vertixColors[4] = 1.0;
+    vertixColors[5] = 0.0;
     vertixColors[6] = 0.0;
 	vertixColors[7] = 1.0;
 	
-	vertixColors[8] = 0.0;
+	vertixColors[8] = 1.0;
     vertixColors[9] = 0.0;
-    vertixColors[10] = 1.0;
+    vertixColors[10] = 0.0;
 	vertixColors[11] = 1.0;
+	
+	vertixColors[12] = 0.0;
+    vertixColors[13] = 0.0;
+    vertixColors[14] = 1.0;
+	vertixColors[15] = 0.7;
+	
+	vertixColors[16] = 0.0;
+    vertixColors[17] = 0.0;
+    vertixColors[18] = 1.0;
+	vertixColors[19] = 0.7;
+	
+	vertixColors[20] = 0.0;
+    vertixColors[21] = 0.0;
+    vertixColors[22] = 1.0;
+	vertixColors[23] = 0.7;
   // Create a buffer object
   const vertexBuffer = gl.createBuffer();
   if (!vertexBuffer) {
