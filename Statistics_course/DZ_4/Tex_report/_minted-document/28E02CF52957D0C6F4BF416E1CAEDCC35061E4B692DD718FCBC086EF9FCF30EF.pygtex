@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{distr\PYGZus{}series\PYGZus{}table} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{rbind}\PYG{p}{(}\PYG{n}{distr\PYGZus{}series\PYGZus{}table}\PYG{p}{,}
+\PYG{o}{+}                             \PYG{n+nf}{cumsum}\PYG{p}{(}\PYG{n+nf}{dbinom}\PYG{p}{(}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{o}{:}\PYG{n}{k}\PYG{p}{),} \PYG{n}{k}\PYG{p}{,} \PYG{n}{p1}\PYG{p}{)))}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{row.names}\PYG{p}{(}\PYG{n}{distr\PYGZus{}series\PYGZus{}table}\PYG{p}{)}\PYG{n}{[3]} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{l+s}{\PYGZdq{}Delta\PYGZdq{}}
+\end{Verbatim}
