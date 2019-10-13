@@ -138,7 +138,7 @@ fill=c("red", "blue", "green"))
 
 Кроме того рассмотрим функцию:
 \begin{equation*}
-foo(\theta)=\frac{\sum\limits_{k=1}^{160} X_{j}-nk \theta}{\sqrt{nk \theta \cdot(1-\theta)}}
+foo(\theta)=\frac{\sum\limits_{k=1}^{n} X_{j}-nk \theta}{\sqrt{nk \theta \cdot(1-\theta)}}
 \end{equation*}
  \pagebreak
 
@@ -193,7 +193,7 @@ alpha  Lower     Upper
 \end{minted}
 
 \section{Сравнение полученных результатов}
-Сравним полученные в \ref{sec1} и \ref{sec2} результаты для доверительных интервалов.\\
+Сравним полученные в пп. \ref{sec1} и \ref{sec2} результаты для доверительных интервалов.\\
 \textbf{Решение.}\\
 \begin{minted}{R}
 compare_CI <- as.data.frame(matrix(c(clt_ci_LB.01, cp_ci_LB.01, 

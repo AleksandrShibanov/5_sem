@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1570957294 "document.tex" "document.pdf" "document" 1570957297
+["pdflatex"] 1570957622 "document.tex" "document.pdf" "document" 1570957625
   "../img/cdf_with_cis_1.png" 1570957275 22790 9b2520e12b3197ec901f449764349b57 ""
   "../img/foo.png" 1570955133 12462 8073fad6b5194771bf35d94fd9b27793 ""
   "../img/quantiles.png" 1570955055 15291 7bedaed903204720fd43e5ceb8ecbd3d ""
@@ -80,9 +80,9 @@
   "_minted-document/E94F66DE917ED88AA1623A05C8C41B785061E4B692DD718FCBC086EF9FCF30EF.pygtex" 1570956417 876 918992980ea6126c5d18f5c0d2475ce2 ""
   "_minted-document/default-pyg-prefix.pygstyle" 1570952468 7990 3ce1fbc763e3e2c748310f4fe31722b6 ""
   "_minted-document/default.pygstyle" 1570952468 9376 f200be7fc0b7de2461cca28cb35b1427 ""
-  "document.aux" 1570957296 2800 3ca4758d4d8b56839404c48b15341370 "pdflatex"
-  "document.tex" 1570957293 9881 e931ccb7b309dda83764eafe5b50d222 ""
+  "document.aux" 1570957625 2800 3ca4758d4d8b56839404c48b15341370 "pdflatex"
+  "document.tex" 1570957622 9885 246febfb598a329fcec05e50a6c06a00 ""
   (generated)
+  "document.log"
   "document.pdf"
   "document.aux"
-  "document.log"
