@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{theor\PYGZus{}distr} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{rbinom}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{k}\PYG{p}{,} \PYG{n}{p1}\PYG{p}{)}
+\PYG{n}{distr\PYGZus{}UB} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{rbinom}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{k}\PYG{p}{,} \PYG{n}{cp\PYGZus{}ci\PYGZus{}UB.002}\PYG{p}{)}
+\PYG{n}{distr\PYGZus{}LB} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{rbinom}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{n}{k}\PYG{p}{,} \PYG{n}{cp\PYGZus{}ci\PYGZus{}LB.002}\PYG{p}{)}
+
+\PYG{n+nf}{plot}\PYG{p}{(}\PYG{n+nf}{ecdf}\PYG{p}{(}\PYG{n}{theor\PYGZus{}distr}\PYG{p}{),}
+\PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{3}\PYG{p}{,} \PYG{n}{verticals} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{,} \PYG{n}{axes} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{,}
+\PYG{n}{xlim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{n}{k}\PYG{l+m}{+1}\PYG{p}{),} \PYG{n}{ylim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{l+m}{1.2}\PYG{p}{),}
+\PYG{n}{xlab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Value\PYGZdq{}}\PYG{p}{,} \PYG{n}{ylab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}CDF\PYGZdq{}}\PYG{p}{,} \PYG{n}{main} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}CDF with CIs\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nf}{plot}\PYG{p}{(}\PYG{n+nf}{ecdf}\PYG{p}{(}\PYG{n}{distr\PYGZus{}LB}\PYG{p}{),}
+\PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}black\PYGZdq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{2}\PYG{p}{,} \PYG{n}{verticals} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{,} \PYG{n}{add} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{)}
+\PYG{n+nf}{plot}\PYG{p}{(}\PYG{n+nf}{ecdf}\PYG{p}{(}\PYG{n}{distr\PYGZus{}UB}\PYG{p}{),}
+\PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}blue\PYGZdq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{2}\PYG{p}{,} \PYG{n}{verticals} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{,} \PYG{n}{add} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{)}
+\PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{:}\PYG{n}{k}\PYG{p}{))}
+\PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{2}\PYG{p}{,} \PYG{n+nf}{seq}\PYG{p}{(}\PYG{l+m}{0.0}\PYG{p}{,} \PYG{l+m}{1.2}\PYG{p}{,} \PYG{l+m}{0.2}\PYG{p}{),} \PYG{n}{las} \PYG{o}{=} \PYG{l+m}{1}\PYG{p}{)}
+\PYG{n+nf}{grid}\PYG{p}{(}\PYG{n}{nx} \PYG{o}{=} \PYG{n}{k}\PYG{l+m}{+1}\PYG{p}{,} \PYG{n}{ny} \PYG{o}{=} \PYG{l+m}{1.2} \PYG{o}{/} \PYG{l+m}{0.2}\PYG{p}{)}
+\PYG{n+nf}{legend}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}bottomright\PYGZdq{}}\PYG{p}{,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Theoretical\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}Lower\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}Upper\PYGZdq{}}\PYG{p}{),}
+\PYG{n}{lty}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,}\PYG{l+m}{1}\PYG{p}{,}\PYG{l+m}{1}\PYG{p}{),}
+\PYG{n}{fill}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}black\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}blue\PYGZdq{}}\PYG{p}{))}
+\end{Verbatim}

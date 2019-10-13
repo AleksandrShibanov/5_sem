@@ -1,6 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{o}{\PYGZgt{}} \PYG{n+nf}{set.seed}\PYG{p}{(}\PYG{l+m}{1337}\PYG{p}{)}
-\PYG{o}{\PYGZgt{}} \PYG{n}{rand\PYGZus{}unif} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{runif}\PYG{p}{(}\PYG{n}{n}\PYG{p}{,} \PYG{l+m}{0}\PYG{p}{,} \PYG{l+m}{1}\PYG{p}{)}
-\PYG{o}{\PYGZgt{}} \PYG{n+nf}{head}\PYG{p}{(}\PYG{n}{rand\PYGZus{}unif}\PYG{p}{)}
-\PYG{n}{[1]} \PYG{l+m}{0.576321} \PYG{l+m}{0.564742} \PYG{l+m}{0.073990} \PYG{l+m}{0.453865} \PYG{l+m}{0.373279} \PYG{l+m}{0.331317}
-\end{Verbatim}

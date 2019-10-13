@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{uup} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{function}\PYG{p}{(}\PYG{n}{theta}\PYG{p}{)} \PYG{n+nf}{qbinom}\PYG{p}{(}\PYG{l+m}{0.02}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{,} \PYG{n}{n}\PYG{o}{*}\PYG{n}{k}\PYG{p}{,} \PYG{n}{theta}\PYG{p}{)}
+\PYG{n}{lou} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{function}\PYG{p}{(}\PYG{n}{theta}\PYG{p}{)} \PYG{n+nf}{qbinom}\PYG{p}{(}\PYG{l+m}{1} \PYG{o}{\PYGZhy{}} \PYG{l+m}{0.02}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{,} \PYG{n}{n}\PYG{o}{*}\PYG{n}{k}\PYG{p}{,} \PYG{n}{theta}\PYG{p}{)}
+\PYG{n+nf}{plot}\PYG{p}{(}\PYG{n}{uup}\PYG{p}{,} \PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nf}{plot}\PYG{p}{(}\PYG{n}{lou}\PYG{p}{,} \PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}blue\PYGZdq{}}\PYG{p}{,} \PYG{n}{add} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{)}
+\PYG{n+nf}{abline}\PYG{p}{(}\PYG{n}{h} \PYG{o}{=} \PYG{n}{stat1}\PYG{p}{,} \PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}green\PYGZdq{}}\PYG{p}{,} \PYG{n}{lty} \PYG{o}{=} \PYG{l+m}{2}\PYG{p}{)}
+\PYG{n+nf}{legend}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}bottomright\PYGZdq{}}\PYG{p}{,}
+\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Quantile 0.02\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}Quantile 1\PYGZhy{}0.02\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}Sum of sample values\PYGZdq{}}\PYG{p}{),}
+\PYG{n}{lty}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,}\PYG{l+m}{1}\PYG{p}{,}\PYG{l+m}{2}\PYG{p}{),}
+\PYG{n}{fill}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}blue\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}green\PYGZdq{}}\PYG{p}{))}
+\end{Verbatim}

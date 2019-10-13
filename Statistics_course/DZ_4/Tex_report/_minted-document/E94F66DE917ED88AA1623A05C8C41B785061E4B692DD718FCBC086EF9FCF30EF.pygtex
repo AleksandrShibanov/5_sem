@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{compare\PYGZus{}CI} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{as.data.frame}\PYG{p}{(}\PYG{n+nf}{matrix}\PYG{p}{(}\PYG{n+nf}{c}\PYG{p}{(}\PYG{n}{clt\PYGZus{}ci\PYGZus{}LB.01}\PYG{p}{,} \PYG{n}{cp\PYGZus{}ci\PYGZus{}LB.01}\PYG{p}{,}
+\PYG{n}{clt\PYGZus{}ci\PYGZus{}UB.01}\PYG{p}{,} \PYG{n}{cp\PYGZus{}ci\PYGZus{}UB.01}\PYG{p}{,}
+\PYG{n}{clt\PYGZus{}ci\PYGZus{}LB.005}\PYG{p}{,} \PYG{n}{cp\PYGZus{}ci\PYGZus{}LB.005}\PYG{p}{,}
+\PYG{n}{clt\PYGZus{}ci\PYGZus{}UB.005}\PYG{p}{,} \PYG{n}{cp\PYGZus{}ci\PYGZus{}UB.005}\PYG{p}{,}
+\PYG{n}{clt\PYGZus{}ci\PYGZus{}LB.002}\PYG{p}{,} \PYG{n}{cp\PYGZus{}ci\PYGZus{}LB.002}\PYG{p}{,}
+\PYG{n}{clt\PYGZus{}ci\PYGZus{}UB.002}\PYG{p}{,} \PYG{n}{cp\PYGZus{}ci\PYGZus{}UB.002}\PYG{p}{),}
+\PYG{n}{ncol} \PYG{o}{=} \PYG{l+m}{2}\PYG{p}{,} \PYG{n}{byrow} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{))}
+\end{Verbatim}

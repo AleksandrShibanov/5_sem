@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  30 SEP 2019 20:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  13 OCT 2019 12:01
 entering extended mode
 **./document.tex
 (document.tex
@@ -936,6 +936,15 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 )
 runsystem(if not exist _minted-document mkdir _minted-document)...executed.
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count152
+\multirow@dima=\skip76
+\bigstrutjot=\dimen160
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\bigstrut.sty"
+Package: bigstrut 2016/11/25 v2.2 Provide larger struts in tabulars
+)
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > do
 cument.aex <nul: /p x=^%~$PATH:i>> document.aex)...executed.
 
@@ -944,40 +953,40 @@ runsystem(del document.aex)...executed.
 (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 20.
 
 (C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\context\bas
 e\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count152
-\scratchdimen=\dimen160
+\scratchcounter=\count153
+\scratchdimen=\dimen161
 \scratchbox=\box45
-\nofMPsegments=\count153
-\nofMParguments=\count154
+\nofMPsegments=\count154
+\nofMParguments=\count155
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count155
-\MPscratchDim=\dimen161
-\MPnumerator=\count156
-\makeMPintoPDFobject=\count157
+\MPscratchCnt=\count156
+\MPscratchDim=\dimen162
+\MPnumerator=\count157
+\makeMPintoPDFobject=\count158
 \everyMPtoPDFconversion=\toks31
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1003,39 +1012,39 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip75
-\RaggedLeftLeftskip=\skip76
-\RaggedRightLeftskip=\skip77
-\CenteringRightskip=\skip78
-\RaggedLeftRightskip=\skip79
-\RaggedRightRightskip=\skip80
-\CenteringParfillskip=\skip81
-\RaggedLeftParfillskip=\skip82
-\RaggedRightParfillskip=\skip83
-\JustifyingParfillskip=\skip84
-\CenteringParindent=\skip85
-\RaggedLeftParindent=\skip86
-\RaggedRightParindent=\skip87
-\JustifyingParindent=\skip88
+\CenteringLeftskip=\skip77
+\RaggedLeftLeftskip=\skip78
+\RaggedRightLeftskip=\skip79
+\CenteringRightskip=\skip80
+\RaggedLeftRightskip=\skip81
+\RaggedRightRightskip=\skip82
+\CenteringParfillskip=\skip83
+\RaggedLeftParfillskip=\skip84
+\RaggedRightParfillskip=\skip85
+\JustifyingParfillskip=\skip86
+\CenteringParindent=\skip87
+\RaggedLeftParindent=\skip88
+\RaggedRightParindent=\skip89
+\JustifyingParindent=\skip90
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count158
-\ML=\skip89
+\c@lstlisting=\count159
+\ML=\skip91
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/pdftex/config/pdf
 tex.map}]
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 65.
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 67.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
@@ -1044,120 +1053,92 @@ File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 
 (_minted-document/default-pyg-prefix.pygstyle) (_minted-document/default.pygsty
 le)
-(_minted-document/4BC54BC7B306CAF25AB5423247AB2E905061E4B692DD718FCBC086EF9FCF3
+(_minted-document/CD0A3DD7B61CFA86673A5E38482B321D5061E4B692DD718FCBC086EF9FCF3
 0EF.pygtex
 LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 1.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd"
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-
-LaTeX Warning: Command \CYRR invalid in math mode on input line 103.
-
-Missing character: There is no � in font cmr12!
-[2]
 \openout3 = `document.pyg'.
 
 
-(_minted-document/28E02CF52957D0C6F4BF416E1CAEDCC35061E4B692DD718FCBC086EF9FCF3
+(_minted-document/290C8B0CADDD2024EFB639EF4B4D16BD5061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex [2])
+\openout3 = `document.pyg'.
+
+
+(_minted-document/E5DCAB500715206852F4510558E7EC795061E4B692DD718FCBC086EF9FCF3
 0EF.pygtex)
 \openout3 = `document.pyg'.
 
 
-(_minted-document/B1AD1D227BC01C561519BB102A09B0B15061E4B692DD718FCBC086EF9FCF3
+(_minted-document/677ADFBF13C5FDF9292139883269F6E75061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex) [3]
+<../img/quantiles.png, id=28, 1204.5pt x 903.375pt>
+File: ../img/quantiles.png Graphic file (type png)
+<use ../img/quantiles.png>
+Package pdftex.def Info: ../img/quantiles.png  used on input line 146.
+(pdftex.def)             Requested size: 344.44424pt x 258.33296pt.
+<../img/foo.png, id=29, 1204.5pt x 903.375pt>
+File: ../img/foo.png Graphic file (type png)
+<use ../img/foo.png>
+Package pdftex.def Info: ../img/foo.png  used on input line 149.
+(pdftex.def)             Requested size: 344.44424pt x 258.33296pt.
+[4 <../img/quantiles.png> <../img/foo.png>]
+\openout3 = `document.pyg'.
+
+
+(_minted-document/92C9E07211217EE19CD628339E5675105061E4B692DD718FCBC086EF9FCF3
 0EF.pygtex)
 \openout3 = `document.pyg'.
 
 
-(_minted-document/095906AE427F89D148810F90B4BA83455061E4B692DD718FCBC086EF9FCF3
+(_minted-document/E94F66DE917ED88AA1623A05C8C41B785061E4B692DD718FCBC086EF9FCF3
 0EF.pygtex
-LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 12.
-)
-\openout3 = `document.pyg'.
-
-
-(_minted-document/73FD73B61A2ED04ABF88961EF624C6F95061E4B692DD718FCBC086EF9FCF3
-0EF.pygtex [3])
-\openout3 = `document.pyg'.
-
-
-(_minted-document/D07BDB1285E127D02F173DBDCDE9A0DA5061E4B692DD718FCBC086EF9FCF3
-0EF.pygtex)
-Overfull \hbox (33.39351pt too wide) in paragraph at lines 197--198
-[]\T2A/cmr/m/it/14.4 ������������ ����-��-�� ���-���-��-��-���\T2A/cmr/m/n/14.4
- , ��-��-���-����-�-��� ��-���-�� $\OML/cmm/m/it/14.4 X \OT1/cmr/m/n/14.4 = []$
+Underfull \hbox (badness 10000) in paragraph at lines 196--1
 
  []
 
-[4]
+[5])
 \openout3 = `document.pyg'.
 
 
-(_minted-document/7AD76A33CC3847B5F36D29731A692CCA5061E4B692DD718FCBC086EF9FCF3
-0EF.pygtex [5]) [6]
-<../img/emp_ecdf.png, id=39, 1156.32pt x 650.43pt>
-File: ../img/emp_ecdf.png Graphic file (type png)
-<use ../img/emp_ecdf.png>
-Package pdftex.def Info: ../img/emp_ecdf.png  used on input line 268.
-(pdftex.def)             Requested size: 221.4279pt x 124.54568pt.
-<../img/theor_ecdf.png, id=40, 1156.32pt x 650.43pt>
-File: ../img/theor_ecdf.png Graphic file (type png)
-<use ../img/theor_ecdf.png>
-Package pdftex.def Info: ../img/theor_ecdf.png  used on input line 272.
-(pdftex.def)             Requested size: 221.4279pt x 124.54568pt.
-
-Overfull \hbox (3.04219pt too wide) in paragraph at lines 267--275
-[]$[]$  $[]$
- []
-
-<../img/emp_and_theor_ecdf.png, id=41, 1156.32pt x 650.43pt>
-File: ../img/emp_and_theor_ecdf.png Graphic file (type png)
-<use ../img/emp_and_theor_ecdf.png>
-Package pdftex.def Info: ../img/emp_and_theor_ecdf.png  used on input line 278.
-
-(pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
-\openout3 = `document.pyg'.
-
-
-(_minted-document/A593C038036B4D2459C54FA7121828A35061E4B692DD718FCBC086EF9FCF3
-0EF.pygtex)
-\openout3 = `document.pyg'.
-
-
-(_minted-document/97DF98273EA88970659F0C513F43C0D85061E4B692DD718FCBC086EF9FCF3
-0EF.pygtex [7 <../img/emp_ecdf.png> <../img/theor_ecdf.png> <../img/emp_and_the
-or_ecdf.png>]) [8] (document.aux<<t1.cmap>>)
+(_minted-document/36914B8AA2BEA0924B652CA27E4DEA865061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex [6])
+<../img/cdf_with_cis_1.png, id=41, 1204.5pt x 903.375pt>
+File: ../img/cdf_with_cis_1.png Graphic file (type png)
+<use ../img/cdf_with_cis_1.png>
+Package pdftex.def Info: ../img/cdf_with_cis_1.png  used on input line 255.
+(pdftex.def)             Requested size: 492.06537pt x 369.04907pt.
+[7 <../img/cdf_with_cis_1.png>] (document.aux<<t1.cmap>>)
 runsystem(del document.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 13412 strings out of 492973
- 230743 string characters out of 3135869
- 452394 words of memory out of 3000000
- 16976 multiletter control sequences out of 15000+200000
- 15814 words of font info for 38 fonts, out of 3000000 for 9000
+ 13461 strings out of 492973
+ 230679 string characters out of 3135869
+ 451874 words of memory out of 3000000
+ 17029 multiletter control sequences out of 15000+200000
+ 14630 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,10n,51p,9106b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,12n,51p,9106b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\lh\lh-t2a\dpi600\lati1440.pk> <C:\Users\Пенопласточка\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lait1440.pk> <C:\Users\Пено
+r\lh\lh-t2a\dpi600\latt1440.pk> <C:\Users\Пенопласточка\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\Пено
 пласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
-bx1440.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\lh\lh-t2a\dpi600\latt1440.pk> <C:\Users\Пенопласточка\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx2074.pk> <C:\Users\
+sx2074.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Пенопласточка\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2488.pk> <C:\Users\
 Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
-pi600\larm1440.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2488.pk> <C:\Users\Пенопласто�
-�ка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb>
-Output written on document.pdf (8 pages, 243332 bytes).
+pi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on document.pdf (7 pages, 209081 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
+ 336 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  40 words of extra memory for PDF output out of 10000 (max. 10000000)
 
