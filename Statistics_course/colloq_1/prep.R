@@ -1,0 +1,7 @@
+sss <- c(24,54,41,17,48,33,42,44,92,27)
+qchisq(p = 0.025, df = 9)
+a <- c(7.4,  1.5,  4.2,  4.4,  3.5,  3.4,  1.1,  2.4,  0.8,  2.6)
+log2(a)
+sum(log2(a))
+library(fitdistrplus)
+fitdist(data = a, distr = "lnorm",method = "mle")

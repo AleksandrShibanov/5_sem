@@ -1,7 +1,7 @@
 k <- 8
 p1 <- 0.7
 n <- 140
-set.seed(1337)
+set.seed(48)
 distr_series_table <- as.data.frame(rbind(c(0:k),
                             dbinom(c(0:k), k, p1)),
                             row.names = c("Random Value", "Probability")) 

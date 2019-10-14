@@ -110,9 +110,9 @@ colnames(cp_cis) <- c("Lower", "Upper")
 rownames(cp_cis) <- c("0.1", "0.05", "0.02")
 > cp_cis
 alpha  Lower     Upper
-0.1  0.6967071 0.7417199
-0.05 0.6923369 0.7457898
-0.02 0.6872272 0.7504854
+0.1  0.6775675 0.7234332
+0.05 0.6731287 0.7275974
+0.02 0.6679422 0.7324052
 \end{minted}
 
 \section{Доверительные интервалы по ЦПТ}\label{sec2}
@@ -187,9 +187,9 @@ rownames(clt_cis) <- c("0.1", "0.05", "0.02")
 
 > clt_cis
 alpha  Lower     Upper
-0.1  0.6970569 0.7411689
-0.05 0.6926201 0.7451627
-0.02 0.6874201 0.7497518
+0.1  0.6779266 0.7228906
+0.05 0.6734280 0.7269840
+0.02 0.6681609 0.7316903
 \end{minted}
 
 \section{Сравнение полученных результатов}
@@ -206,27 +206,29 @@ ncol = 2, byrow = T))
 \end{minted}
 
 
+
 \begin{table}[htbp]
 	\centering
 	\caption{CLT vs. CP CIs}
 	\begin{tabular}{|c|c|c|c|}
 		\hline
-		$\alpha$ & CI    & CLT   & CP \bigstrut\\
+		alpha & CI    & V1    & V2 \bigstrut\\
 		\hline
-		\multirow{2}[4]{*}{$\alpha$=0.1} & L     & 0.6970569 & 0.6967071 \bigstrut\\
-		\cline{2-4}          & U     & 0.7411689 & 0.7417199 \bigstrut\\
+		\multirow{2}[4]{*}{alpha=0.1} & L     & 0.6779266 & 0.6775675 \bigstrut\\
+		\cline{2-4}          & U     & 0.7228906 & 0.7234332 \bigstrut\\
 		\hline
-		\multirow{2}[4]{*}{$\alpha$=0.05} & L     & 0.6926201 & 0.6923369 \bigstrut\\
-		\cline{2-4}          & U     & 0.7451627 & 0.7457898 \bigstrut\\
+		\multirow{2}[4]{*}{alpha=0.05} & L     & 0.6734280 & 0.6731287 \bigstrut\\
+		\cline{2-4}          & U     & 0.7269840 & 0.7275974 \bigstrut\\
 		\hline
-		\multirow{2}[4]{*}{$\alpha$=0.02} & L     & 0.6874201 & 0.6872272 \bigstrut\\
-		\cline{2-4}          & U     & 0.7497518 & 0.7504854 \bigstrut\\
+		\multirow{2}[4]{*}{alpha=0.02} & L     & 0.6681609 & 0.6679422 \bigstrut\\
+		\cline{2-4}          & U     & 0.7316903 & 0.7324052 \bigstrut\\
 		\hline
 	\end{tabular}%
 	\label{tab:addlabel}%
 \end{table}%
 
-Мы видим, что различия несущественные и все полученные интервалы содержат истинное значение параметра.
+
+Мы видим, что различия несущественные и все полученные интервалы содержат истинное значение параметра $p=0.7$.
 
 \section{Построение CDF с CP CIs}
 Для одного из значений $\alpha$ построим совмещённые графики функций распределения биномиальных законов $B(k,p)$, $B(k,\underline{p}), B(k,\bar{p})$. Рассмотрим $\alpha = 0.02$.
@@ -252,7 +254,7 @@ fill=c("red", "black", "blue"))
 \end{minted}
 
 \begin{figure}[h]
-	\centering{\includegraphics[width=1\linewidth]{../img/cdf_with_cis_1.png}}
+	\centering{\includegraphics[width=1\linewidth]{../img/cdf_with_cis.png}}
 \end{figure}
 
 
