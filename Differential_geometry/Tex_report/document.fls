@@ -181,6 +181,8 @@ INPUT nul:.tex
 INPUT nul:.tex
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/l3pdfmode.def
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/l3pdfmode.def
+INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/tensor/tensor.sty
+INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/tensor/tensor.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -271,6 +273,21 @@ INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/labx1440.tfm
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm1000.tfm
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm0700.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx7.tfm
 INPUT document.aux
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1440.tfm
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/t1.cmap
@@ -291,6 +308,8 @@ INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfo
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm2488.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1728.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1728.pk
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb

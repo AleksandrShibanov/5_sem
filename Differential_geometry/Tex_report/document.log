@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  26 OCT 2019 14:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  27 OCT 2019 18:48
 entering extended mode
 **./document.tex
 (document.tex
@@ -1109,7 +1109,16 @@ Package: xparse 2019-03-05 L3 Experimental document command parser
 \g__xparse_grabber_int=\count305
 \l__xparse_m_args_int=\count306
 \l__xparse_v_nesting_int=\count307
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+))
+(C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Roaming\MiKTeX\2.9\tex\latex\tenso
+r\tensor.sty
+Package: tensor 2004/12/20 v2.1 tensor indices package (PGR)
+\tnsr@Sps=\toks30
+\tnsr@Sbs=\toks31
+\tnsr@Spe=\toks32
+\tnsr@Sbe=\toks33
+\ncld@Mno=\toks34
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -1216,30 +1225,30 @@ runsystem(del document.aex)...executed.
 (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 (C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Roaming\MiKTeX\2.9\tex\context\bas
 e\supp-pdf.mkii
@@ -1249,12 +1258,12 @@ e\supp-pdf.mkii
 \scratchbox=\box63
 \nofMPsegments=\count319
 \nofMParguments=\count320
-\everyMPshowfont=\toks30
+\everyMPshowfont=\toks35
 \MPscratchCnt=\count321
 \MPscratchDim=\dimen197
 \MPnumerator=\count322
 \makeMPintoPDFobject=\count323
-\everyMPtoPDFconversion=\toks31
+\everyMPtoPDFconversion=\toks36
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
@@ -1298,7 +1307,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count324
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 22.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
@@ -1306,9 +1315,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 (document.out) (document.out)
 \@outlinefile=\write5
 \openout5 = `document.out'.
@@ -1319,7 +1328,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message with `\usepackage{bookmark}'
-(scrartcl)           before \begin{document} on input line 21.
+(scrartcl)           before \begin{document} on input line 22.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
@@ -1331,45 +1340,45 @@ e 164.
 ))
 \ML=\skip96
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
 [1
 
 {C:/Users/РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°/AppData/Local/MiKTeX/2.9/pdftex/config/pdf
 tex.map}]
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 67.
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 68.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 101.
 
-Overfull \hbox (7.15927pt too wide) in paragraph at lines 106--107
+Overfull \hbox (7.15927pt too wide) in paragraph at lines 107--108
 []\T2A/cmr/m/n/14.4 Здесь $\OML/cmm/m/it/14.4 X[]$ \T2A/cmr/m/n/14.4 - ко-ор-ди
 -на-ты точ-ки $\OMS/cmsy/m/n/14.4 M 2 \OML/cmm/m/it/14.4 M[]; \OT1/cmr/m/n/14.4
  [\OML/cmm/m/it/14.4 []; []\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m/n/14.4 - неко-то-р
@@ -1378,60 +1387,120 @@ L/cmm/m/it/14.4 [] <
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 108.
 [2]
 
-LaTeX Warning: Command \cyra invalid in math mode on input line 130.
+LaTeX Warning: Command \cyra invalid in math mode on input line 131.
 
 Missing character: There is no а in font cmr12!
 
-LaTeX Warning: Command \cyra invalid in math mode on input line 138.
+LaTeX Warning: Command \cyra invalid in math mode on input line 139.
 
 Missing character: There is no а in font cmr12!
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 145.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 147.
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
+
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 174.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 174.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 174.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 174.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 181.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 181.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 181.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 181.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 186.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 186.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 197.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 197.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 197.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 197.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 197.
+
+
+Overfull \hbox (5.94516pt too wide) in paragraph at lines 205--206
+[]\T2A/cmr/bx/n/14.4 Определение 8. \T2A/cmr/m/n/14.4 Ко-ва-ри-ант-ной про-из-в
+од-ной от ком-по-нент тен-зо-ра $\OT1/cmr/m/n/14.4 
+[]$
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 275.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 275.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 275.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 275.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
 (document.aux<<t1.cmap>>)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29990 strings out of 492973
- 513402 string characters out of 3135869
- 731614 words of memory out of 3000000
- 33514 multiletter control sequences out of 15000+200000
- 543834 words of font info for 46 fonts, out of 3000000 for 9000
+ 30090 strings out of 492973
+ 514699 string characters out of 3135869
+ 732440 words of memory out of 3000000
+ 33582 multiletter control sequences out of 15000+200000
+ 547850 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,7n,77p,9106b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,12n,77p,9106b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
 r\lh\lh-t2a\dpi600\larm1000.pk> <C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Lo
 cal\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\РџРµРЅРѕ
@@ -1442,18 +1511,19 @@ pData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\
 РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
 pi600\larm2488.pk> <C:\Users\РџРµРЅРѕРїР»Р°СЃС‚РѕС‡РєР°\AppData\Local\MiKTeX\2.
 9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on document.pdf (4 pages, 186215 bytes).
+ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/symbols/msbm10.pfb>
+Output written on document.pdf (5 pages, 220068 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
