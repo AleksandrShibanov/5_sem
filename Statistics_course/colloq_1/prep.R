@@ -4,6 +4,51 @@ a <- c(7.4,  1.5,  4.2,  4.4,  3.5,  3.4,  1.1,  2.4,  0.8,  2.6)
 log2(a)
 sum(log2(a))
 library(fitdistrplus)
+
+a <- c(4,6,7,14,21,16,12,6,4)
+dff <- data.frame(c(4,6,7,14,21,16,12,6,4))
+descdist(a, method = "sample", boot = 1e3)
+t.test(a)
+hist(a)
+
+shapiro.test(a)
+chisq.test(a)
+ks.test(unique(a),"pnorm",10,5.67)
+
+library(nortest)
+lillie.test(a)
+
+pearson.test(a)
+
+library(MASS)
+mean(a)
+library(scales)
+res <- rescale(a)
+res
+fit.norm <- fitdist(a, "norm", method = "mme")
+fit.uniform <- fitdist(a, "unif", method = "mme")
+fit.beta <- fitdist(res, "beta", method = "mme")
+
+stat_normal <- gofstat(fit.norm, 
+                       fitnames = c("normal"))
+stat_unif <- gofstat(fit.uniform, 
+                     fitnames = c("uniform"))
+stat_beta <- gofstat(fit.beta, 
+                     fitnames = c("beta"))
+
+stat_table <- cbind(rbind(stat_normal$ks, stat_normal$cvm),  
+                    rbind(stat_unif$ks, stat_unif$cvm),
+                    rbind(stat_beta$ks, stat_beta$cvm))
+rownames(stat_table) <- c("Kolmogorov-Smirnov statistic", 
+                          "Cramer-von Mises statistic")
+stat_table
+
+cdfcomp(list(fit.norm, fit.uniform), legendtext = c("normal", "unif"))
+denscomp(list(fit.norm, fit.uniform), legendtext = c("normal", "unif"))
+sort(a)
+summary(a)
+plot(ecdf(a))
+
 fitdist(data = a, distr = "lnorm",method = "mle")
 sum(c(2.4, 3.5, 3.2, 3.4, 2.5, 2.4, 3.1, 3.4, 3.8, 2.6))
 a <- c(2.4, 3.5, 3.2, 3.4, 2.5, 2.4, 3.1, 3.4, 3.8, 2.6)
