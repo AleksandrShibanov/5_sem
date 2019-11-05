@@ -69,7 +69,35 @@ sum(asd)
 14.5 - 3.7^2
 
 
+spb <- c(23, 24, 21, 23, 22, 21, 20, 21, 28, 25, 22, 22, 25, 21)
+sort(spb)
+mean(spb)
+var(spb)
+sum((spb - mean(spb))^2) / length(spb)
+median(spb)
+summary(spb)
+sort(spb)[12]
 qnorm(0.2563, mean = 2, sd = 3)
 
 2.4^5 + 3.5^5 + 3.2^5 + 3.4^5 + 2.5^5 + 2.4^5+ 3.1^5 + 3.4^5 + 3.8^5 + 2.6^5
 31^2 + 1 + 14^2 + 38^2 + 7^2 + 22^2 + 13^2 + 11^2 + 37^2 + 28^2
+
+s_exp <- rexp(100,0.2)
+s_geom <- rgeom(100, 0.3)
+s_norm1 <- rnorm(100, 5, 2)
+s_norm2 <- rnorm(100, 5, 0.5)
+s_unif <- runif(100,1,9)
+boxplot(s_geom, s_exp, s_norm1, s_norm2, s_unif)
+
+height <- matrix(c(170, 66,
+                          182, 74,
+                          183, 77,
+                          180, 72,
+                          175, 67,
+                          181, 77,
+                          187, 76,
+                          181, 77,
+                          178, 72,
+                          187, 76),ncol = 2, byrow = T)
+height
+cor(height[,1], height[,2])
