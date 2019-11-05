@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572594843240.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2079294598",
+    "id" : "D45C3521",
+    "lastKnownWriteTime" : 1572597703,
+    "last_content_update" : 1572597703523,
+    "path" : "~/5_sem/Numerical_analysis/Lab_4/R_proj/source.R",
+    "project_path" : "source.R",
+    "properties" : {
+        "cursorPosition" : "117,0",
+        "scrollLine" : "95",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
