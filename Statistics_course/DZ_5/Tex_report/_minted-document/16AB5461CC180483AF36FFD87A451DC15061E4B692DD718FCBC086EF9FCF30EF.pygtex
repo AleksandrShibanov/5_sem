@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{df\PYGZus{}mean} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{mean}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{df\PYGZus{}sd} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{sd}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{df\PYGZus{}len} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{length}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{df\PYGZus{}mean}
+\PYG{n}{[1]} \PYG{l+m}{8.17393}
+\PYG{o}{\PYGZgt{}} \PYG{n}{df\PYGZus{}sd}
+\PYG{n}{[1]} \PYG{l+m}{2.577009}
+\PYG{o}{\PYGZgt{}} \PYG{n}{df\PYGZus{}len}
+\PYG{n}{[1]} \PYG{l+m}{100}
+\PYG{o}{\PYGZgt{}} \PYG{n}{t\PYGZus{}stat} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{p}{(}\PYG{n+nf}{mean}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{a0}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n+nf}{sd}\PYG{p}{(}\PYG{n}{df}\PYG{p}{))} \PYG{o}{*} \PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{df\PYGZus{}len}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{t\PYGZus{}stat}
+\PYG{n}{[1]} \PYG{l+m}{2.615164}
+\end{Verbatim}

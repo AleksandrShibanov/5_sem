@@ -1,3 +1,4 @@
+library(xtable)
 A <- matrix(c(12,1,2,3,
               1,12,3,-2,
               2,3,12,1,
@@ -114,4 +115,4 @@ Q7_t <- t(Q7)
 
 A8 <- Q7_t %*% A7 %*% Q7
 
-eigen(A)
+eigen(A)$values

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{x1} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{rnorm}\PYG{p}{(}\PYG{n}{n} \PYG{o}{=} \PYG{l+m}{1e5}\PYG{p}{,} \PYG{n}{mean} \PYG{o}{=} \PYG{n}{a0}\PYG{p}{,} \PYG{n}{sd} \PYG{o}{=} \PYG{n}{sigma1}\PYG{p}{)}
+\PYG{n}{x2} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{rnorm}\PYG{p}{(}\PYG{n}{n} \PYG{o}{=} \PYG{l+m}{1e5}\PYG{p}{,} \PYG{n}{mean} \PYG{o}{=} \PYG{n}{a1}\PYG{p}{,} \PYG{n}{sd} \PYG{o}{=} \PYG{n}{sigma1}\PYG{p}{)}
+\PYG{n+nf}{hist}\PYG{p}{(}\PYG{n}{df}\PYG{p}{,}\PYG{n}{prob}\PYG{o}{=}\PYG{n+nb+bp}{T}\PYG{p}{,} \PYG{n}{xlab} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Data\PYGZdq{}}\PYG{p}{,} \PYG{n}{main} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Histogram\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nf}{lines}\PYG{p}{(}\PYG{n+nf}{sort}\PYG{p}{(}\PYG{n}{x1}\PYG{p}{),}\PYG{n+nf}{dnorm}\PYG{p}{(}\PYG{n+nf}{sort}\PYG{p}{(}\PYG{n}{x1}\PYG{p}{),}\PYG{n}{a0}\PYG{p}{,}\PYG{n}{sigma1}\PYG{p}{),} \PYG{n}{col}\PYG{o}{=}\PYG{l+s}{\PYGZsq{}blue\PYGZsq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{2}\PYG{p}{)}
+\PYG{n+nf}{lines}\PYG{p}{(}\PYG{n+nf}{sort}\PYG{p}{(}\PYG{n}{x2}\PYG{p}{),}\PYG{n+nf}{dnorm}\PYG{p}{(}\PYG{n+nf}{sort}\PYG{p}{(}\PYG{n}{x2}\PYG{p}{),}\PYG{n}{a1}\PYG{p}{,}\PYG{n}{sigma1}\PYG{p}{),} \PYG{n}{col}\PYG{o}{=}\PYG{l+s}{\PYGZsq{}red\PYGZsq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{2}\PYG{p}{)}
+\PYG{n+nf}{legend}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}topright\PYGZdq{}}\PYG{p}{,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}a0 = 7.5\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}a1 = 8.0\PYGZdq{}}\PYG{p}{),} \PYG{n}{lty}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,}\PYG{l+m}{1}\PYG{p}{),}\PYG{n}{lwd} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{2}\PYG{p}{,}\PYG{l+m}{2}\PYG{p}{),}
+\PYG{n}{fill}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}blue\PYGZdq{}}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{))}
+\end{Verbatim}
