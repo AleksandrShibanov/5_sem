@@ -1,3 +1,5 @@
+
+
 // 04.js
 
 "use strict";
@@ -9,8 +11,9 @@ const VSHADER_SOURCE =
   'attribute float a_PointSize;\n' +
   'attribute vec4 a_FragColor;\n' +
   'varying vec4 v_FragColor;\n' +
+  'uniform mat4 u_ModelMatrix;\n' +
   'void main() {\n' +
-  '  gl_Position = a_Position;\n' +
+  '  gl_Position = u_ModelMatrix*a_Position;\n' +
   '  gl_PointSize = a_PointSize;\n' +
   '  v_FragColor = a_FragColor;\n' +
   '}\n';
@@ -37,6 +40,8 @@ function main() {
     console.log('Failed to get the rendering context for WebGL');
     return;
   }
+  
+   gl.clearColor(1, 1, 1, 1);
 
   // Initialize shaders
   if (!initShaders(gl, VSHADER_SOURCE, FSHADER_SOURCE)) {
@@ -50,14 +55,14 @@ function main() {
      return;
   }
   
-  gl.uniform1f(u_Width, gl.drawingBufferWidth);
+  gl.uniform1f(u_Width, 400.0);
   
    const u_Height = gl.getUniformLocation(gl.program, 'u_Height');
   if (!u_Height) {
      console.log('Failed to get the storage location of u_Height');
      return;
   }
-  gl.uniform1f(u_Height, gl.drawingBufferHeight);
+  gl.uniform1f(u_Height, 400.0);
 
   // Write the positions of vertices to a vertex shader
   const n = initVertexBuffers(gl);
@@ -65,15 +70,40 @@ function main() {
     console.log('Failed to set the positions of the vertices');
     return;
   }
+  
+    const u_ModelMatrix = gl.getUniformLocation(gl.program, 'u_ModelMatrix');
+  if (!u_ModelMatrix) {
+     console.log('Failed to get the storage location of u_ModelMatrix');
+     return;
+  }
+  
 
-  // Specify the color for clearing <canvas>
-  gl.clearColor(1, 1, 1, 1);
+  let now = Date.now();
+  let angle = 0;
+  let modelRotateMatrix = glMatrix.mat4.create();
+  let a = function()
+  { 
+	  let g_last = now;
+	  now = Date.now();
+	  let elapsed = now - g_last;
+	  let newAngle = angle + (Math.PI/2 * elapsed) / 1000.0;
+	  angle = newAngle;
+	  glMatrix.mat4.fromRotation(modelRotateMatrix,newAngle,[0,0,1]);
+	  console.log(modelRotateMatrix.toString());
+	  gl.uniformMatrix4fv(u_ModelMatrix, false, modelRotateMatrix);
 
-  // Clear <canvas>
-  gl.clear(gl.COLOR_BUFFER_BIT);
 
-  // Draw three points
-    gl.drawArrays(gl.TRIANGLES, 0, n);
+	  // Clear <canvas>
+	  gl.clear(gl.COLOR_BUFFER_BIT);
+
+	  // Draw three points
+	   gl.drawArrays(gl.TRIANGLES, 0, n);
+	   console.log("!");
+	   if(angle <2*Math.PI)
+          window.requestAnimationFrame(a);
+  }
+ 
+   window.requestAnimationFrame(a);
 }
 
 function initVertexBuffers(gl) {
@@ -83,12 +113,12 @@ function initVertexBuffers(gl) {
 
     const vertices = new Float32Array(2 * n);
 
-    vertices[0] = -1.0;
-    vertices[1] = -1.0;
-    vertices[2] = -1.0;
-    vertices[3] = 1.0;
+    vertices[0] = -0.5;
+    vertices[1] = -0.5;
+    vertices[2] = -0.5;
+    vertices[3] = 0.0;
     vertices[4] = 1.0;
-    vertices[5] = 1.0;
+    vertices[5] = 0.1;
 
     const vertixSizes = new Float32Array(n);
 
@@ -163,7 +193,6 @@ function initVertexBuffers(gl) {
   //Enable the assignment to a_FragColor variable
   gl.enableVertexAttribArray(a_FragColor);
   
- 
   
 
   return n;
