@@ -33,7 +33,7 @@ c1 <- a0 + (qnorm(1-alpha))/(sqrt(df_len)) * sigma1
 beta <- pnorm((c1-a1)/sigma1 * sqrt(df_len))
 
 #5
-a1_new <- c1 - sigma1/sqrt(df_len) * qnorm(1-eps)
+a1_new <- c1 - sigma1/sqrt(df_len) * qnorm(eps)
 
 #6
 png(filename = "../img/hist_densts.png", 
@@ -49,7 +49,7 @@ legend("topright", c("a0 = 7.5", "a1 = 8.0"),
        lwd = c(2,2),
        fill=c("blue", "red"))
 dev.off()
-
+###########################
 library(fitdistrplus)
 FIT <- fitdist(df, "norm")
 plot(FIT)
