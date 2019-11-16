@@ -1,12 +1,12 @@
 alpha  <-  0.1
-a0 <- 7.5 
+a0 <- 5.5 
 sigma0 <- 2.4
-a1 <- 8
+a1 <- 5
 sigma1 <- 2.5
-eps <- 0.1
-n <- 100
+eps <- 0.2
+n <- 90
 
-df <- unlist(read.csv("data.csv", header = F, sep = ";"), use.names = F)
+df <- unlist(read.csv("bu.csv", header = F, sep = ";"), use.names = F)
 df
 
 summary(df)
@@ -36,16 +36,16 @@ beta <- pnorm((c1-a1)/sigma1 * sqrt(df_len))
 a1_new <- c1 - sigma1/sqrt(df_len) * qnorm(eps)
 
 #6
-png(filename = "../img/hist_densts.png", 
+png(filename = "../img/hist_densts_bulgusha.png", 
     width = 1920, height = 1080,
     pointsize = 24, res = 96 * 1.25)
 x1 <- rnorm(n = 1e5, mean = a0, sd = sigma1)
 x2 <- rnorm(n = 1e5, mean = a1, sd = sigma1)
 hist(df,prob=T, xlab = "Data", main = "Histogram")
 lines(sort(x1),dnorm(sort(x1),a0,sigma1), col='blue', lwd = 2)
-lines(sort(x2),dnorm(sort(x2),a1,sigma1), col='red', lwd = 2)
-legend("topright", c("a0 = 7.5", "a1 = 8.0"), 
-       lty=c(1,1),
+lines(sort(x2),dnorm(sort(x2),a1,sigma1), col='red', lwd = 2, lty = 2)
+legend("topright", c("a0 = 5.5", "a1 = 5.0"), 
+       lty=c(1,2),
        lwd = c(2,2),
        fill=c("blue", "red"))
 dev.off()
