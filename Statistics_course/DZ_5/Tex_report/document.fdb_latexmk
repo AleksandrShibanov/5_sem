@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1573150259 "document.tex" "document.pdf" "document" 1573152657
-  "../img/hist_densts.png" 1573063551 24148 7aba6fdc12e0fcbbbc3c1083551ac667 ""
+["pdflatex"] 1573540516 "document.tex" "document.pdf" "document" 1573540519
+  "../img/hist_densts.png" 1573540485 24778 1760bea7279a4e900feb682ed67e855c ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tctt1440.tfm" 993062566 1284 6825ad388773888b6792fff32ef7429a ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -79,9 +79,9 @@
   "_minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF30EF.pygtex" 1573063683 1847 afbd8a48381da969f6887d144c1c7038 ""
   "_minted-document/default-pyg-prefix.pygstyle" 1570952468 7990 3ce1fbc763e3e2c748310f4fe31722b6 ""
   "_minted-document/default.pygstyle" 1570952468 9376 f200be7fc0b7de2461cca28cb35b1427 ""
-  "document.aux" 1573150261 1311 3f41272ba95bd6d92c1b82d3a7ffd523 "pdflatex"
-  "document.tex" 1573150254 10131 27bbd7b84011b09debb1ffe8457fc6fc ""
+  "document.aux" 1573540518 1403 21188026936028df158611cd0e7c9cb3 "pdflatex"
+  "document.tex" 1573540512 10146 6b61c764ba8705d6670649b16478cb6e ""
   (generated)
-  "document.log"
   "document.pdf"
+  "document.log"
   "document.aux"
