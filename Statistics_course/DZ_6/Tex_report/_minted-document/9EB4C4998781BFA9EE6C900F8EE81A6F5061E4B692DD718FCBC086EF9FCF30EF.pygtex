@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{c1} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n}{a0} \PYG{o}{+} \PYG{p}{(}\PYG{n+nf}{qnorm}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{alpha}\PYG{p}{))}\PYG{o}{/}\PYG{p}{(}\PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{df\PYGZus{}len}\PYG{p}{))} \PYG{o}{*} \PYG{n}{sigma1}
+\PYG{o}{\PYGZgt{}} \PYG{n}{c1}
+\PYG{n}{[1]} \PYG{l+m}{7.820388}
+\end{Verbatim}

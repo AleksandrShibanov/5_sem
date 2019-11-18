@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{df}
+\PYG{n}{[1]}  \PYG{l+m}{0.653} \PYG{l+m}{13.884} \PYG{l+m}{11.088}  \PYG{l+m}{7.409}  \PYG{l+m}{8.827}  \PYG{l+m}{5.582}  \PYG{l+m}{9.747}  \PYG{l+m}{8.023}  \PYG{l+m}{8.396}
+\PYG{n}{[10]}  \PYG{l+m}{6.535}  \PYG{l+m}{6.036}  \PYG{l+m}{5.251} \PYG{l+m}{12.462}  \PYG{l+m}{9.350}  \PYG{l+m}{9.770}  \PYG{l+m}{5.517}  \PYG{l+m}{6.740} \PYG{l+m}{10.759}
+\PYG{n}{[19]} \PYG{l+m}{10.718}  \PYG{l+m}{0.840}  \PYG{l+m}{8.737}  \PYG{l+m}{2.278}  \PYG{l+m}{8.447}  \PYG{l+m}{2.267}  \PYG{l+m}{8.656}  \PYG{l+m}{9.460}  \PYG{l+m}{9.385}
+\PYG{n}{[28]}  \PYG{l+m}{7.924}  \PYG{l+m}{9.215} \PYG{l+m}{10.360}  \PYG{l+m}{7.239}  \PYG{l+m}{8.399}  \PYG{l+m}{7.962}  \PYG{l+m}{6.712}  \PYG{l+m}{5.626}  \PYG{l+m}{7.737}
+\PYG{n}{[37]}  \PYG{l+m}{9.671} \PYG{l+m}{13.497} \PYG{l+m}{10.708}  \PYG{l+m}{6.189} \PYG{l+m}{10.516}  \PYG{l+m}{8.845} \PYG{l+m}{10.926}  \PYG{l+m}{8.755}  \PYG{l+m}{7.728}
+\PYG{n}{[46]} \PYG{l+m}{12.783}  \PYG{l+m}{5.300}  \PYG{l+m}{9.802}  \PYG{l+m}{5.133}  \PYG{l+m}{8.534}  \PYG{l+m}{5.855}  \PYG{l+m}{5.777} \PYG{l+m}{10.128} \PYG{l+m}{10.662}
+\PYG{n}{[55]}  \PYG{l+m}{8.307}  \PYG{l+m}{5.644} \PYG{l+m}{10.632}  \PYG{l+m}{6.060}  \PYG{l+m}{6.989}  \PYG{l+m}{5.183}  \PYG{l+m}{9.587}  \PYG{l+m}{7.891} \PYG{l+m}{15.015}
+\PYG{n}{[64]}  \PYG{l+m}{8.106}  \PYG{l+m}{9.898} \PYG{l+m}{10.504}  \PYG{l+m}{8.307} \PYG{l+m}{10.680}  \PYG{l+m}{6.788}  \PYG{l+m}{9.904}  \PYG{l+m}{6.918}  \PYG{l+m}{4.250}
+\PYG{n}{[73]}  \PYG{l+m}{8.908}  \PYG{l+m}{9.837}  \PYG{l+m}{5.805}  \PYG{l+m}{6.018}  \PYG{l+m}{7.735}  \PYG{l+m}{8.206}  \PYG{l+m}{5.502}  \PYG{l+m}{8.473}  \PYG{l+m}{4.870}
+\PYG{n}{[82]} \PYG{l+m}{10.159}  \PYG{l+m}{6.639}  \PYG{l+m}{7.936}  \PYG{l+m}{8.149} \PYG{l+m}{10.462} \PYG{l+m}{12.296}  \PYG{l+m}{3.403} \PYG{l+m}{10.631}  \PYG{l+m}{7.802}
+\PYG{n}{[91]}  \PYG{l+m}{5.580}  \PYG{l+m}{8.325} \PYG{l+m}{10.687}  \PYG{l+m}{9.843}  \PYG{l+m}{9.509}  \PYG{l+m}{5.668}  \PYG{l+m}{8.511}  \PYG{l+m}{8.657}  \PYG{l+m}{8.835}
+\PYG{n}{[100]}  \PYG{l+m}{9.484}
+\end{Verbatim}

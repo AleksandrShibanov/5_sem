@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  17 NOV 2019 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  12 NOV 2019 09:35
 entering extended mode
 **./document.tex
 (document.tex
@@ -646,740 +646,6 @@ File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\crypt
-ocode\cryptocode.sty
-Package: cryptocode 2018/11/11 v0.3.0 Cryptocode LaTeX package for typesetting 
-pseudocode, algorithms and protocols as well as cryptographic proofs.
-("C:\Program Files\MiKTeX 2.9\tex\latex\etex-pkg\etex.sty"
-Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
-\et@xins=\count125
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\f
-rontendlayer\tikz.sty
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\b
-asiclayer\pgf.sty
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\u
-tilities\pgfrcs.sty
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen145
-\pgfutil@tempdimb=\dimen146
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\utilities\pgfutil-common-lists.tex))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\utilities\pgfutil-latex.def
-\pgfutil@abb=\box38
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ev
-eryshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\utilities\pgfrcs.code.tex
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\pgf.revision.tex)
-Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
-))
-Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\b
-asiclayer\pgfcore.sty
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\s
-ystemlayer\pgfsys.sty
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\systemlayer\pgfsys.code.tex
-Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks31
-))
-\pgf@x=\dimen147
-\pgf@y=\dimen148
-\pgf@xa=\dimen149
-\pgf@ya=\dimen150
-\pgf@xb=\dimen151
-\pgf@yb=\dimen152
-\pgf@xc=\dimen153
-\pgf@yc=\dimen154
-\pgf@xd=\dimen155
-\pgf@yd=\dimen156
-\w@pgf@writea=\write3
-\r@pgf@reada=\read1
-\c@pgf@counta=\count126
-\c@pgf@countb=\count127
-\c@pgf@countc=\count128
-\c@pgf@countd=\count129
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
-\pgf@sys@id@count=\count130
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\systemlayer\pgf.cfg
-File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2019/08/03 v3.1.4b (3.1.4b)
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
-)))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfsyssoftpath@smallbuffer@items=\count131
-\pgfsyssoftpath@bigbuffer@items=\count132
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcore.code.tex
-Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmath.code.tex
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathcalc.code.tex
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathutil.code.tex)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen157
-\pgfmath@count=\count133
-\pgfmath@box=\box39
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfunctions.code.tex
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfunctions.basic.code.tex)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfunctions.trigonometric.code.tex)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfunctions.random.code.tex)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfunctions.comparison.code.tex)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfunctions.base.code.tex)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfunctions.round.code.tex)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfunctions.misc.code.tex)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfunctions.integerarithmetics.code.tex)))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count134
-))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfint.code.tex)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@picminx=\dimen158
-\pgf@picmaxx=\dimen159
-\pgf@picminy=\dimen160
-\pgf@picmaxy=\dimen161
-\pgf@pathminx=\dimen162
-\pgf@pathmaxx=\dimen163
-\pgf@pathminy=\dimen164
-\pgf@pathmaxy=\dimen165
-\pgf@xx=\dimen166
-\pgf@xy=\dimen167
-\pgf@yx=\dimen168
-\pgf@yy=\dimen169
-\pgf@zx=\dimen170
-\pgf@zy=\dimen171
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@path@lastx=\dimen172
-\pgf@path@lasty=\dimen173
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@shorten@end@additional=\dimen174
-\pgf@shorten@start@additional=\dimen175
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfpic=\box40
-\pgf@hbox=\box41
-\pgf@layerbox@main=\box42
-\pgf@picture@serial@count=\count135
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgflinewidth=\dimen176
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@pt@x=\dimen177
-\pgf@pt@y=\dimen178
-\pgf@pt@temp=\dimen179
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfarrowsep=\dimen180
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@max=\dimen181
-\pgf@sys@shading@range@num=\count136
-\pgf@shadingcount=\count137
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfexternal@startupbox=\box43
-))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\basiclayer\pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfnodeparttextbox=\box44
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\c
-ompatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@nodesepstart=\dimen182
-\pgf@nodesepend=\dimen183
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\c
-ompatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
-))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\u
-tilities\pgffor.sty
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\u
-tilities\pgfkeys.sty
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\utilities\pgfkeys.code.tex))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\m
-ath\pgfmath.sty
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmath.code.tex))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\utilities\pgffor.code.tex
-Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\math\pgfmath.code.tex)
-\pgffor@iter=\dimen184
-\pgffor@skip=\dimen185
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
-))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\frontendlayer\tikz\tikz.code.tex
-Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@plot@mark@count=\count138
-\pgfplotmarksize=\dimen186
-)
-\tikz@lastx=\dimen187
-\tikz@lasty=\dimen188
-\tikz@lastxsaved=\dimen189
-\tikz@lastysaved=\dimen190
-\tikz@lastmovetox=\dimen191
-\tikz@lastmovetoy=\dimen192
-\tikzleveldistance=\dimen193
-\tikzsiblingdistance=\dimen194
-\tikz@figbox=\box45
-\tikz@figbox@bg=\box46
-\tikz@tempbox=\box47
-\tikz@tempbox@bg=\box48
-\tikztreelevel=\count139
-\tikznumberofchildren=\count140
-\tikznumberofcurrentchild=\count141
-\tikz@fig@count=\count142
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfmatrixcurrentrow=\count143
-\pgfmatrixcurrentcolumn=\count144
-\pgf@matrix@numberofcolumns=\count145
-)
-\tikz@expandcount=\count146
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf
-\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\xargs
-\xargs.sty
-Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex" ("C:\Program Fil
-es\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks40
-\XKV@tempa@toks=\toks41
-)
-\XKV@depth=\count147
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-\xargs@max=\count148
-\xargs@toksa=\toks42
-\xargs@toksb=\toks43
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\forlo
-op\forloop.sty
-Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\l3pac
-kages\xparse\xparse.sty
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\l3ker
-nel\expl3.sty
-Package: expl3 2019-03-05 L3 programming layer (loader) 
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\l3ker
-nel\expl3-code.tex
-Package: expl3 2019-03-05 L3 programming layer (code)
-\c_max_int=\count149
-\l_tmpa_int=\count150
-\l_tmpb_int=\count151
-\g_tmpa_int=\count152
-\g_tmpb_int=\count153
-\g__kernel_prg_map_int=\count154
-\c_log_iow=\count155
-\l_iow_line_count_int=\count156
-\l__iow_line_target_int=\count157
-\l__iow_one_indent_int=\count158
-\l__iow_indent_int=\count159
-\c_zero_dim=\dimen195
-\c_max_dim=\dimen196
-\l_tmpa_dim=\dimen197
-\l_tmpb_dim=\dimen198
-\g_tmpa_dim=\dimen199
-Normal \dimen register pool exhausted, switching to extended pool.
-\g_tmpb_dim=\dimen256
-\c_zero_skip=\skip73
-\c_max_skip=\skip74
-\l_tmpa_skip=\skip75
-\l_tmpb_skip=\skip76
-\g_tmpa_skip=\skip77
-\g_tmpb_skip=\skip78
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count160
-\l__intarray_loop_int=\count161
-\c__intarray_sp_dim=\dimen257
-\g__intarray_font_int=\count162
-\c__fp_leading_shift_int=\count163
-\c__fp_middle_shift_int=\count164
-\c__fp_trailing_shift_int=\count165
-\c__fp_big_leading_shift_int=\count166
-\c__fp_big_middle_shift_int=\count167
-\c__fp_big_trailing_shift_int=\count168
-\c__fp_Bigg_leading_shift_int=\count169
-\c__fp_Bigg_middle_shift_int=\count170
-\c__fp_Bigg_trailing_shift_int=\count171
-\c__kernel_randint_max_int=\count172
-\g__fp_array_int=\count173
-\l__fp_array_loop_int=\count174
-\l__sort_length_int=\count175
-\l__sort_min_int=\count176
-\l__sort_top_int=\count177
-\l__sort_max_int=\count178
-\l__sort_true_max_int=\count179
-\l__sort_block_int=\count180
-\l__sort_begin_int=\count181
-\l__sort_end_int=\count182
-\l__sort_A_int=\count183
-\l__sort_B_int=\count184
-\l__sort_C_int=\count185
-\l__tl_analysis_normal_int=\count186
-\l__tl_analysis_index_int=\count187
-\l__tl_analysis_nesting_int=\count188
-\l__tl_analysis_type_int=\count189
-\l__regex_internal_a_int=\count190
-\l__regex_internal_b_int=\count191
-\l__regex_internal_c_int=\count192
-\l__regex_balance_int=\count193
-\l__regex_group_level_int=\count194
-\l__regex_mode_int=\count195
-\c__regex_cs_in_class_mode_int=\count196
-\c__regex_cs_mode_int=\count197
-\l__regex_catcodes_int=\count198
-\l__regex_default_catcodes_int=\count199
-Normal \count register pool exhausted, switching to extended pool.
-\c__regex_catcode_D_int=\count277
-\c__regex_catcode_S_int=\count278
-\c__regex_catcode_L_int=\count279
-\c__regex_catcode_O_int=\count280
-\c__regex_catcode_A_int=\count281
-\c__regex_all_catcodes_int=\count282
-\l__regex_show_lines_int=\count283
-\l__regex_min_state_int=\count284
-\l__regex_max_state_int=\count285
-\l__regex_left_state_int=\count286
-\l__regex_right_state_int=\count287
-\l__regex_capturing_group_int=\count288
-\l__regex_min_pos_int=\count289
-\l__regex_max_pos_int=\count290
-\l__regex_curr_pos_int=\count291
-\l__regex_start_pos_int=\count292
-\l__regex_success_pos_int=\count293
-\l__regex_curr_char_int=\count294
-\l__regex_curr_catcode_int=\count295
-\l__regex_last_char_int=\count296
-\l__regex_case_changed_char_int=\count297
-\l__regex_curr_state_int=\count298
-\l__regex_step_int=\count299
-\l__regex_min_active_int=\count300
-\l__regex_max_active_int=\count301
-\l__regex_replacement_csnames_int=\count302
-\l__regex_match_count_int=\count303
-\l__regex_min_submatch_int=\count304
-\l__regex_submatch_int=\count305
-\l__regex_zeroth_submatch_int=\count306
-\g__regex_trace_regex_int=\count307
-\c_empty_box=\box49
-\l_tmpa_box=\box50
-\l_tmpb_box=\box51
-\g_tmpa_box=\box52
-\g_tmpb_box=\box53
-\l__box_top_dim=\dimen258
-\l__box_bottom_dim=\dimen259
-\l__box_left_dim=\dimen260
-\l__box_right_dim=\dimen261
-\l__box_top_new_dim=\dimen262
-\l__box_bottom_new_dim=\dimen263
-\l__box_left_new_dim=\dimen264
-\l__box_right_new_dim=\dimen265
-\l__box_internal_box=\box54
-\l__coffin_internal_box=\box55
-\l__coffin_internal_dim=\dimen266
-\l__coffin_offset_x_dim=\dimen267
-\l__coffin_offset_y_dim=\dimen268
-\l__coffin_x_dim=\dimen269
-\l__coffin_y_dim=\dimen270
-\l__coffin_x_prime_dim=\dimen271
-\l__coffin_y_prime_dim=\dimen272
-\c_empty_coffin=\box56
-\l__coffin_aligned_coffin=\box57
-\l__coffin_aligned_internal_coffin=\box58
-\l_tmpa_coffin=\box59
-\l_tmpb_coffin=\box60
-\g_tmpa_coffin=\box61
-\g_tmpb_coffin=\box62
-\l__coffin_bounding_shift_dim=\dimen273
-\l__coffin_left_corner_dim=\dimen274
-\l__coffin_right_corner_dim=\dimen275
-\l__coffin_bottom_corner_dim=\dimen276
-\l__coffin_top_corner_dim=\dimen277
-\l__coffin_scaled_total_height_dim=\dimen278
-\l__coffin_scaled_width_dim=\dimen279
-\c__coffin_empty_coffin=\box63
-\l__coffin_display_coffin=\box64
-\l__coffin_display_coord_coffin=\box65
-\l__coffin_display_pole_coffin=\box66
-\l__coffin_display_offset_dim=\dimen280
-\l__coffin_display_x_dim=\dimen281
-\l__coffin_display_y_dim=\dimen282
-\g__file_internal_ior=\read2
-\l__seq_internal_a_int=\count308
-\l__seq_internal_b_int=\count309
-\c__deprecation_minus_one=\count310
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\l3ker
-nel\l3pdfmode.def
-File: l3pdfmode.def 2019-03-05 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count311
-))
-Package: xparse 2019-03-05 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count312
-\g__xparse_grabber_int=\count313
-\l__xparse_m_args_int=\count314
-\l__xparse_v_nesting_int=\count315
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\pbox\
-pbox.sty
-Package: pbox 2011/12/07 v1.2 Dynamic parboxes
-\pb@xlen=\skip79
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\varwi
-dth\varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box67
-\sift@deathcycles=\count316
-\@vwid@loff=\dimen283
-\@vwid@roff=\dimen284
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\bigfo
-ot\suffix.sty
-Package: suffix 2006/07/15 1.5a Variant command support
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\etool
-box\etoolbox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count317
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\envir
-on\environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\trims
-paces\trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\c@@pc@global@pc@cnt=\count318
-\c@@pc@global@pc@nestcnt=\count319
-\c@@spacecounter=\count320
-\c@pclinenumber=\count321
-\c@Hpclinenumber=\count322
-\c@@pclinenumber=\count323
-\c@H@pclinenumber=\count324
-\c@@pclinenumbertmp=\count325
-\c@pcgamecounter=\count326
-\c@Hpcgamecounter=\count327
-\c@pcrlinenumber=\count328
-\c@Hpcrlinenumber=\count329
-\c@@pcrlinenumbertmp=\count330
-\@pcindentwidth=\skip80
-\@pc@minipage@length=\skip81
-\@pc@alt@minipage@length=\skip82
-\@pc@length@tmp@width@vstack=\skip83
-\c@@pc@indentationlevel=\count331
-\c@pccolumncounter=\count332
-\c@@pc@remember=\count333
-\@bb@message@hoffset=\skip84
-\@bb@query@hoffset=\skip85
-\@bb@oraclequery@hoffset=\skip86
-\@bb@challengerquery@hoffset=\skip87
-\c@@bb@oracle@cnt=\count334
-\c@@bb@oracle@nestcnt=\count335
-\c@@bb@challenger@cnt=\count336
-\c@@bb@challenger@nestcnt=\count337
-\c@@bb@env@nestcnt=\count338
-\@bb@com@tmpoffset=\skip88
-\@bb@tmplength@b=\skip89
-\pcbeforehstackskip=\skip90
-\c@@pcsubprogcnt1=\count339
-\c@@pcrsubprogcnt1=\count340
-\c@@pcsubprogcnt2=\count341
-\c@@pcrsubprogcnt2=\count342
-\c@@pcsubprogcnt3=\count343
-\c@@pcrsubprogcnt3=\count344
-\c@@pcsubprogcnt4=\count345
-\c@@pcrsubprogcnt4=\count346
-\c@@pcsubprogcnt5=\count347
-\c@@pcrsubprogcnt5=\count348
-\c@@pcsubprogcnt6=\count349
-\c@@pcrsubprogcnt6=\count350
-\c@@pcsubprogcnt7=\count351
-\c@@pcrsubprogcnt7=\count352
-\c@@pcsubprogcnt8=\count353
-\c@@pcrsubprogcnt8=\count354
-\c@@pcsubprogcnt9=\count355
-\c@@pcrsubprogcnt9=\count356
-\c@@pcsubprogstep=\count357
-\pcmessagearrow=\skip91
-\c@pcstartgamecounter=\count358
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\bookt
-abs\booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen285
-\lightrulewidth=\dimen286
-\cmidrulewidth=\dimen287
-\belowrulesep=\dimen288
-\belowbottomsep=\dimen289
-\aboverulesep=\dimen290
-\abovetopsep=\dimen291
-\cmidrulesep=\dimen292
-\cmidrulekern=\dimen293
-\defaultaddspace=\dimen294
-\@cmidla=\count359
-\@cmidlb=\count360
-\@aboverulesep=\dimen295
-\@belowrulesep=\dimen296
-\@thisruleclass=\count361
-\@lastruleclass=\count362
-\@thisrulewidth=\dimen297
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip92
-\multirow@cntb=\count363
-\multirow@dima=\skip93
-\bigstrutjot=\dimen298
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
-\c@tracingmulticols=\count364
-\mult@box=\box68
-\multicol@leftmargin=\dimen299
-\c@unbalance=\count365
-\c@collectmore=\count366
-\doublecol@number=\count367
-\multicoltolerance=\count368
-\multicolpretolerance=\count369
-\full@width=\dimen300
-\page@free=\dimen301
-\premulticols=\dimen302
-\postmulticols=\dimen303
-\multicolsep=\skip94
-\multicolbaselineskip=\skip95
-\partial@page=\box69
-\last@line=\box70
-\maxbalancingoverflow=\dimen304
-\mult@rightbox=\box71
-\mult@grightbox=\box72
-\mult@gfirstbox=\box73
-\mult@firstbox=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\c@columnbadness=\count370
-\c@finalcolumnbadness=\count371
-\last@try=\dimen305
-\multicolovershoot=\dimen306
-\multicolundershoot=\dimen307
-\mult@nat@firstbox=\box92
-\colbreak@box=\box93
-\mc@col@check@num=\count372
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\bigstrut.sty"
-Package: bigstrut 2016/11/25 v2.2 Provide larger struts in tabulars
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
-Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count373
-\rotFPtop=\skip96
-\rotFPbot=\skip97
-\rot@float@box=\box94
-\rot@mess@toks=\toks44
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\adjus
-tbox\adjustbox.sty
-Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\adjus
-tbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\adjus
-tbox\trimclip.sty
-Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\colle
-ctbox\collectbox.sty
-Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box95
-)
-\tc@llx=\dimen308
-\tc@lly=\dimen309
-\tc@urx=\dimen310
-\tc@ury=\dimen311
-Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\adjus
-tbox\tc-pdftex.def
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
-))
-\adjbox@Width=\dimen312
-\adjbox@Height=\dimen313
-\adjbox@Depth=\dimen314
-\adjbox@Totalheight=\dimen315
-\adjbox@pwidth=\dimen316
-\adjbox@pheight=\dimen317
-\adjbox@pdepth=\dimen318
-\adjbox@ptotalheight=\dimen319
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\ifodd
-page\ifoddpage.sty
-Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count374
-))
 (C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\minte
 d\minted.sty
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
@@ -1406,16 +672,21 @@ Package etexcmds Info: Could not find \expanded.
 ra\fvextra.sty
 Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
 
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\etool
+box\etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count125
+)
 (C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\fancy
 vrb\fancyvrb.sty
 Package: fancyvrb 2019/01/15
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count375
-\FV@InFile=\read3
-\FV@TabBox=\box96
-\c@FancyVerbLine=\count376
-\FV@StepNumber=\count377
-\FV@OutFile=\write4
+\FV@CodeLineNo=\count126
+\FV@InFile=\read1
+\FV@TabBox=\box38
+\c@FancyVerbLine=\count127
+\FV@StepNumber=\count128
+\FV@OutFile=\write3
 )
 (C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\upquo
 te\upquote.sty
@@ -1579,44 +850,44 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 (C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\linen
 o\lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count378
-\output=\toks45
-\linenoprevgraf=\count379
-\linenumbersep=\dimen320
-\linenumberwidth=\dimen321
-\c@linenumber=\count380
-\c@pagewiselinenumber=\count381
-\c@LN@truepage=\count382
-\c@internallinenumber=\count383
-\c@internallinenumbers=\count384
-\quotelinenumbersep=\dimen322
-\bframerule=\dimen323
-\bframesep=\dimen324
-\bframebox=\box97
+\linenopenalty=\count129
+\output=\toks28
+\linenoprevgraf=\count130
+\linenumbersep=\dimen145
+\linenumberwidth=\dimen146
+\c@linenumber=\count131
+\c@pagewiselinenumber=\count132
+\c@LN@truepage=\count133
+\c@internallinenumber=\count134
+\c@internallinenumbers=\count135
+\quotelinenumbersep=\dimen147
+\bframerule=\dimen148
+\bframesep=\dimen149
+\bframebox=\box39
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count385
-\c@FV@TrueTabCounter=\count386
-\FV@TabBox@Group=\box98
-\FV@TmpLength=\skip98
-\c@FV@HighlightLinesStart=\count387
-\c@FV@HighlightLinesStop=\count388
-\FV@LoopCount=\count389
-\FV@NCharsBox=\box99
-\FV@BreakIndent=\dimen325
-\FV@BreakIndentNChars=\count390
-\FV@BreakSymbolSepLeft=\dimen326
-\FV@BreakSymbolSepLeftNChars=\count391
-\FV@BreakSymbolSepRight=\dimen327
-\FV@BreakSymbolSepRightNChars=\count392
-\FV@BreakSymbolIndentLeft=\dimen328
-\FV@BreakSymbolIndentLeftNChars=\count393
-\FV@BreakSymbolIndentRight=\dimen329
-\FV@BreakSymbolIndentRightNChars=\count394
-\c@FancyVerbLineBreakLast=\count395
-\FV@LineBox=\box100
-\FV@LineIndentBox=\box101
-\FV@LineWidth=\dimen330
+\c@FV@TrueTabGroupLevel=\count136
+\c@FV@TrueTabCounter=\count137
+\FV@TabBox@Group=\box40
+\FV@TmpLength=\skip73
+\c@FV@HighlightLinesStart=\count138
+\c@FV@HighlightLinesStop=\count139
+\FV@LoopCount=\count140
+\FV@NCharsBox=\box41
+\FV@BreakIndent=\dimen150
+\FV@BreakIndentNChars=\count141
+\FV@BreakSymbolSepLeft=\dimen151
+\FV@BreakSymbolSepLeftNChars=\count142
+\FV@BreakSymbolSepRight=\dimen152
+\FV@BreakSymbolSepRightNChars=\count143
+\FV@BreakSymbolIndentLeft=\dimen153
+\FV@BreakSymbolIndentLeftNChars=\count144
+\FV@BreakSymbolIndentRight=\dimen154
+\FV@BreakSymbolIndentRightNChars=\count145
+\c@FancyVerbLineBreakLast=\count146
+\FV@LineBox=\box42
+\FV@LineIndentBox=\box43
+\FV@LineWidth=\dimen155
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 67.
@@ -1641,138 +912,38 @@ Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 ng\xstring.sty
 (C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\xst
 ring\xstring.tex
-\integerpart=\count396
-\decimalpart=\count397
+\integerpart=\count147
+\decimalpart=\count148
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 (C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\frame
 d\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip99
-\fb@frw=\dimen331
-\fb@frh=\dimen332
-\FrameRule=\dimen333
-\FrameSep=\dimen334
+\OuterFrameSep=\skip74
+\fb@frw=\dimen156
+\fb@frh=\dimen157
+\FrameRule=\dimen158
+\FrameSep=\dimen159
 )
-\minted@appexistsfile=\read4
-\minted@bgbox=\box102
-\minted@code=\write5
-\c@minted@FancyVerbLineTemp=\count398
-\c@minted@pygmentizecounter=\count399
-\@float@every@listing=\toks46
-\c@listing=\count400
+\minted@appexistsfile=\read2
+\minted@bgbox=\box44
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count149
+\c@minted@pygmentizecounter=\count150
+\@float@every@listing=\toks29
+\c@listing=\count151
 )
 runsystem(if not exist _minted-document mkdir _minted-document)...executed.
 
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\breqn
-\breqn.sty
-Package: breqn 2019/10/15 v0.98g Breaking equations
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\breqn
-\flexisym.sty
-Package: flexisym 2019/10/15 v0.98g Make math characters macros
-LaTeX Info: Redefining \textprime on input line 298.
-LaTeX Info: Redefining \not on input line 356.
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\breqn
-\cmbase.sym
-File: cmbase.sym 2007/12/19 v0.92
-LaTeX Info: Redefining \hbar on input line 323.
-LaTeX Info: Redefining \surd on input line 325.
-LaTeX Info: Redefining \angle on input line 333.
-LaTeX Info: Redefining \neq on input line 334.
-LaTeX Info: Redefining \mapsto on input line 335.
-LaTeX Info: Redefining \cong on input line 336.
-LaTeX Info: Redefining \notin on input line 339.
-LaTeX Info: Redefining \rightleftharpoons on input line 340.
-LaTeX Info: Redefining \doteq on input line 341.
-LaTeX Info: Redefining \hookrightarrow on input line 342.
-LaTeX Info: Redefining \hookleftarrow on input line 343.
-LaTeX Info: Redefining \bowtie on input line 344.
-LaTeX Info: Redefining \models on input line 345.
-LaTeX Info: Redefining \Longrightarrow on input line 346.
-LaTeX Info: Redefining \longrightarrow on input line 347.
-LaTeX Info: Redefining \Longleftarrow on input line 348.
-LaTeX Info: Redefining \longleftarrow on input line 349.
-LaTeX Info: Redefining \longmapsto on input line 350.
-LaTeX Info: Redefining \longleftrightarrow on input line 351.
-LaTeX Info: Redefining \Longleftrightarrow on input line 352.
-LaTeX Info: Redefining \cdots on input line 356.
-LaTeX Info: Redefining \vdots on input line 359.
-LaTeX Info: Redefining \ddots on input line 364.
-)
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\breqn
-\mathstyle.sty
-Package: mathstyle 2019/10/15 v0.98g Tracking mathstyle implicitly
-LaTeX Info: Redefining \displaystyle on input line 93.
-LaTeX Info: Redefining \textstyle on input line 95.
-LaTeX Info: Redefining \scriptstyle on input line 97.
-LaTeX Info: Redefining \scriptscriptstyle on input line 99.
-LaTeX Info: Redefining \genfrac on input line 145.
-))
-\inf@bad=\count401
-\maxint=\count402
-\listwidth=\dimen335
-\eqnumsep=\dimen336
-\eqmargin=\dimen337
-\eqlinespacing=\skip100
-\eqlineskip=\skip101
-\eqlineskiplimit=\dimen338
-\eqbinoffset=\muskip17
-\eqdelimoffset=\muskip18
-\eqindentstep=\dimen339
-\eqstyle=\toks47
-\eqbreakdepth=\count403
-\eqinterlinepenalty=\count404
-\intereqpenalty=\count405
-\intereqskip=\skip102
-\prerelpenalty=\count406
-\prebinoppenalty=\count407
-\Dmedmuskip=\muskip19
-\Dthickmuskip=\muskip20
-\eqleftskip=\skip103
-\eqrightskip=\skip104
-\eq@vspan=\skip105
-\eq@binoffset=\muskip21
-\EQ@box=\box103
-\EQ@copy=\box104
-\EQ@numbox=\box105
-\eq@wdNum=\dimen340
-\GRP@numbox=\box106
-\grp@wdNum=\dimen341
-\eq@lines=\count408
-\eq@curline=\count409
-\eq@badness=\count410
-\EQ@vims=\count411
-\eq@dp=\dimen342
-\eq@wdL=\dimen343
-\eq@wdT=\dimen344
-\eq@wdMin=\dimen345
-\grp@wdL=\dimen346
-\grp@wdR=\dimen347
-\grp@wdT=\dimen348
-\eq@wdRmax=\dimen349
-\eq@firstht=\dimen350
-\eq@wdCond=\dimen351
-\eq@indentstep=\dimen352
-\eq@linewidth=\dimen353
-\grp@linewidth=\dimen354
-\eq@hshift=\dimen355
-\eq@given@sidespace=\dimen356
-\mathindent=\dimen357
-\eq@final@linecount=\count412
-\eq@wdR=\dimen358
-\EQ@continue=\toks48
-\lr@level=\count413
-\GRP@queue=\toks49
-\GRP@box=\box107
-\GRP@wholebox=\box108
-\darraycolsep=\skip106
-\cur@row=\count414
-\cur@col=\count415
-\conditionsep=\skip107
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count152
+\multirow@dima=\skip76
+\bigstrutjot=\dimen160
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\bigstrut.sty"
+Package: bigstrut 2016/11/25 v2.2 Provide larger struts in tabulars
 )
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > do
 cument.aex <nul: /p x=^%~$PATH:i>> document.aex)...executed.
@@ -1782,41 +953,41 @@ runsystem(del document.aex)...executed.
 (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 20.
 
 (C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\context\bas
 e\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count416
-\scratchdimen=\dimen359
-\scratchbox=\box109
-\nofMPsegments=\count417
-\nofMParguments=\count418
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count419
-\MPscratchDim=\dimen360
-\MPnumerator=\count420
-\makeMPintoPDFobject=\count421
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count153
+\scratchdimen=\dimen161
+\scratchbox=\box45
+\nofMPsegments=\count154
+\nofMParguments=\count155
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count156
+\MPscratchDim=\dimen162
+\MPnumerator=\count157
+\makeMPintoPDFobject=\count158
+\everyMPtoPDFconversion=\toks31
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
@@ -1841,83 +1012,107 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip108
-\RaggedLeftLeftskip=\skip109
-\RaggedRightLeftskip=\skip110
-\CenteringRightskip=\skip111
-\RaggedLeftRightskip=\skip112
-\RaggedRightRightskip=\skip113
-\CenteringParfillskip=\skip114
-\RaggedLeftParfillskip=\skip115
-\RaggedRightParfillskip=\skip116
-\JustifyingParfillskip=\skip117
-\CenteringParindent=\skip118
-\RaggedLeftParindent=\skip119
-\RaggedRightParindent=\skip120
-\JustifyingParindent=\skip121
+\CenteringLeftskip=\skip77
+\RaggedLeftLeftskip=\skip78
+\RaggedRightLeftskip=\skip79
+\CenteringRightskip=\skip80
+\RaggedLeftRightskip=\skip81
+\RaggedRightRightskip=\skip82
+\CenteringParfillskip=\skip83
+\RaggedLeftParfillskip=\skip84
+\RaggedRightParfillskip=\skip85
+\JustifyingParfillskip=\skip86
+\CenteringParindent=\skip87
+\RaggedLeftParindent=\skip88
+\RaggedRightParindent=\skip89
+\JustifyingParindent=\skip90
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
-Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count422
-ABD: EveryShipout initializing macros
-\ML=\skip122
+\c@lstlisting=\count159
+\ML=\skip91
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 64.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/pdftex/config/pdf
 tex.map}]
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 80.
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 67.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Overfull \hbox (3.92635pt too wide) detected at line 100
-[]\OML/cmm/m/it/14.4 ;
- []
+\openout3 = `document.pyg'.
+
+(_minted-document/default-pyg-prefix.pygstyle) (_minted-document/default.pygsty
+le)
+(_minted-document/914CE8C03DCF226766A3C7CC26AFD8E35061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 1.
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
+\openout3 = `document.pyg'.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 105.
+(_minted-document/16AB5461CC180483AF36FFD87A451DC15061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex [2])
+\openout3 = `document.pyg'.
 
-[2]
-<../img/graph1.png, id=28, 829.0975pt x 685.56125pt>
-File: ../img/graph1.png Graphic file (type png)
-<use ../img/graph1.png>
-Package pdftex.def Info: ../img/graph1.png  used on input line 150.
-(pdftex.def)             Requested size: 442.85582pt x 366.1806pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+(_minted-document/82E11D10F1AFE85BE19A6BA0B5B98C215061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex) [3]
+\openout3 = `document.pyg'.
 
-[3]
-Overfull \hbox (34.51581pt too wide) detected at line 164
-[]
- []
 
-[4 <../img/graph1.png (PNG copy)>]
-<../img/graph2.png, id=36, 1174.3875pt x 907.39pt>
-File: ../img/graph2.png Graphic file (type png)
-<use ../img/graph2.png>
-Package pdftex.def Info: ../img/graph2.png  used on input line 182.
-(pdftex.def)             Requested size: 442.85582pt x 342.16727pt.
-[5 <../img/graph2.png (PNG copy)>] (document.aux<<t1.cmap>>) ) 
+(_minted-document/9EB4C4998781BFA9EE6C900F8EE81A6F5061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex)
+\openout3 = `document.pyg'.
+
+
+(_minted-document/608CCEE6A3B542C8257381368E3DA1BB5061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex)
+\openout3 = `document.pyg'.
+
+
+(_minted-document/B5CE746C6BA653D5180394B7B4769E945061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex [4])
+\openout3 = `document.pyg'.
+
+
+(_minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd"
+File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+<../img/hist_densts.png, id=30, 1156.32pt x 650.43pt>
+File: ../img/hist_densts.png Graphic file (type png)
+<use ../img/hist_densts.png>
+Package pdftex.def Info: ../img/hist_densts.png  used on input line 198.
+(pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
+[5 <../img/hist_densts.png>] (document.aux<<t1.cmap>>)
+runsystem(del document.pyg)...executed.
+
+ ) 
 Here is how much of TeX's memory you used:
- 35740 strings out of 492973
- 683187 string characters out of 3135869
- 855411 words of memory out of 3000000
- 39025 multiletter control sequences out of 15000+200000
- 541415 words of font info for 43 fonts, out of 3000000 for 9000
+ 13460 strings out of 492973
+ 230880 string characters out of 3135869
+ 450856 words of memory out of 3000000
+ 17028 multiletter control sequences out of 15000+200000
+ 13324 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,11n,77p,9106b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Пен
+ 49i,8n,51p,9106b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\tctt1440.pk> <C:\Users\Пенопласточка\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1440.pk> <C:\Users\Пен
 опласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\
 labx1440.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\font
 s\pk\ljfour\lh\lh-t2a\dpi600\lasx2074.pk> <C:\Users\Пенопласточка\
@@ -1925,16 +1120,14 @@ AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\User
 s\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a
 \dpi600\larm2488.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\
 2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on document.pdf (5 pages, 213731 bytes).
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb>
+Output written on document.pdf (5 pages, 165662 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
+ 275 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 47 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 30 words of extra memory for PDF output out of 10000 (max. 10000000)
 

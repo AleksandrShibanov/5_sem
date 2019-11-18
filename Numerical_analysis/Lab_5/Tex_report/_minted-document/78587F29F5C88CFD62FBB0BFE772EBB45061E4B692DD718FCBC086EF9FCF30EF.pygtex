@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{o}{\PYGZgt{}} \PYG{n+nf}{print}\PYG{p}{(}\PYG{n+nf}{eigen}\PYG{p}{(}\PYG{n}{A}\PYG{p}{)}\PYG{o}{\PYGZdl{}}\PYG{n}{values}\PYG{p}{,} \PYG{n}{digits} \PYG{o}{=} \PYG{l+m}{6}\PYG{p}{)}
-\PYG{n}{[1]} \PYG{l+m}{16.47214} \PYG{l+m}{14.82843}  \PYG{l+m}{9.17157}  \PYG{l+m}{7.52786}
-\end{Verbatim}
