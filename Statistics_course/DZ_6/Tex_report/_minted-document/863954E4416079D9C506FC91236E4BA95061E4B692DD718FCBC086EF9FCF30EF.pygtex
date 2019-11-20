@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{C1} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n}{c1}
+\PYG{o}{\PYGZgt{}} \PYG{n}{C2} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{l+m}{100} \PYG{o}{*} \PYG{n}{C1}
+\PYG{o}{\PYGZgt{}} \PYG{n}{C3} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{l+m}{100} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a0\PYGZca{}2}\PYG{o}{\PYGZhy{}}\PYG{n}{a1\PYGZca{}2}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{l+m}{2}\PYG{o}{*}\PYG{n}{sigma1\PYGZca{}2}\PYG{p}{)} \PYG{o}{+} \PYG{n}{C2} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{\PYGZhy{}}\PYG{n}{a0}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n}{sigma1\PYGZca{}2}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{C} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{exp}\PYG{p}{(}\PYG{n}{C3}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{C1}
+\PYG{n}{[1]} \PYG{l+m}{7.820388}
+\PYG{o}{\PYGZgt{}} \PYG{n}{C2}
+\PYG{n}{[1]} \PYG{l+m}{782.0388}
+\PYG{o}{\PYGZgt{}} \PYG{n}{C3}
+\PYG{n}{[1]} \PYG{l+m}{0.5631031}
+\PYG{o}{\PYGZgt{}} \PYG{n}{C}
+\PYG{n}{[1]} \PYG{l+m}{1.756114}
+\end{Verbatim}

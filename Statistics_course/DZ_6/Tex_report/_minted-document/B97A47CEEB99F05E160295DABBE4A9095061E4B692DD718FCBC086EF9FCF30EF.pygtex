@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{A} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{beta}\PYG{p}{)}\PYG{o}{/}\PYG{n}{alpha}
+\PYG{o}{\PYGZgt{}} \PYG{n}{B} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n}{beta}\PYG{o}{/}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{alpha}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{A}
+\PYG{n}{[1]} \PYG{l+m}{7.637596}
+\PYG{o}{\PYGZgt{}} \PYG{n}{B}
+\PYG{n}{[1]} \PYG{l+m}{0.2624894}
+\end{Verbatim}

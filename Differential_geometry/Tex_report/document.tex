@@ -177,7 +177,7 @@
 	\Gamma_{ijk} = \frac{1}{2}(g_{ik,j} + g_{jk,i} - g_{ij,k}).
 \end{equation}
 
-\textbf{Определение 6.} Функции $\Gamma_{ijk}$ определенные по формулам (\ref{eq12}), называют коэффициентами связности первого рода в $\mathbb{V}^n$. Коэффициенты связности второго рода вводим с помощью обратной матрицы $g^{ij}$:
+\textbf{Определение 6.} Функции $\Gamma_{ijk}$ определённые по формулам (\ref{eq12}), называют коэффициентами связности первого рода в $\mathbb{V}^n$. Коэффициенты связности второго рода вводим с помощью обратной матрицы $g^{ij}$:
 \begin{equation}\label{eq13}
 	\Gamma_{ij}^m = g^{mp}\Gamma_{ijp}.
 \end{equation}
@@ -194,13 +194,23 @@
 \end{enumerate}
 Функции $\overset{*}{\Gamma_{ij}^m}$, заданные в $\mathbb{L}^n$, называют коэффициентами аффинной связности (или просто аффинной связностью).
 
+\subsection{Тензоры в элементарном многообразии}
+Построим в каждой точке $\mathcal{M} \in M^n$ множество наборов касательных векторов:
+\begin{equation*}
+	(a_1b^{(1)}a_2b^{(2)}\ldots a_nb^{(n)} \equiv (a_ib^{(i)}),
+\end{equation*}
+где $a_i \in T_{\mathcal{M}}M^n$, $b^{(i)} T_{\mathcal{M}}^*M^n$, и введём на этом множестве операции сложения и умножения на вещественное число $s$:
+\begin{align}
+	(a_ib^{(i)}) + (a_ic^{(i)}) = (a_i(b^{(i)} + c^{(i)})),\\
+	(a_ib^{(i)}) + (d_ib^{(i)}) = ((a_i+d_i)) b^{(i)}),\\
+	s(a_ib^{(i)}) = ((sa_i)b^{(i)}) = (a_i(sb^{(i)})) 
+\end{align}
 \subsection{Ковариантное дифференцирование тензоров в $\mathbb{V}^n$}
-Рассмотрим в $\mathbb{V}^n$ произвольное поле тензора $k$ro ранга:
+Рассмотрим в $\mathbb{V}^n$ произвольное поле тензора $k$-гo ранга:
 \begin{equation}\label{eq15}
 	^{k} \Omega\left(X^{i}\right)=\Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q }} \mathbf{e}_{i_{1}} \otimes \ldots \otimes \mathbf{e}_{i_{p}} \otimes \mathbf{e}^{j_{1}} \otimes \ldots \otimes \mathbf{e}^{j_{q}}, \quad p+q=k,
 \end{equation}
 причём его компоненты $\Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q }}$ будем считать непрерывно дифференцируемыми функциями координат $X^i$ точки $\mathcal{M} \in \mathbb{V}^n$
-
 
 \textbf{Определение 8.} Ковариантной производной от компонент тензора $\Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q }}$ $k$-го ранга $^{k} \Omega$, определённого в $\mathbb{V}^n$ , называют следующий объект:
 \begin{multline}\label{eq16}

@@ -1,8 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{o}{\PYGZgt{}} \PYG{n}{df\PYGZus{}var} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{var}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)}
-\PYG{o}{\PYGZgt{}} \PYG{n}{df\PYGZus{}var}
-\PYG{n}{[1]} \PYG{l+m}{6.640973}
-\PYG{o}{\PYGZgt{}} \PYG{n}{chi\PYGZus{}stat} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n}{df\PYGZus{}df} \PYG{o}{*} \PYG{p}{(}\PYG{n}{df\PYGZus{}var}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n}{sigma0\PYGZca{}2}\PYG{p}{)}
-\PYG{o}{\PYGZgt{}} \PYG{n}{chi\PYGZus{}stat}
-\PYG{n}{[1]} \PYG{l+m}{114.1417}
-\end{Verbatim}

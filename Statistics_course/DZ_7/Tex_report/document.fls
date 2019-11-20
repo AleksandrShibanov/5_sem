@@ -1,4 +1,4 @@
-PWD C:/Users/Пенопласточка/Documents/5_sem/Statistics_course/DZ_5/Tex_report
+PWD C:/Users/Пенопласточка/Documents/5_sem/Statistics_course/DZ_1/Tex_report
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
 INPUT document.tex
 OUTPUT document.log
@@ -110,72 +110,33 @@ INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/l
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstmisc.sty
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/listings.cfg
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/listings.cfg
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/minted/minted.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/minted/minted.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/fvextra/fvextra.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/fvextra/fvextra.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/etoolbox/etoolbox.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/etoolbox/etoolbox.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/fancyvrb/fancyvrb.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/fancyvrb/fancyvrb.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/upquote/upquote.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/upquote/upquote.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/textcomp.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/textcomp.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.dfu
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.dfu
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/lineno/lineno.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/lineno/lineno.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/shellesc.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/shellesc.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/shellesc.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/ifplatform/ifplatform.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/ifplatform/ifplatform.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/catchfile.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/catchfile.sty
-INPUT nul:.tex
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/xstring/xstring.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/xstring/xstring.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/generic/xstring/xstring.tex
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/framed/framed.sty
-INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/framed/framed.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/multirow.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/multirow.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/bigstrut.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/bigstrut.sty
-INPUT document.aex
-INPUT document.aex
 INPUT document.aux
 INPUT document.aux
 OUTPUT document.aux
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmr.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmr.fd
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/ragged2e.sty
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/ragged2e.sty
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/ragged2e.sty
@@ -211,79 +172,52 @@ INPUT C:/Program Files/MiKTeX 2.9/tex/latex/cyrillic/t2acmss.fd
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/lass1440.tfm
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/lasx1440.tfm
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/lasx2074.tfm
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/labx1440.tfm
-OUTPUT document.pyg
-INPUT _minted-document/default-pyg-prefix.pygstyle
-INPUT _minted-document/default-pyg-prefix.pygstyle
-INPUT _minted-document/default-pyg-prefix.pygstyle
-INPUT _minted-document/default-pyg-prefix.pygstyle
-INPUT _minted-document/default.pygstyle
-INPUT _minted-document/default.pygstyle
-INPUT _minted-document/default.pygstyle
-INPUT _minted-document/default.pygstyle
-INPUT ./document.pyg
-INPUT _minted-document/914CE8C03DCF226766A3C7CC26AFD8E35061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/914CE8C03DCF226766A3C7CC26AFD8E35061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/914CE8C03DCF226766A3C7CC26AFD8E35061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/914CE8C03DCF226766A3C7CC26AFD8E35061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/cyrillic/t2acmtt.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/cyrillic/t2acmtt.fd
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/latt1440.tfm
-OUTPUT document.pyg
-INPUT ./document.pyg
-INPUT _minted-document/16AB5461CC180483AF36FFD87A451DC15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/16AB5461CC180483AF36FFD87A451DC15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/16AB5461CC180483AF36FFD87A451DC15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/16AB5461CC180483AF36FFD87A451DC15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-OUTPUT document.pyg
-INPUT ./document.pyg
-INPUT _minted-document/82E11D10F1AFE85BE19A6BA0B5B98C215061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/82E11D10F1AFE85BE19A6BA0B5B98C215061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/82E11D10F1AFE85BE19A6BA0B5B98C215061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/82E11D10F1AFE85BE19A6BA0B5B98C215061E4B692DD718FCBC086EF9FCF30EF.pygtex
-OUTPUT document.pyg
-INPUT ./document.pyg
-INPUT _minted-document/9EB4C4998781BFA9EE6C900F8EE81A6F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/9EB4C4998781BFA9EE6C900F8EE81A6F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/9EB4C4998781BFA9EE6C900F8EE81A6F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/9EB4C4998781BFA9EE6C900F8EE81A6F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-OUTPUT document.pyg
-INPUT ./document.pyg
-INPUT _minted-document/608CCEE6A3B542C8257381368E3DA1BB5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/608CCEE6A3B542C8257381368E3DA1BB5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/608CCEE6A3B542C8257381368E3DA1BB5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/608CCEE6A3B542C8257381368E3DA1BB5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-OUTPUT document.pyg
-INPUT ./document.pyg
-INPUT _minted-document/B5CE746C6BA653D5180394B7B4769E945061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/B5CE746C6BA653D5180394B7B4769E945061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/B5CE746C6BA653D5180394B7B4769E945061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/B5CE746C6BA653D5180394B7B4769E945061E4B692DD718FCBC086EF9FCF30EF.pygtex
-OUTPUT document.pyg
-INPUT ./document.pyg
-INPUT _minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmtt.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmtt.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tctt1440.tfm
-INPUT ../img/hist_densts.png
-INPUT ../img/hist_densts.png
-INPUT ../img/hist_densts.png
-INPUT ../img/hist_densts.png
-INPUT ../img/hist_densts.png
+INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/lasx1728.tfm
+INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm1000.tfm
+INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/larm0700.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT ../img/hist_without_dens.png
+INPUT ../img/hist_without_dens.png
+INPUT ../img/hist_without_dens.png
+INPUT ../img/hist_without_dens.png
+INPUT ../img/hist_without_dens.png
+INPUT ../img/cullen_and_frey_graph.png
+INPUT ../img/cullen_and_frey_graph.png
+INPUT ../img/cullen_and_frey_graph.png
+INPUT ../img/cullen_and_frey_graph.png
+INPUT ../img/cullen_and_frey_graph.png
+INPUT ../img/fit_norm.png
+INPUT ../img/fit_norm.png
+INPUT ../img/fit_norm.png
+INPUT ../img/fit_norm.png
+INPUT ../img/fit_norm.png
+INPUT ../img/fit_unif.png
+INPUT ../img/fit_unif.png
+INPUT ../img/fit_unif.png
+INPUT ../img/fit_unif.png
+INPUT ../img/fit_unif.png
+INPUT ../img/fit_beta.png
+INPUT ../img/fit_beta.png
+INPUT ../img/fit_beta.png
+INPUT ../img/fit_beta.png
+INPUT ../img/fit_beta.png
+INPUT ../img/hist_with_unif_dens.png
+INPUT ../img/hist_with_unif_dens.png
+INPUT ../img/hist_with_unif_dens.png
+INPUT ../img/hist_with_unif_dens.png
+INPUT ../img/hist_with_unif_dens.png
+INPUT ../img/emp_and_theor_CDF.png
+INPUT ../img/emp_and_theor_CDF.png
+INPUT ../img/emp_and_theor_CDF.png
+INPUT ../img/emp_and_theor_CDF.png
+INPUT ../img/emp_and_theor_CDF.png
 INPUT document.aux
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1440.tfm
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/t1.cmap
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/t1.cmap
-INPUT document.pyg
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/tctt1440.pk
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/tctt1440.pk
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1440.pk
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1440.pk
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk
+INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/lasx1728.pk
+INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/lasx1728.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/lasx2074.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/lasx2074.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk
@@ -292,6 +226,8 @@ INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfo
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm2488.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1728.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1728.pk
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
@@ -300,5 +236,9 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb

@@ -1,4 +1,4 @@
-PWD C:/Users/Пенопласточка/Documents/5_sem/Statistics_course/DZ_5/Tex_report
+PWD C:/Users/Пенопласточка/Documents/5_sem/Statistics_course/DZ_6/Tex_report
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
 INPUT document.tex
 OUTPUT document.log
@@ -231,18 +231,6 @@ INPUT C:/Program Files/MiKTeX 2.9/tex/latex/cyrillic/t2acmtt.fd
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/tfm/lh/lh-t2a/latt1440.tfm
 OUTPUT document.pyg
 INPUT ./document.pyg
-INPUT _minted-document/16AB5461CC180483AF36FFD87A451DC15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/16AB5461CC180483AF36FFD87A451DC15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/16AB5461CC180483AF36FFD87A451DC15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/16AB5461CC180483AF36FFD87A451DC15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-OUTPUT document.pyg
-INPUT ./document.pyg
-INPUT _minted-document/82E11D10F1AFE85BE19A6BA0B5B98C215061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/82E11D10F1AFE85BE19A6BA0B5B98C215061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/82E11D10F1AFE85BE19A6BA0B5B98C215061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/82E11D10F1AFE85BE19A6BA0B5B98C215061E4B692DD718FCBC086EF9FCF30EF.pygtex
-OUTPUT document.pyg
-INPUT ./document.pyg
 INPUT _minted-document/9EB4C4998781BFA9EE6C900F8EE81A6F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
 INPUT _minted-document/9EB4C4998781BFA9EE6C900F8EE81A6F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
 INPUT _minted-document/9EB4C4998781BFA9EE6C900F8EE81A6F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
@@ -255,31 +243,55 @@ INPUT _minted-document/608CCEE6A3B542C8257381368E3DA1BB5061E4B692DD718FCBC086EF9
 INPUT _minted-document/608CCEE6A3B542C8257381368E3DA1BB5061E4B692DD718FCBC086EF9FCF30EF.pygtex
 OUTPUT document.pyg
 INPUT ./document.pyg
-INPUT _minted-document/B5CE746C6BA653D5180394B7B4769E945061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/B5CE746C6BA653D5180394B7B4769E945061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/B5CE746C6BA653D5180394B7B4769E945061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/B5CE746C6BA653D5180394B7B4769E945061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/B97A47CEEB99F05E160295DABBE4A9095061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/B97A47CEEB99F05E160295DABBE4A9095061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/B97A47CEEB99F05E160295DABBE4A9095061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/B97A47CEEB99F05E160295DABBE4A9095061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT ../img/vald1.png
+INPUT ../img/vald1.png
+INPUT ../img/vald1.png
+INPUT ../img/vald1.png
+INPUT ../img/vald1.png
 OUTPUT document.pyg
 INPUT ./document.pyg
-INPUT _minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document/F531EDCD8F51414247AFDD9C2F58E9F15061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmtt.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmtt.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tctt1440.tfm
-INPUT ../img/hist_densts.png
-INPUT ../img/hist_densts.png
-INPUT ../img/hist_densts.png
-INPUT ../img/hist_densts.png
-INPUT ../img/hist_densts.png
+INPUT _minted-document/5FB0E7F6CC5B15666AF5A7F735C370225061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/5FB0E7F6CC5B15666AF5A7F735C370225061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/5FB0E7F6CC5B15666AF5A7F735C370225061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/5FB0E7F6CC5B15666AF5A7F735C370225061E4B692DD718FCBC086EF9FCF30EF.pygtex
+OUTPUT document.pyg
+INPUT ./document.pyg
+INPUT _minted-document/B09A7963417E79AD78346BF2583370395061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/B09A7963417E79AD78346BF2583370395061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/B09A7963417E79AD78346BF2583370395061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/B09A7963417E79AD78346BF2583370395061E4B692DD718FCBC086EF9FCF30EF.pygtex
+OUTPUT document.pyg
+INPUT ./document.pyg
+INPUT _minted-document/F71E45C31031522F5FD80A06AEAE2EFF5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/F71E45C31031522F5FD80A06AEAE2EFF5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/F71E45C31031522F5FD80A06AEAE2EFF5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/F71E45C31031522F5FD80A06AEAE2EFF5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+OUTPUT document.pyg
+INPUT ./document.pyg
+INPUT _minted-document/AA3392B7D22845B5267D5CF9623E91525061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/AA3392B7D22845B5267D5CF9623E91525061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/AA3392B7D22845B5267D5CF9623E91525061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/AA3392B7D22845B5267D5CF9623E91525061E4B692DD718FCBC086EF9FCF30EF.pygtex
+OUTPUT document.pyg
+INPUT ./document.pyg
+INPUT _minted-document/863954E4416079D9C506FC91236E4BA95061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/863954E4416079D9C506FC91236E4BA95061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/863954E4416079D9C506FC91236E4BA95061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document/863954E4416079D9C506FC91236E4BA95061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT ../img/neyman-pearson.png
+INPUT ../img/neyman-pearson.png
+INPUT ../img/neyman-pearson.png
+INPUT ../img/neyman-pearson.png
+INPUT ../img/neyman-pearson.png
 INPUT document.aux
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1440.tfm
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/t1.cmap
 INPUT C:/Users/Пенопласточка/AppData/Roaming/MiKTeX/2.9/tex/latex/cmap/t1.cmap
 INPUT document.pyg
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/tctt1440.pk
-INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/tctt1440.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1440.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/latt1440.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk
@@ -292,13 +304,23 @@ INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfo
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm2488.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1728.pk
 INPUT C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1728.pk
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{M1\PYGZus{}nu} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{p}{(}\PYG{n}{beta}\PYG{o}{*}\PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{B}\PYG{p}{)} \PYG{o}{+} \PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{beta}\PYG{p}{)}\PYG{o}{*}\PYG{n+nf}{log}\PYG{p}{(}\PYG{n}{A}\PYG{p}{))}\PYG{o}{/}\PYG{n}{M1Yk}
+\PYG{o}{\PYGZgt{}} \PYG{n}{M1\PYGZus{}nu}
+\PYG{n}{[1]} \PYG{l+m}{61.84022}
+\end{Verbatim}

@@ -1,12 +1,12 @@
-alpha  <-  0.05
-a0 <- -4
-sigma0 <- 1.4
-a1 <- -4.5
-sigma1 <- 1.5
-eps <- 0.05
-n <- 90
+alpha  <-  0.1
+a0 <- 7.5
+sigma0 <- 2.4
+a1 <- 8
+sigma1 <- 2.5
+eps <- 0.1
+n <- 100
 
-df <- unlist(read.csv("data_Alina.csv", header = F, sep = ";"), use.names = F)
+df <- unlist(read.csv("data.csv", header = F, sep = ";"), use.names = F)
 df
 
 summary(df)
@@ -18,22 +18,30 @@ df_min <- min(df)
 df_max <- max(df)
 df_var <- var(df)
 
-c1 <- a0 + (qnorm(alpha))/(sqrt(df_len)) * sigma1
-beta <- 1 - pnorm((c1-a1)/sigma1 * sqrt(df_len))
+c1 <- a0 + (qnorm(1-alpha))/(sqrt(df_len)) * sigma1
+beta <- pnorm((c1-a1)/sigma1 * sqrt(df_len))
 
 
 A <- (1-beta)/alpha
 B <- beta/(1-alpha)
 
-M0 <- -(a1-a0)^2 / (2*sigma1^2)
-M1 <- (a1-a0)^2 / (2*sigma1^2)
+M0Yk <- -(a1-a0)^2 / (2*sigma1^2)
+M1Yk <- (a1-a0)^2 / (2*sigma1^2)
 
-M0_nu <- (alpha*log(A) + (1-alpha)*log(B))/M0
-M1_nu <- (beta*log(B) + (1-beta)*log(A))/M1
+M0_nu <- (alpha*log(A) + (1-alpha)*log(B))/M0Yk
+M1_nu <- (beta*log(B) + (1-beta)*log(A))/M1Yk
 
-f <- function(data,x)
-{
-  return(prod(exp(  ( (data * (a1 - a0))/(sigma1^2) ) + ( (a0^2 - a1^2)/(2*sigma1^2) )  )))
-}
-f(df)
-curve(f(df,x),0,100)
+C1 <- c1
+C2 <- 100 * C1
+C3 <- 100 * (a0^2-a1^2)/(2*sigma1^2) + C2 * (a1-a0)/(sigma1^2)
+C <- exp(C3)
+
+
+
+
+
+
+
+
+library(nortest)
+pearson.test(df)
