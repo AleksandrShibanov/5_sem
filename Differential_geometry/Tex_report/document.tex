@@ -1,8 +1,12 @@
 \documentclass[14pt,a4paper]{scrartcl}
+\usepackage[english,russian]{babel}
+\linespread{1.3}
+\usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2.5cm,bindingoffset=0cm]{geometry}
+\renewcommand{\rmdefault}{ftm}
+\usepackage{mathtext}
 \usepackage{cmap}
 \usepackage[utf8]{inputenc}
 \usepackage[T1,T2A]{fontenc}
-\usepackage[english,russian]{babel}
 \usepackage{relsize}
 \usepackage{graphicx}
 \usepackage{subfigure}
@@ -18,6 +22,10 @@
 \usepackage{physics}
 \usepackage{tensor}
 \usepackage[hidelinks]{hyperref}
+\bibliographystyle{gost2008}
+\addto\captionsrussian{\def\refname{Список литературы}}
+
+
 
 \begin{document}
 	\begin{titlepage}
@@ -65,11 +73,15 @@
 		Москва, 2019 г.
 	\end{center}
 \end{titlepage}
+\tableofcontents
+\parindent=1.25cm
+\clearpage
+
 \section{Римановы пространства}
 В механике и особенно в релятивистской физике тензоры широко применяют в $n$-мерных римановых пространствах, являющихся более общими, чем евклидовы. Дадим определение этих пространств, а затем покажем, как конструируются тензоры в них. Начнём с основополагающего понятия римановых пространств - элементарного многообразия.
 
 \subsection{Элементарное многообразие}
-\textbf{Определение 1.} Элементарным $n$-мерным многообразием называют такое множество $M^n$, каждой точке которого
+Определение 1. Элементарным $n$-мерным многообразием называют такое множество $M^n$, каждой точке которого
 взаимнооднозначно поставлен в соответствие упорядоченный набор чисел $(X_1...X_n)$ из некоторой связной области $\mathcal{D} \in \mathbb{R}^n$, т.е, задано биективное отображение $\varphi: M^n \longrightarrow \mathcal{D} \in \mathbb{R}^n$.
 
 Координатами точки $\mathcal{M} \in M^n$ в системе координат $\mathcal{D}$ называют координаты $X^i \in \mathbb{R}^n$ ее образа $\varphi(\mathcal{M})$, изменяющиеся в области $\mathcal{D} \in \mathbb{R}^n$.
@@ -79,7 +91,7 @@
 	X'^i = X'^i(X^j), \quad i,j=1\dots n,
 \end{equation}
 
-которые предполагают число раз дифференцируемыми и невырожденными, т.е. $\det (\pdv{X'^i}{X^j}) \neq 0, \forall X^i \in \mathcal{D}$.
+которые предполагают достаточное число раз дифференцируемыми и невырожденными, т.е. $\det (\pdv{X'^i}{X^j}) \neq 0, \forall X^i \in \mathcal{D}$.
 Введём обозначения для якобиевых матриц преобразования, а также для их производных:
 
 \begin{equation}\label{eq2}
@@ -99,7 +111,7 @@
 \end{equation}
 
 \subsection{Касательное пространство}
-\textbf{Определение 2.} Кривой $\mathcal{L}$ в многообразии $M^n$ называют отображение $\mathcal{L}: [\xi_1,\xi_2] \in \mathbb{R}^1 \longrightarrow M^n$, которое записывают в виде функции:
+Определение 2. Кривой $\mathcal{L}$ в многообразии $M^n$ называют отображение $\mathcal{L}: [\xi_1,\xi_2] \in \mathbb{R}^1 \longrightarrow M^n$, которое записывают в виде функции:
 \begin{equation}\label{eq5}
 	X^i = X^i(\xi) \quad \forall \xi \in [\xi_1, \xi_2], \quad X^i \in M^n.	
 \end{equation}
@@ -112,12 +124,13 @@
 	a^i = \dv{X^i}{\xi}.
 \end{equation}
 
-\textbf{Определение 3.} Упорядоченный набор $(a_1\dots a_n)$ производных (\ref{eq6}) называют компонентами касательного вектора $a^i$ в точке $\mathcal{M}$ кривой $\mathcal{L}$ в $ M^n $.
+Определение 3. Упорядоченный набор $(a_1\dots a_n)$ производных (\ref{eq6}) называют компонентами касательного вектора $a^i$ в точке $\mathcal{M}$ кривой $\mathcal{L}$ в $ M^n $.
 
 Если перейти к координатам $X'^i$ той же точки $\mathcal{M} \in \mathcal{L}$, то согласно (\ref{e1}) получаем, что компоненты касательного вектора $a'^i$ в этой системе координат будут иметь вид: $a'^i = \dv{X'^i}{\xi}$ и связаны с $a^i$ тензорным законом:
 \begin{equation}\label{eq7}
 	a'^i = Q_{\; j}^i a^j.
 \end{equation}
+
 Поскольку через фиксированную точку$\mathcal{M} \in M^n$ можно провести различные кривые $\mathcal{L}$, то, вообще говоря, в каждой точке $\mathcal{M}$ имеется множество упорядоченных наборов $(a_1\dots A_n)$. Определим операции с этими наборами.
 
 Пусть имеется две кривые $\mathcal{L_\textup{1}}$ и $\mathcal{L_\textup{2}}$, заданные в виде функций $X_1^i(\xi), X_2^i(\xi)$, проходящие через точку $\mathcal{L}$, тогда можно построить два набора компонент касательных векторов $a_1^i = \dv{X_1^i}{\xi}$ и $a_2^i = \dv{X_2^i}{\xi}$.
@@ -136,14 +149,14 @@
 Поскольку набор чисел $(a_1 ...a_n)$ является элементом пространства $\mathbb{R}$, то, выбрав базис $e_i$ в этом пространстве, можно построить сам касательный вектор $a$ в точке $\mathcal{M}$ кривой $\mathcal{L}: a = a^ie_i = a'^ie'_i$, где $e'_i = P_{\; i}^j e_j$ - новый базис.
 
 
-\textbf{Определение 4.} Касательным пространством в данной точке $\mathcal{M}$ элементарного многообразия $M^n$ называют множество касательных векторов $а = a^ie_i$, построенных ко всевозможным кривым $\mathcal{L}$, проходящим через данную точку.
+Определение 4. Касательным пространством в данной точке $\mathcal{M}$ элементарного многообразия $M^n$ называют множество касательных векторов $а = a^ie_i$, построенных ко всевозможным кривым $\mathcal{L}$, проходящим через данную точку.
 
 
-\textbf{Теорема 1.} Касательное пространство в любой точке $\mathcal{M} \in M^n$ является $n$-мерным линейным пространством, которое обозначают как $T_{\mathcal{M}}M^n$, а векторы $e$, образуют базис в нем.
+Теорема 1. Касательное пространство в любой точке $\mathcal{M} \in M^n$ является $n$-мерным линейным пространством, которое обозначают как $T_{\mathcal{M}}M^n$, а векторы $e$, образуют базис в нем.
 
 
 \subsection{Определение риманова пространства}
-\textbf{Определение 5.} Элементарное $n$-мерное многообразие $M^n$ называют римановым пространством $\mathbb{V}^n$, если в каждой точке $\mathcal{M} \in M^n$ с координатами $X^i$ задана матрица $g_{ij}$ $n$-го порядка, которая является
+Определение 5. Элементарное $n$-мерное многообразие $M^n$ называют римановым пространством $\mathbb{V}^n$, если в каждой точке $\mathcal{M} \in M^n$ с координатами $X^i$ задана матрица $g_{ij}$ $n$-го порядка, которая является
 \begin{enumerate}
 	\item симметричной,
 	\item невырожденной: $\det (\tilde{g}_{ij}) \neq 0, \quad \forall X^i$,
@@ -177,14 +190,14 @@
 	\Gamma_{ijk} = \frac{1}{2}(g_{ik,j} + g_{jk,i} - g_{ij,k}).
 \end{equation}
 
-\textbf{Определение 6.} Функции $\Gamma_{ijk}$ определённые по формулам (\ref{eq12}), называют коэффициентами связности первого рода в $\mathbb{V}^n$. Коэффициенты связности второго рода вводим с помощью обратной матрицы $g^{ij}$:
+Определение 6. Функции $\Gamma_{ijk}$ определённые по формулам (\ref{eq12}), называют коэффициентами связности первого рода в $\mathbb{V}^n$. Коэффициенты связности второго рода вводим с помощью обратной матрицы $g^{ij}$:
 \begin{equation}\label{eq13}
 	\Gamma_{ij}^m = g^{mp}\Gamma_{ijp}.
 \end{equation}
 
 
 \subsection{Определение аффинной связности}
-\textbf{Определение 7.} Элементарное $n$-мерное многообразие $M^n$ называют пространством аффинной связности $\mathbb{L}^n$, если в каждой точке $\mathcal{M} \in M^n$ с координатами $X^i$ задана система функций $\overset{*}{\Gamma_{ij}^m}$, которые
+Определение 7. Элементарное $n$-мерное многообразие $M^n$ называют пространством аффинной связности $\mathbb{L}^n$, если в каждой точке $\mathcal{M} \in M^n$ с координатами $X^i$ задана система функций $\overset{*}{\Gamma_{ij}^m}$, которые
 \begin{enumerate}
 	\item являются непрерывно-дифференцируемыми функциями,
 	\item при переходе к другим координатам $X'^i$ преобразуются следующим образом:
@@ -192,60 +205,168 @@
 		\stackrel{*}{\Gamma_{ij}^{\prime m}}=P\indices{^{l}_{i}} P\indices{^{q}_{j}} Q\indices{^{m}_{r}} \stackrel{*}{\Gamma_{lq}^{r}}+Q\indices{^{m}_{r}} P\indices{^{r}_{i j}}.
 	\end{equation}
 \end{enumerate}
+
 Функции $\overset{*}{\Gamma_{ij}^m}$, заданные в $\mathbb{L}^n$, называют коэффициентами аффинной связности (или просто аффинной связностью).
 
 \subsection{Тензоры в элементарном многообразии}
 Построим в каждой точке $\mathcal{M} \in M^n$ множество наборов касательных векторов:
-\begin{equation*}
+\begin{equation}\label{eq15}
 	(a_1b^{(1)}a_2b^{(2)}\ldots a_nb^{(n)} \equiv (a_ib^{(i)}),
-\end{equation*}
+\end{equation}
 где $a_i \in T_{\mathcal{M}}M^n$, $b^{(i)} T_{\mathcal{M}}^*M^n$, и введём на этом множестве операции сложения и умножения на вещественное число $s$:
 \begin{align}
-	(a_ib^{(i)}) + (a_ic^{(i)}) = (a_i(b^{(i)} + c^{(i)})),\\
-	(a_ib^{(i)}) + (d_ib^{(i)}) = ((a_i+d_i)) b^{(i)}),\\
-	s(a_ib^{(i)}) = ((sa_i)b^{(i)}) = (a_i(sb^{(i)})) 
+	(a_ib^{(i)}) + (a_ic^{(i)}) = (a_i(b^{(i)} + c^{(i)})),\label{eq16}\\
+	(a_ib^{(i)}) + (d_ib^{(i)}) = ((a_i+d_i)) b^{(i)}),\label{eq17}\\
+	s(a_ib^{(i)}) = ((sa_i)b^{(i)}) = (a_i(sb^{(i)})). \label{eq18}
 \end{align}
+
+Определение 8. Тензорным касательным пространством $\mathcal{T}_n^{(pq)}(T_{\mathcal{M}}M^n)$ типа $pq$, где $p+q=2$, в точке $\mathcal{M}$ элементарного многообразия $M^n$ называют тензорное произведение касательного пространства $T_{\mathcal{M}}M^n$ на себя:
+\begin{equation}\label{eq19}
+	\mathcal{T}_{n}^{(p q)}\left(T_{\mathcal{M}} M^{n}\right)=T_{\mathcal{M}} M^{n} \otimes T_{\mathcal{M}} M^{n} \quad \forall \mathcal{M} \in M^{n}, \quad p+q=2,
+\end{equation}
+где тензорное произведение вводится как фактор-пространство $n-$ой степени декартова квадрата
+\begin{equation}\label{eq20}
+	T_{\mathcal{M}}M^n \otimes T_{\mathcal{M}}M^n = [(T_{\mathcal{M}}M^n \times T_{\mathcal{M}}M^n)^n]
+\end{equation}
+
+Базисные диады в $\mathcal{T}_n^{(pq)}(T_{\mathcal{M}}M^n)$ введём как
+\begin{equation}\label{eq21}
+	e_j \otimes e_k = [e_i(\delta_j^ie_k)],
+\end{equation}
+где $[\;]$ -- классы эквивалентности соответствующих наборов касательных векторов. Очевидно, что если рассматриваемое многообразие $M^2$ является поверхностью $\Sigma \in \mathbb{R}^3$, то базисные диады совпадают с соответствующими диадами $\rho_I \otimes \rho_K$.
+
+Определение 9. Тензором второго ранга $A(\mathcal{M})$ типа $(pq)$ в точке \\$\mathcal{M} \in M^n$ называют элемент тензорного произведения касательного пространства $\mathcal{T}_n^{(pq)} (T_{\mathcal{M}}M^n), p+q=2$.
+
+Тензор $k-$го ранга $\prescript{k}{}{A(\mathcal{M})}$ введём как 
+\begin{equation}\label{eq22}
+	\prescript{k}{}{A} = A\indices{_{i_1\ldots i_p}^{j_1 \ldots j_q}} e^{i_1} \otimes \ldots \otimes e^{i_p} \otimes e_{j_1} \otimes \ldots \otimes e_{j_q}, \quad p+q=k.
+\end{equation}
+
+\subsection{Определение тензора в римановом пространстве}
+Если в многообразии $M^n$ введена метрическая матрица $g_{ij}$ то оно становится римановым пространством $\mathbb{V}$, а касательное пространство в каждой точке $\mathcal{M} \in \mathbb{V}^n$ - евклидовым (или псевдоевклидовым) $T\mathcal{M} \mathbb{V}^n$. Тогда используя соглашение о совпадении пространств $T_{\mathcal{M}}^*\mathbb{V}^n$ и $T_{\mathcal{M}}V^n$, можно говорить о тензорном касательном пространстве $\mathcal{T}_n^{(k)}(T_{\mathcal{M}}\mathbb{V}^n)$, заданном на римановом пространстве $\mathbb{V}^n$.
+
+
 \subsection{Ковариантное дифференцирование тензоров в $\mathbb{V}^n$}
 Рассмотрим в $\mathbb{V}^n$ произвольное поле тензора $k$-гo ранга:
-\begin{equation}\label{eq15}
+\begin{equation}\label{eq23}
 	^{k} \Omega\left(X^{i}\right)=\Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q }} \mathbf{e}_{i_{1}} \otimes \ldots \otimes \mathbf{e}_{i_{p}} \otimes \mathbf{e}^{j_{1}} \otimes \ldots \otimes \mathbf{e}^{j_{q}}, \quad p+q=k,
 \end{equation}
 причём его компоненты $\Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q }}$ будем считать непрерывно дифференцируемыми функциями координат $X^i$ точки $\mathcal{M} \in \mathbb{V}^n$
 
-\textbf{Определение 8.} Ковариантной производной от компонент тензора $\Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q }}$ $k$-го ранга $^{k} \Omega$, определённого в $\mathbb{V}^n$ , называют следующий объект:
-\begin{multline}\label{eq16}
+Определение 10. Ковариантной производной от компонент тензора $\Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q }}$ $k$-го ранга $^{k} \Omega$, определённого в $\mathbb{V}^n$ , называют следующий объект:
+\begin{multline}\label{eq24}
 	\nabla_i \Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q }} = \pdv{}{X^i} \Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q }} + \sum\limits_{s=1}^{p} \Gamma_{mi}^{i_s} \Omega\indices{^{i_{1} \ldots i_{p} = m \ldots i_p}_{j_1 \ldots j_q }} + \ldots \\ 
 	\ldots - \sum\limits_{s=1}^q \Gamma_{j_si}^{m} \Omega\indices{^{i_{1} \ldots i_{p}}_{j_1 \ldots j_q = m \ldots i_q}}, p+q=k.
 \end{multline}
 
+\subsection{Ковариантное дифференцирование тензоров в $\mathbb{L}^n$}
+Наличие связанности $\Gamma_{ij}^m$ в $\mathbb{L}^n$ означает, что в этом пространстве определена операция ковариантного дифференцирования.
+
+Определение 11. Ковариантной производной от компонент тензора $\prescript{k}{}{A} \in \mathcal{T}_n^{pq}(T_{\mathcal{M}}\mathbb{L}^n), \; k=p+q$, (или иначе ковариантной производной относительно связности $\Gamma_{ij}^m$) называют следующий объект:
+\begin{equation}\label{eq25}
+	\overset{*}{\nabla_i}A\indices{^{i_1 \ldots i_p}_{j_1 \ldots j_q}} + \sum\limits_{s = 1}^p \overset{*}{\Gamma_{mi}^{i,}} A\indices{^{i_1 \ldots i_s = m \ldots i_p}_{j_1 \ldots j_q}} - \sum\limits_{s=1}^q \overset{*}{\Gamma_{i,i}^{m}} A\indices{^{i_1 \ldots i_p}_{j_1 \ldots j_s = m \ldots j_q}}.
+\end{equation}
 
 
+Теорема 2. Ковариантная производная от компонент тензора $k-$го ранга является компонентами тензора $(k+1)-$го ранга $\nabla \otimes \prescript{k}{}{A}$ в $\mathbb{L}^n$, называемого градиентом тензора:
+\begin{equation}\label{eq26}
+	\overset{*}{\nabla} \otimes \prescript{k}{}{A} = A\indices{^{i_1 \ldots i_p}_{j_1 \ldots j_q}} e^i \otimes e_{i_1} \otimes \ldots \otimes e_{i_p} \otimes e^{j_1} \otimes \ldots e^{j_q}, \qquad p+q=k.
+\end{equation}
+
+\subsection{Риманово пространство с аффинной связностью}
+В римановом пространстве $\mathbb{V}^n$ у нас была определена метрика $g_{ij}$ (ей соответствовала вполне определённая связность $\Gamma_{ij}^m$). Можно однако построить такое пространство, в котором будет одновременно определена и метрика $g_{ij}$, и некоторая <<самостоятельная>> связность  $\overset{*}{\Gamma_{ij}^m}$, для которой уже не имеют места соотношения (\ref{eq12}).\\
+
+Определение 12. Элементарное $n-$мерное многообразие $M^n$ называют римановым пространством аффинной связностью $\mathbb{W}^n$, если в каждой точке $\mathcal{M} \in M^n$ с координатами $x^i$ заданы две системы функций $g_{ij}$ и $\overset{*}{\Gamma_{ij}^m}$, вообще говоря, не связанные никакими соотношениями и удовлетворяющие свойствам 1-4 из определения 5 и 1,2 из определения 7 соответственно.
+
+Поскольку в $\mathbb{W}^n$ определена метрическая матрица $g_{ij}$, то можно образовать из неё символы $\Gamma_{ij}^m$ по формуле (\ref{eq})
+\begin{equation}\label{eq25}
+ \Gamma_{ij}^m = \frac{1}{2}g^{mk}(g_{ik,j} + g_{jk,i} - g_{ij,k}).
+\end{equation}
+
+Символы $\Gamma_{ij}^m$ уже не являются связностью: $\overset{*}{\Gamma_{ij}^m} \neq  \Gamma_{ij}^m$.
 
 
+\subsection{Тензор Римана-Кристоффеля}
+Рассмотрим в точке $\mathcal{M} \in \mathbb{L}^n$ произвольный вектор $b = b^ke_k$ из $T_{\mathbb{L}^n}$ и вычислим его ковариантную производную относительно связности $\overset{*}{\Gamma_{ij}^m}$:
+\begin{equation} \label{eq 28}
+	\overset{*}{\nabla_i}b^k = \pdv{b^k}{X^i} + \overset{*}{\Gamma_{si}^k}b^s.
+\end{equation}
+
+Вычислим вторую ковариантную производную:
+\begin{align}\label{eq29}
+\begin{split}
+	&\overset{*}{\nabla_j} \overset{*}{\nabla_i} b^k = \pdv{}{X^j} (\overset{*}{\nabla_i}b^k) + \overset{*}{\Gamma_{mj}^k} \overset{*}{\nabla_i} b^m - \overset{*}{\Gamma_{ij}^m} \overset{*}{\nabla_m} b^k = \pdv{b^k}{X^j}{X^i} + \pdv{\overset{*}{\Gamma_{si}^k}}{X^j}b^s + \overset{*}{\Gamma_{si}^k} \pdv{b^s}{X^j} +\\ &+\overset{*}{\Gamma_{mj}^k} (\pdv{b^m}{X^i} + \overset{*}{\Gamma_{mj}^k} b^s) - \overset{*}{\Gamma_{ij}^m}(\pdv{b^k}{X^m} + \overset{*}{\Gamma_{sm}^k}b^s).
+\end{split}	
+\end{align}
+
+Поменяем теперь индексы $i$ и $j$ и образуем разность:
+\begin{equation}\label{eq30}
+	\overset{*}{\nabla_j} \overset{*}{\nabla_i} b^k - \overset{*}{\nabla_i} \overset{*}{\nabla_j} b^k = (\pdv{\overset{*}{\Gamma_{si}^k}}{X^j} - \pdv{\overset{*}{\Gamma_{sj}^k}}{X^i} + \overset{*}{\Gamma_{mj}^k} \overset{*}{\Gamma_{si}^m} - \overset{*}{\Gamma_{mi}^k} \overset{*}{\Gamma_{sj}^m})b^s - (\overset{*}{\Gamma_{ij}^m} - \overset{*}{\Gamma_{ji}^m}) \overset{*}{\nabla_m}b^k.
+\end{equation}
 
 
+Коэффициенты, стоящие в первой скобке, обозначим следующим образом:
+\begin{equation}\label{eq31}
+	\overset{*}{R_{jis}^{\quad k}} = \overset{*}{\Gamma_{si,j}^k} - \overset{*}{\Gamma_{sj,i}^k} + \overset{*}{\Gamma_{si}^m} \overset{*}{\Gamma_{mj}^k} + \overset{*}{\Gamma_{sj}^m} \overset{*}{\Gamma_{mi}^k}.
+\end{equation}
+
+Здесь, как и ранее, $\Gamma_{si,j}^k = \pdv*{\Gamma_{si}^k}{X^j}$.
 
 
+Теорема 3. Система коэффициентов $\overset{*}{R_{jis}^{\quad k}}$, образованная по формуле (\ref{eq31}), представляет собой компоненты тензора $\prescript{4}{}{\overset{*}{R}}$ четвёртого ранга из пространства $\mathcal{T}_n^{(31)} (T_\mathcal{M} \mathbb{L}^n)$:
+\begin{equation}\label{eq32}
+	\prescript{4}{}{\overset{*}{R}} = \overset{*}{R_{jis}^{\quad k}} e^j \otimes e^i \otimes e^s \otimes e_k
+\end{equation}
 
 
+Определение 13. Тензор (\ref{eq32}) называют тензором кривизны пространства $\mathbb{L}^n$ относительно связности $\overset{*}{\Gamma_{ij}^m}$ (или тензором Римана-Кристоффеля).
 
 
+\subsection{Тензор Риччи}
+В пространстве $\mathbb{W}^n$ из тензора Римана-Кристоффеля можно образовать несколько тензоров второго ранга. Свёртка транспонированного тензора Римана-Кристоффеля $\prescript{4}{}{R}$ с метрическим тензором образует тензор второго ранга:
+\begin{equation}\label{eq33}
+	\overset{*}{\mathcal{R}} = \prescript{4}{}{R}^{(2314)} \cdot \cdot E,
+\end{equation}
+называемый тензором Риччи. Компоненты этого тензора имеют следующий вид:
+\begin{align}\label{eq34}
+\begin{split}
+	\overset{*}{\mathcal{R}} &= \overset{*}{R}_{ji}e^j \otimes \overset{*}{R}_{i_1i_2i_3i_4} e^{i_2} \otimes e^{i_3} \otimes e^{i_1} \otimes e^{i_4} \cdot \cdot e^{i_4} \cdot \cdot e^k \otimes e_k = \\
+	&= \overset{*}{R}_{i_1i_2i_3i_4} \delta_k^{i_1}g^{i_4k}e^{i_2} \otimes e^{i_3} = \overset{*}{R_{kji}^{\quad k}} e^j \otimes e^i,
+\end{split}
+\end{align}
+то есть
+\begin{equation}\label{eq35}
+	\overset{*}{R}_{ji} = \overset{*}{R_{kji}^{\quad k}} = \overset{*}{R_{nji}^{\quad k}}  \delta_k^n.
+\end{equation}
 
 
+Подставляя в (\ref{eq35}) выражение (\ref{eq31}) для компонент тензора Римана-Кристоффеля, получаем:
+\begin{equation}\label{eq36}
+	\overset{*}{R}_{ji} = \pdv{\overset{*}{\Gamma_{ij}^k}}{X^k} - \pdv{\overset{*}{\Gamma_{ik}^k}}{X^j} + \overset{*}{\Gamma_{ij}^n} \overset{*}{\Gamma_{nk}^k} - \overset{*}{\Gamma_{ik}^n} \overset{*}{\Gamma_{nj}^k}.
+\end{equation}
 
 
+Аналогичным образом можно ввести тензор Риччи относительно символов $\Gamma_{ij}^k$:
+\begin{equation}\label{eq37}
+	R_{ji} = R\indices{_{kji}^k} = R\indices{_{nji}^k} \delta_k^n,
+\end{equation}
+
+и
+
+\begin{equation}\label{eq38}
+	R_{ji} = \Gamma_{ij,k}^k - \Gamma_{ik,j}^k + \Gamma_{ij}^m \Gamma_{mk}^k - \Gamma_{ik}^m \Gamma_{kj}^k.
+\end{equation}
 
 
+\subsection{Тензор Эйнштейна}
+Тензоры Эйнштейна $\overset{*}{G}$ и $G$ образуются из тензоров Риччи $\overset{*}{\mathcal{R}}$ и $\mathcal{R}$ следующим образом:
+\begin{equation}\label{eq39}
+	\overset{*}{G} = \overset{*}{\mathcal{R}} - \frac{1}{2}\overset{*}{\mathcal{R}}E, \qquad G = \mathcal{R} - \frac{1}{2}\mathcal{R}E,
+\end{equation}
 
+где $\mathcal{R} = \overset{*}{R} \cdot \cdot E$ и $\mathcal{R} = R \cdot \cdot E$ -- свертки тензоров Риччи с метрическим тензором.
 
-
-
-
-
-
-
-
-
+Тензор Эйнштейна играет важную роль в общей теории относительности (см., например, \cite{Petrov}, \cite{Rashevskiy}, \cite{Shipov}).
 
 
 
@@ -278,8 +399,15 @@
 
 
 
-
-
-
+\clearpage
+\addcontentsline{toc}{section}{Список используемой литературы}
+\begin{thebibliography}{3}
+\bibitem{Petrov}
+	Петров А.З. Пространства Эйнштейна. М.: Физматгиз, 1961, 464 с.
+\bibitem{Rashevskiy}
+	Рашевский П.К. Риманова геометрия и тензорный анализ. М.: Наука, 1967, 664 с.
+\bibitem{Shipov}
+	Шипов Г.И. Теория физического вакуума. НТ-Центр, 1993, 362 с.
+\end{thebibliography}
 
 \end{document}
