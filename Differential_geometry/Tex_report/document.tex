@@ -1,13 +1,14 @@
-\documentclass[14pt,a4paper]{scrartcl}
-\usepackage[english,russian]{babel}
-\linespread{1.3}
-\usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2.5cm,bindingoffset=0cm]{geometry}
+\documentclass[14pt,a4paper]{extarticle}
 \renewcommand{\rmdefault}{ftm}
-\usepackage{mathtext}
 \usepackage{cmap}
 \usepackage[utf8]{inputenc}
 \usepackage[T1,T2A]{fontenc}
-\usepackage{relsize}
+\usepackage[english,russian]{babel}
+\usepackage{mathtext}
+\usepackage{indentfirst}
+\linespread{1.3}
+\usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage{titlesec}
 \usepackage{graphicx}
 \usepackage{subfigure}
 \usepackage{mathtools}
@@ -16,16 +17,31 @@
 \usepackage{sidecap}
 \usepackage{wrapfig}
 \usepackage{caption}
-\usepackage[table,xcdraw]{xcolor}
-\usepackage{listings}
-\usepackage{minted}
 \usepackage{physics}
 \usepackage{tensor}
 \usepackage[hidelinks]{hyperref}
 \bibliographystyle{gost2008}
-\addto\captionsrussian{\def\refname{Список литературы}}
+\addto\captionsrussian{\def\refname{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}
 
 
+
+
+\titleformat{\section}
+{\normalfont\fontsize{14}{19}\selectfont}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\fontsize{14}{17}\selectfont}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+{\normalfont\fontsize{14}{17}\selectfont}{\thesubsubsection}{1em}{}
+
+\makeatletter
+\renewcommand\tableofcontents{%
+	\null\hfill\normalfont{\Large\contentsname}\hfill\null\par
+	\@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
+	\@starttoc{toc}%
+}
+\makeatother
+
+\renewcommand{\bfseries}{\relax}
 
 \begin{document}
 	\begin{titlepage}
@@ -77,6 +93,8 @@
 \parindent=1.25cm
 \clearpage
 
+
+
 \section{Римановы пространства}
 В механике и особенно в релятивистской физике тензоры широко применяют в $n$-мерных римановых пространствах, являющихся более общими, чем евклидовы. Дадим определение этих пространств, а затем покажем, как конструируются тензоры в них. Начнём с основополагающего понятия римановых пространств - элементарного многообразия.
 
@@ -109,7 +127,6 @@
 \begin{equation}\label{eq4}
 	x^i = x^{i}(X^1, X^2), \quad i=1,2,3.
 \end{equation}
-
 \subsection{Касательное пространство}
 Определение 2. Кривой $\mathcal{L}$ в многообразии $M^n$ называют отображение $\mathcal{L}: [\xi_1,\xi_2] \in \mathbb{R}^1 \longrightarrow M^n$, которое записывают в виде функции:
 \begin{equation}\label{eq5}
