@@ -14,7 +14,6 @@
 \usepackage{caption}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{listings}
-\usepackage{minted}
 \usepackage{multirow}
 \usepackage{bigstrut}
 \begin{document}
@@ -67,8 +66,9 @@
 \section*{Задание 1}\label{sec1}
 В условиях задачи №5 	построить последовательный критерий Вальда для проверки гипотезы $H_0: a=a_0=7.5$  против альтернативы $H_1:a=a_1=8$ при известном $\sigma=\sigma_1=2.5$. Ошибка первого рода $\alpha = 0.1$, ошибка второго рода $\beta = 0.2362404$ вычислена в пункте 4 задачи №5.\\
 \textbf{Решение.}\\
+
 Рассмотрим выборку, предложенную нам в условии:
-\begin{minted}{R}
+\begin{lstlisting}
 > df
 [1]  0.653 13.884 11.088  7.409  8.827  5.582  9.747  8.023  8.396
 [10]  6.535  6.036  5.251 12.462  9.350  9.770  5.517  6.740 10.759
@@ -82,7 +82,7 @@
 [82] 10.159  6.639  7.936  8.149 10.462 12.296  3.403 10.631  7.802
 [91]  5.580  8.325 10.687  9.843  9.509  5.668  8.511  8.657  8.835
 [100]  9.484
-\end{minted}
+\end{lstlisting}
 
 Критическое множество для среднего при известном среднеквадратическом отклонении запишется в данном случае как $\bar{x} > c_1$, где
 \begin{equation*}
@@ -90,11 +90,11 @@ c_1 = a_0 + \frac{qnrom(1-\alpha,0,1)}{\sqrt{n}}\sigma_1
 \end{equation*}
 
 Имеем:
-\begin{minted}{R}
+\begin{lstlisting}
 > c1 <- a0 + (qnorm(1-alpha))/(sqrt(df_len)) * sigma1
 > c1
 [1] 7.820388
-\end{minted}
+\end{lstlisting}
 
 Получаем критическое множество:
 \begin{equation*}
@@ -106,13 +106,12 @@ c_1 = a_0 + \frac{qnrom(1-\alpha,0,1)}{\sqrt{n}}\sigma_1
 \beta(c_1) = \Phi(\frac{c_1-a_1}{\sigma_1}\sqrt{n})
 \end{equation*}
 
-\newpage
 Имеем:
-\begin{minted}{R}
+\begin{lstlisting}
 > beta <- pnorm((c1-a1)/sigma1 * sqrt(df_len))
 > beta
 [1] 0.2362404
-\end{minted}
+\end{lstlisting}
 
 Построим критерий Вальда:
 \begin{align*} 
@@ -120,25 +119,19 @@ c_1 = a_0 + \frac{qnrom(1-\alpha,0,1)}{\sqrt{n}}\sigma_1
 	B = \frac{\beta}{1-\alpha}
 \end{align*}
 
-\begin{minted}{R}
+\begin{lstlisting}
 > A <- (1-beta)/alpha
 > B <- beta/(1-alpha)
 > A
 [1] 7.637596
 > B
 [1] 0.2624894
-\end{minted}
+\end{lstlisting}
 
 \begin{equation*}
 	\operatorname{Lf}(\mathrm{j})=\prod_{i=1}^{j} \exp{\left[\frac{z_{i}(a_1-a_0)}{\sigma_1^{2}}+\frac{a_0^{2}-a_1^{2}}{2 \sigma_1^{2}}\right]}
 \end{equation*}
 
-\begin{figure}[h]
-	\center{\includegraphics[width=0.85\linewidth]{../img/vald1.png}}
-	\label{ris:vald1}
-\end{figure}
-
-\newpage
 
 Вычислим математическое ожидание момента принятия решения при основной гипотезе $H_0$ и при альтернативе $H_1$.
 \begin{align*}
@@ -150,42 +143,53 @@ c_1 = a_0 + \frac{qnrom(1-\alpha,0,1)}{\sqrt{n}}\sigma_1
 	\mathrm{M_0}Y_k=\frac{2 a_0 *(a_1-a_0)+a_0^{2}-a_1^{2}}{2 \sigma_1^{2}}=-\frac{(a_0-a_1)^{2}}{2 \sigma_1^{2}}
 \end{equation*}
 
-\begin{minted}{R}
+\begin{lstlisting}
 > M0Yk <- -(a1-a0)^2 / (2*sigma1^2)
 > M0Yk
 [1] -0.02
-\end{minted}
+\end{lstlisting}
 
 
 \begin{equation*}
 \mathrm{M_1}Y_k=\frac{2 a_1 *(a_1-a_0)+a_0^{2}-a_1^{2}}{2 \sigma_1^{2}}=\frac{(a_0-a_1)^{2}}{2 \sigma_1^{2}}
 \end{equation*}
 
-\begin{minted}{R}
+\begin{lstlisting}
 > M1Yk <- -(a1-a0)^2 / (2*sigma1^2)
 > M1Yk
 [1] 0.02
-\end{minted}
+\end{lstlisting}
 
 Найдём среднее число испытаний, если верна нулевая гипотеза:
 \begin{equation*}
 	\mathrm{M_0}\nu = \frac{\alpha \ln(A) + (1-\alpha)\ln(B)}{\mathrm{M_0}Y_k}
 \end{equation*}
-\begin{minted}{R}
+\begin{lstlisting}
 > M0_nu <- (alpha*log(A) + (1-alpha)*log(B))/M0Yk
 > M0_nu
 [1] 50.0241
-\end{minted}
+\end{lstlisting}
 
 А также среднее число испытаний, если верна альтернативная гипотеза:
 \begin{equation*}
 \mathrm{M_1}\nu = \frac{\beta \ln(B) + (1-\beta)\ln(A)}{\mathrm{M_1}Y_k}
 \end{equation*}
-\begin{minted}{R}
+\begin{lstlisting}
 > M1_nu <- (beta*log(B) + (1-beta)*log(A))/M1Yk
 > M1_nu
 [1] 61.84022
-\end{minted}
+\end{lstlisting}
+
+\newpage 
+
+Получили, что при условии $H_0$ потребуется в среднем 50 испытаний, а при условии $H_1$ -- 62 испытания.
+
+\begin{figure}[h]
+	\center{\includegraphics[width=1\linewidth]{../img/vald1.png}}
+	\label{ris:vald1}
+\end{figure}
+
+По графику видим, что кривая пересекает прямую $A$, следовательно, принимаем гипотезу $H_1$.
 
 \newpage
 
@@ -205,7 +209,7 @@ c_1 = a_0 + \frac{qnrom(1-\alpha,0,1)}{\sqrt{n}}\sigma_1
 	C &= e^{C_3}
 \end{align*}
 
-\begin{minted}{R}
+\begin{lstlisting}
 > C1 <- c1
 > C2 <- 100 * C1
 > C3 <- 100 * (a0^2-a1^2)/(2*sigma1^2) + C2 * (a1-a0)/(sigma1^2)
@@ -218,15 +222,17 @@ c_1 = a_0 + \frac{qnrom(1-\alpha,0,1)}{\sqrt{n}}\sigma_1
 [1] 0.5631031
 > C
 [1] 1.756114
-\end{minted}
+\end{lstlisting}
 
+\newpage 
 \begin{figure}[h]
 	\center{\includegraphics[width=1\linewidth]{../img/neyman-pearson.png}}
 	\label{ris:neyman-pearson}
 \end{figure}
 
+По графику видим, что кривая на $n=100$ испытании находится над прямой $C$, следовательно принимаем гипотезу $H_1$
 
-
+Так же можем заметить, что среднее число испытаний в критерии Вальда примерно в два раза меньше, чем для критерия Неймана-Пирсона.
 
 
 
