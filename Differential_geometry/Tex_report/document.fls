@@ -255,9 +255,12 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t1ftm.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr8t.tfm
 INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\cmap\t1.cmap
 INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\cmap\t1.cmap
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmb6t.tfm
 OUTPUT document.toc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\pscyr\ftmr6t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6a.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\pscyr\ftmb6t.vf
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmb6a.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6t.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\pscyr\ftmr6t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6a.tfm
@@ -304,3 +307,5 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\pscyr\times.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\pscyr\times.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\pscyr\timesbd.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\pscyr\timesbd.pfb

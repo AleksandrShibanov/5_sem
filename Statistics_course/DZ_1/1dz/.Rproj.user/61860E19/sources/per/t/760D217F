@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568303819375.000,
+    "dirty" : false,
+    "encoding" : "ASCII",
+    "folds" : "",
+    "hash" : "24244540",
+    "id" : "760D217F",
+    "lastKnownWriteTime" : 1568359528,
+    "last_content_update" : 1568359528250,
+    "path" : "~/Desktop/matstat/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "51,27",
+        "scrollLine" : "42",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

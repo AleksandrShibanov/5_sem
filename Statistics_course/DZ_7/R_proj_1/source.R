@@ -31,13 +31,57 @@ axis(2, seq(0.00, 0.10, 0.01), las = 1)
 grid(nx = 20, ny = 10, equilogs = F)
 dev.off()
 
-#$#
+#$###########################################################################
+#$###########################################################################
+
+relative_freq <- pl1$counts / length(df$V1)
+relative_freq
+
+relative_freq/bin_width
+
+pl1$density
+pl1$breaks
+
+pl1$mids - width/2
+pl1$breaks
+
+a <- 2.579
+b <- 17.938
+
+pt1 <- c(punif(pl1$breaks[2],a,b),punif(pl1$breaks[-c(1:2,length(pl1$breaks))], a,b)
+        - punif(pl1$breaks[-c(1,(length((pl1$breaks))-1):length((pl1$breaks)))], a,b))
+pt <- c(pt, 1-sum(pt1))
+
+npt <- pt * n
+
+chi_sq <- sum((pt - relative_freq)^2/(pt))
+qchisq(0.99,5)
+
+
 chisq.test(df$V1)
-qchisq(0.01,119)
 
-int1 <- pl1$mids
 
-#$#  
+png(filename = "../img/hist_with_unif_dens.png", 
+    width = 1920, height = 1080,
+    pointsize = 24, res = 96 * 1.25)
+par(mar = c(3, 3, 2, 1), xaxs = "i", yaxs = "i")
+pl1 <- hist(df$V1,
+            breaks = seq(min_el, max_el, by = bin_width), 
+            xlim = c(0, 20), ylim = c(0.00,0.10), axes = F, freq = F,
+            main = "Histogram of data")
+axis(1, seq(0, 20, 1))
+axis(2, seq(0.00, 0.10, 0.01), las = 1)
+grid(nx = 20, ny = 10, equilogs = F)
+curve(dunif(x, 2.5978, 17.9383), 2.5978, 17.9383, 
+      xlim = c(0,20), add = T, col = "red", lwd = 3)
+legend("topright", c("uniform density"), 
+       lty=c(1), 
+       fill=c("red"))
+dev.off()
+
+
+#$###########################################################################
+#$##########################################################################
 relative_freq <- pl1$counts / length(df$V1)
 relative_freq
 

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568303819375.000,
+    "dirty" : false,
+    "encoding" : "ASCII",
+    "folds" : "",
+    "hash" : "2562392161",
+    "id" : "760D217F",
+    "lastKnownWriteTime" : 1574598185,
+    "last_content_update" : 1574598185588,
+    "path" : "~/Desktop/1dz/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "52,0",
+        "scrollLine" : "46",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

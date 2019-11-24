@@ -27,11 +27,20 @@
 
 
 \titleformat{\section}
-{\normalfont\fontsize{14}{19}\selectfont}{\thesection}{1em}{}
+{\normalfont\fontsize{14}{19}\selectfont}{\hspace{1.25cm}\thesection}{1em}{}
 \titleformat{\subsection}
-{\normalfont\fontsize{14}{17}\selectfont}{\thesubsection}{1em}{}
+{\normalfont\fontsize{14}{17}\selectfont}{\hspace{1.25cm}\thesubsection}{1em}{}
 \titleformat{\subsubsection}
-{\normalfont\fontsize{14}{17}\selectfont}{\thesubsubsection}{1em}{}
+{\normalfont\fontsize{14}{17}\selectfont}{\hspace{1.25cm}\thesubsubsection}{1em}{}
+
+\titlespacing*{\section}
+{0pt}{3.25ex plus 1ex minus .2ex}{4.5ex}
+
+\titlespacing*{\subsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{4.5ex}
+
+\titlespacing*{\subsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{4.5ex}
 
 \makeatletter
 \renewcommand\tableofcontents{%
@@ -41,7 +50,6 @@
 }
 \makeatother
 
-\renewcommand{\bfseries}{\relax}
 
 \begin{document}
 	\begin{titlepage}
@@ -174,6 +182,7 @@
 
 \subsection{Определение риманова пространства}
 Определение 5. Элементарное $n$-мерное многообразие $M^n$ называют римановым пространством $\mathbb{V}^n$, если в каждой точке $\mathcal{M} \in M^n$ с координатами $X^i$ задана матрица $g_{ij}$ $n$-го порядка, которая является
+\renewcommand{\labelenumi}{$\arabic{enumi}^{\circ}$}
 \begin{enumerate}
 	\item симметричной,
 	\item невырожденной: $\det (\tilde{g}_{ij}) \neq 0, \quad \forall X^i$,
