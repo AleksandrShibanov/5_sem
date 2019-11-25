@@ -1,5 +1,6 @@
 \documentclass[14pt,a4paper]{extarticle}
 \renewcommand{\rmdefault}{ftm}
+\usepackage{amssymb,amsmath,amsthm,enumitem}
 \usepackage{cmap}
 \usepackage[utf8]{inputenc}
 \usepackage[T1,T2A]{fontenc}
@@ -23,8 +24,14 @@
 \bibliographystyle{gost2008}
 \addto\captionsrussian{\def\refname{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}
 
-
-
+\makeatletter
+\g@addto@macro\normalsize{%
+	\setlength\abovedisplayskip{4.5ex}
+	\setlength\belowdisplayskip{4.5ex}
+	\setlength\abovedisplayshortskip{4.5ex}
+	\setlength\belowdisplayshortskip{4.5ex}
+}
+\makeatother
 
 \titleformat{\section}
 {\normalfont\fontsize{14}{19}\selectfont}{\hspace{1.25cm}\thesection}{1em}{}
@@ -34,13 +41,13 @@
 {\normalfont\fontsize{14}{17}\selectfont}{\hspace{1.25cm}\thesubsubsection}{1em}{}
 
 \titlespacing*{\section}
-{0pt}{3.25ex plus 1ex minus .2ex}{4.5ex}
+{0pt}{4.5ex}{4.5ex}
 
 \titlespacing*{\subsection}
-{0pt}{3.25ex plus 1ex minus .2ex}{4.5ex}
+{0pt}{4.5ex}{4.5ex}
 
 \titlespacing*{\subsubsection}
-{0pt}{3.25ex plus 1ex minus .2ex}{4.5ex}
+{0pt}{4.5ex}{4.5ex}
 
 \makeatletter
 \renewcommand\tableofcontents{%
@@ -50,6 +57,7 @@
 }
 \makeatother
 
+\renewcommand{\labelenumi}{$\arabic{enumi})$}
 
 \begin{document}
 	\begin{titlepage}
@@ -182,7 +190,7 @@
 
 \subsection{Определение риманова пространства}
 Определение 5. Элементарное $n$-мерное многообразие $M^n$ называют римановым пространством $\mathbb{V}^n$, если в каждой точке $\mathcal{M} \in M^n$ с координатами $X^i$ задана матрица $g_{ij}$ $n$-го порядка, которая является
-\renewcommand{\labelenumi}{$\arabic{enumi}^{\circ}$}
+
 \begin{enumerate}
 	\item симметричной,
 	\item невырожденной: $\det (\tilde{g}_{ij}) \neq 0, \quad \forall X^i$,
@@ -204,7 +212,6 @@
 
 
 Риманово пространство называют собственно римановым, если метрическая матрица $g_{ij}, \forall X^i \in \mathcal{D}$ является положительно-определённой, в противном случае говорят о псевдоримановых пространствах.
-\\
 
 
 \section{Свойства римановых пространств}
@@ -300,7 +307,7 @@
 \end{equation}
 
 \subsection{Риманово пространство с аффинной связностью}
-В римановом пространстве $\mathbb{V}^n$ у нас была определена метрика $g_{ij}$ (ей соответствовала вполне определённая связность $\Gamma_{ij}^m$). Можно однако построить такое пространство, в котором будет одновременно определена и метрика $g_{ij}$, и некоторая <<самостоятельная>> связность  $\overset{*}{\Gamma_{ij}^m}$, для которой уже не имеют места соотношения (\ref{eq12}).\\
+В римановом пространстве $\mathbb{V}^n$ у нас была определена метрика $g_{ij}$ (ей соответствовала вполне определённая связность $\Gamma_{ij}^m$). Можно однако построить такое пространство, в котором будет одновременно определена и метрика $g_{ij}$, и некоторая <<самостоятельная>> связность  $\overset{*}{\Gamma_{ij}^m}$, для которой уже не имеют места соотношения (\ref{eq12}).
 
 Определение 12. Элементарное $n-$мерное многообразие $M^n$ называют римановым пространством аффинной связностью $\mathbb{W}^n$, если в каждой точке $\mathcal{M} \in M^n$ с координатами $x^i$ заданы две системы функций $g_{ij}$ и $\overset{*}{\Gamma_{ij}^m}$, вообще говоря, не связанные никакими соотношениями и удовлетворяющие свойствам 1-4 из определения 5 и 1,2 из определения 7 соответственно.
 
@@ -426,7 +433,7 @@
 
 
 \clearpage
-\addcontentsline{toc}{section}{Список используемой литературы}
+\addcontentsline{toc}{section}{Список использованных источников}
 \begin{thebibliography}{3}
 \bibitem{Petrov}
 	Петров А.З. Пространства Эйнштейна. М.: Физматгиз, 1961, 464 с.

@@ -1,4 +1,5 @@
 df <- read.csv("db.csv", header = F) #data import
+df$V1
 ##############################################################################
 #1
 max_el <- max(df)
@@ -48,17 +49,24 @@ pl1$breaks
 a <- 2.579
 b <- 17.938
 
-pt1 <- c(punif(pl1$breaks[2],a,b),punif(pl1$breaks[-c(1:2,length(pl1$breaks))], a,b)
-        - punif(pl1$breaks[-c(1,(length((pl1$breaks))-1):length((pl1$breaks)))], a,b))
-pt <- c(pt, 1-sum(pt1))
+pt1 <- c(punif(pl1$breaks[2],a,b),
+         punif(pl1$breaks[-c(1:2,length(pl1$breaks))], a,b)
+        - punif(pl1$breaks[-c(1,(length((pl1$breaks))-1):
+                                length((pl1$breaks)))], a,b))
+pt1
+pt <- c(pt1, 1-sum(pt1))
+pt
 
 npt <- pt * n
+npt
 
-chi_sq <- sum((pt - relative_freq)^2/(pt))
+chi_sq <- sum((npt - pl1$counts)^2/(npt))
+chi_sq
+
 qchisq(0.99,5)
 
 
-chisq.test(df$V1)
+chisq.test(df$V1, runif(120,a,b))
 
 
 png(filename = "../img/hist_with_unif_dens.png", 

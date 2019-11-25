@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{qchisq}\PYG{p}{(}\PYG{l+m}{0.99}\PYG{p}{,}\PYG{l+m}{5}\PYG{p}{)}
+\PYG{n}{[1]} \PYG{l+m}{15.08627}
+\end{Verbatim}

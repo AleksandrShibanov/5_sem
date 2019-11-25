@@ -1,36 +1,40 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.21)  17 SEP 2019 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  24 NOV 2019 16:25
 entering extended mode
 **./document.tex
 (document.tex
-LaTeX2e <2018-04-01> patch level 5
+LaTeX2e <2019-10-01> patch level 3
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/koma-
 script\scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/koma-
 script\scrkbase.sty
 Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/koma-
 script\scrbase.sty
 Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
  basics and keyval usage)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/koma-
 script\scrlfile.sty
 Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+
+LaTeX Warning: Command \InputIfFileExists  has changed.
+               Check if current package is valid.
+
 )))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/koma-
 script\tocbasic.sty
 Package: tocbasic 2019/02/01 v3.26b KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
-\scr@dte@tocline@numbox=\box26
+\scr@dte@tocline@numbox=\box27
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -58,11 +62,11 @@ Class scrartcl Warning: deprecated option `enabledeprecatedfontcommands'.
 Class scrartcl Info: File `size14.clo' used to setup font sizes on input line 2
 162.
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\extsi
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/extsi
 zes\size14.clo
 File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/koma-
 script\typearea.sty
 Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
 \ta@bcor=\skip42
@@ -137,7 +141,7 @@ Class scrartcl Info: using compatibility default `afterindent=bysign'
 (scrartcl)           for `\subparagraph on input line 4537.
 \abovecaptionskip=\skip53
 \belowcaptionskip=\skip54
-\c@pti@nb@sid@b@x=\box27
+\c@pti@nb@sid@b@x=\box28
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lof' on input line 5781.
@@ -153,29 +157,30 @@ Class scrartcl Info: Using old \@makefntext due to compatibility level
 Class scrartcl Info: Redefining `\numberline' on input line 5957.
 \bibindent=\dimen102
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\cmap\
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/cmap\
 cmap.sty
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2018/04/06 v1.3b Input encoding file
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2aenc.def"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t2aenc.dfu"
-File: t2aenc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\t2aenc.dfu"
+File: t2aenc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
    defining Unicode char U+0400 (decimal 1024)
    defining Unicode char U+0401 (decimal 1025)
    defining Unicode char U+0402 (decimal 1026)
@@ -357,63 +362,75 @@ File: t2aenc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+2329 (decimal 9001)
    defining Unicode char U+232A (decimal 9002)
    defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
 ))
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+05.
+("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)<<t2a.cmap>>) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2018/06/05 3.22 The Babel package
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2018/06/05 3.22 Babel switching mechanism
+)<<t2a.cmap>>) ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/11/14 3.36 The Babel package
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/11/14 3.36 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi
 \bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/babel-english\english.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/06/05 3.22 Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/11/14 3.36 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
 \bbl@dirlevel=\count90
 )
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language76) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language76) on input line 108.
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\babel
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/babel
 -russian\russianb.ldf
 Language: russian 2017/08/12 1.3j Russian support for the Babel system
 Package babel Info: Making " an active character on input line 120.
 Package babel Info: Default for \cyrdash is provided on input line 157.
 ))
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\relsi
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/relsi
 ze\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+Package graphics Info: Driver file: pdftex.def on input line 105.
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\subfi
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/subfi
 gure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip57
@@ -430,15 +447,15 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 * Local config file subfigure.cfg used *
 ****************************************
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\subfi
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/subfi
 gure\subfigure.cfg)
 \subfig@top=\skip61
 \subfig@bottom=\skip62
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\matht
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/matht
 ools\mathtools.sty
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count95
 \calc@Bcount=\count96
@@ -451,40 +468,40 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count97
 \calc@Cskip=\skip65
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\matht
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/matht
 ools\mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2017/09/02 v2.17a AMS math features
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2019/11/16 v2.17d AMS math features
 \@mathmargin=\skip66
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen110
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen111
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count98
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 227.
 \uproot@=\count99
 \leftroot@=\count100
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 389.
 \classnum@=\count101
 \DOTSCASE@=\count102
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
 \big@size=\dimen112
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count103
 \c@MaxMatrixCols=\count104
 \dotsspace@=\muskip10
@@ -505,8 +522,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip67
 \multlinetaggap=\skip68
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
@@ -521,26 +538,27 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen123
 \l_MT_above_shortintertext_sep=\dimen124
 \l_MT_below_shortintertext_sep=\dimen125
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count111
 \float@exts=\toks22
-\float@box=\box30
+\float@box=\box31
 \@float@everytoks=\toks23
-\@floatcapt=\box31
+\@floatcapt=\box32
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\sidec
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/sidec
 ap\sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \SC@BOXWD=\dimen126
@@ -548,22 +566,22 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \SC@tempdima=\dimen128
 \SC@tempdimb=\dimen129
 \c@SC@C=\count112
-\SC@BOX=\box32
+\SC@BOX=\box33
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapf
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/wrapf
 ig\wrapfig.sty
 \wrapoverhang=\dimen130
 \WF@size=\dimen131
 \c@WF@wrappedlines=\count113
-\WF@box=\box33
+\WF@box=\box34
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\capti
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/capti
 on\caption.sty
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\capti
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/capti
 on\caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
@@ -583,26 +601,26 @@ Package caption Info: sidecap package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolo
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolo
 r\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\color
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/color
 tbl\colortbl.sty
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen139
-\ar@mcellbox=\box34
+\ar@mcellbox=\box35
 \extrarowheight=\dimen140
 \NC@list=\toks25
 \extratabsurround=\skip70
 \backup@length=\skip71
-\ar@cellbox=\box35
+\ar@cellbox=\box36
 )
 \everycr=\toks26
 \minrowclearance=\skip72
@@ -618,10 +636,10 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\listi
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/listi
 ngs\listings.sty
 \lst@mode=\count117
-\lst@gtempboxa=\box36
+\lst@gtempboxa=\box37
 \lst@token=\toks27
 \lst@length=\count118
 \lst@currlwidth=\dimen141
@@ -633,260 +651,515 @@ ngs\listings.sty
 \lst@lineno=\count122
 \lst@maxwidth=\dimen144
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\listi
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/listi
 ngs\lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 \c@lstnumber=\count123
 \lst@skipnumbers=\count124
-\lst@framebox=\box37
+\lst@framebox=\box38
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\listi
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/listi
 ngs\listings.cfg
 File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
-(document.aux)
-\openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\context\bas
-e\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
-\scratchdimen=\dimen145
-\scratchbox=\box38
-\nofMPsegments=\count126
-\nofMParguments=\count127
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count128
-\MPscratchDim=\dimen146
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks29
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/minte
+d\minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/generic/ift
+ex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/generic/ift
+ex\iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)))))
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/fvext
+ra\fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/etool
+box\etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count125
+
+Package etoolbox Warning: Patching '\begin' failed!
+(etoolbox)                '\AtBeginEnvironment' will not work.
+
+
+Package etoolbox Warning: Patching '\end' failed!
+(etoolbox)                '\AtEndEnvironment' will not work.
+
+
+Package etoolbox Warning: Patching '\end' failed!
+(etoolbox)                '\AfterEndEnvironment' will not work.
+
 )
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-))) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/fancy
+vrb\fancyvrb.sty
+Package: fancyvrb 2019/01/15
+Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count126
+\FV@InFile=\read1
+\FV@TabBox=\box39
+\c@FancyVerbLine=\count127
+\FV@StepNumber=\count128
+\FV@OutFile=\write3
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/upquo
+te\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
+File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/linen
+o\lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count129
+\output=\toks28
+\linenoprevgraf=\count130
+\linenumbersep=\dimen145
+\linenumberwidth=\dimen146
+\c@linenumber=\count131
+\c@pagewiselinenumber=\count132
+\c@LN@truepage=\count133
+\c@internallinenumber=\count134
+\c@internallinenumbers=\count135
+\quotelinenumbersep=\dimen147
+\bframerule=\dimen148
+\bframesep=\dimen149
+\bframebox=\box40
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count136
+\c@FV@TrueTabCounter=\count137
+\FV@TabBox@Group=\box41
+\FV@TmpLength=\skip73
+\c@FV@HighlightLinesStart=\count138
+\c@FV@HighlightLinesStop=\count139
+\FV@LoopCount=\count140
+\FV@NCharsBox=\box42
+\FV@BreakIndent=\dimen150
+\FV@BreakIndentNChars=\count141
+\FV@BreakSymbolSepLeft=\dimen151
+\FV@BreakSymbolSepLeftNChars=\count142
+\FV@BreakSymbolSepRight=\dimen152
+\FV@BreakSymbolSepRightNChars=\count143
+\FV@BreakSymbolIndentLeft=\dimen153
+\FV@BreakSymbolIndentLeftNChars=\count144
+\FV@BreakSymbolIndentRight=\dimen154
+\FV@BreakSymbolIndentRightNChars=\count145
+\c@FancyVerbLineBreakLast=\count146
+\FV@LineBox=\box43
+\FV@LineIndentBox=\box44
+\FV@LineWidth=\dimen155
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\shellesc.sty"
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/ifpla
+tform\ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/generic/ift
+ex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\catchfile.sty"
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+))
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/xstri
+ng\xstring.sty
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/generic/xst
+ring\xstring.tex
+\integerpart=\count147
+\decimalpart=\count148
 )
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/frame
+d\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip74
+\fb@frw=\dimen156
+\fb@frh=\dimen157
+\FrameRule=\dimen158
+\FrameSep=\dimen159
+)
+\minted@appexistsfile=\read2
+\minted@bgbox=\box45
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count149
+\c@minted@pygmentizecounter=\count150
+\@float@every@listing=\toks29
+\c@listing=\count151
+)
+runsystem(if not exist _minted-document mkdir _minted-document)...executed.
+
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > do
+cument.aex <nul: /p x=^%~$PATH:i>> document.aex)...executed.
+
+runsystem(del document.aex)...executed.
+
+(document.aux)
+\openout1 = `document.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+8.
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 18.
+
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/context/bas
+e\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count152
+\scratchdimen=\dimen160
+\scratchbox=\box46
+\nofMPsegments=\count153
+\nofMParguments=\count154
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count155
+\MPscratchDim=\dimen161
+\MPnumerator=\count156
+\makeMPintoPDFobject=\count157
+\everyMPtoPDFconversion=\toks31
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+41.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(grfext)             \AppendGraphicsExtensions on input line 459.
 )
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ra
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/ms\ra
 gged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ev
+(C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex/latex/ms\ev
 erysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip73
-\RaggedLeftLeftskip=\skip74
-\RaggedRightLeftskip=\skip75
-\CenteringRightskip=\skip76
-\RaggedLeftRightskip=\skip77
-\RaggedRightRightskip=\skip78
-\CenteringParfillskip=\skip79
-\RaggedLeftParfillskip=\skip80
-\RaggedRightParfillskip=\skip81
-\JustifyingParfillskip=\skip82
-\CenteringParindent=\skip83
-\RaggedLeftParindent=\skip84
-\RaggedRightParindent=\skip85
-\JustifyingParindent=\skip86
+\CenteringLeftskip=\skip75
+\RaggedLeftLeftskip=\skip76
+\RaggedRightLeftskip=\skip77
+\CenteringRightskip=\skip78
+\RaggedLeftRightskip=\skip79
+\RaggedRightRightskip=\skip80
+\CenteringParfillskip=\skip81
+\RaggedLeftParfillskip=\skip82
+\RaggedRightParfillskip=\skip83
+\JustifyingParfillskip=\skip84
+\CenteringParindent=\skip85
+\RaggedLeftParindent=\skip86
+\RaggedRightParindent=\skip87
+\JustifyingParindent=\skip88
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count131
-\ML=\skip87
+\c@lstlisting=\count158
+\ML=\skip89
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/Пенопласточка/AppData/Local/MiKTeX/2.9/pdftex/config/pdf
 tex.map}]
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 64.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
+LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
+65.
+("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
-<../img/hist_without_dens.png, id=20, 1156.32pt x 650.43pt>
-File: ../img/hist_without_dens.png Graphic file (type png)
-<use ../img/hist_without_dens.png>
-Package pdftex.def Info: ../img/hist_without_dens.png  used on input line 156.
-(pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
-[3] [4 <../img/hist_without_dens.png>]
-<../img/cullen_and_frey_graph.png, id=30, 1156.32pt x 650.43pt>
-File: ../img/cullen_and_frey_graph.png Graphic file (type png)
-<use ../img/cullen_and_frey_graph.png>
-Package pdftex.def Info: ../img/cullen_and_frey_graph.png  used on input line 2
-23.
-(pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
-[5] [6 <../img/cullen_and_frey_graph.png>]
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 284--285
-[][][][][][][][][][][][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
  []
 
+\openout3 = `document.pyg'.
 
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 291--292
-[][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (9.61626pt too wide) in paragraph at lines 292--293
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (0.61159pt too wide) in paragraph at lines 295--296
-[]\T2A/cmr/m/n/14.4 ��������� ���-�� ���-��-��-��-��� ���-��-���-��-�� � ����-�
-������������ � ������-
- []
-
-[7]
-<../img/fit_norm.png, id=44, 1445.4pt x 813.0375pt>
-File: ../img/fit_norm.png Graphic file (type png)
-<use ../img/fit_norm.png>
-Package pdftex.def Info: ../img/fit_norm.png  used on input line 317.
-(pdftex.def)             Requested size: 492.06537pt x 276.78886pt.
-<../img/fit_unif.png, id=45, 1445.4pt x 813.0375pt>
-File: ../img/fit_unif.png Graphic file (type png)
-<use ../img/fit_unif.png>
-Package pdftex.def Info: ../img/fit_unif.png  used on input line 323.
-(pdftex.def)             Requested size: 492.06537pt x 276.78886pt.
-<../img/fit_beta.png, id=46, 1445.4pt x 813.0375pt>
-File: ../img/fit_beta.png Graphic file (type png)
-<use ../img/fit_beta.png>
-Package pdftex.def Info: ../img/fit_beta.png  used on input line 329.
-(pdftex.def)             Requested size: 492.06537pt x 276.78886pt.
-[8 <../img/fit_norm.png>] [9 <../img/fit_unif.png> <../img/fit_beta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 358--360
+(_minted-document/default-pyg-prefix.pygstyle) (_minted-document/default.pygsty
+le)
+(_minted-document/63783BB729564467CACC8E14F07F7C215061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+1.
+("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-[10]
-<../img/hist_with_unif_dens.png, id=61, 1156.32pt x 650.43pt>
+
+Overfull \hbox (17.99426pt too wide) in paragraph at lines 147--148
+\T2A/cmr/m/n/14.4 ����-��� ���-���-���-��� �� ��-��� ��-���-�� ���-��-���-�� $\
+OML/cmm/m/it/14.4 []$ \T2A/cmr/m/n/14.4 � ����-��-��� $[]$,
+ []
+
+\openout3 = `document.pyg'.
+
+
+(_minted-document/75D60C3A535F8041A8C65E246477975F5061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex [3])
+\openout3 = `document.pyg'.
+
+
+(_minted-document/CDBBAB2927E8BB310D9B37D2F6A00EA75061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex)
+\openout3 = `document.pyg'.
+
+
+(_minted-document/0B795B0360B5770C25F1520BE92974735061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex)
+<../img/hist_with_unif_dens.png, id=31, 1156.32pt x 650.43pt>
 File: ../img/hist_with_unif_dens.png Graphic file (type png)
 <use ../img/hist_with_unif_dens.png>
-Package pdftex.def Info: ../img/hist_with_unif_dens.png  used on input line 409
+Package pdftex.def Info: ../img/hist_with_unif_dens.png  used on input line 215
 .
 (pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
-[11 <../img/hist_with_unif_dens.png>]
-Overfull \hbox (1.39197pt too wide) in paragraph at lines 423--424
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+[4] [5 <../img/hist_with_unif_dens.png>] (document.aux<<t1.cmap>>)
+runsystem(del document.pyg)...executed.
 
-[12]
-Overfull \hbox (42.51341pt too wide) in paragraph at lines 451--452
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-<../img/emp_and_theor_CDF.png, id=69, 1156.32pt x 650.43pt>
-File: ../img/emp_and_theor_CDF.png Graphic file (type png)
-<use ../img/emp_and_theor_CDF.png>
-Package pdftex.def Info: ../img/emp_and_theor_CDF.png  used on input line 465.
-(pdftex.def)             Requested size: 492.06537pt x 276.78142pt.
-[13 <../img/emp_and_theor_CDF.png>]
-Overfull \hbox (40.22092pt too wide) in paragraph at lines 490--491
-\T2A/cmr/m/n/14.4 and Frey skewness-kutorsis, � ��� �� � ��-��-��� ���-��-�� ��
-�-��-��-�� �����������-
- []
-
-[14] (document.aux<<t1.cmap>>) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 10109 strings out of 492973
- 158003 string characters out of 3135869
- 370424 words of memory out of 3000000
- 13773 multiletter control sequences out of 15000+200000
- 14318 words of font info for 35 fonts, out of 3000000 for 9000
+ 13837 strings out of 492450
+ 234008 string characters out of 3129685
+ 458377 words of memory out of 3000000
+ 17913 multiletter control sequences out of 15000+200000
+ 13337 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,13n,51p,9106b,1574s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Пенопласточка\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lasx1728.pk> <C:\Users\Пен�
-�пласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\l
-asx2074.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Пенопласточка\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm2488.pk> <C:\Users
-\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\
-dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb>
-Output written on document.pdf (14 pages, 385403 bytes).
+ 58i,22n,53p,9106b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/lh/lh-t2a/dpi600\lait1440.pk> <C:\Users\Пенопласточка\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1440.pk> <C:\Users\Пено
+пласточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
+bx1440.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\lasx2074.pk> <C:\Users\Пенопласточка\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\
+Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
+pi600\larm2488.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.
+9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on document.pdf (5 pages, 191980 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
+ 300 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 60 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 30 words of extra memory for PDF output out of 10000 (max. 10000000)
 
