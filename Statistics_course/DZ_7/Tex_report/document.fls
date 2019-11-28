@@ -230,10 +230,16 @@ INPUT C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\
 INPUT C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\lait1440.tfm
 OUTPUT document.pyg
 INPUT .\document.pyg
-INPUT _minted-document\75D60C3A535F8041A8C65E246477975F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document\75D60C3A535F8041A8C65E246477975F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document\75D60C3A535F8041A8C65E246477975F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
-INPUT _minted-document\75D60C3A535F8041A8C65E246477975F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document\CB1F98FDED647223C6B92B0A057AF05F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document\CB1F98FDED647223C6B92B0A057AF05F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document\CB1F98FDED647223C6B92B0A057AF05F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document\CB1F98FDED647223C6B92B0A057AF05F5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+OUTPUT document.pyg
+INPUT .\document.pyg
+INPUT _minted-document\DEFF6842733228496333BDB3A633F25D5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document\DEFF6842733228496333BDB3A633F25D5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document\DEFF6842733228496333BDB3A633F25D5061E4B692DD718FCBC086EF9FCF30EF.pygtex
+INPUT _minted-document\DEFF6842733228496333BDB3A633F25D5061E4B692DD718FCBC086EF9FCF30EF.pygtex
 OUTPUT document.pyg
 INPUT .\document.pyg
 INPUT _minted-document\CDBBAB2927E8BB310D9B37D2F6A00EA75061E4B692DD718FCBC086EF9FCF30EF.pygtex
@@ -276,13 +282,11 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb

@@ -4,19 +4,14 @@
 \PYG{o}{+}         \PYG{o}{\PYGZhy{}} \PYG{n+nf}{punif}\PYG{p}{(}\PYG{n}{pl1}\PYG{o}{\PYGZdl{}}\PYG{n}{breaks[}\PYG{o}{\PYGZhy{}}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,(}\PYG{n+nf}{length}\PYG{p}{((}\PYG{n}{pl1}\PYG{o}{\PYGZdl{}}\PYG{n}{breaks}\PYG{p}{))}\PYG{l+m}{\PYGZhy{}1}\PYG{p}{)}\PYG{o}{:}
 \PYG{o}{+}                                 \PYG{n+nf}{length}\PYG{p}{((}\PYG{n}{pl1}\PYG{o}{\PYGZdl{}}\PYG{n}{breaks}\PYG{p}{)))}\PYG{n}{]}\PYG{p}{,} \PYG{n}{a}\PYG{p}{,}\PYG{n}{b}\PYG{p}{))}
 \PYG{o}{\PYGZgt{}} \PYG{n}{pt1}
-\PYG{n}{[1]} \PYG{l+m}{0.1137607} \PYG{l+m}{0.1270428} \PYG{l+m}{0.1270428} \PYG{l+m}{0.1270428} \PYG{l+m}{0.1270428}
-\PYG{n}{[6]} \PYG{l+m}{0.1270428} \PYG{l+m}{0.1270428}
+\PYG{n}{[1]} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125}
 \PYG{o}{\PYGZgt{}} \PYG{n}{pt} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{c}\PYG{p}{(}\PYG{n}{pt1}\PYG{p}{,} \PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n+nf}{sum}\PYG{p}{(}\PYG{n}{pt1}\PYG{p}{))}
 \PYG{o}{\PYGZgt{}} \PYG{n}{pt}
-\PYG{n}{[1]} \PYG{l+m}{0.1137607} \PYG{l+m}{0.1270428} \PYG{l+m}{0.1270428} \PYG{l+m}{0.1270428} \PYG{l+m}{0.1270428}
-\PYG{n}{[6]} \PYG{l+m}{0.1270428} \PYG{l+m}{0.1270428} \PYG{l+m}{0.1239827}
-\PYG{o}{\PYGZgt{}}
+\PYG{n}{[1]} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125} \PYG{l+m}{0.125}
 \PYG{o}{\PYGZgt{}} \PYG{n}{npt} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n}{pt} \PYG{o}{*} \PYG{n}{n}
 \PYG{o}{\PYGZgt{}} \PYG{n}{npt}
-\PYG{n}{[1]} \PYG{l+m}{13.65128} \PYG{l+m}{15.24513} \PYG{l+m}{15.24513} \PYG{l+m}{15.24513} \PYG{l+m}{15.24513}
-\PYG{n}{[6]} \PYG{l+m}{15.24513} \PYG{l+m}{15.24513} \PYG{l+m}{14.87792}
-\PYG{o}{\PYGZgt{}}
+\PYG{n}{[1]} \PYG{l+m}{15} \PYG{l+m}{15} \PYG{l+m}{15} \PYG{l+m}{15} \PYG{l+m}{15} \PYG{l+m}{15} \PYG{l+m}{15} \PYG{l+m}{15}
 \PYG{o}{\PYGZgt{}} \PYG{n}{chi\PYGZus{}sq} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{sum}\PYG{p}{((}\PYG{n}{npt} \PYG{o}{\PYGZhy{}} \PYG{n}{pl1}\PYG{o}{\PYGZdl{}}\PYG{n}{counts}\PYG{p}{)}\PYG{n}{\PYGZca{}2}\PYG{o}{/}\PYG{p}{(}\PYG{n}{npt}\PYG{p}{))}
 \PYG{o}{\PYGZgt{}} \PYG{n}{chi\PYGZus{}sq}
-\PYG{n}{[1]} \PYG{l+m}{10.08176}
+\PYG{n}{[1]} \PYG{l+m}{11.06667}
 \end{Verbatim}

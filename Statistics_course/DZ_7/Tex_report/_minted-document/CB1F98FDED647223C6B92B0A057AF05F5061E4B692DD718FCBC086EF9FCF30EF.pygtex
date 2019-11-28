@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{a} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{min}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{a}
+\PYG{n}{[1]} \PYG{l+m}{2.375}
+\PYG{o}{\PYGZgt{}} \PYG{n}{b} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{max}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{b}
+\PYG{n}{[1]} \PYG{l+m}{17.985}
+\end{Verbatim}

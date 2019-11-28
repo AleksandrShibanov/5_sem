@@ -1,0 +1,424 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 66784 bytes for Chunk::new
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:390), pid=17180, tid=0x00000000000041dc
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_152-b16) (build 1.8.0_152-b16)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.152-b16 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000003a106800):  JavaThread "C2 CompilerThread0" daemon [_thread_in_native, id=16860, stack(0x000000003a8e0000,0x000000003a9e0000)]
+
+Stack: [0x000000003a8e0000,0x000000003a9e0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+Current CompileTask:
+C2:  11205 6156       4       java.lang.ClassLoader::preDefineClass (109 bytes)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000000045724800 JavaThread "Prism Font Disposer" daemon [_thread_blocked, id=13136, stack(0x000000004e940000,0x000000004ea40000)]
+  0x0000000045720800 JavaThread "KernelConnection_0" daemon [_thread_blocked, id=1532, stack(0x000000003e4b0000,0x000000003e5b0000)]
+  0x0000000045723800 JavaThread "Thread-16" daemon [_thread_in_native, id=13232, stack(0x0000000048de0000,0x0000000048ee0000)]
+  0x000000004571d800 JavaThread "JavaFX Application Thread" daemon [_thread_in_native, id=9184, stack(0x0000000047e50000,0x0000000047f50000)]
+  0x0000000045721800 JavaThread "Thread-15" daemon [_thread_blocked, id=9376, stack(0x0000000047d50000,0x0000000047e50000)]
+  0x0000000045723000 JavaThread "QuantumRenderer-0" daemon [_thread_blocked, id=9892, stack(0x00000000466b0000,0x00000000467b0000)]
+  0x000000003d05f000 JavaThread "palette position change updater" daemon [_thread_blocked, id=16572, stack(0x0000000047850000,0x0000000047950000)]
+  0x000000003d05c800 JavaThread "auto command complete monitor" daemon [_thread_blocked, id=216, stack(0x0000000045320000,0x0000000045420000)]
+  0x000000003d063800 JavaThread "TimerQueue" daemon [_thread_blocked, id=8596, stack(0x0000000043f10000,0x0000000044010000)]
+  0x000000003d062800 JavaThread "Batik CleanerThread" daemon [_thread_blocked, id=15344, stack(0x0000000042930000,0x0000000042a30000)]
+  0x000000003d05f800 JavaThread "Swing-Shell" daemon [_thread_blocked, id=4484, stack(0x0000000041dd0000,0x0000000041ed0000)]
+  0x000000003d060800 JavaThread "Timer-2" daemon [_thread_blocked, id=8752, stack(0x0000000041ad0000,0x0000000041bd0000)]
+  0x000000003d05e000 JavaThread "Request id 1-SharedResourceRunner" daemon [_thread_blocked, id=15544, stack(0x000000003c3f0000,0x000000003c4f0000)]
+  0x000000003d062000 JavaThread "Keep-Alive-Timer" daemon [_thread_blocked, id=2504, stack(0x000000003ed50000,0x000000003ee50000)]
+  0x000000003d05d800 JavaThread "Timer-1" daemon [_thread_blocked, id=17292, stack(0x000000003ee50000,0x000000003ef50000)]
+  0x000000003d086000 JavaThread "Image Fetcher 3" daemon [_thread_blocked, id=15148, stack(0x000000003ea50000,0x000000003eb50000)]
+  0x000000003cf01800 JavaThread "Image Fetcher 2" daemon [_thread_blocked, id=12708, stack(0x000000003e950000,0x000000003ea50000)]
+  0x000000003cf1c000 JavaThread "Timer-0" daemon [_thread_blocked, id=1792, stack(0x000000003e850000,0x000000003e950000)]
+  0x000000003b57e800 JavaThread "WMI:Background Task Runner" daemon [_thread_blocked, id=15548, stack(0x000000003c9e0000,0x000000003cae0000)]
+  0x000000003b508800 JavaThread "AWT-EventQueue-0" [_thread_in_Java, id=1724, stack(0x000000003cbe0000,0x000000003cce0000)]
+  0x000000003b2f8800 JavaThread "AWT-Windows" daemon [_thread_in_native, id=5700, stack(0x000000003bf70000,0x000000003c070000)]
+  0x000000003b2f7800 JavaThread "AWT-Shutdown" [_thread_blocked, id=16596, stack(0x000000003be70000,0x000000003bf70000)]
+  0x000000003b2f7000 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=4732, stack(0x000000003bd70000,0x000000003be70000)]
+  0x000000003b2c5800 JavaThread "Request id 1" daemon [_thread_blocked, id=5556, stack(0x000000003bb70000,0x000000003bc70000)]
+  0x000000003b2c2800 JavaThread "AppMgr Thread" daemon [_thread_blocked, id=10060, stack(0x000000003bc70000,0x000000003bd70000)]
+  0x000000003820e800 JavaThread "Service Thread" daemon [_thread_blocked, id=16636, stack(0x000000003ace0000,0x000000003ade0000)]
+  0x000000003820c000 JavaThread "C1 CompilerThread3" daemon [_thread_in_native, id=15892, stack(0x000000003abe0000,0x000000003ace0000)]
+  0x0000000038209000 JavaThread "C2 CompilerThread2" daemon [_thread_in_native, id=17204, stack(0x000000003aae0000,0x000000003abe0000)]
+  0x000000003a108000 JavaThread "C2 CompilerThread1" daemon [_thread_in_native, id=5808, stack(0x000000003a9e0000,0x000000003aae0000)]
+=>0x000000003a106800 JavaThread "C2 CompilerThread0" daemon [_thread_in_native, id=16860, stack(0x000000003a8e0000,0x000000003a9e0000)]
+  0x000000003a104000 JavaThread "Attach Listener" daemon [_thread_blocked, id=17220, stack(0x000000003a7e0000,0x000000003a8e0000)]
+  0x000000003a103800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=5848, stack(0x000000003a6e0000,0x000000003a7e0000)]
+  0x000000003a0f0800 JavaThread "Finalizer" daemon [_thread_blocked, id=8868, stack(0x000000003a4d0000,0x000000003a5d0000)]
+  0x00000000381fd800 JavaThread "Reference Handler" daemon [_thread_blocked, id=12496, stack(0x0000000039fd0000,0x000000003a0d0000)]
+  0x00000000024a4000 JavaThread "main" [_thread_in_native, id=15156, stack(0x0000000002320000,0x0000000002420000)]
+
+Other Threads:
+  0x00000000381f9800 VMThread [stack: 0x0000000039ed0000,0x0000000039fd0000] [id=16260]
+  0x000000003a1b2800 WatcherThread [stack: 0x000000003af30000,0x000000003b030000] [id=14384]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 215552K, used 79129K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 47% used [0x000000066ab00000,0x000000066f82e6d8,0x0000000674e80000)
+  from space 48128K, 0% used [0x0000000677e80000,0x0000000677e98000,0x000000067ad80000)
+  to   space 48640K, 0% used [0x0000000674e80000,0x0000000674e80000,0x0000000677e00000)
+ ParOldGen       total 93696K, used 64885K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f5d7b0,0x00000003c5b80000)
+ Metaspace       used 54710K, capacity 55672K, committed 55848K, reserved 1097728K
+  class space    used 8214K, capacity 8450K, committed 8488K, reserved 1048576K
+
+Card table byte_map: [0x0000000011960000,0x0000000013970000] byte_map_base: 0x000000000fb60000
+
+Marking Bits: (ParMarkBitMap*) 0x00000000713d0860
+ Begin Bits: [0x00000000156d0000, 0x00000000256d0000)
+ End Bits:   [0x00000000256d0000, 0x00000000356d0000)
+
+Polling page: 0x0000000000ac0000
+
+CodeCache: size=245760Kb used=16871Kb max_used=16871Kb free=228888Kb
+ bounds [0x00000000025a0000, 0x0000000003640000, 0x00000000115a0000]
+ total_blobs=6508 nmethods=5306 adapters=1112
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 11.202 Thread 0x000000003820c000 nmethod 6185 0x0000000003625010 code [0x00000000036251c0, 0x00000000036259a8]
+Event: 11.202 Thread 0x000000003820c000 6189       3       java.lang.Double::isInfinite (22 bytes)
+Event: 11.202 Thread 0x000000003820c000 nmethod 6189 0x0000000003625c50 code [0x0000000003625de0, 0x0000000003625ff0]
+Event: 11.202 Thread 0x000000003820c000 6190       3       com.maplesoft.mathdoc.model.graphics.GfxDoubleArray::getStructureDvv (6 bytes)
+Event: 11.203 Thread 0x000000003820c000 nmethod 6190 0x0000000003626050 code [0x00000000036261c0, 0x00000000036263c8]
+Event: 11.203 Thread 0x000000003820c000 6191       3       com.maplesoft.mathdoc.model.graphics.GfxDoubleArray$MultiStructureArray::getStructure0 (7 bytes)
+Event: 11.203 Thread 0x000000003820c000 nmethod 6191 0x0000000003626450 code [0x00000000036265a0, 0x0000000003626730]
+Event: 11.203 Thread 0x000000003820c000 6192       3       java.lang.Integer::toString (8 bytes)
+Event: 11.203 Thread 0x000000003820c000 nmethod 6192 0x0000000003626810 code [0x0000000003626980, 0x0000000003626b08]
+Event: 11.203 Thread 0x000000003820c000 6193       3       com.maplesoft.mathdoc.model.plot.PlotAttributeSet::setInheritedByIndex (24 bytes)
+
+GC Heap History (10 events):
+Event: 10.786 GC heap before
+{Heap before GC invocations=17 (full 3):
+ PSYoungGen      total 167424K, used 116469K [0x000000066ab00000, 0x000000067ae80000, 0x00000007c0000000)
+  eden space 117760K, 98% used [0x000000066ab00000,0x0000000671c9d720,0x0000000671e00000)
+  from space 49664K, 0% used [0x0000000671e00000,0x0000000671e20000,0x0000000674e80000)
+  to   space 49152K, 0% used [0x0000000677e80000,0x0000000677e80000,0x000000067ae80000)
+ ParOldGen       total 93696K, used 64821K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f4d7b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+Event: 10.788 GC heap after
+Heap after GC invocations=17 (full 3):
+ PSYoungGen      total 215552K, used 160K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 0% used [0x000000066ab00000,0x000000066ab00000,0x0000000674e80000)
+  from space 48128K, 0% used [0x0000000677e80000,0x0000000677ea8000,0x000000067ad80000)
+  to   space 48640K, 0% used [0x0000000674e80000,0x0000000674e80000,0x0000000677e00000)
+ ParOldGen       total 93696K, used 64845K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f537b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+}
+Event: 10.838 GC heap before
+{Heap before GC invocations=18 (full 3):
+ PSYoungGen      total 215552K, used 167529K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 99% used [0x000000066ab00000,0x0000000674e726a0,0x0000000674e80000)
+  from space 48128K, 0% used [0x0000000677e80000,0x0000000677ea8000,0x000000067ad80000)
+  to   space 48640K, 0% used [0x0000000674e80000,0x0000000674e80000,0x0000000677e00000)
+ ParOldGen       total 93696K, used 64845K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f537b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+Event: 10.841 GC heap after
+Heap after GC invocations=18 (full 3):
+ PSYoungGen      total 216064K, used 128K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 0% used [0x000000066ab00000,0x000000066ab00000,0x0000000674e80000)
+  from space 48640K, 0% used [0x0000000674e80000,0x0000000674ea0000,0x0000000677e00000)
+  to   space 48128K, 0% used [0x0000000677e80000,0x0000000677e80000,0x000000067ad80000)
+ ParOldGen       total 93696K, used 64845K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f537b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+}
+Event: 10.888 GC heap before
+{Heap before GC invocations=19 (full 3):
+ PSYoungGen      total 216064K, used 167548K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 99% used [0x000000066ab00000,0x0000000674e7f3b0,0x0000000674e80000)
+  from space 48640K, 0% used [0x0000000674e80000,0x0000000674ea0000,0x0000000677e00000)
+  to   space 48128K, 0% used [0x0000000677e80000,0x0000000677e80000,0x000000067ad80000)
+ ParOldGen       total 93696K, used 64845K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f537b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+Event: 10.890 GC heap after
+Heap after GC invocations=19 (full 3):
+ PSYoungGen      total 215552K, used 64K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 0% used [0x000000066ab00000,0x000000066ab00000,0x0000000674e80000)
+  from space 48128K, 0% used [0x0000000677e80000,0x0000000677e90000,0x000000067ad80000)
+  to   space 48640K, 0% used [0x0000000674e80000,0x0000000674e80000,0x0000000677e00000)
+ ParOldGen       total 93696K, used 64869K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f597b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+}
+Event: 10.937 GC heap before
+{Heap before GC invocations=20 (full 3):
+ PSYoungGen      total 215552K, used 160416K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 95% used [0x000000066ab00000,0x0000000674798138,0x0000000674e80000)
+  from space 48128K, 0% used [0x0000000677e80000,0x0000000677e90000,0x000000067ad80000)
+  to   space 48640K, 0% used [0x0000000674e80000,0x0000000674e80000,0x0000000677e00000)
+ ParOldGen       total 93696K, used 64869K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f597b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+Event: 10.939 GC heap after
+Heap after GC invocations=20 (full 3):
+ PSYoungGen      total 216064K, used 192K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 0% used [0x000000066ab00000,0x000000066ab00000,0x0000000674e80000)
+  from space 48640K, 0% used [0x0000000674e80000,0x0000000674eb0000,0x0000000677e00000)
+  to   space 48128K, 0% used [0x0000000677e80000,0x0000000677e80000,0x000000067ad80000)
+ ParOldGen       total 93696K, used 64869K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f597b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+}
+Event: 10.986 GC heap before
+{Heap before GC invocations=21 (full 3):
+ PSYoungGen      total 216064K, used 160557K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 95% used [0x000000066ab00000,0x000000067479b420,0x0000000674e80000)
+  from space 48640K, 0% used [0x0000000674e80000,0x0000000674eb0000,0x0000000677e00000)
+  to   space 48128K, 0% used [0x0000000677e80000,0x0000000677e80000,0x000000067ad80000)
+ ParOldGen       total 93696K, used 64869K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f597b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+Event: 10.988 GC heap after
+Heap after GC invocations=21 (full 3):
+ PSYoungGen      total 215552K, used 96K [0x000000066ab00000, 0x000000067ad80000, 0x00000007c0000000)
+  eden space 167424K, 0% used [0x000000066ab00000,0x000000066ab00000,0x0000000674e80000)
+  from space 48128K, 0% used [0x0000000677e80000,0x0000000677e98000,0x000000067ad80000)
+  to   space 48640K, 0% used [0x0000000674e80000,0x0000000674e80000,0x0000000677e00000)
+ ParOldGen       total 93696K, used 64885K [0x00000003c0000000, 0x00000003c5b80000, 0x000000066ab00000)
+  object space 93696K, 69% used [0x00000003c0000000,0x00000003c3f5d7b0,0x00000003c5b80000)
+ Metaspace       used 53570K, capacity 54514K, committed 54696K, reserved 1095680K
+  class space    used 8025K, capacity 8257K, committed 8360K, reserved 1048576K
+}
+
+Deoptimization events (10 events):
+Event: 11.035 Thread 0x000000003b508800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00000000035625c0 method=java.util.regex.Pattern$GroupHead.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z @ 28
+Event: 11.035 Thread 0x000000003b508800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00000000035625c0 method=java.util.regex.Pattern$GroupHead.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z @ 28
+Event: 11.035 Thread 0x000000003b508800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00000000035625c0 method=java.util.regex.Pattern$GroupHead.match(Ljava/util/regex/Matcher;ILjava/lang/CharSequence;)Z @ 28
+Event: 11.040 Thread 0x000000003b508800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x0000000002947974 method=org.apache.xerces.impl.XMLEntityScanner.load(IZ)Z @ 42
+Event: 11.110 Thread 0x000000003b508800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00000000035aa4e4 method=com.maplesoft.client.dag.DagBuilder.getNextChar(Ljava/io/InputStream;)I @ 1
+Event: 11.110 Thread 0x000000003b508800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00000000035aa4e4 method=com.maplesoft.client.dag.DagBuilder.getNextChar(Ljava/io/InputStream;)I @ 1
+Event: 11.110 Thread 0x000000003b508800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00000000035aa4e4 method=com.maplesoft.client.dag.DagBuilder.getNextChar(Ljava/io/InputStream;)I @ 1
+Event: 11.110 Thread 0x000000003b508800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00000000035aa4e4 method=com.maplesoft.client.dag.DagBuilder.getNextChar(Ljava/io/InputStream;)I @ 1
+Event: 11.115 Thread 0x000000003b508800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000035d7b94 method=org.apache.commons.codec.binary.BaseNCodec.ensureBufferSize(ILorg/apache/commons/codec/binary/BaseNCodec$Context;)[B @ 4
+Event: 11.119 Thread 0x000000003b508800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000035da1bc method=org.apache.commons.codec.binary.BaseNCodec.hasData(Lorg/apache/commons/codec/binary/BaseNCodec$Context;)Z @ 4
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (10 events):
+Event: 8.853 Thread 0x000000003b2c5800 Implicit null exception at 0x0000000003351f3d to 0x00000000033522b1
+Event: 8.960 Thread 0x000000003b2c5800 Exception <a 'java/lang/NullPointerException'> (0x000000066e5536b0) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u152\9742\hotspot\src\share\vm\interpreter\linkResolver.cpp, line 1185]
+Event: 8.991 Thread 0x000000004571d800 Exception <a 'java/lang/NullPointerException'> (0x000000066f340730) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u152\9742\hotspot\src\share\vm\interpreter\linkResolver.cpp, line 1185]
+Event: 8.991 Thread 0x000000004571d800 Exception <a 'java/lang/NullPointerException'> (0x000000066f340730) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u152\9742\hotspot\src\share\vm\prims\jvm.cpp, line 1394]
+Event: 9.625 Thread 0x0000000045720800 Implicit null exception at 0x0000000002c60be5 to 0x0000000002c61d19
+Event: 9.648 Thread 0x000000003b508800 Implicit null exception at 0x00000000026ce4e2 to 0x00000000026cea04
+Event: 10.328 Thread 0x000000003b508800 Implicit null exception at 0x0000000002d62a16 to 0x0000000002d62af9
+Event: 11.023 Thread 0x000000003b508800 Exception <a 'java/lang/ClassNotFoundException': sun/net/www/protocol/c/Handler> (0x000000066b3b1160) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u152\9742\hotspot\src\share\vm\classfile\systemDictionary.cpp, line 210]
+Event: 11.115 Thread 0x000000003b508800 Implicit null exception at 0x00000000035d7b33 to 0x00000000035d7b79
+Event: 11.119 Thread 0x000000003b508800 Implicit null exception at 0x00000000035d9fb9 to 0x00000000035da199
+
+Events (10 events):
+Event: 11.194 loading class com/maplesoft/mathdoc/model/plot/Plot2DStaticFrameModel
+Event: 11.194 loading class com/maplesoft/mathdoc/model/plot/Plot2DStaticFrameModel done
+Event: 11.195 loading class com/maplesoft/mathdoc/model/plot/Plot2DAnimationFrameModel
+Event: 11.195 loading class com/maplesoft/mathdoc/model/plot/Plot2DAnimationFrameModel done
+Event: 11.201 loading class com/maplesoft/mathdoc/model/graphics/GfxDoubleArray$MultiStructureArray
+Event: 11.201 loading class com/maplesoft/mathdoc/model/graphics/GfxDoubleArray$MultiStructureArray done
+Event: 11.201 loading class com/maplesoft/mathdoc/model/graphics/GfxDoubleArray
+Event: 11.201 loading class com/maplesoft/mathdoc/model/graphics/GfxDoubleArray done
+Event: 11.202 loading class com/maplesoft/mathdoc/model/graphics/GfxDoubleArray$SingleStructureArray
+Event: 11.202 loading class com/maplesoft/mathdoc/model/graphics/GfxDoubleArray$SingleStructureArray done
+
+
+Dynamic libraries:
+0x00007ff6788e0000 - 0x00007ff678917000 	C:\Program Files\Maple 2018\jre\bin\javaw.exe
+0x00007ffcc99a0000 - 0x00007ffcc9b90000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffcaad60000 - 0x00007ffcaad74000 	C:\Program Files\AVAST Software\Avast\aswhook.dll
+0x00007ffcc8e50000 - 0x00007ffcc8f02000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffcc6d10000 - 0x00007ffcc6fb3000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffcc8b90000 - 0x00007ffcc8c33000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffcc8f10000 - 0x00007ffcc8fae000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffcc84a0000 - 0x00007ffcc8537000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffcc8fb0000 - 0x00007ffcc90d0000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffcc8300000 - 0x00007ffcc8494000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffcc7980000 - 0x00007ffcc79a1000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffcc8550000 - 0x00007ffcc8576000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffcc7010000 - 0x00007ffcc71a4000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffcc79b0000 - 0x00007ffcc7a4e000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffcc6a10000 - 0x00007ffcc6b0a000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffcb2dd0000 - 0x00007ffcb3055000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.476_none_e6c4b11b130f2595\COMCTL32.dll
+0x00007ffcc7a80000 - 0x00007ffcc7db6000 	C:\WINDOWS\System32\combase.dll
+0x00007ffcc6990000 - 0x00007ffcc6a10000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffcc7a50000 - 0x00007ffcc7a7e000 	C:\WINDOWS\System32\IMM32.DLL
+0x0000000071450000 - 0x0000000071522000 	C:\Program Files\Maple 2018\jre\bin\msvcr100.dll
+0x0000000070bb0000 - 0x0000000071450000 	C:\Program Files\Maple 2018\jre\bin\server\jvm.dll
+0x00007ffcc8060000 - 0x00007ffcc8068000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffcbcf30000 - 0x00007ffcbcf39000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffcc8630000 - 0x00007ffcc869f000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffcb5de0000 - 0x00007ffcb5e04000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffcc0d80000 - 0x00007ffcc0d8a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffcb5b30000 - 0x00007ffcb5b5d000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffcc7930000 - 0x00007ffcc797a000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x0000000070ba0000 - 0x0000000070baf000 	C:\Program Files\Maple 2018\jre\bin\verify.dll
+0x0000000070b70000 - 0x0000000070b99000 	C:\Program Files\Maple 2018\jre\bin\java.dll
+0x0000000070b50000 - 0x0000000070b66000 	C:\Program Files\Maple 2018\jre\bin\zip.dll
+0x00007ffcc90d0000 - 0x00007ffcc97b5000 	C:\WINDOWS\System32\SHELL32.dll
+0x00007ffcc8580000 - 0x00007ffcc8629000 	C:\WINDOWS\System32\shcore.dll
+0x00007ffcc71b0000 - 0x00007ffcc792e000 	C:\WINDOWS\System32\windows.storage.dll
+0x00007ffcc68d0000 - 0x00007ffcc68ef000 	C:\WINDOWS\System32\profapi.dll
+0x00007ffcc6880000 - 0x00007ffcc68ca000 	C:\WINDOWS\System32\powrprof.dll
+0x00007ffcc6870000 - 0x00007ffcc6880000 	C:\WINDOWS\System32\UMPDC.dll
+0x00007ffcc8140000 - 0x00007ffcc8192000 	C:\WINDOWS\System32\shlwapi.dll
+0x00007ffcc6910000 - 0x00007ffcc6921000 	C:\WINDOWS\System32\kernel.appcore.dll
+0x00007ffcc6fc0000 - 0x00007ffcc6fd7000 	C:\WINDOWS\System32\cryptsp.dll
+0x0000000070b30000 - 0x0000000070b4a000 	C:\Program Files\Maple 2018\jre\bin\net.dll
+0x00007ffcc6080000 - 0x00007ffcc60e7000 	C:\WINDOWS\system32\mswsock.dll
+0x00007ffcc5dd0000 - 0x00007ffcc5e9a000 	C:\WINDOWS\SYSTEM32\DNSAPI.dll
+0x00007ffcc7ff0000 - 0x00007ffcc7ff8000 	C:\WINDOWS\System32\NSI.dll
+0x00007ffcc5d90000 - 0x00007ffcc5dca000 	C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+0x00007ffcbe980000 - 0x00007ffcbe98a000 	C:\Windows\System32\rasadhlp.dll
+0x00007ffcc10f0000 - 0x00007ffcc1167000 	C:\WINDOWS\System32\fwpuclnt.dll
+0x00007ffcc6fe0000 - 0x00007ffcc7006000 	C:\WINDOWS\System32\bcrypt.dll
+0x0000000070970000 - 0x0000000070b08000 	C:\Program Files\Maple 2018\jre\bin\awt.dll
+0x00007ffcc7dc0000 - 0x00007ffcc7e84000 	C:\WINDOWS\System32\OLEAUT32.dll
+0x00007ffcc4ac0000 - 0x00007ffcc4b4f000 	C:\WINDOWS\SYSTEM32\apphelp.dll
+0x00007ffcc4bf0000 - 0x00007ffcc4c89000 	C:\WINDOWS\system32\uxtheme.dll
+0x00007ffcc7e90000 - 0x00007ffcc7fc6000 	C:\WINDOWS\System32\MSCTF.dll
+0x00007ffcc81a0000 - 0x00007ffcc82f6000 	C:\WINDOWS\System32\ole32.dll
+0x00007ffcc5120000 - 0x00007ffcc514d000 	C:\WINDOWS\system32\DWMAPI.DLL
+0x00007ffca7d10000 - 0x00007ffca7e66000 	C:\WINDOWS\system32\opengl32.dll
+0x00007ffcb35b0000 - 0x00007ffcb35dc000 	C:\WINDOWS\SYSTEM32\GLU32.dll
+0x00007ffcc54e0000 - 0x00007ffcc5500000 	C:\WINDOWS\SYSTEM32\dxcore.dll
+0x00007ffcc5bf0000 - 0x00007ffcc5c23000 	C:\WINDOWS\system32\rsaenh.dll
+0x00007ffcc6790000 - 0x00007ffcc67b5000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x00007ffcc6250000 - 0x00007ffcc625c000 	C:\WINDOWS\SYSTEM32\CRYPTBASE.dll
+0x00007ffcc17c0000 - 0x00007ffcc17d6000 	C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL
+0x00007ffcc17a0000 - 0x00007ffcc17bc000 	C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+0x0000000070940000 - 0x0000000070964000 	C:\Program Files\Maple 2018\jre\bin\sunec.dll
+0x0000000070920000 - 0x0000000070931000 	C:\Program Files\Maple 2018\jre\bin\nio.dll
+0x00000000708d0000 - 0x0000000070917000 	C:\Program Files\Maple 2018\jre\bin\fontmanager.dll
+0x00000000708c0000 - 0x00000000708cb000 	C:\Program Files\Maple 2018\jre\bin\sunmscapi.dll
+0x00007ffcc6bc0000 - 0x00007ffcc6d09000 	C:\WINDOWS\System32\CRYPT32.dll
+0x00007ffcc68f0000 - 0x00007ffcc6902000 	C:\WINDOWS\System32\MSASN1.dll
+0x00000000637c0000 - 0x00000000637cd000 	C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\gluegen-rt.dll
+0x00000000708b0000 - 0x00000000708b7000 	C:\Program Files\Maple 2018\jre\bin\jawt.dll
+0x000000006a440000 - 0x000000006a44d000 	C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\nativewindow_awt.dll
+0x000000006c100000 - 0x000000006c10f000 	C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\nativewindow_win32.dll
+0x0000000064500000 - 0x00000000645b1000 	C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\jogl_desktop.dll
+0x00007ffc95900000 - 0x00007ffc95c6d000 	C:\Program Files\MiKTeX 2.9\miktex\bin\x64\libGLESv2.dll
+0x00007ffc91580000 - 0x00007ffc91747000 	C:\WINDOWS\SYSTEM32\d3d9.dll
+0x00007ffca4f70000 - 0x00007ffca500c000 	C:\Program Files\Maple 2018\jre\bin\MSVCP140.dll
+0x00007ffcbf110000 - 0x00007ffcbf126000 	C:\Program Files\Maple 2018\jre\bin\VCRUNTIME140.dll
+0x00007ffc950c0000 - 0x00007ffc958f2000 	C:\WINDOWS\SYSTEM32\ig7icd64.dll
+0x00007ffcae0c0000 - 0x00007ffcae524000 	C:\WINDOWS\SYSTEM32\igdusc64.dll
+0x00007ffcc27e0000 - 0x00007ffcc27f3000 	C:\WINDOWS\SYSTEM32\WTSAPI32.dll
+0x0000000070860000 - 0x00000000708a2000 	C:\Program Files\Maple 2018\jre\bin\t2k.dll
+0x00007ffcc0350000 - 0x00007ffcc03f9000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.18362.476_none_2a2a02a24667b734\comctl32.dll
+0x00007ffcc97c0000 - 0x00007ffcc9862000 	C:\WINDOWS\System32\clbcatq.dll
+0x00007ffcc2c50000 - 0x00007ffcc2d3f000 	C:\WINDOWS\system32\propsys.dll
+0x00007ffcbefc0000 - 0x00007ffcbefd6000 	C:\WINDOWS\system32\NetworkExplorer.dll
+0x00007ffcb0bd0000 - 0x00007ffcb0d7f000 	C:\WINDOWS\SYSTEM32\WindowsCodecs.dll
+0x00007ffcaf3b0000 - 0x00007ffcaf40e000 	C:\Windows\System32\thumbcache.dll
+0x00007ffcc1a90000 - 0x00007ffcc1b16000 	C:\WINDOWS\SYSTEM32\policymanager.dll
+0x00007ffcc18a0000 - 0x00007ffcc192a000 	C:\WINDOWS\SYSTEM32\msvcp110_win.dll
+0x0000000070830000 - 0x000000007085a000 	C:\Program Files\Maple 2018\jre\bin\dcpr.dll
+0x00007ffcb24f0000 - 0x00007ffcb252a000 	C:\WINDOWS\system32\dataexchange.dll
+0x00007ffcc3c30000 - 0x00007ffcc3e8b000 	C:\WINDOWS\system32\d3d11.dll
+0x00007ffcc4340000 - 0x00007ffcc451b000 	C:\WINDOWS\system32\dcomp.dll
+0x00007ffcc5570000 - 0x00007ffcc565b000 	C:\WINDOWS\system32\dxgi.dll
+0x00007ffcc4cb0000 - 0x00007ffcc4f0a000 	C:\WINDOWS\system32\twinapi.appcore.dll
+0x00007ffcc50f0000 - 0x00007ffcc5119000 	C:\WINDOWS\system32\RMCLIENT.dll
+0x000000003f260000 - 0x000000003f263000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-console-l1-1-0.dll
+0x000000003f280000 - 0x000000003f283000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-datetime-l1-1-0.dll
+0x000000003f290000 - 0x000000003f293000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-debug-l1-1-0.dll
+0x000000003f2a0000 - 0x000000003f2a3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll
+0x000000003f2b0000 - 0x000000003f2b4000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-file-l1-1-0.dll
+0x000000003f2c0000 - 0x000000003f2c3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-file-l1-2-0.dll
+0x000000003f2d0000 - 0x000000003f2d3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-file-l2-1-0.dll
+0x0000000043f00000 - 0x0000000043f03000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-handle-l1-1-0.dll
+0x00000000451e0000 - 0x00000000451e3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-heap-l1-1-0.dll
+0x00000000451f0000 - 0x00000000451f3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll
+0x0000000045200000 - 0x0000000045203000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll
+0x0000000045210000 - 0x0000000045213000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-localization-l1-2-0.dll
+0x0000000045220000 - 0x0000000045223000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-memory-l1-1-0.dll
+0x0000000045230000 - 0x0000000045233000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll
+0x0000000045240000 - 0x0000000045243000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll
+0x0000000045250000 - 0x0000000045253000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll
+0x0000000045260000 - 0x0000000045263000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll
+0x0000000045270000 - 0x0000000045273000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-profile-l1-1-0.dll
+0x0000000045280000 - 0x0000000045283000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll
+0x0000000045290000 - 0x0000000045293000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-string-l1-1-0.dll
+0x00000000452a0000 - 0x00000000452a3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-synch-l1-1-0.dll
+0x00000000452b0000 - 0x00000000452b3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-synch-l1-2-0.dll
+0x00000000452c0000 - 0x00000000452c3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll
+0x00000000452d0000 - 0x00000000452d3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-timezone-l1-1-0.dll
+0x00000000452e0000 - 0x00000000452e3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-core-util-l1-1-0.dll
+0x00000000452f0000 - 0x00000000452f3000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-crt-conio-l1-1-0.dll
+0x0000000045300000 - 0x0000000045304000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-crt-convert-l1-1-0.dll
+0x0000000045310000 - 0x0000000045313000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-crt-environment-l1-1-0.dll
+0x0000000045420000 - 0x0000000045423000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll
+0x0000000045430000 - 0x0000000045433000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-crt-heap-l1-1-0.dll
+0x0000000045440000 - 0x0000000045443000 	C:\Program Files\Maple 2018\jre\bin\api-ms-win-crt-locale-l1-1-0.dll
+
+VM Arguments:
+jvm_args: -Xmx16384m -Dmaple.bin.path=C:\Program Files\Maple 2018\bin.X86_64_WINDOWS -Djava.library.path=C:\Program Files\Maple 2018\bin.X86_64_WINDOWS;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\gstreamer\bin;C:\Program Files\Maple 2018\jre\bin;C:\Program Files\Maple 2018\jre\bin\classic;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\LyX 2.3\Perl\bin;C:\Users\Пенопласточка\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Пенопласточка\AppData\Local\Programs\Python\Python37\;C:\Users\Пенопласточка\AppData\Local\Microsoft\WindowsApps;C:\Users\Пенопласточка\AppData\Local\GitHubDesktop\bin;C:\Users\Пенопласточка\AppData\Local\Microsoft\WindowsApps;;C:\Users\Пенопласточка\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Professional Edition with Anaconda plugin 2019.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.4\bin;;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\jre\bin -Dmaplesim.templates=C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\toolbox\MapleSim\data\templates 
+java_command: com.maplesoft.application.Launcher -Xmx7076m -Xss4m -Ddefault.browser="C:\Program Files (x86)\AVAST Software\Browser\Application\AvastBrowser.exe" -- "%1" -command Open <unicode>C:\Users\&#1055;&#1077;&#1085;&#1086;&#1087;&#1083;&#1072;&#1089;&#1090;&#1086;&#1095;&#1082;&#1072;\Documents\5_sem\Differential_geometry\source.mw</unicode>
+java_class_path (initial): C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\externalcall.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\freehep-base.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\freehep-graphics2d.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\freehep-graphicsio-ps.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\freehep-graphicsio-pdf.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\freehep-graphicsio.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\gstreamer-java.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\jai_core.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\jai_codec.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\mail.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\WMFWriter.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\jniwrap-2.5.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\JFlex.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\java_cup.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\mapleclient.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\mapleresource.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\Maple.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\jogl-all.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\gluegen-rt.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\ThirdParty.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\MapleActivation.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\java\maple-calculator.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\toolbox\MapleSim\java\visualmodeler.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\toolbox\MapleSim\java\jinput.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\toolbox\MapleSim\java\jme-classes.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\toolbox\MapleSim\java\junit-4.1.jar;C:\Program Files\Maple 2018\bin.X86_64_WINDOW
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files\Maple 2018\bin.X86_64_WINDOWS;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\gstreamer\bin;C:\Program Files\Maple 2018\jre\bin;C:\Program Files\Maple 2018\jre\bin\classic;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\LyX 2.3\Perl\bin;C:\Users\Пенопласточка\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Пенопласточка\AppData\Local\Programs\Python\Python37\;C:\Users\Пенопласточка\AppData\Local\Microsoft\WindowsApps;C:\Users\Пенопласточка\AppData\Local\GitHubDesktop\bin;C:\Users\Пенопласточка\AppData\Local\Microsoft\WindowsApps;;C:\Users\Пенопласточка\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Professional Edition with Anaconda plugin 2019.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.4\bin;;C:\Program Files\Maple 2018\bin.X86_64_WINDOWS\..\jre\bin
+USERNAME=Пенопласточка
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 18362 (10.0.18362.329)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, erms, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 8052384k(830336k free), swap 9975456k(5128k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.152-b16) for windows-amd64 JRE (1.8.0_152-b16), built on Sep 14 2017 02:29:36 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Wed Nov 27 13:59:08 2019
+elapsed time: 11 seconds (0d 0h 0m 11s)
+

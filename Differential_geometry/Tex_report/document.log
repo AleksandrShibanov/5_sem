@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  24 NOV 2019 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  27 NOV 2019 13:28
 entering extended mode
 **./document.tex
 (document.tex
@@ -1030,8 +1030,8 @@ been already used, duplicate ignored
 l.110 \clearpage
                  [1] [2
 
-] [3]
-Overfull \hbox (21.77325pt too wide) in paragraph at lines 169--170
+] [3] [4] [5] [6] [7]
+Overfull \hbox (21.77325pt too wide) in paragraph at lines 177--178
 []\T2A/ftm/m/n/14.4 ѕусть име-ет-с€ две кри-вые $[]$ и $[]$, за-дан-ные в ви-де
  функ-ций $\OML/cmm/m/it/14.4 X[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1/cm
 r/m/n/14.4 )\OML/cmm/m/it/14.4 ; X[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1
@@ -1039,66 +1039,66 @@ r/m/n/14.4 )\OML/cmm/m/it/14.4 ; X[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1
  []
 
 
-LaTeX Warning: Command \cyra invalid in math mode on input line 177.
-
-Missing character: There is no а in font cmr12!
-
 LaTeX Warning: Command \cyra invalid in math mode on input line 185.
 
 Missing character: There is no а in font cmr12!
-[4] [5]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 220.
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 193.
+
+Missing character: There is no а in font cmr12!
+[8] [9]
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 228.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 220.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 220.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 220.
-
-[6] [7]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 282.
+(hyperref)                removing `math shift' on input line 228.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 282.
+(hyperref)                removing `superscript' on input line 228.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 282.
+(hyperref)                removing `math shift' on input line 228.
 
-[8]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 295.
-
+[10] [11]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 295.
+(hyperref)                removing `math shift' on input line 290.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 295.
+(hyperref)                removing `superscript' on input line 290.
 
-[9]
 
-LaTeX Warning: Reference `eq' on page 10 undefined on input line 314.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 290.
 
-[10] [11] [12] [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 446.
-[14
+[12]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 303.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 303.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 303.
+
+[13]
+
+LaTeX Warning: Reference `eq' on page 14 undefined on input line 322.
+
+[14] [15] [16] [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
+[18
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 446.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
 (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 446.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 446.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 457.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 457.
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: A394C5E168164FE9E5DE5B3B52EC4F73;4757.
 
@@ -1110,13 +1110,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 446.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 457.
  ) 
 Here is how much of TeX's memory you used:
- 24317 strings out of 492450
- 400909 string characters out of 3129685
- 466414 words of memory out of 3000000
- 28288 multiletter control sequences out of 15000+200000
+ 24323 strings out of 492450
+ 400966 string characters out of 3129685
+ 466460 words of memory out of 3000000
+ 28289 multiletter control sequences out of 15000+200000
  551504 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,18n,73p,817b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1133,9 +1133,9 @@ s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/times.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/pscyr/timesbd.pfb>
-Output written on document.pdf (15 pages, 206348 bytes).
+Output written on document.pdf (19 pages, 211014 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
+ 306 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

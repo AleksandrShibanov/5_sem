@@ -1,17 +1,17 @@
 \babel@toc {russian}{}
-\contentsline {section}{\numberline {1}Римановы пространства}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Элементарное многообразие}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Касательное пространство}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Определение риманова пространства}{5}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Свойства римановых пространств}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Коэффициенты связанности в $\mathbb {V}^n$}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Определение аффинной связности}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Тензоры в элементарном многообразии}{7}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Определение тензора в римановом пространстве}{8}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Ковариантное дифференцирование тензоров в $\mathbb {V}^n$}{9}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Ковариантное дифференцирование тензоров в $\mathbb {L}^n$}{9}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Риманово пространство с аффинной связностью}{10}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Тензор Римана-Кристоффеля}{10}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Тензор Риччи}{12}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Тензор Эйнштейна}{13}{subsection.2.10}%
-\contentsline {section}{Список использованных источников}{14}{equation.2.39}%
+\contentsline {section}{\numberline {1}Римановы пространства}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Элементарное многообразие}{6}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Касательное пространство}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Определение риманова пространства}{9}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Свойства римановых пространств}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Коэффициенты связанности в $\mathbb {V}^n$}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Определение аффинной связности}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Тензоры в элементарном многообразии}{11}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Определение тензора в римановом пространстве}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Ковариантное дифференцирование тензоров в $\mathbb {V}^n$}{13}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Ковариантное дифференцирование тензоров в $\mathbb {L}^n$}{13}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Риманово пространство с аффинной связностью}{14}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Тензор Римана-Кристоффеля}{14}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Тензор Риччи}{16}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Тензор Эйнштейна}{17}{subsection.2.10}%
+\contentsline {section}{Список использованных источников}{18}{equation.2.39}%
