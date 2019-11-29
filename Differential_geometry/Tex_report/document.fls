@@ -188,9 +188,48 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\minted\minted.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\minted\minted.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\upquote\upquote.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\upquote\upquote.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\lineno\lineno.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\lineno\lineno.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\ifplatform\ifplatform.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\ifplatform\ifplatform.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\catchfile.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\catchfile.sty
+INPUT nul:.tex
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT document.aex
+INPUT document.aex
 INPUT document.aux
 INPUT document.aux
 OUTPUT document.aux
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2aftm.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2aftm.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6t.tfm
@@ -244,6 +283,9 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1440.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm0700.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\pscyr\ftmr6t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6a.tfm
 INPUT C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
@@ -251,7 +293,6 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\pscyr\ftmr6t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6a.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\pscyr\ftmr6t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6a.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6t.tfm
 INPUT document.toc
 INPUT document.toc
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t1ftm.fd
@@ -259,12 +300,7 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t1ftm.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr8t.tfm
 INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\cmap\t1.cmap
 INPUT C:\Users\Пенопласточка\AppData\Roaming\MiKTeX\2.9\tex\latex\cmap\t1.cmap
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmb6t.tfm
 OUTPUT document.toc
-INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\pscyr\ftmr6t.vf
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6a.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\pscyr\ftmb6t.vf
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmb6a.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6t.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\public\pscyr\ftmr6t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\pscyr\ftmr6a.tfm
@@ -283,6 +319,16 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx7.tfm
+INPUT ..\img\plot1.png
+INPUT ..\img\plot1.png
+INPUT ..\img\plot1.png
+INPUT ..\img\plot1.png
+INPUT ..\img\plot1.png
+INPUT ..\img\plot2.png
+INPUT ..\img\plot2.png
+INPUT ..\img\plot2.png
+INPUT ..\img\plot2.png
+INPUT ..\img\plot2.png
 INPUT document.aux
 INPUT .\document.out
 INPUT .\document.out
@@ -311,5 +357,3 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\pscyr\times.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\pscyr\times.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\pscyr\timesbd.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\pscyr\timesbd.pfb

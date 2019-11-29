@@ -1,4 +1,4 @@
-df <- read.csv("db.csv", header = F) #data import
+df <- read.csv("enrika.csv", header = F, sep = ";") #data import
 df$V1
 ##############################################################################
 #1
@@ -34,6 +34,12 @@ dev.off()
 
 #$###########################################################################
 #$###########################################################################
+pl1 <- hist(df$V1,
+            breaks = seq(min_el, max_el, by = bin_width), 
+            xlim = c(-10, 10), ylim = c(0.00,0.10), axes = F, freq = F,
+            main = "Histogram of data", plot = F)
+
+n <- length(df$V1)
 
 relative_freq <- pl1$counts / length(df$V1)
 relative_freq
@@ -43,11 +49,11 @@ relative_freq/bin_width
 pl1$density
 pl1$breaks
 
-pl1$mids - width/2
+
 pl1$breaks
 
-a <- 2.579
-b <- 17.938
+a <- min(df)
+b <- max(df)
 
 pt1 <- c(punif(pl1$breaks[2],a,b),
          punif(pl1$breaks[-c(1:2,length(pl1$breaks))], a,b)
@@ -63,25 +69,25 @@ npt
 chi_sq <- sum((npt - pl1$counts)^2/(npt))
 chi_sq
 
-qchisq(0.99,5)
+qchisq(0.98,5)
 
 
-chisq.test(df$V1, runif(120,a,b))
 
 
-png(filename = "../img/hist_with_unif_dens.png", 
+
+png(filename = "../img/hist_with_unif_dens_enrika.png", 
     width = 1920, height = 1080,
     pointsize = 24, res = 96 * 1.25)
 par(mar = c(3, 3, 2, 1), xaxs = "i", yaxs = "i")
 pl1 <- hist(df$V1,
             breaks = seq(min_el, max_el, by = bin_width), 
-            xlim = c(0, 20), ylim = c(0.00,0.10), axes = F, freq = F,
+            xlim = c(-10, 10), ylim = c(0.00,0.10), axes = F, freq = F,
             main = "Histogram of data")
-axis(1, seq(0, 20, 1))
+axis(1, seq(-10, 10, 1))
 axis(2, seq(0.00, 0.10, 0.01), las = 1)
 grid(nx = 20, ny = 10, equilogs = F)
-curve(dunif(x, 2.5978, 17.9383), 2.5978, 17.9383, 
-      xlim = c(0,20), add = T, col = "red", lwd = 3)
+curve(dunif(x, a, b), a, b, 
+      xlim = c(-10,10), add = T, col = "red", lwd = 3)
 legend("topright", c("uniform density"), 
        lty=c(1), 
        fill=c("red"))

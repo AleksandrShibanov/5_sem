@@ -21,8 +21,11 @@
 \usepackage{physics}
 \usepackage{tensor}
 \usepackage[hidelinks]{hyperref}
-\bibliographystyle{gost2008}
+\usepackage{minted}
+
 \addto\captionsrussian{\def\refname{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}
+
+
 
 \makeatletter
 \g@addto@macro\normalsize{%
@@ -34,11 +37,11 @@
 \makeatother
 
 \titleformat{\section}
-{\normalfont\fontsize{14}{19}\selectfont}{\hspace{1.25cm}\thesection}{1em}{}
+{\normalfont\fontsize{14}{19}\selectfont}{\normalfont\hspace{1.25cm}\thesection}{1em}{}
 \titleformat{\subsection}
-{\normalfont\fontsize{14}{17}\selectfont}{\hspace{1.25cm}\thesubsection}{1em}{}
+{\normalfont\fontsize{14}{17}\selectfont}{\normalfont\hspace{1.25cm}\thesubsection}{1em}{}
 \titleformat{\subsubsection}
-{\normalfont\fontsize{14}{17}\selectfont}{\hspace{1.25cm}\thesubsubsection}{1em}{}
+{\normalfont\fontsize{14}{17}\selectfont}{\normalfont\hspace{1.25cm}\thesubsubsection}{1em}{}
 
 \titlespacing*{\section}
 {0pt}{4.5ex}{4.5ex}
@@ -49,15 +52,24 @@
 \titlespacing*{\subsubsection}
 {0pt}{4.5ex}{4.5ex}
 
+\renewcommand{\bfseries}{\relax}
+
 \makeatletter
 \renewcommand\tableofcontents{%
-	\null\hfill\normalfont{\Large\contentsname}\hfill\null\par
-	\@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
+	\normalfont\null\hfill\normalfont{\normalfont\contentsname}\hfill\null\par
+	\@mkboth{\normalfont\contentsname}{\normalfont\contentsname}%
 	\@starttoc{toc}%
 }
 \makeatother
 
 \renewcommand{\labelenumi}{$\arabic{enumi})$}
+
+
+
+
+
+
+
 
 \begin{document}
 	\begin{titlepage}
@@ -319,8 +331,8 @@
 
 Определение 12. Элементарное $n-$мерное многообразие $M^n$ называют римановым пространством аффинной связностью $\mathbb{W}^n$, если в каждой точке $\mathcal{M} \in M^n$ с координатами $x^i$ заданы две системы функций $g_{ij}$ и $\overset{*}{\Gamma_{ij}^m}$, вообще говоря, не связанные никакими соотношениями и удовлетворяющие свойствам 1-4 из определения 5 и 1,2 из определения 7 соответственно.
 
-Поскольку в $\mathbb{W}^n$ определена метрическая матрица $g_{ij}$, то можно образовать из неё символы $\Gamma_{ij}^m$ по формуле (\ref{eq})
-\begin{equation}\label{eq25}
+Поскольку в $\mathbb{W}^n$ определена метрическая матрица $g_{ij}$, то можно образовать из неё символы $\Gamma_{ij}^m$ по формуле (\ref{eq13})
+\begin{equation}\label{eq27}
  \Gamma_{ij}^m = \frac{1}{2}g^{mk}(g_{ik,j} + g_{jk,i} - g_{ij,k}).
 \end{equation}
 
@@ -411,9 +423,66 @@
 
 
 
-
+\newpage
 \section{Трактриса и её эволюта}
-Найдём эволюту 
+практическую часть курсовой работы будем выполнять в среде Maple18.
+
+
+Определение 14. Трактриса (линия влечения) -- плоская кривая, для которой длина отрезка касательной от точки касания до точки пересечения с фиксированной прямой является постоянной величиной. Её параметрическое описание имеет вид:
+\begin{align}
+	x(t) &= a ()\cdot \cos{t} + \ln{\tan{\frac{t}{2}}},\label{eq40}\\
+	y(t) &= \sin{t},\label{eq41}\\
+	0 &< t < \pi.\label{eq42}
+\end{align}
+
+\begin{figure}[h]
+	\center{\includegraphics[width=1\linewidth]{../img/plot1.png}}
+	\caption*{Рисунок 1 -- График трактрисы при $a=5$.}
+	\label{ris:plot1}
+\end{figure}
+
+
+Если линия задана параметрически, то ее эволюта имеет уравнение:
+\begin{align}
+	X(t)=x(t)-y^{\prime} \frac{x^{2}+y^{\prime 2}}{x^{\prime} y^{\prime \prime}-x^{\prime \prime} y^{\prime}},\label{eq43}\\
+	Y(t)=y(t)+x^{\prime} \frac{x^{2}+y^{2}}{x^{\prime} y^{\prime \prime}-x^{\prime \prime} y^{\prime}}.\label{eq44}
+\end{align}
+
+Подставляя уравнение трактрисы в (\ref{eq43}) и (\ref{eq44}) и сокращая, получим:
+\begin{align}
+	X(t)&=\frac{-\cos (t)^{3} a^{2}+\ln \left(\frac{1-\cos (t)}{\sin (t)}\right) a^{2}+\cos (t)^{3}+\cos (t) a^{2}-\cos (t)}{a},\label{eq45}\\
+	Y(t)&={\frac {1+ \left( {a}^{2}-1 \right)  \left( \cos \left( t \right) 
+			\right) ^{4}}{\sin \left( t \right) }}.\label{eq46}	
+\end{align}
+
+
+Избавляясь в полученной системе от $t$ придём к уравнению эволюты, зависящей только от $x$:
+\begin{equation}\label{eq47}
+	evoluta(x) = a\cdot \cosh{\frac{x}{a}}.
+\end{equation}
+
+\begin{figure}[h]
+	\center{\includegraphics[width=0.85\linewidth]{../img/plot2.png}}
+	\caption*{Рисунок 2 -- График эволюты трактрисы при $a=5$.}
+	\label{ris:plot2}
+\end{figure}
+
+
+Получили, что эволютой трактрисы является цепная линия.
+
+Определение 15. Цепная линия — линия, форму которой принимает гибкая однородная нерастяжимая тяжёлая нить или цепь (отсюда название) с закреплёнными концами в однородном гравитационном поле. Является плоской кривой. Её уравнением является (\ref{eq47}).
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -436,7 +505,7 @@
 \addcontentsline{toc}{section}{Список использованных источников}
 \begin{thebibliography}{3}
 \bibitem{Dimitrienko}
-	Dimitrienko
+	Димитриенко Ю.И. Тензорное исчисление: Учеб.пособие для вузов. М.: Высш,	шк., 2001, 575 с.
 \bibitem{Petrov}
 	Петров А.З. Пространства Эйнштейна. М.: Физматгиз, 1961, 464 с.
 \bibitem{Rashevskiy}
