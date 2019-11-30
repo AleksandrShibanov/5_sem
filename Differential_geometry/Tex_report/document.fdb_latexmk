@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1575122129 "document.tex" "document.pdf" "document" 1575122133
+["pdflatex"] 1575122129 "document.tex" "document.pdf" "document" 1575130234
   "../img/plot1.png" 1574970216 13435 7f52fd083447c292c1c7583624419518 ""
   "../img/plot2.png" 1574972109 6135 68ef5e04f2697e35e3511631561009b6 ""
   "../img/plot3.png" 1575115331 118283 8cc5c334daa5ae6c01bc7140273d008d ""
@@ -116,6 +116,6 @@
   (generated)
   "document.aux"
   "document.toc"
-  "document.log"
-  "document.out"
   "document.pdf"
+  "document.out"
+  "document.log"
