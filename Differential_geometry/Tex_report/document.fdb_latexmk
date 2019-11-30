@@ -1,7 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1574972394 "document.tex" "document.pdf" "document" 1574972398
+["pdflatex"] 1575122129 "document.tex" "document.pdf" "document" 1575122133
   "../img/plot1.png" 1574970216 13435 7f52fd083447c292c1c7583624419518 ""
   "../img/plot2.png" 1574972109 6135 68ef5e04f2697e35e3511631561009b6 ""
+  "../img/plot3.png" 1575115331 118283 8cc5c334daa5ae6c01bc7140273d008d ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm0700.tfm" 993062506 1452 97bdc98984cb373fbcd868e2fa55f5f2 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm1440.tfm" 993062510 1460 05250f74aea2bdcfe9d6766811b8b7b2 ""
@@ -108,13 +109,13 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty" 1573424844 10216 54c740cb9d999378b16df7e5c92c17a0 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/indentfirst.sty" 1573424844 1619 81f309217cfe2e8a93458f2cc7188755 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/shellesc.sty" 1573424844 4120 e0cb2331fdd1cb772efdb3968e4cb07f ""
-  "document.aux" 1574972398 8600 da53016de5faeb3e1c575e5c5ac9863a "pdflatex"
-  "document.out" 1574972398 4980 a6cbeb2c3507449b478c1b84f98e0f06 "pdflatex"
-  "document.tex" 1574972393 34124 015a2f925639d985f6221f5a050eaa5e ""
-  "document.toc" 1574972398 2123 862f3a6e48d6a2f65416e5b3f35e4256 "pdflatex"
+  "document.aux" 1575122133 10680 4e0bea5f10c2a0e166051abe39f8aeaa "pdflatex"
+  "document.out" 1575122133 4977 36658a50fb7ae37a1938a229c1da4e1f "pdflatex"
+  "document.tex" 1575122128 39617 83e57c535b6dfcb566c7b15fb9640939 ""
+  "document.toc" 1575122133 2120 ae2be7844c2da7b7cf82d3f1542432d1 "pdflatex"
   (generated)
-  "document.pdf"
-  "document.log"
   "document.aux"
-  "document.out"
   "document.toc"
+  "document.log"
+  "document.out"
+  "document.pdf"

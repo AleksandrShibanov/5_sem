@@ -425,12 +425,10 @@
 
 \newpage
 \section{Трактриса и её эволюта}
-практическую часть курсовой работы будем выполнять в среде Maple18.
-
-
+Практическую часть курсовой работы будем выполнять в среде Maple18.\\
 Определение 14. Трактриса (линия влечения) -- плоская кривая, для которой длина отрезка касательной от точки касания до точки пересечения с фиксированной прямой является постоянной величиной. Её параметрическое описание имеет вид:
 \begin{align}
-	x(t) &= a ()\cdot \cos{t} + \ln{\tan{\frac{t}{2}}},\label{eq40}\\
+	x(t) &= a (\cdot \cos{t} + \ln{\tan{\frac{t}{2}}},\label{eq40})\\
 	y(t) &= \sin{t},\label{eq41}\\
 	0 &< t < \pi.\label{eq42}
 \end{align}
@@ -474,29 +472,126 @@
 
 
 
+Вращая полученную эволюту вокруг оси $OX$ получаем поверхность вращения, называемую катеноидом. Катеноид можно задать параметрически:
+\begin{align}
+	x_{kat}(u,v) &= a\cdot \cosh{\frac{v}{a}}\cos{u},\label{eq48}\\
+	y_{kat}(u,v) &= a\cdot \cosh{\frac{v}{a}}\sin{u},\label{eq49}\\
+	z_{kat}(u,v) &= u,\label{eq50}
+\end{align}
+где $-\pi \leq u \leq \pi$ и $v \in \mathbb{R}$.
 
 
+Построим полученную поверхность.
+\begin{figure}[h]
+	\center{\includegraphics[width=0.85\linewidth]{../img/plot3.png}}
+	\caption*{Рисунок 3 -- Катеноид при $a=1$.}
+	\label{ris:plot3}
+\end{figure}
 
 
+Для вычисления Гауссовой и средней кривизн воспользуемся формулами из (\cite{Oprea}), позволяющими написать универсальный программный код.
 
 
+Пусть $K$ -- Гауссова кривизна, а $H$ -- средняя. Введём дополнительные обозначения:
+
+\begin{align}
+	E &= x_u \cdot x_u, \label{eq51}\\
+	F &= x_u \cdot x_v, \label{eq52}\\
+	G &= x_v \cdot x_v, \label{eq53}\\
+	l &= U \cdot x_{uu}, \label{eq54}\\
+	m &= U \cdot x_{uv}, \label{eq55}\\
+	n &= U \cdot x_{vv}, \label{eq56}
+\end{align}
+где $U$ -- единичный вектор нормали к поверхности:
+\begin{equation}
+	U = \frac{x_u \times x_v}{|x_u \times x_v|}.\label{eq 57}
+\end{equation}
 
 
+Тогда Гауссова кривизна будет рассчитываться как
+\begin{equation}\label{eq58}
+	K = \frac{lm - m^2}{EG-F^2},
+\end{equation}
+а средняя кривизна:
+\begin{equation}\label{eq59}
+	H = \frac{Gl + En -2Fm}{2(EG-F^2)}.
+\end{equation}
+
+Рассчитаем введённые выше величины для нашего катеноида (\ref{eq48})-(\ref{eq50}):
+
+\begin{equation}\label{eq60}
+\begin{split}
+	E &= x_u \cdot x_u = \\
+	&= (1, \sinh{\frac{u}{a}} \cos{v}, \sinh{\frac{u}{a}} \sin{v}) \cdot (1, \sinh{\frac{u}{a}} \cos{v}, \sinh{\frac{u}{a}} \sin{v})  = \\
+	&= 1+\sinh{\frac{u}{a}}^2\cdot\cos^2{v}+\sinh{\frac{u}{a}}^2\cdot\sin^2{v}. \\
+\end{split}
+\end{equation}
+
+\begin{equation}\label{eq61}
+\begin{split}
+	F &= x_u \cdot x_v = \\
+	&= (1, \sinh{\frac{u}{a}} \cos{v}, \sinh{\frac{u}{a}} \sin{v}) \cdot (0, -a\cosh{\frac{u}{a}} \sin{v}, a\cosh{\frac{u}{a}} \cos{v})=\\
+	&= 0. 
+\end{split}
+\end{equation}
+
+\begin{equation}\label{eq62}
+\begin{split}
+	G &= x_v \cdot x_v = \\
+	&= (0, -a\cosh{\frac{u}{a}} \sin{v}, a\cosh{\frac{u}{a}} \cos{v}) \cdot (0, -a\cosh{\frac{u}{a}} \sin{v}, a\cosh{\frac{u}{a}} \cos{v})  = \\	&= a^2 \cosh^2{\frac{u}{a}} \sin^2{v} + a^2 \cosh^2{\frac{u}{a}} \cos^2{v}.\\
+\end{split}
+\end{equation}
 
 
+\begin{equation}\label{eq63}
+\begin{split}
+	U &= \frac{x_u \times x_v}{|x_u \times x_v|} = \\
+	&= \frac{(0, -a\cosh{\frac{u}{a}} \sin{v}, a\cosh{\frac{u}{a}} \cos{v}) \times (0, -a\cosh{\frac{u}{a}} \sin{v}, a\cosh{\frac{u}{a}} \cos{v}) }{|(0, -a\cosh{\frac{u}{a}} \sin{v}, a\cosh{\frac{u}{a}} \cos{v}) \times (0, -a\cosh{\frac{u}{a}} \sin{v}, a\cosh{\frac{u}{a}} \cos{v})|} = \\
+	&= \frac{(a\cosh{\frac{u}{a}}\sinh{\frac{u}{a}}, -a \cosh{\frac{u}{a}}\cos{v}, -a \cosh{\frac{u}{a}} \sin{v})}{\sqrt{\cosh^4{\frac{u}{a}}a^2}} = \\
+	&= (\frac{\sinh{\frac{u}{a}}}{\cosh{\frac{u}{a}}},-\frac{\cos{v}}{\cosh{\frac{u}{a}}} ,-\frac{\sin{v}}{\cosh{\frac{u}{a}}}).
+\end{split}
+\end{equation}
+
+\begin{equation}\label{eq64}
+\begin{split}
+	l &= U \cdot x_{uu} = \\
+	&=  (\frac{\sinh{\frac{u}{a}}}{\cosh{\frac{u}{a}}},-\frac{\cos{v}}{\cosh{\frac{u}{a}}} ,-\frac{\sin{v}}{\cosh{\frac{u}{a}}}) \cdot (0, \frac{\cosh{\frac{u}{a}}\cos{v}}{a}, \frac{\cosh{\frac{u}{a}}\sin{v}}{a}) = \\
+	&= -\frac{1}{a}.
+\end{split}
+\end{equation}
+
+\begin{equation}\label{eq65}
+\begin{split}
+	m &= U \cdot x_{uv} = \\
+	&=  (\frac{\sinh{\frac{u}{a}}}{\cosh{\frac{u}{a}}},-\frac{\cos{v}}{\cosh{\frac{u}{a}}} ,-\frac{\sin{v}}{\cosh{\frac{u}{a}}}) \cdot (0, -\sinh{\frac{u}{a}}\sin{v}, \sinh{\frac{u}{a}}\cos{v}) = \\
+	&= 0.
+\end{split}
+\end{equation}
 
 
+\begin{equation}\label{eq66}
+\begin{split}
+	n &= U \cdot x_{vv} = \\
+	&=  (\frac{\sinh{\frac{u}{a}}}{\cosh{\frac{u}{a}}},-\frac{\cos{v}}{\cosh{\frac{u}{a}}} ,-\frac{\sin{v}}{\cosh{\frac{u}{a}}}) \cdot (0, -a\cosh{\frac{u}{a}}\cos{v}, -a\cosh{\frac{u}{a}}\sin{v}) = \\
+	&= a.
+\end{split}
+\end{equation}
+
+Теперь мы можем рассчитать Гауссову кривизну по формуле (\ref{eq58}):
+\begin{equation}\label{eq67}
+	K = \frac{lm - m^2}{EG-F^2} = - \frac{1}{\cosh^4{\frac{u}{a}}a^2}.
+\end{equation}
+
+И среднюю кривизну по формуле (\ref{eq59}):
+\begin{equation}\label{eq68}
+	H = \frac{Gl + En -2Fm}{2(EG-F^2)} = 0.
+\end{equation}
 
 
-
-
-
-
-
-
-
-
-
+Также из \cite{Oprea} известно, что скалярная кривизна равняется удвоенной гауссовой кривизне для римановых многообразий. Так что, обозначая скалярную кривизну за $SK$ имеем:
+\begin{equation}\label{eq69}
+	SK = 2K  = - \frac{2}{\cosh^4{\frac{u}{a}}a^2}.
+\end{equation}
 
 
 
@@ -512,7 +607,8 @@
 	Рашевский П.К. Риманова геометрия и тензорный анализ. М.: Наука, 1967, 664 с.
 \bibitem{Shipov}
 	Шипов Г.И. Теория физического вакуума. НТ-Центр, 1993, 362 с.
-
+\bibitem{Oprea}
+	Шипов Г.И. Теория физического вакуума. НТ-Центр, 1993, 362 с.
 \end{thebibliography}
 
 \end{document}

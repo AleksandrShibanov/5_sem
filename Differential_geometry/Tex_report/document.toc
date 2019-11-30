@@ -15,4 +15,4 @@
 \contentsline {subsection}{\numberline {2.9}Тензор Риччи}{16}{subsection.2.9}%
 \contentsline {subsection}{\numberline {2.10}Тензор Эйнштейна}{17}{subsection.2.10}%
 \contentsline {section}{\numberline {3}Трактриса и её эволюта}{18}{section.3}%
-\contentsline {section}{Список использованных источников}{21}{figure.caption.2}%
+\contentsline {section}{Список использованных источников}{25}{equation.3.69}%
