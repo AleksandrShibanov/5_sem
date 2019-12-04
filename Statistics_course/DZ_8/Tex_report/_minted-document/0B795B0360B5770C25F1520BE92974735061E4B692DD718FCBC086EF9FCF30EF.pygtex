@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{png}\PYG{p}{(}\PYG{n}{filename} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}../img/hist\PYGZus{}with\PYGZus{}unif\PYGZus{}dens.png\PYGZdq{}}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{width} \PYG{o}{=} \PYG{l+m}{1920}\PYG{p}{,} \PYG{n}{height} \PYG{o}{=} \PYG{l+m}{1080}\PYG{p}{,}
+\PYG{o}{+}     \PYG{n}{pointsize} \PYG{o}{=} \PYG{l+m}{24}\PYG{p}{,} \PYG{n}{res} \PYG{o}{=} \PYG{l+m}{96} \PYG{o}{*} \PYG{l+m}{1.25}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{par}\PYG{p}{(}\PYG{n}{mar} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{3}\PYG{p}{,} \PYG{l+m}{3}\PYG{p}{,} \PYG{l+m}{2}\PYG{p}{,} \PYG{l+m}{1}\PYG{p}{),} \PYG{n}{xaxs} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}i\PYGZdq{}}\PYG{p}{,} \PYG{n}{yaxs} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}i\PYGZdq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{pl1} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{hist}\PYG{p}{(}\PYG{n}{df}\PYG{o}{\PYGZdl{}}\PYG{n}{V1}\PYG{p}{,}
+\PYG{o}{+}             \PYG{n}{breaks} \PYG{o}{=} \PYG{n+nf}{seq}\PYG{p}{(}\PYG{n}{min\PYGZus{}el}\PYG{p}{,} \PYG{n}{max\PYGZus{}el}\PYG{p}{,} \PYG{n}{by} \PYG{o}{=} \PYG{n}{bin\PYGZus{}width}\PYG{p}{),}
+\PYG{o}{+}             \PYG{n}{xlim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,} \PYG{l+m}{20}\PYG{p}{),} \PYG{n}{ylim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0.00}\PYG{p}{,}\PYG{l+m}{0.10}\PYG{p}{),} \PYG{n}{axes} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{,} \PYG{n}{freq} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{,}
+\PYG{o}{+}             \PYG{n}{main} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}Histogram of data\PYGZdq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,} \PYG{n+nf}{seq}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,} \PYG{l+m}{20}\PYG{p}{,} \PYG{l+m}{1}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{axis}\PYG{p}{(}\PYG{l+m}{2}\PYG{p}{,} \PYG{n+nf}{seq}\PYG{p}{(}\PYG{l+m}{0.00}\PYG{p}{,} \PYG{l+m}{0.10}\PYG{p}{,} \PYG{l+m}{0.01}\PYG{p}{),} \PYG{n}{las} \PYG{o}{=} \PYG{l+m}{1}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{grid}\PYG{p}{(}\PYG{n}{nx} \PYG{o}{=} \PYG{l+m}{20}\PYG{p}{,} \PYG{n}{ny} \PYG{o}{=} \PYG{l+m}{10}\PYG{p}{,} \PYG{n}{equilogs} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{curve}\PYG{p}{(}\PYG{n+nf}{dunif}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{l+m}{2.5978}\PYG{p}{,} \PYG{l+m}{17.9383}\PYG{p}{),} \PYG{l+m}{2.5978}\PYG{p}{,} \PYG{l+m}{17.9383}\PYG{p}{,}
+\PYG{o}{+}       \PYG{n}{xlim} \PYG{o}{=} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{l+m}{20}\PYG{p}{),} \PYG{n}{add} \PYG{o}{=} \PYG{n+nb+bp}{T}\PYG{p}{,} \PYG{n}{col} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{,} \PYG{n}{lwd} \PYG{o}{=} \PYG{l+m}{3}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{legend}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}topright\PYGZdq{}}\PYG{p}{,} \PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}uniform density\PYGZdq{}}\PYG{p}{),}
+\PYG{o}{+}        \PYG{n}{lty}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{),}
+\PYG{o}{+}        \PYG{n}{fill}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{dev.off}\PYG{p}{()}
+\end{Verbatim}

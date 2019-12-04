@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{df} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{read.csv}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}db.csv\PYGZdq{}}\PYG{p}{,} \PYG{n}{header} \PYG{o}{=} \PYG{n+nb+bp}{F}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{}data import}
+\PYG{o}{\PYGZgt{}} \PYG{n}{df}\PYG{o}{\PYGZdl{}}\PYG{n}{V1}
+\PYG{n}{[1]} \PYG{l+m}{14.495}  \PYG{l+m}{5.343} \PYG{l+m}{14.396} \PYG{l+m}{12.888}  \PYG{l+m}{2.375}  \PYG{l+m}{9.234}
+\PYG{n}{[7]}  \PYG{l+m}{5.811}  \PYG{l+m}{4.727}  \PYG{l+m}{4.843}  \PYG{l+m}{3.377}  \PYG{l+m}{8.681} \PYG{l+m}{12.173}
+\PYG{n}{[13]}  \PYG{l+m}{4.715} \PYG{l+m}{17.985}  \PYG{l+m}{8.592} \PYG{l+m}{10.268} \PYG{l+m}{17.921}  \PYG{l+m}{6.078}
+\PYG{n}{[19]}  \PYG{l+m}{7.241}  \PYG{l+m}{4.646}  \PYG{l+m}{9.927} \PYG{l+m}{16.195}  \PYG{l+m}{5.006} \PYG{l+m}{17.757}
+\PYG{n}{[25]}  \PYG{l+m}{7.175} \PYG{l+m}{15.992}  \PYG{l+m}{8.206}  \PYG{l+m}{9.182}  \PYG{l+m}{9.097}  \PYG{l+m}{4.964}
+\PYG{n}{[31]}  \PYG{l+m}{5.814} \PYG{l+m}{15.535} \PYG{l+m}{15.864} \PYG{l+m}{12.040}  \PYG{l+m}{3.608}  \PYG{l+m}{6.883}
+\PYG{n}{[37]}  \PYG{l+m}{8.428} \PYG{l+m}{13.890} \PYG{l+m}{14.237}  \PYG{l+m}{5.647} \PYG{l+m}{15.850}  \PYG{l+m}{6.355}
+\PYG{n}{[43]}  \PYG{l+m}{3.086}  \PYG{l+m}{9.919}  \PYG{l+m}{3.635} \PYG{l+m}{12.768}  \PYG{l+m}{2.867}  \PYG{l+m}{2.666}
+\PYG{n}{[49]} \PYG{l+m}{11.093}  \PYG{l+m}{9.838}  \PYG{l+m}{7.357}  \PYG{l+m}{8.282} \PYG{l+m}{11.449} \PYG{l+m}{13.957}
+\PYG{n}{[55]}  \PYG{l+m}{6.875} \PYG{l+m}{17.117} \PYG{l+m}{17.963}  \PYG{l+m}{2.744} \PYG{l+m}{12.177}  \PYG{l+m}{9.861}
+\PYG{n}{[61]}  \PYG{l+m}{3.375} \PYG{l+m}{13.924} \PYG{l+m}{10.821}  \PYG{l+m}{2.903} \PYG{l+m}{11.095} \PYG{l+m}{12.911}
+\PYG{n}{[67]}  \PYG{l+m}{3.878} \PYG{l+m}{10.351}  \PYG{l+m}{8.250} \PYG{l+m}{14.186} \PYG{l+m}{15.506}  \PYG{l+m}{5.743}
+\PYG{n}{[73]} \PYG{l+m}{12.906}  \PYG{l+m}{9.012} \PYG{l+m}{12.767} \PYG{l+m}{15.988}  \PYG{l+m}{9.493} \PYG{l+m}{15.694}
+\PYG{n}{[79]}  \PYG{l+m}{5.333} \PYG{l+m}{16.892}  \PYG{l+m}{5.140}  \PYG{l+m}{9.354}  \PYG{l+m}{7.683} \PYG{l+m}{16.175}
+\PYG{n}{[85]}  \PYG{l+m}{8.415}  \PYG{l+m}{9.458} \PYG{l+m}{16.058} \PYG{l+m}{12.959} \PYG{l+m}{12.175} \PYG{l+m}{14.286}
+\PYG{n}{[91]} \PYG{l+m}{15.134} \PYG{l+m}{12.423}  \PYG{l+m}{6.734} \PYG{l+m}{15.439} \PYG{l+m}{14.022} \PYG{l+m}{15.308}
+\PYG{n}{[97]}  \PYG{l+m}{8.916} \PYG{l+m}{17.690} \PYG{l+m}{12.959} \PYG{l+m}{14.919}  \PYG{l+m}{7.479}  \PYG{l+m}{9.869}
+\PYG{n}{[103]} \PYG{l+m}{12.924} \PYG{l+m}{10.511} \PYG{l+m}{12.622} \PYG{l+m}{14.612} \PYG{l+m}{17.103}  \PYG{l+m}{7.039}
+\PYG{n}{[109]} \PYG{l+m}{13.480}  \PYG{l+m}{6.542}  \PYG{l+m}{4.354}  \PYG{l+m}{6.339} \PYG{l+m}{13.535}  \PYG{l+m}{5.175}
+\PYG{n}{[115]}  \PYG{l+m}{9.159}  \PYG{l+m}{4.942} \PYG{l+m}{13.325} \PYG{l+m}{15.649}  \PYG{l+m}{8.905} \PYG{l+m}{15.238}
+\end{Verbatim}
