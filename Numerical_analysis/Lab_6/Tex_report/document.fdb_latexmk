@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1575132550 "document.tex" "document.pdf" "document" 1575132556
+["pdflatex"] 1575132550 "document.tex" "document.pdf" "document" 1575569907
   "../img/a_set.png" 1575130817 25117 6886a61e099ff11967f4ea87d073d117 ""
   "../img/cifri.png" 1575131439 63287 dbce883dbd7739e0382014a228616791 ""
   "../img/graa1.png" 1575131608 12468 5734c656b93db5c72dc3f5ef81ca5dc7 ""
@@ -83,6 +83,6 @@
   "document.aux" 1575132555 150 7fa12a2804128f7eaa3440b8dff353fe "pdflatex"
   "document.tex" 1575132549 7107 518906ea98d95e766bf2ceacf48683a4 ""
   (generated)
-  "document.log"
-  "document.pdf"
   "document.aux"
+  "document.pdf"
+  "document.log"

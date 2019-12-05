@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1575122129 "document.tex" "document.pdf" "document" 1575130234
+["pdflatex"] 1575569947 "document.tex" "document.pdf" "document" 1575569951
   "../img/plot1.png" 1574970216 13435 7f52fd083447c292c1c7583624419518 ""
   "../img/plot2.png" 1574972109 6135 68ef5e04f2697e35e3511631561009b6 ""
   "../img/plot3.png" 1575115331 118283 8cc5c334daa5ae6c01bc7140273d008d ""
@@ -109,13 +109,13 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty" 1573424844 10216 54c740cb9d999378b16df7e5c92c17a0 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/indentfirst.sty" 1573424844 1619 81f309217cfe2e8a93458f2cc7188755 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/shellesc.sty" 1573424844 4120 e0cb2331fdd1cb772efdb3968e4cb07f ""
-  "document.aux" 1575122133 10680 4e0bea5f10c2a0e166051abe39f8aeaa "pdflatex"
-  "document.out" 1575122133 4977 36658a50fb7ae37a1938a229c1da4e1f "pdflatex"
-  "document.tex" 1575122128 39617 83e57c535b6dfcb566c7b15fb9640939 ""
-  "document.toc" 1575122133 2120 ae2be7844c2da7b7cf82d3f1542432d1 "pdflatex"
+  "document.aux" 1575569951 10766 2042df572194c37a3f255475ba04a0ee "pdflatex"
+  "document.out" 1575569951 4977 4a11d5b25e38a997108e39aaccff4ee6 "pdflatex"
+  "document.tex" 1575569941 39704 0c7a6516a795788a0d457d49e62364db ""
+  "document.toc" 1575569951 2120 d21e17e9b978f4184560a56d58e72c5b "pdflatex"
   (generated)
-  "document.aux"
-  "document.toc"
-  "document.pdf"
   "document.out"
   "document.log"
+  "document.pdf"
+  "document.toc"
+  "document.aux"
