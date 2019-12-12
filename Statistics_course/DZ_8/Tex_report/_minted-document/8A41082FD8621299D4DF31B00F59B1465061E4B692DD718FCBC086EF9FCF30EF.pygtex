@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{lm1} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{lm}\PYG{p}{(}\PYG{n}{df[}\PYG{p}{,}\PYG{l+m}{2}\PYG{n}{]} \PYG{o}{\PYGZti{}} \PYG{n}{df[}\PYG{p}{,}\PYG{l+m}{1}\PYG{n}{]}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{summary}\PYG{p}{(}\PYG{n}{lm1}\PYG{p}{)}
+
+\PYG{n}{Call}\PYG{o}{:}
+\PYG{n+nf}{lm}\PYG{p}{(}\PYG{n}{formula} \PYG{o}{=} \PYG{n}{df[}\PYG{p}{,} \PYG{l+m}{2}\PYG{n}{]} \PYG{o}{\PYGZti{}} \PYG{n}{df[}\PYG{p}{,} \PYG{l+m}{1}\PYG{n}{]}\PYG{p}{)}
+
+\PYG{n}{Residuals}\PYG{o}{:}
+\PYG{n}{Min}      \PYG{l+m}{1}\PYG{n}{Q}  \PYG{n}{Median}      \PYG{l+m}{3}\PYG{n}{Q}     \PYG{n}{Max}
+\PYG{l+m}{\PYGZhy{}3.4976} \PYG{l+m}{\PYGZhy{}0.5606} \PYG{l+m}{\PYGZhy{}0.1048}  \PYG{l+m}{0.7340}  \PYG{l+m}{2.2569}
+
+\PYG{n}{Coefficients}\PYG{o}{:}
+\PYG{n}{Estimate} \PYG{n}{Std.} \PYG{n}{Error} \PYG{n}{t} \PYG{n}{value} \PYG{n+nf}{Pr}\PYG{p}{(}\PYG{o}{\PYGZgt{}|}\PYG{n}{t}\PYG{o}{|}\PYG{p}{)}
+\PYG{p}{(}\PYG{n}{Intercept}\PYG{p}{)} \PYG{l+m}{\PYGZhy{}1.99707}    \PYG{l+m}{0.11926}  \PYG{l+m}{\PYGZhy{}16.75}   \PYG{o}{\PYGZlt{}}\PYG{l+m}{2e\PYGZhy{}16} \PYG{o}{***}
+\PYG{n}{df[}\PYG{p}{,} \PYG{l+m}{1}\PYG{n}{]}     \PYG{l+m}{\PYGZhy{}1.00698}    \PYG{l+m}{0.08379}  \PYG{l+m}{\PYGZhy{}12.02}   \PYG{o}{\PYGZlt{}}\PYG{l+m}{2e\PYGZhy{}16} \PYG{o}{***}
+\PYG{o}{\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{n}{Signif.} \PYG{n}{codes}\PYG{o}{:}  \PYG{l+m}{0} ‘\PYG{o}{***}’ \PYG{l+m}{0.001} ‘\PYG{o}{**}’ \PYG{l+m}{0.01} ‘\PYG{o}{*}’ \PYG{l+m}{0.05} ‘\PYG{n}{.’} \PYG{l+m}{0.1} ‘ ’ \PYG{l+m}{1}
+
+\PYG{n}{Residual} \PYG{n}{standard} \PYG{n}{error}\PYG{o}{:} \PYG{l+m}{0.9912} \PYG{n}{on} \PYG{l+m}{138} \PYG{n}{degrees} \PYG{n}{of} \PYG{n}{freedom}
+\PYG{n}{Multiple} \PYG{n}{R}\PYG{o}{\PYGZhy{}}\PYG{n}{squared}\PYG{o}{:}  \PYG{l+m}{0.5114}\PYG{p}{,}	\PYG{n}{Adjusted} \PYG{n}{R}\PYG{o}{\PYGZhy{}}\PYG{n}{squared}\PYG{o}{:}  \PYG{l+m}{0.5078}
+\PYG{n+nb+bp}{F}\PYG{o}{\PYGZhy{}}\PYG{n}{statistic}\PYG{o}{:} \PYG{l+m}{144.4} \PYG{n}{on} \PYG{l+m}{1} \PYG{n}{and} \PYG{l+m}{138} \PYG{n}{DF}\PYG{p}{,}  \PYG{n}{p}\PYG{o}{\PYGZhy{}}\PYG{n}{value}\PYG{o}{:} \PYG{o}{\PYGZlt{}} \PYG{l+m}{2.2e\PYGZhy{}16}
+\end{Verbatim}

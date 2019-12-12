@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{plot}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{abline}\PYG{p}{(}\PYG{n}{lm1}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIdelta\PYGZus{}ost\PYGZus{}upper\PYGZus{}boud}\PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{p}{(}\PYG{n}{n}\PYG{l+m}{\PYGZhy{}2}\PYG{p}{)}\PYG{o}{*}\PYG{n}{delta\PYGZus{}ost} \PYG{o}{/}
+\PYG{o}{+}   \PYG{p}{(}\PYG{n+nf}{qchisq}\PYG{p}{(}\PYG{n}{alpha}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{,} \PYG{n}{n}\PYG{l+m}{\PYGZhy{}2}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIdelta\PYGZus{}ost\PYGZus{}upper\PYGZus{}boud}
+\PYG{n}{[1]} \PYG{l+m}{1.26263}
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIdelta\PYGZus{}ost\PYGZus{}lower\PYGZus{}boud} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{p}{(}\PYG{n}{n}\PYG{l+m}{\PYGZhy{}2}\PYG{p}{)}\PYG{o}{*}\PYG{n}{delta\PYGZus{}ost} \PYG{o}{/}
+\PYG{o}{+}   \PYG{p}{(}\PYG{n+nf}{qchisq}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{alpha}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{,} \PYG{n}{n}\PYG{l+m}{\PYGZhy{}2}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIdelta\PYGZus{}ost\PYGZus{}lower\PYGZus{}boud}
+\PYG{n}{[1]} \PYG{l+m}{0.7863207}
+\end{Verbatim}

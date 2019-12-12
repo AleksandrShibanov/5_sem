@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIbeta1\PYGZus{}lower\PYGZus{}bound} \PYG{o}{\PYGZlt{}\PYGZhy{}}  \PYG{n}{beta\PYGZus{}1} \PYG{o}{\PYGZhy{}}
+\PYG{o}{+}   \PYG{p}{(}\PYG{n+nf}{qt}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{alpha}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{,} \PYG{n}{n}\PYG{l+m}{\PYGZhy{}2}\PYG{p}{)} \PYG{o}{*} \PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{sigma\PYGZus{}ost}\PYG{p}{))} \PYG{o}{*} \PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{M\PYGZus{}obr[2}\PYG{p}{,}\PYG{l+m}{2}\PYG{n}{]}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIbeta1\PYGZus{}lower\PYGZus{}bound}
+\PYG{n}{[1]} \PYG{l+m}{\PYGZhy{}1.17267}
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIbeta1\PYGZus{}upper\PYGZus{}bound} \PYG{o}{\PYGZlt{}\PYGZhy{}}  \PYG{n}{beta\PYGZus{}1} \PYG{o}{+}
+\PYG{o}{+}   \PYG{p}{(}\PYG{n+nf}{qt}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{alpha}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{,} \PYG{n}{n}\PYG{l+m}{\PYGZhy{}2}\PYG{p}{)} \PYG{o}{*} \PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{sigma\PYGZus{}ost}\PYG{p}{))} \PYG{o}{*} \PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{M\PYGZus{}obr[2}\PYG{p}{,}\PYG{l+m}{2}\PYG{n}{]}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIbeta1\PYGZus{}upper\PYGZus{}bound}
+\PYG{n}{[1]} \PYG{l+m}{\PYGZhy{}0.8412993}
+\end{Verbatim}

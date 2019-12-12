@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIr\PYGZus{}lower\PYGZus{}bound} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{tanh}\PYG{p}{(}\PYG{n+nf}{atanh}\PYG{p}{(}\PYG{n}{rv}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{rv}\PYG{o}{/}\PYG{p}{(}\PYG{l+m}{2}\PYG{o}{*}\PYG{p}{(}\PYG{n}{n}\PYG{l+m}{\PYGZhy{}1}\PYG{p}{))}
+\PYG{o}{+}                         \PYG{o}{\PYGZhy{}} \PYG{n+nf}{qnorm}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{alpha}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{)}\PYG{o}{/}\PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{n}\PYG{l+m}{\PYGZhy{}3}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIr\PYGZus{}lower\PYGZus{}bound}
+\PYG{n}{[1]} \PYG{l+m}{\PYGZhy{}0.7865877}
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIr\PYGZus{}upper\PYGZus{}bound} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n+nf}{tanh}\PYG{p}{(}\PYG{n+nf}{atanh}\PYG{p}{(}\PYG{n}{rv}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{rv}\PYG{o}{/}\PYG{p}{(}\PYG{l+m}{2}\PYG{o}{*}\PYG{p}{(}\PYG{n}{n}\PYG{l+m}{\PYGZhy{}1}\PYG{p}{))}
+\PYG{o}{+}                         \PYG{o}{+} \PYG{n+nf}{qnorm}\PYG{p}{(}\PYG{l+m}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{alpha}\PYG{o}{/}\PYG{l+m}{2}\PYG{p}{)}\PYG{o}{/}\PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{n}\PYG{l+m}{\PYGZhy{}3}\PYG{p}{))}
+\PYG{o}{\PYGZgt{}} \PYG{n}{CIr\PYGZus{}upper\PYGZus{}bound}
+\PYG{n}{[1]} \PYG{l+m}{\PYGZhy{}0.6215435}
+\end{Verbatim}

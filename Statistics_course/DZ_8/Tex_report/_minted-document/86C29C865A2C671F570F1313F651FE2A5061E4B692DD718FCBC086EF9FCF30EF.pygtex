@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{summary}\PYG{p}{(}\PYG{n}{df}\PYG{p}{)}
+\PYG{n}{x}                 \PYG{n}{y}                \PYG{n}{eps}
+\PYG{n}{Min.}   \PYG{o}{:}\PYG{l+m}{\PYGZhy{}1.1840}   \PYG{n}{Min.}   \PYG{o}{:}\PYG{l+m}{\PYGZhy{}7.1839}   \PYG{n}{Min.}   \PYG{o}{:}\PYG{l+m}{\PYGZhy{}3.498059}
+\PYG{l+m}{1}\PYG{n}{st} \PYG{n}{Qu.}\PYG{o}{:} \PYG{l+m}{0.3592}   \PYG{l+m}{1}\PYG{n}{st} \PYG{n}{Qu.}\PYG{o}{:}\PYG{l+m}{\PYGZhy{}4.0131}   \PYG{l+m}{1}\PYG{n}{st} \PYG{n}{Qu.}\PYG{o}{:}\PYG{l+m}{\PYGZhy{}0.565091}
+\PYG{n}{Median} \PYG{o}{:} \PYG{l+m}{0.9333}   \PYG{n}{Median} \PYG{o}{:}\PYG{l+m}{\PYGZhy{}2.9026}   \PYG{n}{Median} \PYG{o}{:}\PYG{l+m}{\PYGZhy{}0.115588}
+\PYG{n}{Mean}   \PYG{o}{:} \PYG{l+m}{1.0131}   \PYG{n}{Mean}   \PYG{o}{:}\PYG{l+m}{\PYGZhy{}3.0172}   \PYG{n}{Mean}   \PYG{o}{:}\PYG{l+m}{\PYGZhy{}0.004149}
+\PYG{l+m}{3}\PYG{n}{rd} \PYG{n}{Qu.}\PYG{o}{:} \PYG{l+m}{1.8039}   \PYG{l+m}{3}\PYG{n}{rd} \PYG{n}{Qu.}\PYG{o}{:}\PYG{l+m}{\PYGZhy{}2.0002}   \PYG{l+m}{3}\PYG{n}{rd} \PYG{n}{Qu.}\PYG{o}{:} \PYG{l+m}{0.729901}
+\PYG{n}{Max.}   \PYG{o}{:} \PYG{l+m}{3.6001}   \PYG{n}{Max.}   \PYG{o}{:} \PYG{l+m}{0.4357}   \PYG{n}{Max.}   \PYG{o}{:} \PYG{l+m}{2.246255}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{var}\PYG{p}{(}\PYG{n}{df[}\PYG{p}{,}\PYG{l+m}{1}\PYG{n}{]}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} Дисперсия x}
+\PYG{n}{[1]} \PYG{l+m}{1.006593}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{var}\PYG{p}{(}\PYG{n}{df[}\PYG{p}{,}\PYG{l+m}{2}\PYG{n}{]}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} Дисперсия y}
+\PYG{n}{[1]} \PYG{l+m}{1.996038}
+\PYG{o}{\PYGZgt{}} \PYG{n+nf}{var}\PYG{p}{(}\PYG{n}{df[}\PYG{p}{,}\PYG{l+m}{3}\PYG{n}{]}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} Дисперсия eps}
+\PYG{n}{[1]} \PYG{l+m}{0.9753832}
+\end{Verbatim}
