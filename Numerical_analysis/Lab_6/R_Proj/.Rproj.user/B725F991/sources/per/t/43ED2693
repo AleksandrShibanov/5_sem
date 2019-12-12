@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1575012995762.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "43ED2693",
+    "lastKnownWriteTime" : 1575013001,
+    "last_content_update" : 1575013001294,
+    "path" : "~/5_sem/Numerical_analysis/Lab_6/R_Proj/source.R",
+    "project_path" : "source.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

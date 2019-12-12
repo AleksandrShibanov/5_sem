@@ -80,30 +80,59 @@ abline(lm1)
 #rnorm(1,mean = 0, sqrt(Sigma[2,2]*(1-r^2)))
 
 library(psychometric)
-CIr(r, n, 0.95)
 
-CIr_lower_bound <- tanh(atanh(r) - r/(2*(n-1)) - qnorm(1-alpha/2)/sqrt(n-3))
-CIr_upper_bound <- tanh(atanh(r) - r/(2*(n-1)) + qnorm(1-alpha/2)/sqrt(n-3))
+mu20 <- 1/n * sum((df[,1] - meanx)^2)
+mu02 <- 1/n * sum((df[,2] - meany)^2)
+mu11 <- 1/n * sum((df[,1] - meanx)*(df[,2] - meany))
+
+#CIr(r, n, 0.95)
+
+rv <- mu11/sqrt(mu20*mu02)
+
+CIr_lower_bound <- tanh(atanh(rv) - rv/(2*(n-1)) - qnorm(1-alpha/2)/sqrt(n-3))
+CIr_upper_bound <- tanh(atanh(rv) - rv/(2*(n-1)) + qnorm(1-alpha/2)/sqrt(n-3))
 
 
 confint(lm1, 1, level = 1-alpha)
 confint(lm1, 2, level = 1-alpha)
 
+#delta - izvestno
 
-CIbeta0_lower_bound <- - (qnorm(1-alpha/2,0,(sqrt(sigma_ost * sum((df[,1])^2)))/(sqrt(n*(sum((df[,1])^2) - sum(df[,1]))))) - beta_0)
-CIbeta0_upper_bound <- - (qnorm(alpha/2,0,(sqrt(sigma_ost * sum((df[,1])^2)))/(sqrt(n*(sum((df[,1])^2) - sum(df[,1]))))) - beta_0)
-
-
-
-CIbeta1_lower_bound <-  (qnorm(alpha/2,0,(sqrt(sigma_ost))/(sqrt(sum((df[,1])^2) - (sum(df[,1]))^2 / n))) + beta_1)
-CIbeta1_upper_bound <-  (qnorm(1-alpha/2,0,(sqrt(sigma_ost))/(sqrt(sum((df[,1])^2) - (sum(df[,1]))^2 / n))) + beta_1)
+#CIbeta0_lower_bound <- beta_0 - (qnorm(1-alpha/2) * sqrt(sigma_ost) * sqrt(sum(df[,1]^2)))/sqrt(n*sum((df[,1] - mean(df[,1]))^2))
+#CIbeta0_upper_bound <- beta_0 + (qnorm(1-alpha/2) * sqrt(sigma_ost) * sqrt(sum(df[,1]^2)))/sqrt(n*sum((df[,1] - mean(df[,1]))^2))
 
 
-CIbeta1_lower_bound <-  (-qnorm(1-alpha/2,0,(sqrt(sigma_ost))/(sqrt(sum((df[,1])^2) - (sum(df[,1]))^2 / n))) + beta_1)
-CIbeta1_upper_bound <-  (qnorm(1-alpha/2,0,(sqrt(sigma_ost))/(sqrt(sum((df[,1])^2) - (sum(df[,1]))^2 / n))) + beta_1)
+#CIbeta1_lower_bound <-  beta_1 - (qnorm(1-alpha/2) * sqrt(sigma_ost))/sqrt(sum((df[,1] - mean(df[,1]))^2))
+#CIbeta1_upper_bound <-  beta_1 + (qnorm(1-alpha/2) * sqrt(sigma_ost))/sqrt(sum((df[,1] - mean(df[,1]))^2))
+
+#delta - neizvestno
+
+CIbeta0_lower_bound <- beta_0 - (qt(1-alpha/2, n-2) * sqrt(sigma_ost) * sqrt(sum(df[,1]^2)))/sqrt(n*sum((df[,1] - mean(df[,1]))^2))
+CIbeta0_upper_bound <- beta_0 + (qt(1-alpha/2, n-2) * sqrt(sigma_ost) * sqrt(sum(df[,1]^2)))/sqrt(n*sum((df[,1] - mean(df[,1]))^2))
 
 
-CIsigma_ost_lower_boud <- (qchisq(alpha/2, n-2))/((n-2))*sigma_ost
-CIsigma_ost_upper_boud <- (qchisq(1-alpha/2, n-2))/((n-2))*sigma_ost
+CIbeta1_lower_bound <-  beta_1 - (qt(1-alpha/2, n-2) * sqrt(sigma_ost))/sqrt(sum((df[,1] - mean(df[,1]))^2))
+CIbeta1_upper_bound <-  beta_1 + (qt(1-alpha/2, n-2) * sqrt(sigma_ost))/sqrt(sum((df[,1] - mean(df[,1]))^2))
+
+
+
+CIsigma_ost_upper_boud<- (n-2)*sigma_ost / (qchisq(alpha/2, n-2))
+CIsigma_ost_lower_boud <- (n-2)*sigma_ost / (qchisq(1-alpha/2, n-2))
 sigma_ost
 
+
+M <- matrix(c(n, sum(df[,1]), sum(df[,1]), sum((df[,1])^2)), ncol = 2, byrow = T)
+M_obr <- solve(M)
+
+
+
+
+
+
+
+CIbeta0_lower_bound <- beta_0 - qt(1-alpha/2, n-2) * sqrt(sigma_ost) * sqrt(M_obr[1,1])
+CIbeta0_upper_bound <- beta_0 + qt(1-alpha/2, n-2) * sqrt(sigma_ost) * sqrt(M_obr[1,1])
+
+
+CIbeta1_lower_bound <-  beta_1 - (qt(1-alpha/2, n-2) * sqrt(sigma_ost)) * sqrt(M_obr[2,2])
+CIbeta1_upper_bound <-  beta_1 + (qt(1-alpha/2, n-2) * sqrt(sigma_ost)) * sqrt(M_obr[2,2])

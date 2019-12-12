@@ -1,0 +1,116 @@
+#1##############
+#library(MASS)
+alpha <- 0.05
+n <- 140
+mu <- c(2,-2)
+Sigma <- matrix(c(4,-2,-2,2), byrow = T, ncol = 2)
+set.seed(5)
+x <- rnorm(n,mu[1], sqrt(Sigma[1,1]))
+r <- Sigma[1,2] / sqrt(Sigma[1,1]*Sigma[2,2])
+eps_k <- rnorm(n,mean = 0, sqrt(Sigma[2,2]*(1-r^2)))
+y <- mu[2] + Sigma[1,2]/Sigma[1,1] * (x-mu[1]) + eps_k
+mean(x) #???????????????????? ?????????????? X
+mean(eps)#???????????????????? ?????????????? epsilon
+mean(y)#???????????????????? ?????????????? Y
+
+cov(x,y)#???????????????????? ???????????????????? X ?? Y 
+var(x)#???????????????????? ?????????????????? X
+var(y)#???????????????????? ?????????????????? Y
+df <- matrix(c(x,y), ncol = 2)
+#df <- mvrnorm(n,mu,Sigma, empirical = T)
+df11 <- matrix(c(x,eps_k,y), ncol = 3)
+colnames(df11)<-c('X','eps','Y')
+
+# num_bins = round(1 + log2(length(x)))
+# num_bins
+# range_el<-max(x)-min(x)
+# bin_width <- range_el / num_bins
+# bin_width
+# hist(x)
+# par(mar = c(3, 3, 2, 1), xaxs = "i", yaxs = "i")
+# pl1 <- hist(x,
+#             breaks = seq(min(x), max(x), by = bin_width), 
+#             xlim = c(-5, 9), ylim = c(0.0,50), axes = F, freq = T,
+# axis(1, seq(-5, 9, 1))
+# axis(2, seq(0.00, 50, 10), las = 1)
+# hist(eps_k)
+# hist(y)
+num_bins <- length(hist(df[,2], breaks = "Sturges", freq = T)$breaks)
+x_c <- cut(df[,1], num_bins)
+y_c <- cut(df[,2], num_bins)
+z <- table(x_c, y_c)
+library(plot3D)
+main_perspective1 <- hist3D(x = seq(from = floor(min(df[,1])), ceiling(max(df[,1])), length.out = nrow(z)),
+                            y = seq(from = floor(min(df[,2])), ceiling(max(df[,2])), length.out = nrow(z)), 
+                            z=z, border="black", ticktype = "detailed", lighting=T, 
+                            bty = "g", phi = 30, theta = 40, lphi = 50)
+
+main_perspective2 <- hist3D(x = seq(from = floor(min(df[,1])), ceiling(max(df[,1])), length.out = nrow(z)),
+                            y = seq(from = floor(min(df[,2])), ceiling(max(df[,2])), length.out = nrow(z)),
+                            z=z, border="black", ticktype = "detailed", lighting=T, 
+                            bty = "g", phi = 30, theta = 80, lphi = 50)
+
+main_perspective3 <- hist3D(x = seq(from = floor(min(df[,1])), ceiling(max(df[,1])), length.out = nrow(z)),
+                            y = seq(from = floor(min(df[,2])), ceiling(max(df[,2])), length.out = nrow(z)),
+                            z=z, border="black", ticktype = "detailed", lighting=T, 
+                            bty = "g", phi = 30, theta = 120, lphi = 50)
+
+main_perspective4 <- hist3D(x = seq(from = floor(min(df[,1])), ceiling(max(df[,1])), length.out = nrow(z)),
+                            y = seq(from = floor(min(df[,2])), ceiling(max(df[,2])), length.out = nrow(z)),
+                            z=z, border="black", ticktype = "detailed", lighting=T, 
+                            bty = "g", phi = 30, theta = 160, lphi = 50)
+
+hist3D(x = seq(from = floor(min(df[,1])), ceiling(max(df[,1])), length.out = nrow(z)),
+       y = seq(from = floor(min(df[,2])), ceiling(max(df[,2])), length.out = nrow(z)),
+       z=z, border="black", ticktype = "detailed", lighting=T, 
+       bty = "g", phi = 0, theta = 0, lphi = 50)
+
+hist3D(x = seq(from = min(df[,1]), max(df[,1]), length.out = nrow(z)),
+       y = seq(from = min(df[,2]), max(df[,2]), length.out = nrow(z)),
+       z=z, border="black", ticktype = "detailed", lighting=T, 
+       bty = "g", phi = 0, theta = 180, lphi = 50, d = 20)
+
+plot(df, axes = F)
+axis(2,las = 1)
+axis(1)
+
+par(mar = c(3, 3, 2, 1), xaxs = "i", yaxs = "i")
+plot(df, xlab = "X", ylab = "Y")
+axis(1, seq(-5, 9, 1))
+axis(2, seq(0.00, 50, 10), las = 1)
+dev.off()
+#2#############
+meanx <- mean(df[,1])
+meany <- mean(df[,2])
+
+beta_1 <- (n*sum(df[,1]*df[,2]) - sum(df[,1])*sum(df[,2]))/(n*sum((df[,1])^2) - (sum(df[,1]))^2)
+beta_0 <- sum(df[,2])/n - beta_1*sum(df[,1])/n
+
+#beta2 <- (sum((df[,2] - meany)*(df[,1] - meanx)))/(sum((df[,1] - meanx)^2))
+#beta1 <- meany - beta2 * meanx
+
+p <- 1
+sigma_ost <- (sum((df[,2] - beta_1 * df[,1] - beta_0)^2))/(n-p-1)
+
+lm1 <- lm(df[,2] ~ df[,1])
+plot(df, xlab = "X", ylab = "Y")
+abline(lm1, lwd = 3)
+
+
+
+confint(lm1, 1, level = 1-alpha)
+confint(lm1, 2, level = 1-alpha)
+#delta - neizvestno
+
+CIbeta0_lower_bound <- beta_0 - (qt(1-alpha/2, n-2) * sqrt(sigma_ost) * sqrt(sum(df[,1]^2)))/sqrt(n*sum((df[,1] - mean(df[,1]))^2))
+CIbeta0_upper_bound <- beta_0 + (qt(1-alpha/2, n-2) * sqrt(sigma_ost) * sqrt(sum(df[,1]^2)))/sqrt(n*sum((df[,1] - mean(df[,1]))^2))
+
+
+CIbeta1_lower_bound <-  beta_1 - (qt(1-alpha/2, n-2) * sqrt(sigma_ost))/sqrt(sum((df[,1] - mean(df[,1]))^2))
+CIbeta1_upper_bound <-  beta_1 + (qt(1-alpha/2, n-2) * sqrt(sigma_ost))/sqrt(sum((df[,1] - mean(df[,1]))^2))
+
+
+
+CIsigma_ost_upper_boud<- (n-2)*sigma_ost / (qchisq(alpha/2, n-2))
+CIsigma_ost_lower_boud <- (n-2)*sigma_ost / (qchisq(1-alpha/2, n-2))
+sigma_ost
