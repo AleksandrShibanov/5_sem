@@ -1,5 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{o}{\PYGZgt{}} \PYG{n}{rv} \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{n}{mu11}\PYG{o}{/}\PYG{n+nf}{sqrt}\PYG{p}{(}\PYG{n}{mu20}\PYG{o}{*}\PYG{n}{mu02}\PYG{p}{)}
-\PYG{o}{\PYGZgt{}} \PYG{n}{rv}
-\PYG{n}{[1]} \PYG{l+m}{\PYGZhy{}0.7150978}
-\end{Verbatim}
