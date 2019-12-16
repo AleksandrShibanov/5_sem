@@ -5,7 +5,7 @@ alpha <- 0.05
 n <- 140
 mu <- c(1,-3)
 Sigma <- matrix(c(1,-1,-1,2), byrow = T, ncol = 2)
-set.seed(5)
+set.seed(5009)
 x <- rnorm(n,mu[1], sqrt(Sigma[1,1]))
 r <- Sigma[1,2] / sqrt(Sigma[1,1]*Sigma[2,2])
 eps_k <- rnorm(n,mean = 0, sqrt(Sigma[2,2]*(1-r^2)))
@@ -16,9 +16,10 @@ cor(x,y)
 df <- matrix(c(x,y,eps_k), ncol = 3)
 colnames(df) <- c("x","y","eps")
 summary(df)
-var(df[,1]) # Дисперсия x
-var(df[,2]) # Дисперсия y
-var(df[,3]) # Дисперсия eps
+var(df[,1]) 
+var(df[,2])
+var(df[,3])
+
 #df <- mvrnorm(n,mu,Sigma, empirical = F)
 
 tab <- xtable(df,align=rep("|c|", ncol(df)+1), digits = 5)
@@ -115,10 +116,14 @@ beta_0 <- sum(df[,2])/n - beta_1*sum(df[,1])/n
 
 beta_1 <- (sum((df[,2] - meany)*(df[,1] - meanx)))/
   (sum((df[,1] - meanx)^2))
+beta_1
 beta_0  <- meany - beta_1 * meanx
+beta_0
 
 p <- 1
 sigma_ost <- (sum((df[,2] - beta_1 * 
+                     df[,1] - beta_0)^2))/(n-2)
+delta_ost <- (sum((df[,2] - beta_1 * 
                      df[,1] - beta_0)^2))/(n-2)
 sigma_ost
 lm1 <- lm(df[,2] ~ df[,1])
