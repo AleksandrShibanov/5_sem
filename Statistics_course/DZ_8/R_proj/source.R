@@ -103,7 +103,7 @@ dev.off()
 png(filename = "../img/1d_without_line.png",
     width = 1920, height = 1080,
     pointsize = 24, res = 96 * 1.25)
-plot(df)
+plot(df, lwd = 2, col = "black")
 dev.off()
 #2#############
 meanx <- mean(df[,1])
@@ -131,8 +131,8 @@ summary(lm1)
 png(filename = "../img/1d_line.png",
     width = 1920, height = 1080,
     pointsize = 24, res = 96 * 1.25)
-plot(df)
-abline(lm1)
+plot(df, lwd = 2, col = "black")
+abline(lm1, lwd = 3, col = "purple")
 dev.off()
 
 

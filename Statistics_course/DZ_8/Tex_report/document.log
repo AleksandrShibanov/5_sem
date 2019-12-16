@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  13 DEC 2019 00:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  13 DEC 2019 10:25
 entering extended mode
 **./document.tex
 (document.tex
@@ -1225,7 +1225,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmss on input line
 ("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Overfull \hbox (16.027pt too wide) in paragraph at lines 69--77
+Overfull \hbox (1.06052pt too wide) in paragraph at lines 69--77
 \T2A/cmr/m/n/14.4 объ-е-ма $\OML/cmm/m/it/14.4 n \OT1/cmr/m/n/14.4 = 140$ \T2A/
 cmr/m/n/14.4 с дан-ны-ми па-ра-мет-ра-ми $[] \OT1/cmr/m/n/14.4 = [] = []$ \T2A/
 cmr/m/n/14.4 и $\OT1/cmr/m/n/14.4  = [] =
@@ -1335,33 +1335,48 @@ Package pdftex.def Info: ../img/1d_line.png  used on input line 720.
 
 (_minted-document/CF23FE8E86E3C8BCFA306C9C771134725061E4B692DD718FCBC086EF9FCF3
 0EF.pygtex)
+Overfull \hbox (53.39607pt too wide) detected at line 769
+[]
+ []
+
+[17
+
+]
 \openout3 = `document.pyg'.
 
 
 (_minted-document/4CD2A7395ECA19583BFF9C887692FD105061E4B692DD718FCBC086EF9FCF3
-0EF.pygtex [17
+0EF.pygtex)
+Overfull \hbox (1.03462pt too wide) detected at line 849
+\OML/cmm/m/it/14.4 F[]F \OT1/cmr/m/n/14.4 = [] [] = [] = []
+ []
 
-])
+
+Overfull \hbox (35.77277pt too wide) detected at line 865
+\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 F[]F\OT1/cmr/m/n/14.4 )[] = [] [] = []
+ []
+
+[18]
 \openout3 = `document.pyg'.
 
 
 (_minted-document/B9C3F601B315ED5946A4D7FD414B3BEA5061E4B692DD718FCBC086EF9FCF3
-0EF.pygtex [18])
-\openout3 = `document.pyg'.
-
-
-(_minted-document/977409AD958DE3829077F1C9C86F6E3E5061E4B692DD718FCBC086EF9FCF3
 0EF.pygtex)
 \openout3 = `document.pyg'.
 
 
-(_minted-document/BE430D493C5BDC9780DFD386B82A1C615061E4B692DD718FCBC086EF9FCF3
+(_minted-document/977409AD958DE3829077F1C9C86F6E3E5061E4B692DD718FCBC086EF9FCF3
+0EF.pygtex [19])
+\openout3 = `document.pyg'.
+
+
+(_minted-document/65BFA995B9874BB90804099A9489B4FC5061E4B692DD718FCBC086EF9FCF3
 0EF.pygtex)
 \openout3 = `document.pyg'.
 
 
 (_minted-document/66E1A8BA1CB4F74483DB580B9A66D4B05061E4B692DD718FCBC086EF9FCF3
-0EF.pygtex [19]) [20] (document.aux<<t1.cmap>>)
+0EF.pygtex) [20] (document.aux<<t1.cmap>>)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1396,10 +1411,11 @@ ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on document.pdf (20 pages, 355825 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on document.pdf (20 pages, 367326 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
+ 458 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  55 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -66,10 +66,10 @@
 \section*{Задание 1}
 
 
-Смоделировать выборку $(X_k, Y_k)$ из двумерного гауссовского распределения объема $n=140$ с данными параметрами $\vec{\mu} = \begin{pmatrix} a \\ b \end{pmatrix} = \begin{pmatrix} 1 \\ -3 \end{pmatrix}$ и $\Sigma = {\begin{pmatrix}
+Смоделировать выборку $(X_k, Y_k)$ из двумерного гауссовского распределения объёма $n=140$ с данными параметрами $\vec{\mu} = \begin{pmatrix} a \\ b \end{pmatrix} = \begin{pmatrix} 1 \\ -3 \end{pmatrix}$ и $\Sigma = \begin{pmatrix}
 \sigma_{11} & \sigma_{12}\\
 \sigma_{21} & \sigma_{22}
-\end{pmatrix} =} =\begin{pmatrix}
+\end{pmatrix} =  \begin{pmatrix}
 1 & -1\\
 -1 & 2
 \end{pmatrix}$. Построить двумерную гистограмму и диаграмму рассеяния полученной выборки.\\
@@ -643,7 +643,7 @@ $Q(\hat \beta_1,\hat \beta_2) \longrightarrow \min$
 
 Таким образом получили выражения для расчёта $\hat \beta_1,\hat \beta_2$:
 
-\begin{equation}\label{20}
+\begin{equation}\label{21}
 	\begin{cases} 
 	 \hat\beta_2 = \frac{\sum\limits_{i=1}^{n}(y_i-\overline{y})(x_i-\overline{x})}{\sum\limits_{i=1}^{n}(x_i-\overline{x})^2}\\
 	 \hat\beta_1 = \overline{y} - \hat\beta_2\overline{x}\\ 
@@ -760,11 +760,22 @@ F-statistic: 144.4 on 1 and 138 DF,  p-value: < 2.2e-16
 
 Доверительный интервал для коэффициента корреляции компонент $r$:
 
-ААААААААААААААААААААААААА
+\begin{align*}
+&1-\alpha = P\Big(-u_{1-\frac{\alpha}{2}}<(z-a_z)\sqrt{n-3} <u_{1-\frac{\alpha}{2}}
+\Big)=P\Big(z-\frac{u_{1-\frac{\alpha}{2}}}{\sqrt{n-3}}<a_z <z+\frac{u_{1-\frac{\alpha}{2}}}{{\sqrt{n-3}}}
+\Big)= \\
+&= P\Big(\atanh \ r_{\text{в}}-\frac{u_{1-\frac{\alpha}{2}}}{\sqrt{n-3}}<\atanh \ r +\frac{r}{2(n-1)} <\atanh \ r_{\text{в}}+\frac{u_{1-\frac{\alpha}{2}}}{{\sqrt{n-3}}}
+\Big)
+\end{align*}
+Итого:
+\begin{equation*}
+\resizebox{\textwidth}{!}
+{%
+	${P\Big(\tanh(\atanh \ r_{\text{в}}-\frac{r_{\text{в}}}{2(n-1)}-\frac{u_{1-\frac{\alpha}{2}}}{\sqrt{n-3}})< r  < \tanh(\atanh \ r_{\text{в}}-\frac{r_{\text{в}}}{2(n-1)}+\frac{u_{1-\frac{\alpha}{2}}}{{\sqrt{n-3}}})\Big)}$%
+}
+\end{equation*}
 
-Получаем, что:
-
-BBBBBBBBBBBBBBBBBBBBBBBBBBBB
+Получаем:
 
 \begin{minted}{R}
 > CIr_lower_bound <- tanh(atanh(rv) - rv/(2*(n-1)) 
@@ -788,12 +799,72 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBB
 \end{equation*}
 попадает в полученный интервал.
 
-\subsection*{2. Доверительный интервал для коэффициентов регресии $\beta_0$ и $\beta_1$}
+\subsection*{2. Доверительный интервал для коэффициентов регрессии $\beta_0$ и $\beta_1$}
 
 Запишем матрицу базисных функций:
 
+\begin{equation*}
+	F=
+	\begin{pmatrix}
+		1& X_1 \\
+		\ldots &\ldots\\
+		1 & X_n
+	\end{pmatrix},
+	\qquad
+	F^T=
+	\begin{pmatrix}
+		1& \ldots&1 \\
+		X_1 &\ldots&X_n\\
+	\end{pmatrix}
+\end{equation*}
 
-ААААААААААААААААААААААААААА
+\begin{equation*}
+	F^TF=\begin{pmatrix}
+	1& ...&1 \\
+	X_1 &...&X_n\\
+	
+	
+	
+	\end{pmatrix}\begin{pmatrix}
+	1& X_1 \\
+	... &...\\
+	
+	1 & X_n
+	
+	
+	\end{pmatrix}=\begin{pmatrix}
+	n& \sum\limits_{k=1}^nX_k \\
+	\sum\limits_{k=1}^nX_k & \sum\limits_{k=1}^nX_k^2
+	
+	
+	
+	\end{pmatrix}=
+	\begin{pmatrix}
+	140& 141.8275 \\
+	141.8275 & 283.5953
+	
+	
+	
+	\end{pmatrix}
+\end{equation*}
+
+\begin{equation*}
+	(F^TF)^{-1}=\frac {1}{n\sum\limits_{k=1}^nX_k^2-\Big(\sum\limits_{k=1}^nX_k^2\Big)^2}\begin{pmatrix}
+	\sum\limits_{k=1}^nX_k^2& -\sum\limits_{k=1}^nX_k \\
+	-\sum\limits_{k=1}^nX_k & n
+	
+	
+	
+	\end{pmatrix}=\begin{pmatrix}
+	0.014477&  -0.007240 \\
+	-0.007240& 0.007147
+	
+	
+	
+	\end{pmatrix}
+\end{equation*}
+
+$\hat \beta_i \sim N(\beta_i, \hat\delta \sqrt{\tau_{ii}})$, где $\tau_{ii}$ -- элемент матрицы $(F^TF)^{-1}$.
 
 
 В общем случаем доверительный интервал для коэффициента регрессии $\beta_i$ В случае $\varepsilon_k \sim N(0,\delta)$ при неизвестном $\delta$:
@@ -858,7 +929,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBB
 Или
 \begin{minted}{R}
 > confint(lm1)
-			   2.5 %     97.5 %
+	      2.5 %     97.5 %
 (Intercept) -2.232888 -1.7612602
 df[, 1]     -1.172670 -0.8412993
 \end{minted}

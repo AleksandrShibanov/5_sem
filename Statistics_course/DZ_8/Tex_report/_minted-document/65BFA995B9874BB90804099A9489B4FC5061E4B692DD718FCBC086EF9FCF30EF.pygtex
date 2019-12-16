@@ -1,6 +1,6 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYG{o}{\PYGZgt{}} \PYG{n+nf}{confint}\PYG{p}{(}\PYG{n}{lm1}\PYG{p}{)}
-			   \PYG{l+m}{2.5} \PYG{o}{\PYGZpc{}     97.5 \PYGZpc{}}
+	      \PYG{l+m}{2.5} \PYG{o}{\PYGZpc{}     97.5 \PYGZpc{}}
 \PYG{p}{(}\PYG{n}{Intercept}\PYG{p}{)} \PYG{l+m}{\PYGZhy{}2.232888} \PYG{l+m}{\PYGZhy{}1.7612602}
 \PYG{n}{df[}\PYG{p}{,} \PYG{l+m}{1}\PYG{n}{]}     \PYG{l+m}{\PYGZhy{}1.172670} \PYG{l+m}{\PYGZhy{}0.8412993}
 \end{Verbatim}
