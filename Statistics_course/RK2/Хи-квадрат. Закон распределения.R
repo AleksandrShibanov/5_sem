@@ -34,7 +34,7 @@ rm(list = ls())
 
 x <- 0:6 # Viborka 
 
-nu <- c(400, 167, 29, 3, 0, 0, 1) # Chastoti
+nu <- c(199, 169, 88, 31, 9, 3, 1) # Chastoti
 
 n <- sum(nu)
 n
@@ -52,11 +52,12 @@ npi <- n * p_i
 npi
 
 chi_sq <- ( (npi[1] - nu[1])^2 / npi[1] ) + ( (npi[2] - nu[2])^2 / npi[2] ) + 
-  ( (npi[3] + npi[4] + npi[5] + npi[6] + npi[7] - nu[3] - nu[4] - nu[5] - nu[6] - nu[7])^2 /
-      (npi[3] + npi[4] + npi[5] + npi[6] + npi[7]) )
+          ( (npi[3] - nu[3])^2 / npi[3] ) + ( (npi[4] - nu[4])^2 / npi[4] ) + 
+  ( ( npi[5] + npi[6] + npi[7] - nu[5] - nu[6] - nu[7])^2 /
+      (npi[5] + npi[6] + npi[7]) )
 
 chi_sq
-qchisq(1-alpha, 1)
+qchisq(1-alpha, 3)
 
 
 ###################################################################################
@@ -66,14 +67,14 @@ qchisq(1-alpha, 1)
 alpha <- 0.05
 x <- 1:12 # Viborka 
 
-nu <- c(7280, 6957, 7883, 7884, 7892, 7609, 7585, 7393, 7203, 6903, 6552, 7132)
+nu <- c(4,26,32,28,10)
 sum(nu)
 
-npi <- 88273/365 * c(31,28,31,30,31,30,31,31,30,31,30,31)
+npi <- 20
 
 
 chi_sq <- sum((nu-npi)^2 / npi)
-qchisq(1-alpha,11)
+qchisq(0.9,4)
 
 
 
