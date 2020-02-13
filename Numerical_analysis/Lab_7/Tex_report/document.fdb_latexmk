@@ -1,5 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1577026529 "document.tex" "document.pdf" "document" 1577026534
+["pdflatex"] 1577030178 "document.tex" "document.pdf" "document" 1577030183
+  "../img/img1.jpg" 1577028034 9482 b02b371efeaa48eebf24b2d005d30e3c ""
+  "../img/img2.jpg" 1577028034 11954 a7ced33e415941fbab604f45bea37e25 ""
+  "../img/img3.jpg" 1577028034 9548 8b60e051eb4f95b48c7bfde2e7855fdd ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -76,9 +79,9 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/multicol.sty" 1573424844 31158 cae2ad811c8e8846a5be16c9984d4859 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/shellesc.sty" 1573424844 4120 e0cb2331fdd1cb772efdb3968e4cb07f ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
-  "document.aux" 1577026534 150 7fa12a2804128f7eaa3440b8dff353fe "pdflatex"
-  "document.tex" 1577026528 18945 f9973d9528f2375abce02e8d54167b17 ""
+  "document.aux" 1577030183 150 7fa12a2804128f7eaa3440b8dff353fe "pdflatex"
+  "document.tex" 1577030177 21993 93b853c1c18da7cc34cea140834d56df ""
   (generated)
+  "document.pdf"
   "document.log"
   "document.aux"
-  "document.pdf"

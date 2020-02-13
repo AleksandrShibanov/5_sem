@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  30 NOV 2019 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  22 DEC 2019 19:59
 entering extended mode
 **./document.tex
 (document.tex
@@ -1922,70 +1922,45 @@ LaTeX Font Info:    Trying to load font information for T2A+cmss on input line
 ("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-<../img/uzli.png, id=16, 302.63063pt x 241.65282pt>
-File: ../img/uzli.png Graphic file (type png)
-<use ../img/uzli.png>
-Package pdftex.def Info: ../img/uzli.png  used on input line 97.
-(pdftex.def)             Requested size: 369.04903pt x 294.69063pt.
-<../img/a_set.png, id=17, 271.76532pt x 457.71pt>
-File: ../img/a_set.png Graphic file (type png)
-<use ../img/a_set.png>
-Package pdftex.def Info: ../img/a_set.png  used on input line 104.
-(pdftex.def)             Requested size: 324.76494pt x 547.0004pt.
-[2 <../img/uzli.png>]
-Overfull \hbox (4.18001pt too wide) detected at line 114
-\OML/cmm/m/it/14.4 a[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 y[];  b[] \OT1/cm
-r/m/n/14.4 = \OML/cmm/m/it/14.4 b[] \OT1/cmr/m/n/14.4 + 2\OML/cmm/m/it/14.4 c[]
-h;  c[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ;  i \OT1/cmr/m/n/14.4 = 2\OML
-/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 3\OML/cmm/m/it/14.4 ; [] ; k
+Overfull \hbox (16.71791pt too wide) detected at line 127
+[][] \OML/cmm/m/it/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 \OT1/cmr/m/n/14
+.4 )\OML/cmm/m/it/14.4 d \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 h [] \OT1/cmr/
+m/n/14.4 + \OML/cmm/m/it/14.4 O [] \OT1/cmr/m/n/14.4 = 5\OML/cmm/m/it/14.4 :\OT
+1/cmr/m/n/14.4 288360556
  []
 
-[3 <../img/a_set.png>]
-<../img/cifri.png, id=33, 471.26062pt x 666.23906pt>
-File: ../img/cifri.png Graphic file (type png)
-<use ../img/cifri.png>
-Package pdftex.def Info: ../img/cifri.png  used on input line 118.
-(pdftex.def)             Requested size: 369.04903pt x 521.7484pt.
-[4 <../img/cifri.png>]
-<../img/graa1.png, id=37, 401.5pt x 401.5pt>
-File: ../img/graa1.png Graphic file (type png)
-<use ../img/graa1.png>
-Package pdftex.def Info: ../img/graa1.png  used on input line 125.
-(pdftex.def)             Requested size: 467.46059pt x 467.49246pt.
-[5 <../img/graa1.png (PNG copy)>]
-<../img/graa2.png, id=41, 401.5pt x 401.5pt>
-File: ../img/graa2.png Graphic file (type png)
-<use ../img/graa2.png>
-Package pdftex.def Info: ../img/graa2.png  used on input line 142.
-(pdftex.def)             Requested size: 369.04903pt x 369.07202pt.
-[6
-
- <../img/graa2.png (PNG copy)>] (document.aux<<t1.cmap>>) ) 
+[2]
+<../img/img1.png, id=28, 666.99188pt x 155.07938pt>
+File: ../img/img1.png Graphic file (type png)
+<use ../img/img1.png>
+Package pdftex.def Info: ../img/img1.png  used on input line 155.
+(pdftex.def)             Requested size: 492.06537pt x 114.41144pt.
+[3 <../img/img1.png>] (document.aux<<t1.cmap>>) ) 
 Here is how much of TeX's memory you used:
- 36807 strings out of 492450
- 694787 string characters out of 3129685
- 869855 words of memory out of 3000000
- 40572 multiletter control sequences out of 15000+200000
+ 36784 strings out of 492450
+ 694365 string characters out of 3129685
+ 874818 words of memory out of 3000000
+ 40553 multiletter control sequences out of 15000+200000
  541415 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,8n,77p,9106b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Пено�
-�ласточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lab
-x1440.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/p
-k/ljfour/lh/lh-t2a/dpi600\lasx2074.pk> <C:\Users\Пенопласточка\App
-Data\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\�
-�енопласточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dp
-i600\larm2488.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9
-\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on document.pdf (6 pages, 247798 bytes).
+ 73i,9n,77p,9106b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Пенопласт�
+�чка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> 
+<C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/l
+h/lh-t2a/dpi600\lasx2074.pk> <C:\Users\Пенопласточка\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Пеноп�
+�асточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2
+488.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on document.pdf (3 pages, 153450 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
+ 218 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 42 words of extra memory for PDF output out of 10000 (max. 10000000)
 

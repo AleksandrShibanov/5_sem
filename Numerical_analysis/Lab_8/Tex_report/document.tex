@@ -52,7 +52,7 @@
 		\vfill
 		
 		
-		{\LARGE Лабораторная работа №6 по численным методам\\[2mm]
+		{\LARGE Лабораторная работа №8 по численным методам\\[2mm]
 		}
 		\bigskip
 		
@@ -80,71 +80,83 @@
 
 \section*{Задание 1}
 \textbf{Задание.}\\
-На отрезке $[0;1]$ задана равномерная сетка $A = \langle \tau_0, \tau_1, \ldots, \tau_k\rangle$, где $k=40$, с шагом $h = \frac{b-a}{k} = 0.025 = stp(A)$ и определена функция $$f(\tau)=2 \sin (\pi \tau) \sqrt{55-n+N \tau \sqrt{25-N}},$$ где $N$ -- номер студента в журнале, $n$ -- номер группы. Для $A$-сеточной функции $\prescript{>}{}{y} = \hat{A}(f) = [y_0,y_1,\ldots,y_k\rangle \in \prescript{>}{}{R^{|A|}(A)}$, где $y_i=f(\tau_i)$ для $i=0,1,\ldots,k$, решить задачу $A-$интерполяции сеточной функции $\prescript{>}{}{y}$ с помощью сплайна $spl_2(A;\prescript{>}{}{y})$ 2-ой степени дефекта 1. Затем сравнить в узлах интерполяции равномерной сетки $A = \langle \tau_0, \tau_1, \ldots, \tau_k\rangle $ отрезка $[0;1]$ значения производный от функции $f(\tau)$ и сплайна $spl_2(A;\prescript{>}{}{y})$, т.е. значения функций $\dv{f}{\tau}$ и $\dv{spl_2(A;\prescript{>}{}{y})}{\tau}$
+Для заданной на отрезке $[0;2]$ гладкой функции $f(x)=\frac{(a+52-n) x^{4}+(b-51+n) x^{2}+c}{(x+1)\left(x^{2}+1\right)}$, где $N$ -- номер студента в журнале, $n$ -- номер группы, и равномерной сетки $A = \langle \tau_0, \tau_1, \ldots, \tau_k \rangle$, где $k = 20$, используя квадратурные формулы прямоугольников, трапеций и парабол, приближённо вычислить интеграл $\int_{0}^{2}f(\tau)d\tau$.\\
+Прокомментировать приближённые результаты, сравнивая их с
+аналитически вычисленным значением интеграла
 
 
 \textbf{Исходные данные.}\\
-$N = 6, n = 53$
+$N = 6, n = 53, a = 3, b = 6, c = 1$
 
 \begin{equation*}
-f(\tau) = 2 \sin (\pi \tau) \sqrt{55-n+N \tau \sqrt{25-N}} =2\,\sin \left( \pi\,\tau \right) \sqrt {2+6\,\tau\,\sqrt {19}}
+	\frac{(3 + 52 - 53)x^4 + (6-51+53)x^2 + 1}{(x+1)(x^2+1)} = \frac{1 + 8 x^2 + 2 x^4}{(1 + x) (1 + x^2)}
 \end{equation*}
 
 \textbf{Решение.}\\
-На отрезке $[0;1]$ задана равномерная сетка $A = \langle \tau_0, \tau_1, \ldots, \tau_k\rangle$, где $k=40$, с шагом $h = \frac{b-a}{k} = 0.025 = stp(A)$. Получаем узлы:
+На отрезке $[0;2]$ задана равномерная сетка $A = \langle \tau_0, \tau_1, \ldots, \tau_k \rangle$, где $k=20$, с шагом $\frac{b-a}{k} = 0.1$.
 
-\begin{figure}[h]
-	\center{\includegraphics[width=0.75\linewidth]{../img/uzli.png}}
-\end{figure}
-
-
-Для $A$-сеточной функции $\prescript{>}{}{y} = \hat{A}(f) = [y_0,y_1,\ldots,y_k\rangle \in \prescript{>}{}{R^{|A|}(A)}$, где $y_i=f(\tau_i)$ для $i=0,1,\ldots,k$, получаем:
-
-\begin{figure}[h]
-	\center{\includegraphics[width=0.66\linewidth]{../img/a_set.png}}
-\end{figure}
-
-
-Если сетка $A = \langle a=\tau_0, \tau_1, \ldots, \tau_k=b\rangle$ является равномерной и ее шаг $h = \frac{b-a}{k} = 0.025 = stp(A)$, то для $i=1,2,\ldots,k$ на отрезке $[\tau_{i-1};\tau_i]$ находятся значения коэффициентов полинома $p_i(\tau) = a_i + b_i(\tau-\tau_{i-1}) + c_i(tau-tau_{i-1})^2$:
+Получаем:
 \begin{equation*}
-a_1 = y_0, \quad b_1 = \frac{y_1-y_0}{h}, \quad c_1 = 0
+	A=\left\langle 0, \frac{1}{10}, \frac{1}{5}, \frac{3}{10}, \frac{2}{5}, \frac{1}{2}, \frac{3}{5}, \frac{7}{10}, \frac{4}{5}, \frac{9}{10},1, \frac{11}{10}, \frac{6}{5}, \frac{13}{10}, \frac{7}{5}, \frac{3}{2}, \frac{8}{5}, \frac{17}{10}, \frac{9}{5},\frac{19}{10}, 2\right\rangle
 \end{equation*}
+
+Квадратурная формула прямоугольников:
 \begin{equation*}
-a_i = y_{i-1}, \quad b_i = b_{i-1} + 2c_{i-1}h, \quad c_i = \frac{y_i - y_{i-1} - (b_{i-1} + 2c_{i-1}h)h}{h^2}, \quad i=2,3,\ldots,k
+	\int_{0}^{2} f(\tau) d \tau=h\left(f\left(\theta_{1}\right)+\ldots+f\left(\theta_{2} 0\right)\right)+O(h) \textup{при } h \rightarrow 0,
+\end{equation*}
+где $\theta_{1} = \frac{\tau_0 + \tau_1}{2}, \ldots, \theta_{20} = \frac{\tau_{19} + \tau_{20}}{2}$ -- центрально-равномерная сетка отрезка $[0;2]$.
+
+Получаем:
+\begin{equation*}
+	\left\langle\frac{1}{20}, \frac{3}{20}, \frac{1}{4}, \frac{7}{20}, \frac{9}{20}, \frac{11}{20}, \frac{13}{20}, \frac{3}{4}, \frac{17}{20}, \frac{19}{20}, \frac{21}{20}, \frac{23}{20}, \frac{5}{4}, \frac{27}{20}, \frac{29}{20}, \frac{31}{20}, \frac{33}{20}, \frac{7}{4}, \frac{37}{20}, \frac{39}{20}\right\rangle
+\end{equation*}
+
+\begin{equation*}
+\int_{0}^{2} f(\tau) d \tau=h\left(f\left(\theta_{1}\right)+\ldots+f\left(\theta_{2} 0\right)\right)+O(h) = 5.285262010,
+\end{equation*}
+
+Квадратурная формула трапеции:
+\begin{equation*}
+	\int_{0}^{2} f(\tau) d \tau=h\left(\frac{1}{2} f\left(\tau_{0}\right)+f\left(\tau_{1}\right)+\ldots+f\left(\tau_{19}\right)+\frac{1}{2} f\left(\tau_{20}\right)\right)+O\left(h^{2}\right) \textup{при } h \rightarrow 0
 \end{equation*}
 
 Получаем:
-\begin{figure}[h]
-	\center{\includegraphics[width=0.75\linewidth]{../img/cifri.png}}
-\end{figure}
-
-Построим совмещенные графики функции $f(\tau)$ и $spl_2(A;\prescript{>}{}{y})$ интерполяционного сплайна 2-ой степени дефекта 1.
-\pagebreak
-
-\begin{figure}[t]
-	\center{\includegraphics[width=0.95\linewidth]{../img/graa1.png}}
-\end{figure}
-Как видим, полином ложится на нашу функцию.
-
-\clearpage
-В узлах интерполяции равномерной сетки $A = \langle \tau_0, \tau_1, \ldots, \tau_k\rangle$ отрезка $[0;1]$ найдём значения производный от функции $f(\tau)$ и сплайна $spl_2(A;\prescript{>}{}{y})$, т.е. значения функций $\dv{f}{\tau}$ и $\dv{spl_2(A;\prescript{>}{}{y})}{\tau}$:
 
 \begin{equation*}
-	2\,\pi\,\cos \left( \pi\,\tau \right) \sqrt {2+6\,\tau\,\sqrt {19}}+6
-	\,{\frac {\sin \left( \pi\,\tau \right) \sqrt {19}}{\sqrt {2+6\,\tau\,
-				\sqrt {19}}}}
+\int_{0}^{2} f(\tau) d \tau=h\left(\frac{1}{2} f\left(\tau_{0}\right)+f\left(\tau_{1}\right)+\ldots+f\left(\tau_{19}\right)+\frac{1}{2} f\left(\tau_{20}\right)\right)+O\left(h^{2}\right) = 5.288360556
 \end{equation*}
 
+Квадратурная формула парабол:\\
+Если $k$ -- чётное, то
+\begin{equation*}\resizebox{1 \textwidth}{!} 
+{
+	$
+	\int_{0}^{2} f(\tau) d \tau=\frac{h}{3}\left(f\left(\tau_{0}\right)+4 f\left(\tau_{1}\right)+2 f\left(\tau_{2}\right)+4 f\left(\tau_{3}\right)+\ldots+2 f\left(\tau_{18}\right)+4 f\left(\tau_{19}\right)+f\left(\tau_{20}\right)\right)+O\left(h^{3}\right), \textup{при } h \rightarrow 0$}
+\end{equation*}
 
-Построим совмещенные графики функций $\dv{f}{\tau}$ (кривая) и $\dv{spl_2(A;\prescript{>}{}{y})}{\tau}$ (точки, соединенные отрезками прямой):
+Получаем:
+\begin{equation*}\resizebox{1 \textwidth}{!} 
+{
+	$
+	\int_{0}^{2} f(\tau) d \tau=\frac{h}{3}\left(f\left(\tau_{0}\right)+4 f\left(\tau_{1}\right)+2 f\left(\tau_{2}\right)+4 f\left(\tau_{3}\right)+\ldots+2 f\left(\tau_{18}\right)+4 f\left(\tau_{19}\right)+f\left(\tau_{20}\right)\right)+O\left(h^{3}\right) = 5.286319825$}
+\end{equation*}
 
-\begin{figure}[h]
-	\center{\includegraphics[width=0.75\linewidth]{../img/graa2.png}}
+Вычислим аналитическое значение интеграла:
+\begin{equation*}
+	\int_{0}^{2} {\frac {2\,{x}^{4}+8\,{x}^{2}+1}{ \left( x+1 \right)  \left( {x}^{2}+1
+			\right) }} = \frac{1}{4} (22 \log(3) + 5\log(5) - 10 \atan(2))
+	 \approx 5.286293185 
+\end{equation*}
+
+\textbf{Результат.}\\
+Рассмотрим модули разностей полученных решений тремя способами со значением интеграла, вычисленного аналитически:
+\begin{figure}[H]
+	\begin{minipage}[h]{1\linewidth}
+		\center{\includegraphics[width=1\linewidth]{../img/img1.png}}  \\
+	\end{minipage}
 \end{figure}
 
-Видим, что графики хорошо наложились
 
-\textbf{Выводы.}
-В результате работы было графически проиллюстрировано, что интерполяционный сплайн $spl_2(A;\prescript{>}{}{y})$ 2-ой степени дефекта 1 для $A-$ сеточной функции $\prescript{>}{}{y} = \hat{A}(f) = [y_0,y_1,\ldots,y_k\rangle \in \prescript{>}{}{R^{|A|}(A)}$, где $y_i=f(\tau_i)$ для $i=0,1,\ldots,k$ хорошо накладывается на функцию $f(\tau)$. А в узлах равномерной сетки $A = \langle \tau_0, \tau_1, \ldots, \tau_k\rangle$ отрезка $[0;1]$ значения производных функции $f(\tau)$ и сплайна $spl_2(A;\prescript{>}{}{y})$, то есть значения функций $\dv{f}{\tau}$ и $\dv{spl_2(A;\prescript{>}{}{y})}{\tau}$ близки друг к другу.
+Видим, что наибольшую точность даёт квадратурная формула трапеции, а наименьшую точность -- квадратурная формула парабол.
 
 \end{document}

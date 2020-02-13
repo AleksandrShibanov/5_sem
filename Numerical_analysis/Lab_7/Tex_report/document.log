@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  22 DEC 2019 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  22 DEC 2019 18:56
 entering extended mode
 **./document.tex
 (document.tex
@@ -1949,33 +1949,50 @@ Overfull \hbox (49.21645pt too wide) detected at line 331
 []
  []
 
-[3] (document.aux<<t1.cmap>>) ) 
+<../img/img1.jpg, id=29, 401.5pt x 401.5pt>
+File: ../img/img1.jpg Graphic file (type jpg)
+<use ../img/img1.jpg>
+Package pdftex.def Info: ../img/img1.jpg  used on input line 345.
+(pdftex.def)             Requested size: 492.06537pt x 492.10216pt.
+[3] [4 <../img/img1.jpg>]
+<../img/img3.jpg, id=36, 401.5pt x 401.5pt>
+File: ../img/img3.jpg Graphic file (type jpg)
+<use ../img/img3.jpg>
+Package pdftex.def Info: ../img/img3.jpg  used on input line 385.
+(pdftex.def)             Requested size: 369.04903pt x 369.07202pt.
+[5 <../img/img3.jpg>]
+<../img/img2.jpg, id=40, 401.5pt x 401.5pt>
+File: ../img/img2.jpg Graphic file (type jpg)
+<use ../img/img2.jpg>
+Package pdftex.def Info: ../img/img2.jpg  used on input line 395.
+(pdftex.def)             Requested size: 492.06537pt x 492.10216pt.
+[6 <../img/img2.jpg>] (document.aux<<t1.cmap>>) ) 
 Here is how much of TeX's memory you used:
- 36771 strings out of 492450
- 694183 string characters out of 3129685
+ 36796 strings out of 492450
+ 694569 string characters out of 3129685
  1027556 words of memory out of 3000000
- 40543 multiletter control sequences out of 15000+200000
+ 40563 multiletter control sequences out of 15000+200000
  541415 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,19n,77p,9106b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Пенопласточка\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Пено
-пласточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
-sx2074.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/
-pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Пенопласточка\Ap
-pData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2488.pk> <C:\Users\
-Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
-pi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb>
-Output written on document.pdf (3 pages, 163497 bytes).
+ 73i,19n,77p,9106b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Пенопласт�
+�чка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> 
+<C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/l
+h/lh-t2a/dpi600\lasx2074.pk> <C:\Users\Пенопласточка\AppData\Local
+\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Пеноп�
+�асточка\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2
+488.pk> <C:\Users\Пенопласточка\AppData\Local\MiKTeX\2.9\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\larm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on document.pdf (6 pages, 206264 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
+ 241 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 

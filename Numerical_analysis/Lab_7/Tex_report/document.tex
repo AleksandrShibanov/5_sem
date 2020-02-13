@@ -330,35 +330,75 @@ $N = 6, n = 53$
 	\frac{166595}{13824}},{\frac{4356539}{345600}},{\frac{506539}{38400}}]$}
 \end{equation*}
 
+\begin{align*}
+x = [ 9.214764354, 12.93031592, 16.57727112, 20.12653911, 23.55178152,\\
+	26.82661524, 29.92581570, 32.82551120, 35.50236666, 37.93776350,\\
+	40.11094297, 42.00616607, 43.60783469, 44.90461195, 45.88550937,\\
+	46.54297154, 46.88193429, 46.87978680, 46.55654554, 45.89470037]
+\end{align*}
 
 
+Получили сеточную функцию, индуцирующую с помощью интерполяции в виде ломаной приближённое решение уравнения (1).\\
+Построим график полученного приближенного решения:
+\begin{figure}[H]
+	\begin{minipage}[h]{1\linewidth}
+		\center{\includegraphics[width=1\linewidth]{../img/img1.jpg}}  \\
+	\end{minipage}
+\end{figure}
+Найдем аналитическое решение уравнения
+
+\begin{equation*}
+x(s)-\frac{1}{4} \int_{0}^{\frac{11}{6}} K(s, \tau) x(\tau) d \tau=\frac{11}{6}\left(s^{2}+4\right), \quad s \in[0 ; \frac{11}{6}]
+\end{equation*}
+
+\begin{equation*}
+	x(s)=C_{1} \sin (\sqrt{\frac{2(N+5)}{N(n-49)}} s)+C_{2} \cos (\sqrt{\frac{2(N+5)}{N(n-49)}} s)+(n-49)
+\end{equation*}
+
+$C_1$ и $C_2$ определим из следующей системы:
+
+\begin{equation*}
+	\left\{\begin{array}{l}{C_{2}+n-49=\frac{N+5}{N}(n-49)} \\ {C_{1} \sin \left(\sqrt{\frac{2(N+5)}{N(n-49)}} \frac{N+5}{N}\right)+C_{2} \cos \left(\sqrt{\frac{2(N+5)}{N(n-49)}} \frac{N+5}{N}\right)+(n-49)+} \\ {\frac{N+5}{N}\left[C_{1} \sqrt{\frac{2(N+5)}{N(n-49)}} \cos \left(\sqrt{\frac{2(N+5)}{N(n-49)}} \frac{N+5}{N}\right)-C_{2} \sqrt{\frac{2(N+5)}{N(n-49)}} \sin \left(\sqrt{\frac{2(N+5)}{N(n-49)}} \frac{N+5}{N}\right)\right]=} \\ {=\frac{N+5^{3}}{N}+(n-49) \frac{N+5}{N}+2 \frac{N+5}{N}}\end{array}\right.
+\end{equation*}
+
+Получаем:
+
+\begin{equation*}
+	x(s)=C_{1} \sin (\sqrt{\frac{33}{36}} s)+C_{2} \cos (\sqrt{\frac{33}{36}} s)+4
+\end{equation*}
+
+\begin{equation*}
+C_1 = -{\frac {-570\,\sin \left( {\frac {19\,\sqrt {399}}{294}} \right) 
+			\sqrt {399}+8820\,\cos \left( {\frac {19\,\sqrt {399}}{294}} \right) -
+			59721}{532\,\cos \left( {\frac {19\,\sqrt {399}}{294}} \right) \sqrt {
+				399}+8232\,\sin \left( {\frac {19\,\sqrt {399}}{294}} \right) }}
+\end{equation*}
+
+\begin{equation*}
+	C_2  = \frac{15}{14}
+\end{equation*}
+
+Построим график полученного аналитического решения:
+
+\begin{figure}[H]
+	\begin{minipage}[h]{0.75\linewidth}
+		\center{\includegraphics[width=1\linewidth]{../img/img3.jpg}}  \\
+	\end{minipage}
+\end{figure}
 
 
+А так же построим совмещенные графики полученных решений и найдем абсолютную погрешность(красным выделено приближенное значение, синим-аналитическое решение)
 
 
+\begin{figure}[H]
+	\begin{minipage}[h]{1\linewidth}
+		\center{\includegraphics[width=1\linewidth]{../img/img2.jpg}}  \\
+	\end{minipage}
+\end{figure}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\begin{equation*}
+	\Delta_{max} = 8.54122
+\end{equation*}
 
 
 
